@@ -1,0 +1,660 @@
+id,lat,long,SiteName,Collection,Substrate,Collector-Analyst,SampleType,Habitat,Year,region
+1,-11.841,-71.466,Cocha Maizal,Amazon Lowland (Manu NP),,Fritz,core top,River,2013,Peru-Amazon Lowlands
+2,-11.855,-71.455,Cocha Nueva,Amazon Lowland (Manu NP),,Fritz,core top,River,2013,Peru-Amazon Lowlands
+3,-11.875,-71.391,Cocha Totora,Amazon Lowlands,epipelon,Fritz,surface sediment,River,2013,Peru-Amazon Lowlands
+4,-11.884,-71.408,Cocha Cashu,Amazon Lowland (Manu NP),,Fritz,core top,River,2013,Peru-Amazon Lowlands
+5,-11.951,-71.32,Cocha Gallareta,Amazon Lowland (Manu NP),,Fritz,core top,River,2013,Peru-Amazon Lowlands
+6,-11.994,-71.218,Cocha Salvador,Amazon Lowland (Manu NP),,Fritz,core top,River,2013,Peru-Amazon Lowlands
+7,-12.038,-71.191,Cocha Otoronga,Amazon Lowlands,epipelon,Fritz,surface sediment,River,2013,Peru-Amazon Lowlands
+8,-12.254,-70.921,Cocha Isla de los Valles,Amazon Lowlands,epipelon,Fritz,surface sediment,River,2013,Peru-Amazon Lowlands
+9,-14.002,-66.817,Laguna Colorada,Amazon Lowlands,epipelon,Fritz,surface sediment,Lake,2012,Bolivia-Amazon Lowlands
+10,-14.092,-66.825,Laguna Brava,Amazon Lowlands,epipelon,Fritz,surface sediment,Lake,2012,Bolivia-Amazon Lowlands
+11,-14.427,-67.922,Laguna Chalalan,Amazon Lowland (Madidi),,Fritz,core top,Lake,2012,Bolivia-Amazon Lowlands
+12,-14.492,-67.866,Laguna Santa Rosa,Amazon Lowland (Madidi),,Fritz,core top,Lake,2012,Bolivia-Amazon Lowlands
+13,-19.094,-63.5,Laguna Opabusu,Amazon Lowlands,epipelon,Fritz,surface sediment,Lake,2012,Bolivia-Amazon Lowlands
+14,-18.374,-67.048,Rio Desaguadero: Poopo (town),Bradbury-SAltiplano,mud and algae,JP Bradbury,modern,River,2001,Desaguadero-SAltiplano
+15,-18.349,-67.041,Rio Desaguadero,Bradbury-SAltiplano,flock,JP Bradbury,modern,River,2001,Desaguadero-SAltiplano
+16,-18.348,-67.04,Rio Desaguadero,Bradbury-SAltiplano,periphyton,JP Bradbury,modern,River,2001,Desaguadero-SAltiplano
+17,-18.383,-67.016,Rio Poopo drainage,Bradbury-SAltiplano,periphyton,JP Bradbury,modern,River,2001,Desaguadero-SAltiplano
+18,-18.553,-66.996,Road tracks & N Lago Poopo plain,Bradbury-SAltiplano,mud and algae,JP Bradbury,modern,Pond,2001,Desaguadero-SAltiplano
+19,-18.569,-66.953,N Lago Poopo plain,Bradbury-SAltiplano,mud,JP Bradbury,modern,Pond,2001,Desaguadero-SAltiplano
+20,-18.569,-66.953,N Lago Poopo plain,Bradbury-SAltiplano,mud,JP Bradbury,modern,Pond,2001,Desaguadero-SAltiplano
+21,-18.193,-67.087,Rio Desaguadero Balsa Crossing,Bradbury-SAltiplano,mud,JP Bradbury,modern,Pond,2001,Desaguadero-SAltiplano
+22,-18.194,-67.087,Rio Desaguadero Balsa Crossing,Bradbury-SAltiplano,periphyton,JP Bradbury,modern,Pond,2001,Desaguadero-SAltiplano
+23,-18.193,-67.088,Rio Desaguadero Balsa Crossing,Bradbury-SAltiplano,periphyton,JP Bradbury,modern,Pond,2001,Desaguadero-SAltiplano
+24,-17.745,-67.307,Laguna Soledad (Uru Uru),Bradbury-SAltiplano,mud,JP Bradbury,modern,Lake,2001,Desaguadero-SAltiplano
+25,-17.745,-67.307,Laguna Soledad (Uru Uru),Bradbury-SAltiplano,periphyton,JP Bradbury,modern,Lake,2001,Desaguadero-SAltiplano
+26,-17.745,-67.307,Laguna Soledad (Uru Uru),Bradbury-SAltiplano,water + algae,JP Bradbury,modern,Lake,2001,Desaguadero-SAltiplano
+27,-17.601,-67.529,Rio Desaguadero  Eucaliptus Bridge,Bradbury-SAltiplano,periphyton,JP Bradbury,modern,channel,2001,Desaguadero-SAltiplano
+28,-17.6,-67.529,Rio Desaguadero  Eucaliptus Bridge,Bradbury-SAltiplano,periphyton,JP Bradbury,modern,channel,2001,Desaguadero-SAltiplano
+29,-17.582,-67.515,Eucaliptus Laguna,Bradbury-SAltiplano,periphyton,JP Bradbury,modern,Lake,2001,Desaguadero-SAltiplano
+30,-17.666,-67.483,Huancaroma Dairy,Bradbury-SAltiplano,periphyton,JP Bradbury,modern,wetland,2001,Desaguadero-SAltiplano
+31,-17.661,-67.481,Huancaroma Dairy,Bradbury-SAltiplano,mud,JP Bradbury,modern,wetland,2001,Desaguadero-SAltiplano
+32,-17.503,-68.422,Rio Quebrada Huajra Uma,Bradbury-SAltiplano,periphyton,JP Bradbury,modern,River,2001,Desaguadero-SAltiplano
+33,-17.468,-68.549,Laguna Blanca S.  Rio Jalsuri Uma,Bradbury-SAltiplano,periphyton,JP Bradbury,modern,stream,2001,Desaguadero-SAltiplano
+34,-17.468,-68.549,Laguna Blanca S.  Rio Jalsuri Uma,Bradbury-SAltiplano,mud,JP Bradbury,modern,stream,2001,Desaguadero-SAltiplano
+35,-17.479,-68.586,Salcro Tarquiamaya,Bradbury-SAltiplano,periphyton,JP Bradbury,modern,stream,2001,Desaguadero-SAltiplano
+36,-17.326,-68.619,Flood Plain Pond near Pipeline,Bradbury-SAltiplano,periphyton,JP Bradbury,modern,Pond,2001,Desaguadero-SAltiplano
+37,-17.313,-68.618,Rio Desaguadero Bridge (pipeline),Bradbury-SAltiplano,periphyton,JP Bradbury,modern,channel,2001,Desaguadero-SAltiplano
+38,-17.293,-68.635,Rio Mauri,Bradbury-SAltiplano,periphyton,JP Bradbury,modern,River,2001,Desaguadero-SAltiplano
+39,-17.293,-68.635,Rio Mauri algae,Bradbury-SAltiplano,periphyton,JP Bradbury,modern,River,2001,Desaguadero-SAltiplano
+40,-17.211,-68.678,Rio Desaguadero at Parco Khota,Bradbury-SAltiplano,periphyton,JP Bradbury,modern,River,2001,Desaguadero-SAltiplano
+41,-21.57,-68.034,Laguna Hedionda,Bradbury-SAltiplano,periphyton,JP Bradbury,modern,Lake,,
+42,-22.235,-67.746,Laguna Colorada,Bradbury-SAltiplano,mud and algae,JP Bradbury,modern,Lake,,
+43,-22.235,-67.746,Laguna Colorada,Bradbury-SAltiplano,,JP Bradbury,modern,Lake,2001,Desaguadero-SAltiplano
+44,-22.528,-67.646,Laguna Chairiri,Bradbury-SAltiplano,,JP Bradbury,modern,Lake,2001,Desaguadero-SAltiplano
+45,-22.811,-67.774,Laguna Verde,Bradbury-SAltiplano,periphyton,JP Bradbury,modern,Lake,,
+46,-16.984,-68.786,Laguna Desaguadero,Bradbury-SAltiplano,periphyton,JP Bradbury,modern,Lake,2001,Desaguadero-SAltiplano
+47,-16.879,-68.797,Rio Desaguadero: Nazacara N.,Bradbury-SAltiplano,periphyton,JP Bradbury,modern,River,2001,Desaguadero-SAltiplano
+48,-16.644,-68.968,Rio Desaguadero: downstream from Desaguadero,Bradbury-SAltiplano,periphyton,JP Bradbury,modern,River,2001,Desaguadero-SAltiplano
+49,-16.564,-68.991,Lago Huiê±amarca,Bradbury-SAltiplano,periphyton,JP Bradbury,modern,Lake,2001,Desaguadero-SAltiplano
+50,-13.616,-73.32,Pacucha,Bush-Guido,epipelon,Bush-Valencia,surface sediment,Lake,2009,Peru-Andean eastern
+51,-13.576,-72.888,Uspacocha,Bush-Guido,epipelon,Bush-Valencia,surface sediment,Lake,2009,Peru-Andean eastern
+52,-13.034,-72.377,Huamanmarca,Bush-Guido,epipelon,Bush-Valencia,surface sediment,Lake,2009,Peru-Andean eastern
+53,-13.023,-72.378,Miski,Bush-Guido,epipelon,Bush-Valencia,surface sediment,Lake,2009,Peru-Andean eastern
+54,-13.398,-72.123,Huaypo,Bush-Guido,epipelon,Bush-Valencia,surface sediment,Lake,2009,Peru-Andean eastern
+55,-14.066,-71.494,Acopia,Bush-Guido,epipelon,Bush-Valencia,surface sediment,Lake,2009,Peru-Andean eastern
+56,-20.144,-67.665,Salar de Uyuni,Fritz-SA Altiplano,,Fritz,modern,Lake,1991,Sud Lipez
+57,-20.144,-67.665,Salar de Uyuni,Fritz-SA Altiplano,,Fritz,modern,Lake,1991,Sud Lipez
+58,-20.144,-67.665,Salar de Uyuni,Fritz-SA Altiplano,,Fritz,modern,Lake,1991,Sud Lipez
+59,-21.568,-68.047,Laguna Hedionda,Fritz-SA Altiplano,,Fritz,modern,Lake,1991,Sud Lipez
+60,-21.505,-68.01,Laguna Canapa,Fritz-SA Altiplano,,Fritz,modern,Lake,1991,Sud Lipez
+61,-21.505,-68.01,Laguna Canapa,Fritz-SA Altiplano,,Fritz,modern,Lake,1991,Sud Lipez
+62,-21.505,-68.01,Laguna Canapa,Fritz-SA Altiplano,,Fritz,modern,Lake,1991,Sud Lipez
+63,-21.643,-68.079,Laguna Ramaditas,Fritz-SA Altiplano,,Fritz,modern,Lake,1991,Sud Lipez
+64,-21.643,-68.079,Laguna Ramaditas,Fritz-SA Altiplano,,Fritz,modern,Lake,1991,Sud Lipez
+65,-22.2,-67.766,Laguna Colorada,Fritz-SA Altiplano,,Fritz,modern,Lake,1991,Sud Lipez
+66,-22.2,-67.766,Laguna Colorada,Fritz-SA Altiplano,,Fritz,modern,Lake,1991,Sud Lipez
+67,-22.2,-67.766,Laguna Colorada,Fritz-SA Altiplano,,Fritz,modern,Lake,1991,Sud Lipez
+68,-22.2,-67.766,Laguna Colorada,Fritz-SA Altiplano,,Fritz,modern,Lake,1991,Sud Lipez
+69,-22.2,-67.766,Laguna Colorada,Fritz-SA Altiplano,,Fritz,modern,Lake,1991,Sud Lipez
+70,-22.2,-67.766,Laguna Colorada,Fritz-SA Altiplano,,Fritz,modern,Lake,1991,Sud Lipez
+71,-22.2,-67.766,Laguna Colorada,Fritz-SA Altiplano,,Fritz,modern,Lake,1991,Sud Lipez
+72,-22.2,-67.766,Laguna Colorada,Fritz-SA Altiplano,,Fritz,modern,Lake,1991,Sud Lipez
+73,-22.2,-67.766,Laguna Colorada,Fritz-SA Altiplano,,Fritz,modern,Lake,1991,Sud Lipez
+74,-21.73,-67.945,Laguna Cachi,Fritz-SA Altiplano,,Fritz,modern,Lake,1991,Sud Lipez
+75,-17.597,-65.569,Laguna Challacaba,Cochabamba,,Fritz,core top,Lake,2007,Cochabamba
+76,-22.182,-67.812,Laguna Colorada,Sud Lipez,,Fritz,modern,Lake,2016,Sud Lipez
+77,-22.182,-67.812,Laguna Colorada,Sud Lipez,,Fritz,modern,Lake,2016,Sud Lipez
+78,-22.182,-67.812,Laguna Colorada,Sud Lipez,,Fritz,modern,Lake,2016,Sud Lipez
+79,-22.182,-67.812,Laguna Colorada,Sud Lipez,,Fritz,core top,Lake,2016,Sud Lipez
+80,-22.191,-67.748,Laguna Colorada,Sud Lipez,,Fritz,core top,Lake,2016,Sud Lipez
+81,-22.797,-67.828,Laguna Verde,Sud Lipez,,Fritz,core top,Lake,2016,Sud Lipez
+82,-22.797,-67.828,Laguna Verde,Sud Lipez,,Fritz,core top,Lake,2016,Sud Lipez
+83,-22.797,-67.828,Laguna Verde,Sud Lipez,,Fritz,core top,Lake,2016,Sud Lipez
+84,-22.797,-67.828,Laguna Verde,Sud Lipez,,Fritz,core top,Lake,2016,Sud Lipez
+85,-22.797,-67.828,Laguna Verde,Sud Lipez,,Fritz,core top,Lake,2016,Sud Lipez
+86,-22.805,-67.805,Laguna Blanca,Sud Lipez,,Fritz,core top,Lake,2016,Sud Lipez
+87,-22.805,-67.805,LagunaBlanca,Sud Lipez,,Fritz,core top,Lake,2016,Sud Lipez
+88,-22.494,-67.615,Salar Chalvrvi spring1,Sud Lipez,,Fritz,modern,Spring,2016,Sud Lipez
+89,-22.496,-67.615,Salar Chalviri lake1,Sud Lipez,,Fritz,modern,Lake,2016,Sud Lipez
+90,-22.5,-67.506,Salar Chalviri spring2,Sud Lipez,,Fritz,modern,Spring,2016,Sud Lipez
+91,-22.5,-67.505,Salar Chalviri spring2,Sud Lipez,,Fritz,modern,Spring,2016,Sud Lipez
+92,-22.5,-67.506,Salar Chalviri lake2,Sud Lipez,,Fritz,modern,Lake,2016,Sud Lipez
+93,-22.475,-67.417,Salar Chalviri salt works,Sud Lipez,,Fritz,modern,wetland,2016,Sud Lipez
+94,-22.459,-67.394,Laguna Hedionda Sur,Sud Lipez,,Fritz,modern,Lake,2016,Sud Lipez
+95,-22.424,-67.197,Laguna Loramayu sping,Sud Lipez,,Fritz,modern,Spring,2016,Sud Lipez
+96,-22.414,-67.199,Laguna Loramayu lake,Sud Lipez,,Fritz,modern,Lake,2016,Sud Lipez
+97,-22.226,-67.1,Pampa de los Lagunas bofedal,Sud Lipez,,Fritz,modern,Lake,2016,Sud Lipez
+98,-22.222,-67.104,Pampa de los Lagunas lake,Sud Lipez,,Fritz,modern,Lake,2016,Sud Lipez
+99,-15.72,-70.152,Umayo,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+100,-15.697,-70.198,Tunuipiju,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+101,-15.688,-70.209,Lake 3,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+102,-15.688,-70.194,Sollata,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+103,-15.662,-70.196,Jaluncocha,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,wetland,2003,Peru-Andean Puna
+104,-15.663,-70.194,Lake 6,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+105,-15.902,-70.509,Calzada,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+106,-15.882,-70.565,Maquera,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+107,-15.537,-70.046,Umapata,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+108,-15.409,-70.204,Chacas,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+109,-15.578,-70.218,Pacuna,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+110,-15.432,-70.167,Lake 12,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,stream,2003,Peru-Andean Puna
+111,-15.785,-70.595,Ululumasa,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+112,-15.778,-70.623,Sara Cocha,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+113,-15.764,-70.675,Lagunillas,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+114,-14.99,-70.126,Salinas,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+115,-15.119,-70.05,Arapa,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+116,-16.372,-70.396,Jacumarini,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+117,-16.386,-70.361,Asiruni,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+118,-16.529,-68.39,Laja,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+119,-16.578,-68.167,Jachcha Kkota,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+120,-16.58,-68.156,Chara Nkkota,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+121,-16.678,-68.315,Lake 23,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+122,-16.34,-68.042,Estrellani,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+123,-16.734,-68.302,Jayokota,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+124,-16.782,-68.296,Chijtacolla,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+125,-16.625,-68.275,Lake 27,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+126,-16.52,-68.46,Luky,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+127,-16.513,-68.494,Lake 29,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+128,-16.581,-68.388,Khotaê±a,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+129,-16.183,-68.338,Sora Kkota,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+130,-16.133,-68.362,Khara Kkota (north),GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+131,-16.089,-68.885,Aquihui,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+132,-16.915,-68.95,Lake 34,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+133,-16.427,-68.143,Muru Kkota,GoslingBirdAndes,epipelon,Gosling-Bird,surface sediment,Lake,2003,Peru-Andean Puna
+134,-10.724,-76.071,L. Tauli shore,JuninPlain,water,Tapia,modern,Lake,1999,JuninPlain
+135,-11.268,-75.787,Huagapo Cave outside,JuninPlain,periphyton,Tapia,modern,Spring,1999,JuninPlain
+136,-10.76,-76.072,L. Ccochachuycho shore,JuninPlain,periphyton,Tapia,modern,Lake,1999,JuninPlain
+137,-10.944,-76.046,Junin 11 Gunoc Km 255,JuninPlain,epipelon,Tapia,surface sediment,stream,1999,JuninPlain
+138,-10.944,-76.046,Junin 11 Gunoc Km 255,JuninPlain,epilithic,Tapia,modern,stream,1999,JuninPlain
+139,-10.944,-76.046,Junin 11 Gunoc Km 255,JuninPlain,water,Tapia,modern,stream,1999,JuninPlain
+140,-10.944,-76.046,Junin 11 Gunoc Km 255,JuninPlain,water,Tapia,modern,stream,1999,JuninPlain
+141,-10.778,-76.097,L. Lulicocha shore,JuninPlain,periphyton,Tapia,modern,Lake,1999,JuninPlain
+142,-10.979,-76.036,Junin 13 Qda. Anascanchi,JuninPlain,water,Tapia,modern,stream,1999,JuninPlain
+143,-10.979,-76.036,Junin 13 Qda. Anascanchi,JuninPlain,water,Tapia,modern,stream,1999,JuninPlain
+144,-10.81,-76.134,Junin 10 Tambo del Sol,JuninPlain,periphyton,Tapia,modern,stream,1999,JuninPlain
+145,-10.803,-76.126,Junin 10 Tambo del Sol,JuninPlain,epipelon,Tapia,surface sediment,stream,1999,JuninPlain
+146,-10.81,-76.134,Junin 10 Tambo del Sol,JuninPlain,water,Tapia,modern,stream,1999,JuninPlain
+147,-10.81,-76.134,Junin 10 Tambo del Sol,JuninPlain,water,Tapia,modern,stream,1999,JuninPlain
+148,-10.814,-76.232,Junin 9 ditch before Shelby,JuninPlain,periphyton,Tapia,modern,stream,1999,JuninPlain
+149,-10.915,-76.047,Junin 14 Palcamayo R.,JuninPlain,water,Tapia,modern,stream,1999,JuninPlain
+150,-10.915,-76.047,Junin 14 Palcamayo R.,JuninPlain,water,Tapia,modern,stream,1999,JuninPlain
+151,-10.833,-76.036,L. Yanacocha shore,JuninPlain,periphyton,Tapia,modern,Lake,1999,JuninPlain
+152,-10.964,-76.231,Junin 7 San Pedro de Pari,JuninPlain,water,Tapia,modern,Lake,1999,JuninPlain
+153,-10.964,-76.231,Junin 7 San Pedro de Pari,JuninPlain,water,Tapia,modern,Lake,1999,JuninPlain
+154,-10.835,-76.46,L. Purun center,JuninPlain,epipelon,Tapia,surface sediment,Lake,1999,JuninPlain
+155,-11.165,-76.017,Junin 1 Chacachimpa R.,JuninPlain,water,Tapia,modern,River,1999,JuninPlain
+156,-11.165,-76.017,Junin 1 Chacachimpa R.,JuninPlain,water,Tapia,modern,River,1999,JuninPlain
+157,-10.836,-76.454,L. Purun shore,JuninPlain,periphyton,Tapia,modern,Lake,1999,JuninPlain
+158,-11.002,-76.01,Junin 12 Chacpas,JuninPlain,water,Tapia,modern,stream,1999,JuninPlain
+159,-11.002,-76.01,Junin 12 Chacpas,JuninPlain,water,Tapia,modern,stream,1999,JuninPlain
+160,-10.857,-75.986,Yanacocha 1 wetland,JuninPlain,periphyton,Tapia,modern,wetland,1999,JuninPlain
+161,-11.113,-76.091,Junin 2 Warmipuquio spring,JuninPlain,periphyton,Tapia,modern,Spring,1999,JuninPlain
+162,-11.113,-76.091,Junin 2 Warmipuquio spring,JuninPlain,epipelon,Tapia,surface sediment,Spring,1999,JuninPlain
+163,-11.113,-76.091,Junin 2 Warmipuquio spring,JuninPlain,water,Tapia,modern,Spring,1999,JuninPlain
+164,-11.113,-76.091,Junin 2 Warmipuquio spring,JuninPlain,water,Tapia,modern,Spring,1999,JuninPlain
+165,-10.857,-75.983,Yanacocha 2 inflow stream,JuninPlain,periphyton,Tapia,modern,stream,1999,JuninPlain
+166,-11.124,-76.086,Junin 3 spring 2,JuninPlain,water,Tapia,modern,Spring,1999,JuninPlain
+167,-11.124,-76.086,Junin 3 spring 2,JuninPlain,water,Tapia,modern,Spring,1999,JuninPlain
+168,-10.915,-76.047,Junin 14 Palcamayo R.,JuninPlain,periphyton,Tapia,modern,stream,1999,JuninPlain
+169,-11.082,-76.148,Junin 4 Ondores spring,JuninPlain,epilithic,Tapia,modern,Spring,1999,JuninPlain
+170,-11.082,-76.148,Junin 4 Ondores spring,JuninPlain,water,Tapia,modern,Spring,1999,JuninPlain
+171,-11.082,-76.148,Junin 4 Ondores spring,JuninPlain,water,Tapia,modern,Spring,1999,JuninPlain
+172,-10.921,-76.263,Junin 8 Upamayo Bridge,JuninPlain,periphyton,Tapia,modern,stream,1999,JuninPlain
+173,-11.056,-76.158,Junin 5 Conoc spring,JuninPlain,epipelon,Tapia,surface sediment,Spring,1999,JuninPlain
+174,-11.056,-76.158,Junin 5 Conoc spring,JuninPlain,water,Tapia,modern,Spring,1999,JuninPlain
+175,-11.056,-76.158,Junin 5 Conoc spring,JuninPlain,water,Tapia,modern,Spring,1999,JuninPlain
+176,-10.944,-76.046,Junin 11 Gunoc Km 255,JuninPlain,periphyton,Tapia,modern,stream,1999,JuninPlain
+177,-11.042,-76.188,Junin 6 Chuchucancha R.,JuninPlain,epipelon,Tapia,surface sediment,River,1999,JuninPlain
+178,-11.042,-76.188,Junin 6 Chuchucancha R.,JuninPlain,water,Tapia,modern,River,1999,JuninPlain
+179,-11.042,-76.188,Junin 6 Chuchucancha R.,JuninPlain,water,Tapia,modern,River,1999,JuninPlain
+180,-10.964,-76.231,Junin 7 San Pedro de Pari,JuninPlain,periphyton,Tapia,modern,Lake,1999,JuninPlain
+181,-10.921,-76.263,Junin 8 Upamayo Bridge,JuninPlain,water,Tapia,modern,stream,1999,JuninPlain
+182,-10.921,-76.263,Junin 8 Upamayo Bridge,JuninPlain,water,Tapia,modern,stream,1999,JuninPlain
+183,-10.921,-76.263,Junin 8 Upamayo Bridge,JuninPlain,water,Tapia,modern,stream,1999,JuninPlain
+184,-10.979,-76.036,Junin 13 Qda. Anascanchi,JuninPlain,periphyton,Tapia,modern,stream,1999,JuninPlain
+185,-10.813,-76.232,Junin 9 ditch before Shelby,JuninPlain,epipelon,Tapia,surface sediment,stream,1999,JuninPlain
+186,-10.814,-76.232,Junin 9 ditch before Shelby,JuninPlain,water,Tapia,modern,stream,1999,JuninPlain
+187,-10.814,-76.232,Junin 9 ditch before Shelby,JuninPlain,water,Tapia,modern,stream,1999,JuninPlain
+188,-11.084,-75.935,L. Alcacocha shore,JuninPlain,water,Tapia,modern,Lake,1999,JuninPlain
+189,-11.084,-75.935,L. Alcacocha shore,JuninPlain,water,Tapia,modern,Lake,1999,JuninPlain
+190,-10.996,-76.062,L. Junin center,JuninPlain,periphyton,Tapia,modern,Lake,1999,JuninPlain
+191,-11.002,-76.01,Junin 12 Chacpas,JuninPlain,epilithic,Tapia,modern,stream,1999,JuninPlain
+192,-11.042,-76.188,Junin 6 Chuchucancha R.,JuninPlain,periphyton,Tapia,modern,River,1999,JuninPlain
+193,-10.996,-76.062,L. Junin center,JuninPlain,water,Tapia,modern,Lake,1999,JuninPlain
+194,-10.996,-76.062,L. Junin center,JuninPlain,water,Tapia,modern,Lake,1999,JuninPlain
+195,-10.996,-76.062,L. Junin center,JuninPlain,benthos,Tapia,modern,Lake,1999,JuninPlain
+196,-11.058,-76.156,L. Junin shore,JuninPlain,water,Tapia,modern,Lake,1999,JuninPlain
+197,-11.058,-76.156,L. Junin shore,JuninPlain,water,Tapia,modern,Lake,1999,JuninPlain
+198,-11.058,-76.156,L. Junin shore,JuninPlain,periphyton,Tapia,modern,Lake,1999,JuninPlain
+199,-11.058,-76.156,L. Junin shore,JuninPlain,periphyton,Tapia,modern,Lake,1999,JuninPlain
+200,-11.056,-76.158,Junin 5 Conoc spring,JuninPlain,periphyton,Tapia,modern,Spring,1999,JuninPlain
+201,-10.778,-76.097,L. Lulicocha shore,JuninPlain,water,Tapia,modern,Lake,1999,JuninPlain
+202,-11.729,-75.507,L. Paca 12m deep,JuninPlain,plankton,Tapia,modern,Lake,1999,JuninPlain
+203,-11.729,-75.507,L. Paca 12m deep,JuninPlain,water,Tapia,modern,Lake,1999,JuninPlain
+204,-11.729,-75.507,L. Paca 12m deep,JuninPlain,water,Tapia,modern,Lake,1999,JuninPlain
+205,-11.082,-76.148,Junin 4 Ondores spring,JuninPlain,periphyton,Tapia,modern,Spring,1999,JuninPlain
+206,-11.717,-75.507,L. Paca inflow stream,JuninPlain,epilithic,Tapia,modern,stream,1999,JuninPlain
+207,-11.729,-75.507,L. Paca surface,JuninPlain,water,Tapia,modern,Lake,1999,JuninPlain
+208,-11.729,-75.507,L. Paca surface,JuninPlain,water,Tapia,modern,Lake,1999,JuninPlain
+209,-11.729,-75.507,L. Paca surface,JuninPlain,periphyton,Tapia,modern,Lake,1999,JuninPlain
+210,-11.084,-75.935,L. Alcacocha shore,JuninPlain,periphyton,Tapia,modern,Lake,1999,JuninPlain
+211,-11.113,-76.091,Junin 2 Warmipuquio spring,JuninPlain,periphyton,Tapia,modern,Spring,1999,JuninPlain
+212,-10.836,-76.454,L. Purun shore,JuninPlain,water,Tapia,modern,Lake,1999,JuninPlain
+213,-11.124,-76.086,Junin 3 spring 2,JuninPlain,periphyton,Tapia,modern,Spring,1999,JuninPlain
+214,-10.724,-76.071,L. Tauli shore,JuninPlain,epipelon,Tapia,surface sediment,Lake,1999,JuninPlain
+215,-11.165,-76.017,Junin 1 Chacachimpa R.,JuninPlain,periphyton,Tapia,modern,River,1999,JuninPlain
+216,-10.833,-76.036,L. Yanacocha shore,JuninPlain,water,Tapia,modern,Lake,1999,JuninPlain
+217,-10.833,-76.036,L. Yanacocha shore,JuninPlain,water,Tapia,modern,Lake,1999,JuninPlain
+218,-10.833,-76.036,L. Yanacocha shore,JuninPlain,algae,Tapia,modern,Lake,1999,JuninPlain
+219,-11.268,-75.787,Huagapo Cave inside,JuninPlain,periphyton,Tapia,modern,Spring,1999,JuninPlain
+220,-10.872,-76,Yanacocha 4 outlet channel,JuninPlain,epipelon,Tapia,surface sediment,channel,1999,JuninPlain
+221,-11.717,-75.507,L. Paca inflow stream,JuninPlain,periphyton,Tapia,modern,stream,1999,JuninPlain
+222,-10.856,-75.972,Yanacocha 3 spring,JuninPlain,periphyton,Tapia,modern,Spring,1999,JuninPlain
+223,-10.856,-75.972,Yanacocha 3 spring,JuninPlain,epilithic,Tapia,modern,Spring,1999,JuninPlain
+224,-10.856,-75.972,Yanacocha 3 spring,JuninPlain,water,Tapia,modern,Spring,1999,JuninPlain
+225,-10.856,-75.972,Yanacocha 3 spring,JuninPlain,water,Tapia,modern,Spring,1999,JuninPlain
+226,-2.77,-79.161,Dos Chorreras,LacCore,,several,core top,Lake,1999,Ecuador-Andean
+227,-18.192,-69.242,Laguna Seca,LacCore,,several,core top,Lake,1993,Chile-Andean
+228,-18.192,-69.242,Laguna Seca,LacCore,,several,core top,Lake,1993,Chile-Andean
+229,-22.303,-65.993,Laguna de los Pozuelos,LacCore,,several,core top,Lake,2006,Argentina-Andean
+230,-22.305,-66.02,Laguna de los Pozuelos,LacCore,,several,core top,Lake,2006,Argentina-Andean
+231,-22.333,-66.001,Laguna de los Pozuelos,LacCore,,several,core top,Lake,2006,Argentina-Andean
+232,-23.73,-67.77,Laguna Miscanti,LacCore,,several,core top,Lake,1993,Chile-Andean
+233,-23.73,-67.77,Laguna Miscanti,LacCore,,several,core top,Lake,1993,Chile-Andean
+234,-27.46,-69.23,Laguna del Negro Francisco,LacCore,,several,core top,Lake,1993,Chile-Andean
+235,-27.46,-69.23,Laguna del Negro Francisco,LacCore,,several,core top,Lake,1993,Chile-Andean
+236,-23.858,-64.438,Laguna La Brea,LacCore,,several,core top,Lake,2006,Argentina-Andean
+237,-26.563,-59.416,Laguna Tita Moreno,LacCore,,several,core top,Lake,2007,Argentina-Andean
+238,-17.769,-57.712,Lagoon Gaiba,LacCore,,several,core top,Lake,2009,Pantanal
+239,-17.769,-57.728,Lagoon Gaiba,LacCore,,several,core top,Lake,2005,Pantanal
+240,-54.651,-67.803,Laguna Bombilla,LacCore,,several,core top,Lake,2005,Tierra del Fuego
+241,-54.628,-67.246,Aguas Blancas,LacCore,,several,core top,Lake,2005,Tierra del Fuego
+242,-54.522,-66.283,unnamed lake,LacCore,,several,core top,Lake,2005,Tierra del Fuego
+243,-50.976,-72.749,Laguna Amarga,LacCore,,several,core top,Lake,2005,Tierra del Fuego
+244,-18.252,-69.163,Chungara,Lauca Basin (Chungara),,Fritz-Spanbauer,core top,Lake,2014,Lauca Basin
+245,-18.252,-69.163,Chungara,Lauca Basin (Chungara),,Fritz-Spanbauer,core top,Lake,2014,Lauca Basin
+246,-18.252,-69.163,Chungara,Lauca Basin (Chungara),,Fritz-Spanbauer,core top,Lake,2014,Lauca Basin
+247,-18.207,-69.271,Cota Vinto,Lauca Basin,periphyton,Fritz-Spanbauer,modern,Lake,2014,Lauca Basin
+248,-18.207,-69.271,Cota Vinto,Lauca Basin,periphyton,Fritz-Spanbauer,modern,Lake,2014,Lauca Basin
+249,-18.207,-69.271,Cota Vinto,Lauca Basin,periphyton,Fritz-Spanbauer,modern,Lake,2014,Lauca Basin
+250,-18.205,-69.222,Cotacotani,Lauca Basin,periphyton,Fritz-Spanbauer,modern,Lake,2014,Lauca Basin
+251,-18.201,-69.219,Cotacotani,Lauca Basin,periphyton,Fritz-Spanbauer,modern,Lake,2014,Lauca Basin
+252,-18.194,-69.214,Cotacotani,Lauca Basin,periphyton,Fritz-Spanbauer,modern,Lake,2014,Lauca Basin
+253,-18.193,-69.211,Cotacotani,Lauca Basin,periphyton,Fritz-Spanbauer,modern,Lake,2014,Lauca Basin
+254,-18.193,-69.211,Cotacotani,Lauca Basin,periphyton,Fritz-Spanbauer,modern,Lake,2014,Lauca Basin
+255,-14.874,-64.865,Lagoon Suarez,Mayle-BeniPantanal,epipelon,Mayle,surface sediment,Lake,2006,Bolivia-Beni
+256,-14.686,-64.767,Lagoon Cernandez,Mayle-BeniPantanal,epipelon,Mayle,surface sediment,Lake,2006,Bolivia-Beni
+257,-14.986,-64.809,Lagoon Azul,Mayle-BeniPantanal,epipelon,Mayle,surface sediment,Lake,2006,Bolivia-Beni
+258,-14.502,-64.869,Lagoon Coitarama,Mayle-BeniPantanal,epipelon,Mayle,surface sediment,Lake,2006,Bolivia-Beni
+259,-14.454,-64.854,Lagoon Belen,Mayle-BeniPantanal,epipelon,Mayle,surface sediment,Lake,2006,Bolivia-Beni
+260,-14.303,-63.403,Lagoon Huachi,Mayle-BeniPantanal,epipelon,Mayle,surface sediment,Lake,2006,Bolivia-Beni
+261,-14.759,-64.953,Lagoon Lomo Suarez,Mayle-BeniPantanal,epipelon,Mayle,surface sediment,Lake,2006,Bolivia-Beni
+262,-14.87,-64.976,Lagoon Puente de Ibare,Mayle-BeniPantanal,epipelon,Mayle,surface sediment,Lake,2006,Bolivia-Beni
+263,-14.988,-65.657,Lagoon Isireri,Mayle-BeniPantanal,epipelon,Mayle,surface sediment,Lake,2006,Bolivia-Beni
+264,-14.88,-65.027,Lagoon Los Puentes,Mayle-BeniPantanal,epipelon,Mayle,surface sediment,Lake,2006,Bolivia-Beni
+265,-18.1,-57.55,Lagoon Mandiore,Mayle-BeniPantanal,epipelon,Mayle,surface sediment,Lake,2001,Pantanal
+266,-17.783,-57.717,Lagoon Gaiba,Mayle-BeniPantanal,epipelon,Mayle,surface sediment,Lake,2001,Pantanal
+267,-2.843,-79.146,Llaviucu,Smol-MicheluttiEcuador,,Smol-Michelutti,core top,Lake,,
+268,-2.782,-79.209,Patoquinuas,Smol-MicheluttiEcuador,epipelon,Smol-Michelutti,surface sediment,Lake,2014,Ecuador-Andean
+269,-2.76,-79.236,Fondococha,Smol-MicheluttiEcuador,epipelon,Smol-Michelutti,surface sediment,Lake,2014,Ecuador-Andean
+270,-2.78,-79.224,Toreadora,Smol-MicheluttiEcuador,,Smol-Michelutti,core top,Lake,,
+271,-2.78,-79.231,Illincocha,Smol-MicheluttiEcuador,epipelon,Smol-Michelutti,surface sediment,Lake,2014,Ecuador-Andean
+272,-2.887,-79.297,Lagunas de Napale,Smol-MicheluttiEcuador,epipelon,Smol-Michelutti,surface sediment,Lake,2014,Ecuador-Andean
+273,-2.793,-79.245,Cajas Pond 1,Smol-MicheluttiEcuador,epipelon,Smol-Michelutti,surface sediment,Lake,2014,Ecuador-Andean
+274,-2.793,-79.245,Larga,Smol-MicheluttiEcuador,epipelon,Smol-Michelutti,surface sediment,Lake,2014,Ecuador-Andean
+275,-2.793,-79.246,Lado de Larga,Smol-MicheluttiEcuador,epipelon,Smol-Michelutti,surface sediment,Lake,2014,Ecuador-Andean
+276,-2.784,-79.243,Negra-Cajas,Smol-MicheluttiEcuador,epipelon,Smol-Michelutti,surface sediment,Lake,2014,Ecuador-Andean
+277,-2.781,-79.22,Apicocha,Smol-MicheluttiEcuador,epipelon,Smol-Michelutti,surface sediment,Lake,2014,Ecuador-Andean
+278,-2.77,-79.16,Dos Chorreras,Smol-MicheluttiEcuador,,Smol-Michelutti,core top,Lake,2015,Ecuador-Andean
+279,-16.222,-69.147,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1996,Titicaca-lake
+280,-16.222,-69.147,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1996,Titicaca-lake
+281,-16.187,-69.163,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1996,Titicaca-lake
+282,-16.187,-69.163,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1996,Titicaca-lake
+283,-15.259,-69.211,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1996,Titicaca-lake
+284,-15.259,-69.211,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1996,Titicaca-lake
+285,-15.532,-69.619,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1996,Titicaca-lake
+286,-15.532,-69.619,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1996,Titicaca-lake
+287,-15.374,-69.068,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1996,Titicaca-lake
+288,-15.374,-69.068,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1996,Titicaca-lake
+289,-15.826,-69.755,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1996,Titicaca-lake
+290,-15.826,-69.753,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1996,Titicaca-lake
+291,-16.043,-69.32,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1996,Titicaca-lake
+292,-16.043,-69.32,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1996,Titicaca-lake
+293,-15.827,-69.749,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+294,-15.916,-69.656,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+295,-15.916,-69.656,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+296,-15.916,-69.656,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+297,-15.842,-69.605,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+298,-15.843,-69.605,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+299,-15.843,-69.605,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+300,-15.655,-69.521,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+301,-15.655,-69.521,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+302,-15.655,-69.521,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+303,-15.52,-69.507,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+304,-15.529,-69.533,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+305,-15.547,-69.564,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+306,-15.564,-69.651,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+307,-15.578,-69.668,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+308,-15.593,-69.722,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+309,-15.78,-69.57,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+310,-15.939,-69.429,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+311,-16.131,-69.315,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+312,-16.131,-69.315,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+313,-16.131,-69.315,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+314,-15.999,-69.437,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+315,-15.999,-69.437,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+316,-16,-69.419,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+317,-15.989,-69.379,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+318,-15.951,-69.267,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+319,-16.033,-69.115,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+320,-16.033,-69.115,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+321,-16.207,-68.685,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1997,Titicaca-lake
+322,-16.092,-69.176,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1998,Titicaca-lake
+323,-16.175,-69.178,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1998,Titicaca-lake
+324,-16.248,-69.137,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1998,Titicaca-lake
+325,-16.243,-69.141,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1998,Titicaca-lake
+326,-16.181,-69.177,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1998,Titicaca-lake
+327,-15.957,-69.439,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1998,Titicaca-lake
+328,-15.807,-69.702,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1998,Titicaca-lake
+329,-15.775,-69.867,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1998,Titicaca-lake
+330,-16.197,-68.859,Titicaca-lake,Titicaca,phytoplankton,Tapia-Fritz,modern,Lake,1998,Titicaca-lake
+331,-15.888,-69.769,Titicaca-lake,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1997,Titicaca-lake
+332,-15.887,-69.767,Titicaca-lake,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1997,Titicaca-lake
+333,-15.885,-69.766,Titicaca-lake,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1997,Titicaca-lake
+334,-15.885,-69.766,Titicaca-lake,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1997,Titicaca-lake
+335,-15.885,-69.766,Titicaca-lake,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1997,Titicaca-lake
+336,-15.884,-69.765,Titicaca-lake,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1997,Titicaca-lake
+337,-15.878,-69.759,Titicaca-lake,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1997,Titicaca-lake
+338,-15.873,-69.758,Titicaca-lake,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1997,Titicaca-lake
+339,-15.947,-69.562,Titicaca-lake,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1997,Titicaca-lake
+340,-15.947,-69.562,Titicaca-lake,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1997,Titicaca-lake
+341,-15.934,-69.566,Titicaca-lake,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1997,Titicaca-lake
+342,-15.93,-69.559,Titicaca-lake,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1997,Titicaca-lake
+343,-15.917,-69.555,Titicaca-lake,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1997,Titicaca-lake
+344,-15.906,-69.553,Titicaca-lake,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1997,Titicaca-lake
+345,-16.033,-69.115,Titicaca-lake,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1997,Titicaca-lake
+346,-16.092,-69.176,Titicaca-lake,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1998,Titicaca-lake
+347,-16.176,-69.178,Titicaca-lake,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1998,Titicaca-lake
+348,-16.146,-69.153,Titicaca-lake,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1998,Titicaca-lake
+349,-16.138,-69.154,Titicaca-lake,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1998,Titicaca-lake
+350,-16.134,-69.155,Titicaca-lake,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1998,Titicaca-lake
+351,-16.203,-69.11,Titicaca-lake,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1998,Titicaca-lake
+352,-16.206,-69.112,Titicaca-lake,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1998,Titicaca-lake
+353,-15.966,-69.385,Titicaca-lake,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1998,Titicaca-lake
+354,-15.957,-69.439,Titicaca-lake,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1998,Titicaca-lake
+355,-15.807,-69.702,Titicaca-lake,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1998,Titicaca-lake
+356,-15.775,-69.867,Titicaca-lake,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1998,Titicaca-lake
+357,-16.226,-69.111,Yunguyo Bay,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1992,Titicaca-lake
+358,-16.225,-69.115,Yunguyo Bay,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1992,Titicaca-lake
+359,-16.223,-69.121,Yunguyo Bay,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1992,Titicaca-lake
+360,-16.221,-69.124,Yunguyo Bay,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1992,Titicaca-lake
+361,-16.219,-69.129,Yunguyo Bay,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1992,Titicaca-lake
+362,-16.217,-69.136,Yunguyo Bay,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1992,Titicaca-lake
+363,-16.215,-69.141,Yunguyo Bay,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1992,Titicaca-lake
+364,-16.213,-69.147,Yunguyo Bay,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1992,Titicaca-lake
+365,-16.21,-69.153,Yunguyo Bay,Titicaca,epipelon,Tapia-Fritz,surface sediment,Lake,1992,Titicaca-lake
+366,-16.214,-68.688,Huatajata,Titicaca-watershed,periphyton,Tapia-Fritz,modern,Lake,1998,Titicaca-watershed
+367,-16.214,-68.688,Huatajata,Titicaca-watershed,periphyton,Tapia-Fritz,modern,Lake,1998,Titicaca-watershed
+368,-16.214,-68.688,Huatajata,Titicaca-watershed,periphyton,Tapia-Fritz,modern,Lake,1998,Titicaca-watershed
+369,-16.094,-69.635,Ilave River,Titicaca-watershed,periphyton,Tapia-Fritz,modern,River,1998,Titicaca-watershed
+370,-15.656,-69.13,Suches River,Titicaca-watershed,periphyton,Tapia-Fritz,modern,River,1998,Titicaca-watershed
+371,-15.656,-69.13,Suches River,Titicaca-watershed,periphyton,Tapia-Fritz,modern,River,1998,Titicaca-watershed
+372,-15.656,-69.13,Suches River,Titicaca-watershed,periphyton,Tapia-Fritz,modern,River,1998,Titicaca-watershed
+373,-15.656,-69.13,Suches River,Titicaca-watershed,periphyton,Tapia-Fritz,modern,River,1998,Titicaca-watershed
+374,-16.002,-69.171,Isla del Sol,Titicaca-watershed,epilithic,Tapia-Fritz,modern,Spring,1998,Titicaca-watershed
+375,-16.094,-69.635,Ilave River,Titicaca-watershed,phytoplankton,Tapia-Fritz,modern,River,1998,Titicaca-watershed
+376,-16.094,-69.635,Ilave River,Titicaca-watershed,phytoplankton,Tapia-Fritz,modern,River,1998,Titicaca-watershed
+377,-15.656,-69.13,Suches River,Titicaca-watershed,phytoplankton,Tapia-Fritz,modern,River,1998,Titicaca-watershed
+378,-13.398,-72.126,Cusco-PLS-2,Cusco,epipelon,Tapia,surface sediment,Lake,2011,Cusco
+379,-13.403,-71.693,Cusco-PLS-13,Cusco,epipelon,Tapia,surface sediment,Lake,2011,Cusco
+380,-13.416,-72.046,Cusco-PLS-1,Cusco,epipelon,Tapia,surface sediment,Lake,2011,Cusco
+381,-13.621,-71.721,Cusco-PLS-11,Cusco,epipelon,Tapia,surface sediment,Lake,2011,Cusco
+382,-13.859,-70.253,Cusco-PLS-5,Cusco,epipelon,Tapia,surface sediment,Lake,2011,Cusco
+383,-13.863,-70.307,Cusco-PLS-7,Cusco,epipelon,Tapia,surface sediment,Lake,2011,Cusco
+384,-13.906,-70.301,Cusco-PLS-8,Cusco,epipelon,Tapia,surface sediment,Lake,2011,Cusco
+385,-13.916,-70.866,Cusco-CH1,Cusco,epipelon,Tapia,surface sediment,Lake,2011,Cusco
+386,-13.929,-70.311,Cusco-PLS-6,Cusco,epipelon,Tapia,surface sediment,Lake,2011,Cusco
+387,-13.944,-70.903,Cusco-DP1,Cusco,epipelon,Tapia,surface sediment,Lake,2011,Cusco
+388,-13.945,-70.875,Cusco-YC1,Cusco,epipelon,Tapia,surface sediment,Lake,2011,Cusco
+389,-13.948,-70.901,Cusco-IA1,Cusco,epipelon,Tapia,surface sediment,Lake,2011,Cusco
+390,-14.125,-71.463,Cusco-PLS-12,Cusco,epipelon,Tapia,surface sediment,Lake,2011,Cusco
+391,-14.585,-71.722,Cusco-PLS-3,Cusco,epipelon,Tapia,surface sediment,Lake,2011,Cusco
+392,-14.59,-71.706,Cusco-PLS-4,Cusco,epipelon,Tapia,surface sediment,Lake,2011,Cusco
+393,-14.727,-70.499,Cusco-PLS-9,Cusco,epipelon,Tapia,surface sediment,Lake,2011,Cusco
+394,-15.086,-70.936,Cusco-PLS-10,Cusco,epipelon,Tapia,surface sediment,Lake,2011,Cusco
+395,-2.781,-79.22,Apicocha,Ecuador-Andean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Andean
+396,-2.794,-79.218,Illincocha,Ecuador-Andean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Andean
+397,-2.781,-79.224,Toreadora,Ecuador-Andean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Andean
+398,0.129,-78.254,Huarmicocha,Ecuador-Andean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Andean
+399,0.138,-78.266,Caricocha,Ecuador-Andean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Andean
+400,-0.641,-78.498,Limpiopungo,Ecuador-Andean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Andean
+401,-0.856,-78.902,Quilotoa,Ecuador-Andean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Andean
+402,0.117,-77.965,San Marcos,Ecuador-Andean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Andean
+403,-0.379,-78.16,Papallacta,Ecuador-Andean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Andean
+404,-1.483,-78.25,Pucacocha,Ecuador-Andean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Andean
+405,0.124,-78.251,Yanacocha,Ecuador-Andean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Andean
+406,-1.501,-78.704,Cochabamba,Ecuador-Andean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Andean
+407,-1.096,-78.341,Anteojos,Ecuador-Andean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Andean
+408,-2.423,-78.86,Culebrillas,Ecuador-Andean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Andean
+409,-0.774,-78.619,La Cienaga,Ecuador-Andean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Andean
+410,-2.843,-79.146,Llaviucu,Ecuador-Andean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Andean
+411,-1.085,-78.387,Pisayambo,Ecuador-Andean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Andean
+412,-4.615,-79.417,Canar pond,Ecuador-Andean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Andean
+413,-1.111,-78.37,Tambo,Ecuador-Andean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Andean
+414,0.371,-78.102,Yahuarcocha,Ecuador-Interandean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Interandean
+415,0.3,-78.367,Cuicocha,Ecuador-Interandean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Interandean
+416,0.248,-78.479,Guangopolo,Ecuador-Interandean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Interandean
+417,0.235,-78.09,Cunrro,Ecuador-Interandean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Interandean
+418,0.217,-78.233,San Pablo,Ecuador-Interandean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Interandean
+419,0.215,-78.087,Zuleta,Ecuador-Interandean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Interandean
+420,-1.1,-78.589,Yambo,Ecuador-Interandean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Interandean
+421,-1.333,-78.517,La Moya,Ecuador-Interandean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Interandean
+422,-1.45,-78.733,Rumtum,Ecuador-Interandean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Interandean
+423,-1.619,-78.634,San Antonio,Ecuador-Interandean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Interandean
+424,-1.742,-78.756,Colta,Ecuador-Interandean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Interandean
+425,-2.833,-78.802,Uzhupud,Ecuador-Interandean,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Interandean
+426,-2.25,-80.067,San Geronimo,Ecuador-Coastal,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Coastal
+427,-0.333,-79.083,Tinalandia,Ecuador-Coastal,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Coastal
+430,-1.067,-79.233,Esmeraldas Lake,Ecuador-Coastal,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Coastal
+431,-0.783,-79.917,Dos Hermanos,Ecuador-Coastal,epipelon,Steinitz-Kannan,surface sediment,Pond,1980,Ecuador-Coastal
+432,-0.367,-78.833,Waterfall pond,Ecuador-Coastal,epipelon,Steinitz-Kannan,surface sediment,Pond,1980,Ecuador-Coastal
+433,0.008,-76.211,Caimancocha,Ecuador-Amazonia,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Amazonia
+434,0.002,-76.215,Macurococha,Ecuador-Amazonia,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Amazonia
+435,-0.013,-76.179,Cuyabeno,Ecuador-Amazonia,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Amazonia
+436,-0.015,-76.217,Mateococha,Ecuador-Amazonia,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Amazonia
+437,0.066,-77.004,Santa Cecilia,Ecuador-Amazonia,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Amazonia
+438,-0.099,-76.88,Petroleo P.,Ecuador-Amazonia,epipelon,Steinitz-Kannan,surface sediment,Pond,1980,Ecuador-Amazonia
+439,-0.083,-76.883,Texaco Pond,Ecuador-Amazonia,epipelon,Steinitz-Kannan,surface sediment,Pond,1980,Ecuador-Amazonia
+440,0.113,-76.913,L. Agrio,Ecuador-Amazonia,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Amazonia
+441,-0.399,-76.614,Limoncocha,Ecuador-Amazonia,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Amazonia
+442,-0.473,-76.46,Mandicocha,Ecuador-Amazonia,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Amazonia
+443,-0.465,-76.759,Taracoa,Ecuador-Amazonia,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Amazonia
+444,-0.500232,-76.370802,Garzacocha,Ecuador-Amazonia,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Amazonia
+445,-0.603,-75.483,Zancudococha,Ecuador-Amazonia,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Amazonia
+446,-0.525,-76.437,Anangucocha,Ecuador-Amazonia,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Amazonia
+447,-1.532,-77.997,Pecari,Ecuador-Amazonia,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Amazonia
+448,-1.546,-78.004,Puyo,Ecuador-Amazonia,epipelon,Steinitz-Kannan,surface sediment,Pond,1980,Ecuador-Amazonia
+449,-2.083,-78.017,Ayauchi,Ecuador-Amazonia,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Amazonia
+450,-3.045,-78.035,L. Kumpak,Ecuador-Amazonia,epipelon,Steinitz-Kannan,surface sediment,Lake,1980,Ecuador-Amazonia
+451,-17.497,-65.273,Ibirizu River,Sehuencas-EasternAndes,epilithic,Morales,modern,River,2007,Sehuencas-WesternAndes
+452,-17.527,-65.27,Stream 1,Sehuencas-EasternAndes,epilithic,Morales,modern,River,2007,Sehuencas-WesternAndes
+454,-17.543,-65.269,Sehuencas River,Sehuencas-EasternAndes,epilithic,Morales,modern,River,2007,Sehuencas-WesternAndes
+455,-17.553,-65.27,Stream 4,Sehuencas-EasternAndes,epilithic,Morales,modern,River,2007,Sehuencas-WesternAndes
+456,-15.7,-68.6,Stream 29,Sorata-EasternAndes,epilithic,Morales,modern,River,,
+457,-15.7,-68.6,Stream 30,Sorata-EasternAndes,epilithic,Morales,modern,River,,
+458,-15.75,-68.65,Stream 32,Sorata-EasternAndes,epilithic,Morales,modern,River,,
+459,-15.75,-68.634,Stream 31,Sorata-EasternAndes,epilithic,Morales,modern,River,,
+460,-15.751,-68.635,Stream 28,Sorata-EasternAndes,epilithic,Morales,modern,River,,
+461,-15.769,-68.652,Stream 27,Sorata-EasternAndes,epilithic,Morales,modern,River,,
+462,-15.851,-68.635,Stream 33,Sorata-EasternAndes,epilithic,Morales,modern,River,,
+463,-21.505,-68.01,Laguna Canapa,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+464,-21.547,-67.879,Chulluncani,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+465,-21.571,-68.052,Laguna Hedionda,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+466,-21.583,-68.067,Chiar Kkota,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+467,-21.62,-68.062,Pujio,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+468,-21.619,-68.065,Honda,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+469,-21.633,-68.083,Ballivian,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+470,-21.643,-68.079,Laguna Ramaditas,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+471,-21.65,-67.783,Pastos Grandes,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+472,-21.729,-67.942,Cachi,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+473,-22.183,-67.783,Laguna Colorada,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+474,-21.548,-67.878,Chulluncani,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+475,-22.517,-67.5,Puripica,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+476,-22.183,-67.783,Laguna Colorada,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+477,-22.8,-67.8,Laguna Verde,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+478,-21.65,-67.783,Pastos Grandes,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+479,-21.65,-67.783,Pastos Grandes,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+480,-21.65,-67.783,Pastos Grandes,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+481,-21.65,-67.783,Pastos Grandes,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+482,-21.65,-67.783,Pastos Grandes,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+483,-21.65,-67.783,Pastos Grandes,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+484,-21.65,-67.783,Pastos Grandes,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+485,-21.65,-67.783,Pastos Grandes,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+486,-21.65,-67.783,Pastos Grandes,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+487,-21.65,-67.783,Pastos Grandes,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+488,-21.65,-67.783,Pastos Grandes,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+489,-21.65,-67.783,Pastos Grandes,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+490,-21.65,-67.783,Pastos Grandes,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+491,-21.65,-67.783,Pastos Grandes,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+492,-21.65,-67.783,Pastos Grandes,Vildary-Sud Lipez,epipelon,Servant-Vildary,surface sediment,Lake,2002,Sud Lipez
+493,6.638,-75.657,Belmira,Colombia-Andes-Central,epilithic,Velez,modern,Lake,2013,Colombia-Andes-Central
+494,6.638,-75.657,Belmira,Colombia-Andes-Central,epipelon,Velez,surface sediment,Lake,2013,Colombia-Andes-Central
+495,6.638,-75.657,Belmira,Colombia-Andes-Central,phytoplankton,Velez,modern,Lake,2013,Colombia-Andes-Central
+496,6.272,-75.524,Guarne,Colombia-Andes-Central,epipelon,Velez,surface sediment,Lake,2001,Colombia-Andes-Central
+497,6.272,-75.524,Guarne,Colombia-Andes-Central,phytoplankton,Velez,modern,Lake,2001,Colombia-Andes-Central
+498,5.285,-73.782,Cucunoba,Colombia-Andes-Eastern,periphyton,Velez,modern,Lake,2001,Colombia-Andes-Eastern
+499,5.28,-73.78,Cucunoba,Colombia-Andes-Eastern,phytoplankton,Velez,modern,Lake,2001,Colombia-Andes-Eastern
+500,4.561,-74.022,Verjon,Colombia-Andes-Eastern,periphyton,Velez,modern,Lake,2001,Colombia-Andes-Eastern
+501,4.561,-74.022,Verjon,Colombia-Andes-Eastern,phytoplankton,Velez,modern,Lake,2001,Colombia-Andes-Eastern
+502,4.561,-74.022,Verjon,Colombia-Andes-Eastern,epipelon,Velez,surface sediment,Lake,2001,Colombia-Andes-Eastern
+503,4.69,-74.27,Herrera,Colombia-Andes-Eastern,periphyton,Velez,modern,Lake,2001,Colombia-Andes-Eastern
+504,4.69,-74.27,Herrera,Colombia-Andes-Eastern,phytoplankton,Velez,modern,Lake,2001,Colombia-Andes-Eastern
+505,5.185,-73.783,Suesca,Colombia-Andes-Eastern,epipelon,Velez,surface sediment,Lake,2001,Colombia-Andes-Eastern
+506,5.185,-73.783,Suesca,Colombia-Andes-Eastern,phytoplankton,Velez,modern,Lake,2001,Colombia-Andes-Eastern
+507,4.5,-73.935,Ubaque,Colombia-Andes-Eastern,phytoplankton,Velez,modern,Lake,2014,Colombia-Andes-Eastern
+508,4.5,-73.935,Ubaque,Colombia-Andes-Eastern,phytoplankton,Velez,modern,Lake,2014,Colombia-Andes-Eastern
+509,4.5,-73.935,Ubaque,Colombia-Andes-Eastern,phytoplankton,Velez,modern,Lake,2014,Colombia-Andes-Eastern
+510,4.5,-73.935,Ubaque,Colombia-Andes-Eastern,phytoplankton,Velez,modern,Lake,2014,Colombia-Andes-Eastern
+511,4.5,-73.935,Ubaque,Colombia-Andes-Eastern,phytoplankton,Velez,modern,Lake,2014,Colombia-Andes-Eastern
+512,4.5,-73.935,Ubaque,Colombia-Andes-Eastern,phytoplankton,Velez,modern,Lake,2014,Colombia-Andes-Eastern
+513,4.5,-73.935,Ubaque,Colombia-Andes-Eastern,phytoplankton,Velez,modern,Lake,2014,Colombia-Andes-Eastern
+514,4.5,-73.935,Ubaque,Colombia-Andes-Eastern,phytoplankton,Velez,modern,Lake,2014,Colombia-Andes-Eastern
+515,4.5,-73.935,Ubaque,Colombia-Andes-Eastern,phytoplankton,Velez,modern,Lake,2014,Colombia-Andes-Eastern
+516,4.5,-73.935,Ubaque,Colombia-Andes-Eastern,phytoplankton,Velez,modern,Lake,2014,Colombia-Andes-Eastern
+517,4.5,-73.935,Ubaque,Colombia-Andes-Eastern,phytoplankton,Velez,modern,Lake,2014,Colombia-Andes-Eastern
+518,4.5,-73.935,Ubaque,Colombia-Andes-Eastern,phytoplankton,Velez,modern,Lake,2014,Colombia-Andes-Eastern
+519,5.466,-73.752,Fuquene,Colombia-Andes-Eastern,epipelon,Velez,surface sediment,Lake,2001,Colombia-Andes-Eastern
+520,5.466,-73.752,Fuquene,Colombia-Andes-Eastern,phytoplankton,Velez,modern,Lake,2001,Colombia-Andes-Eastern
+521,5.466,-73.752,Fuquene,Colombia-Andes-Eastern,phytoplankton,Velez,modern,Lake,2001,Colombia-Andes-Eastern
+522,5.466,-73.752,Fuquene,Colombia-Andes-Eastern,phytoplankton,Velez,modern,Lake,2001,Colombia-Andes-Eastern
+523,4.972,-73.83,Guatavita,Colombia-Andes-Eastern,periphyton,Velez,modern,Lake,2001,Colombia-Andes-Eastern
+524,4.972,-73.83,Guatavita,Colombia-Andes-Eastern,phytoplankton,Velez,modern,Lake,2001,Colombia-Andes-Eastern
+525,8.318,-75.118,Ayapel,Colombia-Lowlands-North,epipelon,Velez,surface sediment,Lake,2001,Colombia-Lowlands-North
+526,8.318,-75.118,Ayapel,Colombia-Lowlands-North,phytoplankton,Velez,modern,Lake,2001,Colombia-Lowlands-North
+527,8.318,-75.118,Ayapel,Colombia-Lowlands-North,periphyton,Velez,modern,Lake,2001,Colombia-Lowlands-North
+528,8.318,-75.118,Ayapel,Colombia-Lowlands-North,phytoplankton,Velez,modern,Lake,2001,Colombia-Lowlands-North
+529,3.378,-73.424,Margaritas,Colombia-Lowlands-Eastern,epipelon,Velez,surface sediment,Lake,2001,Colombia-Lowlands-Eastern
+530,3.378,-73.424,Margaritas,Colombia-Lowlands-Eastern,phytoplankton,Velez,modern,Lake,2001,Colombia-Lowlands-Eastern
+531,3.378,-73.424,Margaritas,Colombia-Lowlands-Eastern,epipelon,Velez,surface sediment,Lake,2001,Colombia-Lowlands-Eastern
+532,4.58,-71.33,Carimagua,Colombia-Lowlands-Eastern,epipelon,Velez,surface sediment,Lake,2001,Colombia-Lowlands-Eastern
+533,4.58,-71.33,Carimagua,Colombia-Lowlands-Eastern,epipelon,Velez,surface sediment,Lake,2001,Colombia-Lowlands-Eastern
+534,4.58,-71.33,Carimagua,Colombia-Lowlands-Eastern,phytoplankton,Velez,modern,Lake,2001,Colombia-Lowlands-Eastern
+535,4.58,-71.33,Carimagua,Colombia-Lowlands-Eastern,phytoplankton,Velez,modern,Lake,2001,Colombia-Lowlands-Eastern
+536,4.58,-71.33,Carimagua,Colombia-Lowlands-Eastern,epipelon,Velez,surface sediment,Lake,2001,Colombia-Lowlands-Eastern
+537,4.133,-73.38,Pinal,Colombia-Lowlands-Eastern,epipelon,Velez,surface sediment,Lake,2001,Colombia-Lowlands-Eastern
+538,4.133,-73.38,Pinal,Colombia-Lowlands-Eastern,epipelon,Velez,surface sediment,Lake,2001,Colombia-Lowlands-Eastern
+539,4.133,-73.38,Pinal,Colombia-Lowlands-Eastern,phytoplankton,Velez,modern,Lake,2001,Colombia-Lowlands-Eastern
+540,5.134,-72.753,Juncal,Colombia-Lowlands-Western,epipelon,Velez,surface sediment,Lake,2001,Colombia-Lowlands-Western
+541,5.134,-72.753,Juncal,Colombia-Lowlands-Western,phytoplankton,Velez,modern,Lake,2001,Colombia-Lowlands-Western
+542,5.134,-72.753,Juncal,Colombia-Lowlands-Western,phytoplankton,Velez,modern,Lake,2001,Colombia-Lowlands-Western
+543,6.478,-75.765,Antioquia,Colombia-Lowlands-Western,periphyton,Velez,modern,Lake,2001,Colombia-Lowlands-Western
+544,6.568,-75.8,Antioquia,Colombia-Lowlands-Western,phytoplankton,Velez,modern,Lake,2001,Colombia-Lowlands-Western
+545,6.568,-75.8,Antioquia,Colombia-Lowlands-Western,epipelon,Velez,surface sediment,Lake,2001,Colombia-Lowlands-Western
+546,6.595,-75.814,Antioquia,Colombia-Lowlands-Western,phytoplankton,Velez,modern,Lake,2001,Colombia-Lowlands-Western
+547,6.595,-75.814,Antioquia,Colombia-Lowlands-Western,epipelon,Velez,surface sediment,Lake,2001,Colombia-Lowlands-Western
+548,6.595,-75.814,Antioquia,Colombia-Lowlands-Western,periphyton,Velez,modern,Lake,2001,Colombia-Lowlands-Western
+549,6.563,-75.801,Antioquia,Colombia-Lowlands-Western,phytoplankton,Velez,modern,Lake,2001,Colombia-Lowlands-Western
+550,6.563,-75.801,Antioquia,Colombia-Lowlands-Western,periphyton,Velez,modern,Lake,2001,Colombia-Lowlands-Western
+551,6.563,-75.801,Antioquia,Colombia-Lowlands-Western,periphyton,Velez,modern,Lake,2001,Colombia-Lowlands-Western
+552,-30.823,-62.313,Mar Chiquita,McGlue-lowlands,epipelon,McGlue,surface sediment,Lake,2008,Argentina-MarChiquita
+553,-30.85,-62.637,Mar Chiquita,McGlue-lowlands,epipelon,McGlue,surface sediment,Lake,2008,Argentina-MarChiquita
+554,-30.82,-62.782,Mar Chiquita,McGlue-lowlands,epipelon,McGlue,surface sediment,Lake,2008,Argentina-MarChiquita
+555,-18.392,-57.508,Baia Vermelha,McGlue-lowlands,epipelon,McGlue,surface sediment,Lake,2011,Pantanal
+556,-18.392,-57.508,Baia Vermelha,McGlue-lowlands,epipelon,McGlue,surface sediment,Lake,2011,Pantanal
+557,-18.392,-57.508,Baia Vermelha,McGlue-lowlands,epipelon,McGlue,surface sediment,Lake,2011,Pantanal
+558,-18.138,-57.55,Lagoon Mandiore,McGlue-lowlands,epipelon,McGlue,surface sediment,Lake,,
+559,-18.9,-56.513,Nhecolandia,McGlue-lowlands,epipelon,McGlue,surface sediment,Lake,2011,Pantanal
+560,-18.928,-56.552,Nhecolandia,McGlue-lowlands,epipelon,McGlue,surface sediment,Lake,,
+561,-18.983,-56.662,Nhecolandia,McGlue-lowlands,epipelon,McGlue,surface sediment,Lake,,
+562,-2.771,-79.233,Pallcacocha,Ecuador project NGEO-July,,Fritz-Benito-Feitl,core top,Lake,2017,Ecuador-Andean
+563,-2.843,-79.146,Llaviucu,Ecuador project NGEO-July,,Fritz-Benito-Feitl,core top,Lake,2017,Ecuador-Andean
+564,0.217,-78.233,San Pablo,Ecuador project NGEO-February,epipelon,Fritz-Benito-Feitl,surface sediment,Lake,2017,Ecuador-Interandean
+565,0.371,-78.102,Yahuarcocha,Ecuador project NGEO-February,epipelon,Fritz-Benito-Feitl,surface sediment,Lake,2017,Ecuador-Interandean
+566,0.235,-78.089,Cunrro,Ecuador project NGEO-February,epipelon,Fritz-Benito-Feitl,surface sediment,Lake,2017,Ecuador-Interandean
+567,0.235,-78.089,Cunrro,Ecuador project NGEO-February,periphyton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Interandean
+568,0.232,-78.134,Cubilche,Ecuador project NGEO-February,epipelon,Fritz-Benito-Feitl,surface sediment,Lake,2017,Ecuador-Andean
+569,0.232,-78.134,Cubilche,Ecuador project NGEO-February,periphyton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+570,0.138,-78.266,Caricocha,Ecuador project NGEO-February,epipelon,Fritz-Benito-Feitl,surface sediment,Lake,2017,Ecuador-Andean
+571,0.114,-78.273,Chiriacu,Ecuador project NGEO-February,epipelon,Fritz-Benito-Feitl,surface sediment,Lake,2017,Ecuador-Andean
+572,0.114,-78.273,Chiriacu,Ecuador project NGEO-February,periphyton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+573,0.3,-78.367,Cuicocha,Ecuador project NGEO-February,epipelon,Fritz-Benito-Feitl,surface sediment,Lake,2017,Ecuador-Andean
+574,0.3,-78.367,Cuicocha,Ecuador project NGEO-February,periphyton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+575,0.124,-78.251,Yanacocha,Ecuador project NGEO-February,epipelon,Fritz-Benito-Feitl,surface sediment,Lake,2017,Ecuador-Andean
+576,0.124,-78.251,Yanacocha,Ecuador project NGEO-February,periphyton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+577,0.129,-78.254,Huarmicocha,Ecuador project NGEO-February,epipelon,Fritz-Benito-Feitl,surface sediment,Lake,2017,Ecuador-Andean
+578,0.129,-78.254,Huarmicocha,Ecuador project NGEO-February,periphyton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+579,-1.104,-78.586,Yambo,Ecuador project NGEO-February,epipelon,Fritz-Benito-Feitl,surface sediment,Lake,2017,Ecuador-Interandean
+580,-1.104,-78.586,Yambo,Ecuador project NGEO-February,periphyton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Interandean
+581,0.114,-77.965,San Marcos,Ecuador project NGEO-February,,Fritz-Benito-Feitl,core top,Lake,2017,Ecuador-Andean
+582,0.371,-78.102,Yahuarcocha,Ecuador project NGEO-July,plankton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Interandean
+583,0.371,-78.102,Yahuarcocha,Ecuador project NGEO-July,,Fritz-Benito-Feitl,core top,Lake,2017,Ecuador-Interandean
+584,0.506,-78.444,Pinan,Ecuador project NGEO-July,,Fritz-Benito-Feitl,core top,Lake,2017,Ecuador-Andean
+585,0.506,-78.444,Pinan,Ecuador project NGEO-July,periphyton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+586,0.506,-78.444,Pinan,Ecuador project NGEO-July,plankton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+588,-2.912,-79.292,Jigeno,Ecuador project NGEO-July,,Fritz-Benito-Feitl,core top,Lake,2017,Ecuador-Andean
+589,-2.912,-79.292,Jigeno,Ecuador project NGEO-July,periphyton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+590,-2.912,-79.292,Jigeno,Ecuador project NGEO-July,plankton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+591,-2.913,-79.254,Estrellascocha,Ecuador project NGEO-July,,Fritz-Benito-Feitl,core top,Lake,2017,Ecuador-Andean
+592,-2.913,-79.254,Estrellascocha,Ecuador project NGEO-July,periphyton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+593,-2.913,-79.254,Estrellascocha,Ecuador project NGEO-July,plankton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+594,-2.781,-79.224,Toreadora,Ecuador project NGEO-July,,Fritz-Benito-Feitl,core top,Lake,2017,Ecuador-Andean
+595,-2.781,-79.224,Toreadora,Ecuador project NGEO-July,periphyton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+596,-2.781,-79.224,Toreadora,Ecuador project NGEO-July,plankton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+597,-2.781,-79.219,Marmolcocha,Ecuador project NGEO-July,,Fritz-Benito-Feitl,core top,Lake,2017,Ecuador-Andean
+598,-2.781,-79.219,Marmolcocha,Ecuador project NGEO-July,periphyton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+599,-2.781,-79.219,Marmolcocha,Ecuador project NGEO-July,plankton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+600,-2.754,-79.232,Pinancocha,Ecuador project NGEO-July,,Fritz-Benito-Feitl,core top,Lake,2017,Ecuador-Andean
+601,-2.754,-79.232,Pinancocha,Ecuador project NGEO-July,periphyton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+602,-2.754,-79.232,Pinancocha,Ecuador project NGEO-July,plankton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+603,-2.782,-79.209,Patoquinuas,Ecuador project NGEO-July,,Fritz-Benito-Feitl,core top,Lake,2017,Ecuador-Andean
+604,-2.782,-79.209,Patoquinuas,Ecuador project NGEO-July,periphyton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+605,-2.782,-79.209,Patoquinuas,Ecuador project NGEO-July,plankton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+606,-2.766,-79.229,Rinoncocha,Ecuador project NGEO-July,,Fritz-Benito-Feitl,core top,Lake,2017,Ecuador-Andean
+607,-2.766,-79.229,Rinoncocha,Ecuador project NGEO-July,periphyton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+608,-2.766,-79.229,Rinoncocha,Ecuador project NGEO-July,plankton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+609,-2.76,-79.236,Fondococha,Ecuador project NGEO-July,,Fritz-Benito-Feitl,core top,Lake,2017,Ecuador-Andean
+610,-2.76,-79.236,Fondococha,Ecuador project NGEO-July,periphyton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+611,-2.77,-79.16,Dos Chorreras,Ecuador project NGEO-July,,Fritz-Benito-Feitl,core top,Lake,2017,Ecuador-Andean
+612,-2.77,-79.16,Dos Chorreras,Ecuador project NGEO-July,periphyton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+613,-2.77,-79.16,Dos Chorreras,Ecuador project NGEO-July,plankton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+614,-0.500232,-76.370802,Garzacocha,Ecuador project NGEO-July,periphyton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Amazonia
+615,-0.500232,-76.370802,Garzacocha,Ecuador project NGEO-July,,Fritz-Benito-Feitl,core top,Lake,2017,Ecuador-Amazonia
+616,-0.500232,-76.370802,Garzacocha,Ecuador project NGEO-July,plankton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Amazonia
+617,-0.473,-76.46,Mandicocha,Ecuador project NGEO-July,,Fritz-Benito-Feitl,core top,Lake,2017,Ecuador-Amazonia
+618,-0.473,-76.46,Mandicocha,Ecuador project NGEO-July,periphyton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Amazonia
+619,-0.525,-76.437,Anangucocha,Ecuador project NGEO-July,plankton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Amazonia
+620,-0.525,-76.437,Anangucocha,Ecuador project NGEO-July,,Fritz-Benito-Feitl,core top,Lake,2017,Ecuador-Amazonia
+621,-0.399,-76.614,Limoncocha,Ecuador project NGEO-July,plankton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Amazonia
+622,-0.399,-76.614,Limoncocha,Ecuador project NGEO-July,periphyton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Amazonia
+623,-0.399,-76.614,Limoncocha,Ecuador project NGEO-July,,Fritz-Benito-Feitl,core top,Lake,2017,Ecuador-Amazonia
+624,-1.727,-78.759,Colta-1,Ecuador project NGEO-July,plankton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Interandean
+625,-1.727,-78.759,Colta-1,Ecuador project NGEO-July,periphyton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Interandean
+626,-1.727,-78.759,Colta-1,Ecuador project NGEO-July,,Fritz-Benito-Feitl,core top,Lake,2017,Ecuador-Interandean
+627,-1.727,-78.759,Colta-2,Ecuador project NGEO-July,plankton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Interandean
+628,-1.727,-78.759,Colta-2,Ecuador project NGEO-July,,Fritz-Benito-Feitl,core top,Lake,2017,Ecuador-Interandean
+629,-2.18,-78.5,Kuyuk,Ecuador project NGEO-July,,Fritz-Benito-Feitl,core top,Lake,2017,Ecuador-Andean
+630,-2.18,-78.5,Kuyuk,Ecuador project NGEO-July,periphyton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+631,-2.18,-78.5,Kuyuk,Ecuador project NGEO-July,plankton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+632,-2.177,-78.504,Laguna Negra-Sangay,Ecuador project NGEO-July,plankton,Fritz-Benito-Feitl,modern,Lake,2017,Ecuador-Andean
+633,-35.75,-72.217,Cienagas de Name,Chile-Carrevedo,,MLCarrevedo,core top,Lake,2013,Chile-Coastal
+634,-33.202,-70.824,Batuco,Chile-Carrevedo,,MLCarrevedo,core top,Lake,2013,Chile-Coastal
+635,-33.846,-70.915,Aculeo,Chile-Carrevedo,,MLCarrevedo,core top,Lake,2013,Chile-Coastal
+636,-33.648,-70.125,Laguna Negra-Chile,Chile-Carrevedo,,MLCarrevedo,core top,Lake,2013,Chile-Andean
+637,-33.752,-71.679,Laguna Albufera,Chile-Carrevedo,,MLCarrevedo,core top,Lake,2013,Chile-Coastal
+638,-32.087,-70.585,Laguna Canchuca,Chile-Carrevedo,,MLCarrevedo,core top,Lake,2013,Chile-Andean
+639,-33.647,-70.063,Lo Encanado,Chile-Carrevedo,,MLCarrevedo,core top,Lake,2013,Chile-Andean
+640,-33.288,-71.653,Humedal de Tunquien,Chile-Carrevedo,,MLCarrevedo,core top,Lake,2013,Chile-Coastal
+641,-35.177,-70.549,Laguna de Teno,Chile-Carrevedo,plankton,MLCarrevedo,modern,Lake,2013,Chile-Andean
+642,-32.6,-70.558,Laguna Copin,Chile-Carrevedo,,MLCarrevedo,core top,Lake,2013,Chile-Andean
+643,-33.505,-71.606,Peral,Chile-Carrevedo,,MLCarrevedo,core top,Lake,2013,Chile-Coastal
+644,-34.806,-72.055,Vichuquen,Chile-Carrevedo,,MLCarrevedo,core top,Lake,2013,Chile-Coastal
+645,-32.257,-70.497,Chepical,Chile-Carrevedo,,MLCarrevedo,core top,Lake,2013,Chile-Andean
+646,-34.03,-70.317,Laguna Ocho,Chile-Carrevedo,,MLCarrevedo,core top,Lake,2013,Chile-Andean
+647,-33.43,-70.841,Laguna Caren,Chile-Carrevedo,,MLCarrevedo,core top,Lake,2013,Chile-Coastal
+648,-32.822,-70.133,Laguna del Inca,Chile-Carrevedo,,MLCarrevedo,core top,Lake,2013,Chile-Andean
+649,-36.06,-70.489,El Maule,Chile-Blas,,Blas Valero-Garcê©s,core top,Lake,0,Chile-Andean
+650,-34.806,-72.055,Vichuquen,Chile-Blas,,Blas Valero-Garcê©s,core top,Lake,0,Chile-Coastal
+651,-33.763,-71.676,Matanzas,Chile-Blas,,Blas Valero-Garcê©s,core top,Lake,0,Chile-Coastal
+652,-33.505,-71.606,Peral,Chile-Blas,,Blas Valero-Garcê©s,core top,Lake,0,Chile-Coastal
+653,-36.86,-73.111,Laguna Grande,Chile-Blas,,Blas Valero-Garcê©s,core top,Lake,0,Chile-Coastal
+654,-33.647,-70.063,Lo Encanado,Chile-Blas,,Blas Valero-Garcê©s,core top,Lake,0,Chile-Andean
+655,-23.73,-67.77,Laguna Miscanti,Chile-Blas,,Blas Valero-Garcê©s,core top,Lake,0,Chile-Andean
+656,-23.769,-67.791,Miê±iques,Chile-Blas,,Blas Valero-Garcê©s,core top,Lake,0,Chile-Andean
+660,-33.846,-70.915,Aculeo,Chile-Blas,,Blas Valero-Garcê©s,core top,Lake,0,Chile-Coastal
+661,-32.257,-70.497,Chepical,Chile-Blas,,Blas Valero-Garcê©s,core top,Lake,0,Chile-Andean
+662,-33.202,-70.824,Batuco,Chile-Blas,,Blas Valero-Garcê©s,core top,Lake,0,Chile-Coastal
+663,-33.765,-71.702,Colejuda,Chile-Blas,,Blas Valero-Garcê©s,core top,Lake,0,Chile-Coastal
+664,-26.501,-68.1,Peinado,Chile-Blas,,Blas Valero-Garcê©s,core top,Lake,0,Chile-Andean
+666,-35.75,-72.217,Cienagas de Name,Chile-Blas,,Blas Valero-Garcê©s,core top,Lake,0,Chile-Coastal
+667,-27.646,-68.543,Laguna Negra-Arg,Universitê© Grenoble Alpes,,Stephanie Guedron,surface sediment,Lake,2017,Argentina-Andean
