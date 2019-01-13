@@ -1,4 +1,4 @@
-setwd("~/Documents/ubuntu-sf/dbBGSA/leaflet")
+#setwd("~/Documents/ubuntu-sf/dbBGSA/leaflet")
 
 library(leaflet)
 library(tidyverse)
@@ -7,7 +7,7 @@ library(shiny)
 diatom_data <- read.csv("Diatom_Biogeography_South_America_DB-def.csv", stringsAsFactors = FALSE)
 
 #filter only unique sitenames
-diatom_subset <- diatom_data %>% filter(!region=="Tierra del Fuego" & !Habitat=="channel") #not working
+diatom_subset <- diatom_data %>% filter(!region=="Tierra del Fuego" & !Habitat=="channel")
 
 #plot 
 map <- leaflet() %>% 
