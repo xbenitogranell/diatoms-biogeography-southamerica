@@ -2,11 +2,9 @@
 title: "Tropical South American Diatom Database"
 author: "Xavier Benito"
 date: "1/13/2019"
+output: github_document
+#always_allow_html: yes
 
-#runtime: shiny
-output: 
-github_document:
-    html_preview: false
 ---
 
 
@@ -22,7 +20,7 @@ library(shiny)
 ```
 
 Load inventory of sites
-```{r load_diatoms}
+```{r}
 diatom_data <- read.csv("Diatom_Biogeography_South_America_DB-def.csv", stringsAsFactors = FALSE)
 
 head(diatom_data)
