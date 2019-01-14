@@ -3,17 +3,12 @@ title: "Tropical South American Diatom Database"
 author: "Xavier Benito"
 date: "1/13/2019"
 
-runtime: shiny
+#runtime: shiny
 output: 
-  github_document
-    theme: journal
-    toc: true
-    toc_depth: 2
-    number_sections: true
-    code_folding: show
-    
-always_allow_html: yes
+github_document:
+    html_preview: false
 ---
+
 
 This repository contains a georeferenced inventory of sites of diatom samples in tropical South America. 
 The database includes diatom (unicelular siliceous algae) data and associated environmental variables of waterbody sites (streams, wetlands and lakes), covering an altitudinal gradient from 220 to 5,070 m a.s.l. between 8°N–30°S and 58–79°W.
