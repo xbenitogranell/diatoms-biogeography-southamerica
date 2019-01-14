@@ -3,6 +3,7 @@ title: "Tropical South American Diatom Database"
 author: "Xavier Benito"
 date: "1/13/2019"
 output: github_document
+always_allow_html: yes
 ---
 
 This repository contains a georeferenced inventory of sites of diatom samples in tropical South America. 
@@ -10,6 +11,38 @@ The database includes diatom (unicelular siliceous algae) data and associated en
 
 More info: http://www.xavierbenito.com/bgsa/bgsa.html 
 
+```{r echo=FALSE}
+library(leaflet)
+library(tidyverse)
+library(shiny)
+```
 
+Load inventory of sites
+```{r load_diatoms}
+diatom_data <- read.csv("Diatom_Biogeography_South_America_DB-def.csv", stringsAsFactors = FALSE)
 
+head(diatom_data)
+```
+
+Filter out certain sites
+```{r echo=FALSE}
+diatom_subset <- diatom_data %>% filter(!region=="Tierra del Fuego" & !Habitat=="channel")
+
+```
+
+Create a leaflet map
+```{r}
+map <- leaflet() %>% 
+  addProviderTiles("Esri.WorldImagery") %>% 
+  addMarkers(lat = diatom_subset$lat, 
+             lng = diatom_subset$long,
+             clusterOptions = markerClusterOptions(),
+             popup = paste("<strong>", "Site: ", "</strong>", as.character(diatom_subset$SiteName), "<br>",
+                           "<strong>", "Habitat: ", "</strong>", as.character(diatom_subset$Habitat), "<br>",
+                           "<strong>", "Sample type: ", "</strong>", as.character(diatom_subset$SampleType), "<br>",
+                           "<strong>", "Collection: ", "</strong>", as.character(diatom_subset$Collection)))
+                           
+
+map
+```
 
