@@ -11,7 +11,7 @@ The database includes diatom (unicelular siliceous algae) data and associated en
 
 More info: http://www.xavierbenito.com/bgsa/bgsa.html 
 
-```{r echo=FALSE}
+```{r}
 library(leaflet)
 library(tidyverse)
 library(shiny)
@@ -25,7 +25,7 @@ head(diatom_data)
 ```
 
 Filter out certain sites
-```{r echo=FALSE}
+```{r}
 diatom_subset <- diatom_data %>% filter(!region=="Tierra del Fuego" & !Habitat=="channel")
 
 ```
