@@ -74,3 +74,49 @@ map
 ```
 
 ![](diatomdb_files/figure-markdown_github/unnamed-chunk-4-1.png)
+
+Create a shiny app to display habitat types
+
+``` r
+shinyApp(
+  ui = fluidPage(
+     tags$div(title = "This input has a tool tip",
+             selectInput(inputId = "habitat", 
+                         label = "Habitat type", 
+                         choices = sort(unique(diatom_subset$Habitat)))),
+    leafletOutput("MapPlot1")
+  ),
+  
+  server = function(input, output) {
+    
+    output$MapPlot1 <- renderLeaflet({
+      leaflet() %>% 
+        addProviderTiles("Esri.WorldImagery") %>% 
+        setView(lng = -68, lat = -15, zoom = 3)
+    })
+    
+    observe({
+      
+      habitat <- input$habitat
+      
+      sites <- diatom_subset %>% 
+        filter(diatom_subset$Habitat %in% habitat)
+      
+      leafletProxy("MapPlot1") %>% clearMarkers() %>% 
+        addCircleMarkers(lng = sites$long,
+                        lat = sites$lat,
+        popup = paste("<strong>", "Site: ", "</strong>", as.character(sites$SiteName), "<br>",
+                      "<strong>", "Habitat: ", "</strong>", as.character(sites$Habitat), "<br>",
+                      "<strong>", "Sample type: ", "</strong>", as.character(sites$SampleType), "<br>",
+                      "<strong>", "Collection: ", "</strong>", as.character(sites$Collection)))
+
+    })
+  },
+  options = list(height = 600)
+)
+```
+
+    ## 
+    ## Listening on http://127.0.0.1:7360
+
+![](diatomdb_files/figure-markdown_github/TheShinyExample-1.png)
