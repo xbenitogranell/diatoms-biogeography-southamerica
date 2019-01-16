@@ -1,7 +1,6 @@
 ---
 title: "Tropical South American Diatom Database"
 author: "Xavier Benito"
-date: "1/13/2019"
 
 runtime: shiny
 output: 
