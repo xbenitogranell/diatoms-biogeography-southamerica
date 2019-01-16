@@ -2,9 +2,11 @@
 title: "Tropical South American Diatom Database"
 author: "Xavier Benito"
 date: "1/13/2019"
-output: github_document
-#runtime: shiny
-#always_allow_html: yes
+
+runtime: shiny
+output: 
+  html_document:
+    code_folding: show
 
 ---
 
