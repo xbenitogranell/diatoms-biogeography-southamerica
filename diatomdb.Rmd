@@ -28,13 +28,13 @@ diatom_data <- read.csv("Diatom_Biogeography_South_America_DB-def.csv", stringsA
 head(diatom_data)
 ```
 
-Filter out certain sites
+Filter out non-tropical sites
 ```{r}
 diatom_subset <- diatom_data %>% filter(!region=="Tierra del Fuego" & !Habitat=="channel")
 
 ```
 
-Create a leaflet map
+Create a leaflet map. Click on the markers to see site's basic information
 ```{r}
 map <- leaflet() %>% 
   addProviderTiles("Esri.WorldImagery") %>% 
@@ -47,11 +47,10 @@ map <- leaflet() %>%
                            "<strong>", "Collection: ", "</strong>", as.character(diatom_subset$Collection)))
                            
 
-map
 ```
 
 
-Create a shiny app to display habitat types
+Create a shiny app to display habitat types. Click on the markers to see site's basic information
 ```{r TheShinyExample, warning = FALSE}
 shinyApp(
   ui = fluidPage(
