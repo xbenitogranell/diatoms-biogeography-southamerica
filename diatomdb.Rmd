@@ -1,6 +1,6 @@
 ---
 title: "Tropical South American Diatom Database"
-author: "Xavier Benito"
+author: "Xavier Benito and multiple collaborators"
 
 runtime: shiny
 output: 
@@ -28,7 +28,7 @@ diatom_data <- read.csv("Diatom_Biogeography_South_America_DB-def.csv", stringsA
 head(diatom_data)
 ```
 
-Filter out non-tropical sites
+Filter out non-tropical sites and artifical habitats
 ```{r}
 diatom_subset <- diatom_data %>% filter(!region=="Tierra del Fuego" & !Habitat=="channel")
 
@@ -50,7 +50,7 @@ map
 ```
 
 
-Create a shiny app to display habitat types. Click on the markers to see site's basic information
+Create a shiny map to display habitat types. Click on the markers to see site's basic information
 ```{r TheShinyExample, warning = FALSE}
 shinyApp(
   ui = fluidPage(
