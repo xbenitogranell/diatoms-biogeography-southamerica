@@ -23,7 +23,7 @@ library(shiny)
 
 Load inventory of sites
 ```{r}
-diatom_data <- read.csv("Diatom_Biogeography_South_America_DB-def.csv", stringsAsFactors = FALSE)
+diatom_data <- read.csv("data/Diatom_Biogeography_South_America_DB-def.csv", stringsAsFactors = FALSE)
 
 head(diatom_data)
 ```
