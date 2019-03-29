@@ -83,11 +83,11 @@ shinyApp(
    leafletProxy("MapPlot1") %>% clearMarkers() %>% 
    addCircleMarkers(lng = sites$long,
                    lat = sites$lat,
-                   popup = paste("<strong>", "Site: ", "</strong>", as.character(diatom_subset$SiteName), "<br>",
-                           "<strong>", "Habitat: ", "</strong>", as.character(diatom_subset$Habitat), "<br>",
-                           "<strong>", "Sample type: ", "</strong>", as.character(diatom_subset$SampleType), "<br>",
-                           "<strong>", "Collection: ", "</strong>", as.character(diatom_subset$Collection), "<br>",
-                           "<strong>", "Year: ", "</strong>", as.character(diatom_subset$Year)))
+                   popup = paste("<strong>", "Site: ", "</strong>", as.character(sites$SiteName), "<br>",
+                           "<strong>", "Habitat: ", "</strong>", as.character(sites$Habitat), "<br>",
+                           "<strong>", "Sample type: ", "</strong>", as.character(sites$SampleType), "<br>",
+                           "<strong>", "Collection: ", "</strong>", as.character(sites$Collection), "<br>",
+                           "<strong>", "Year: ", "</strong>", as.character(sites$Year)))
 
     })
   },
