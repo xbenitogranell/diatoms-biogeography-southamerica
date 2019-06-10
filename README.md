@@ -1,4 +1,4 @@
-* Tropical South American Diatom Database
+# Tropical South American Diatom Database
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
