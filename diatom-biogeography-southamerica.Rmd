@@ -3,13 +3,13 @@ title: "Tropical South American Diatom Database"
 author: "Xavier Benito and multiple collaborators"
 
 runtime: shiny
-output: html_document
+output: github_document
 ---
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
+  echo = TRUE,
   collapse = TRUE,
-  comment = "#>",
   out.width = "100%"
 )
 ```
@@ -18,10 +18,6 @@ This repository contains a georeferenced inventory of diatom sites of tropical S
 The [database](http://www.xavierbenito.com/bgsa/bgsa.html) includes diatom (unicelular siliceous algae) data and associated environmental variables of waterbody sites (streams, wetlands, lakes), covering an altitudinal gradient from 220 to 5,070 m a.s.l. between 8°N–30°S and 58–79°W.
 
 Datasets are mostly available on [Dryad](https://datadryad.org/resource/doi:10.5061/dryad.ck7pt) while here the aim is to provide a [leaflet](https://rstudio.github.io/leaflet/) map and [shiny](http://shiny.rstudio.com) app to interactively explore the database in R for promoting biodiversity, biogeographic and palaeoecological studies in tropical South America using diatoms as sentinel organisms.
-
-```{r include = FALSE}
-#knitr::opts_chunk$set(echo=FALSE)
-```
 
 ```{r}
 library(leaflet)
@@ -36,7 +32,6 @@ diatom_data <- read.csv("data/Diatom_Biogeography_South_America_DB-def.csv", str
 head(diatom_data)
 ```
 
-=======
 Filter out non-tropical sites and artifical habitats
 ```{r}
 diatom_subset <- diatom_data %>% filter(!region=="Tierra del Fuego" & !Habitat=="channel")
@@ -59,7 +54,6 @@ map <- leaflet() %>%
 map 
 ```
 
-=======
 Create a shiny map to display habitat types. Click on the markers to see site's basic information
 
 ```{r TheShinyExample, warning = FALSE}
