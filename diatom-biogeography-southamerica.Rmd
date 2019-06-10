@@ -5,7 +5,7 @@ author: "Xavier Benito and multiple collaborators"
 runtime: shiny
 output:
   md_document:
-    variant: markdown_github
+    variant: github_document
 ---
 
 
