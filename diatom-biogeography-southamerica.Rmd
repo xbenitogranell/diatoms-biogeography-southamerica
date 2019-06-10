@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD:diatomdb.Rmd
+=======
+title: "Tropical South American Diatom Database"
+author: "Xavier Benito and multiple collaborators"
+
+>>>>>>> 22f77ad9ad7a898b1d5105da012cde9471bb3f9f:diatom-biogeography-southamerica.Rmd
 runtime: shiny
 output: github_document
 ---
@@ -30,12 +36,16 @@ library(shiny)
 
 Load inventory of sites
 ```{r}
-diatom_data <- read.csv("Diatom_Biogeography_South_America_DB-def.csv", stringsAsFactors = FALSE)
+diatom_data <- read.csv("data/Diatom_Biogeography_South_America_DB-def.csv", stringsAsFactors = FALSE)
 
 head(diatom_data)
 ```
 
+<<<<<<< HEAD:diatomdb.Rmd
 Filter out non-tropical sites and erroneous habitat types
+=======
+Filter out non-tropical sites and artifical habitats
+>>>>>>> 22f77ad9ad7a898b1d5105da012cde9471bb3f9f:diatom-biogeography-southamerica.Rmd
 ```{r}
 diatom_subset <- diatom_data %>% filter(!region=="Tierra del Fuego" & !Habitat=="channel")
 
@@ -58,7 +68,11 @@ map
 ```
 
 
+<<<<<<< HEAD:diatomdb.Rmd
 Create a shiny app to visualize what habitat types exist in the DB. Click on the markers to see site's basic information
+=======
+Create a shiny map to display habitat types. Click on the markers to see site's basic information
+>>>>>>> 22f77ad9ad7a898b1d5105da012cde9471bb3f9f:diatom-biogeography-southamerica.Rmd
 ```{r TheShinyExample, warning = FALSE}
 shinyApp(
   ui = fluidPage(
