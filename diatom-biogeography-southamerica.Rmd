@@ -3,9 +3,7 @@ title: "Tropical South American Diatom Database"
 author: "Xavier Benito and multiple collaborators"
 
 runtime: shiny
-output:
-  md_document:
-    variant: github_document
+output: rmarkdown::github_document
 ---
 
 
