@@ -3,8 +3,12 @@ title: "Tropical South American Diatom Database"
 author: "Xavier Benito and multiple collaborators"
 
 runtime: shiny
-output: github_document
+output:
+  md_document:
+    variant: markdown_github
 ---
+
+
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(

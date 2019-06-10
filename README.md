@@ -1,9 +1,3 @@
----
-output:
-  html_document: default
-  pdf_document: default
----
-
 # diatoms-biogeography-southamerica
 Tropical South American Diatom Database
 
