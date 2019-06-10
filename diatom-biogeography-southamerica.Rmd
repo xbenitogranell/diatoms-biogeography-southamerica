@@ -1,12 +1,9 @@
 ---
-<<<<<<< HEAD:diatomdb.Rmd
-=======
 title: "Tropical South American Diatom Database"
 author: "Xavier Benito and multiple collaborators"
 
->>>>>>> 22f77ad9ad7a898b1d5105da012cde9471bb3f9f:diatom-biogeography-southamerica.Rmd
 runtime: shiny
-output: github_document
+output: html_document
 ---
 
 ```{r, include = FALSE}
@@ -16,8 +13,6 @@ knitr::opts_chunk$set(
   out.width = "100%"
 )
 ```
-
-# Tropical South American Diatom Database
 
 This repository contains a georeferenced inventory of diatom sites of tropical South America.  
 The [database](http://www.xavierbenito.com/bgsa/bgsa.html) includes diatom (unicelular siliceous algae) data and associated environmental variables of waterbody sites (streams, wetlands, lakes), covering an altitudinal gradient from 220 to 5,070 m a.s.l. between 8°N–30°S and 58–79°W.
@@ -41,11 +36,8 @@ diatom_data <- read.csv("data/Diatom_Biogeography_South_America_DB-def.csv", str
 head(diatom_data)
 ```
 
-<<<<<<< HEAD:diatomdb.Rmd
-Filter out non-tropical sites and erroneous habitat types
 =======
 Filter out non-tropical sites and artifical habitats
->>>>>>> 22f77ad9ad7a898b1d5105da012cde9471bb3f9f:diatom-biogeography-southamerica.Rmd
 ```{r}
 diatom_subset <- diatom_data %>% filter(!region=="Tierra del Fuego" & !Habitat=="channel")
 
@@ -67,12 +59,9 @@ map <- leaflet() %>%
 map 
 ```
 
-
-<<<<<<< HEAD:diatomdb.Rmd
-Create a shiny app to visualize what habitat types exist in the DB. Click on the markers to see site's basic information
 =======
 Create a shiny map to display habitat types. Click on the markers to see site's basic information
->>>>>>> 22f77ad9ad7a898b1d5105da012cde9471bb3f9f:diatom-biogeography-southamerica.Rmd
+
 ```{r TheShinyExample, warning = FALSE}
 shinyApp(
   ui = fluidPage(
