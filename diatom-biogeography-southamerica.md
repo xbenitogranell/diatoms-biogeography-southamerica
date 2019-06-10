@@ -110,7 +110,7 @@ shinyApp(
   options = list(height = 600)
 )
 ## 
-## Listening on http://127.0.0.1:3441
+## Listening on http://127.0.0.1:3392
 ```
 
 <img src="data/README-TheShinyExample-1.png" width="100%" />
