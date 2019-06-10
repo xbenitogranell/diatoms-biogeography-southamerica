@@ -3,6 +3,14 @@ runtime: shiny
 output: github_document
 ---
 
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  out.width = "100%"
+)
+```
+
 # Tropical South American Diatom Database
 
 This repository contains a georeferenced inventory of diatom sites of tropical South America.  
