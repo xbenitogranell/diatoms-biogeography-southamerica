@@ -12,8 +12,7 @@ runtime: shiny
 knitr::opts_chunk$set(
   echo = TRUE,
   collapse = TRUE,
-  out.width = "100%",
-  fig.path = "data/README-"
+  out.width = "100%"
 )
 ```
 
