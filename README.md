@@ -7,5 +7,5 @@ The [database](http://www.xavierbenito.com/bgsa/bgsa.html) includes diatom (unic
 
 Datasets are mostly available on [Dryad](https://datadryad.org/resource/doi:10.5061/dryad.ck7pt) while here the aim is to provide a [leaflet](https://rstudio.github.io/leaflet/) map and [shiny](http://shiny.rstudio.com) app to interactively explore the database in R for promoting biodiversity, biogeographic and palaeoecological studies in tropical South America.
 
-To explore the database, clone this repository as a RStudio project and run the document
+To explore the database, clone this repository as a RStudio project and run the **.Rmd** document.
 
