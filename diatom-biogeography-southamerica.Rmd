@@ -2,8 +2,8 @@
 title: "Tropical South American Diatom Database"
 author: "Xavier Benito and multiple collaborators"
 
-#runtime: shiny
 output: rmarkdown::github_document
+runtime: shiny
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -30,12 +30,7 @@ library(shiny)
 
 Load inventory of sites
 ```{r}
-<<<<<<< HEAD
 diatom_data <- read.csv("data/Diatom_Biogeography_South_America_DB.csv", stringsAsFactors = FALSE)
-=======
-diatom_data <- read.csv("data/Diatom_Biogeography_South_America_DB-def.csv", stringsAsFactors = FALSE)
->>>>>>> 54e10ecb06b72bb3fdf050078853fee74f31bea4
-
 head(diatom_data)
 ```
 
