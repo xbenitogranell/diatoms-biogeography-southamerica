@@ -1,0 +1,81 @@
+"","CollectionName","Country","Collector.Analyst","Year","SiteName","SampleType","Habitat","Substrate","code","region","Lat.DD.S","Long.DD.W"
+"LacCore_ChrrrsVl","LacCore","Ecuador","several",1999,"Dos Chorreras","core top","Lake","","LacCore_ChrrrsVl","Ecuador-Andean",-2.77,-79.161
+"Sml-McE_Llaviacu","Smol-MicheluttiEcuador","Ecuador","Smol-Michelutti",2014,"Llaviucu","core top","Lake","","Sml-McE_Llaviacu","Ecuador-Andean",-2.843,-79.146
+"Sml-McE_Patoquns","Smol-MicheluttiEcuador","Ecuador","Smol-Michelutti",2014,"Patoquinuas","surface sediment","Lake","epipelon","Sml-McE_Patoquns","Ecuador-Andean",-2.782,-79.209
+"Sml-McE_FondCoch","Smol-MicheluttiEcuador","Ecuador","Smol-Michelutti",2014,"Fondococha","surface sediment","Lake","epipelon","Sml-McE_FondCoch","Ecuador-Andean",-2.76,-79.236
+"Sml-McE_Toreador","Smol-MicheluttiEcuador","Ecuador","Smol-Michelutti",2014,"Toreadora","core top","Lake","","Sml-McE_Toreador","Ecuador-Andean",-2.78,-79.224
+"Sml-McE_Illincch","Smol-MicheluttiEcuador","Ecuador","Smol-Michelutti",2014,"Illincocha","surface sediment","Lake","epipelon","Sml-McE_Illincch","Ecuador-Andean",-2.78,-79.231
+"Sml-McE_LgnsdNpl","Smol-MicheluttiEcuador","Ecuador","Smol-Michelutti",2014,"Lagunas de Napalé ","surface sediment","Lake","epipelon","Sml-McE_LgnsdNpl","Ecuador-Andean",-2.887,-79.297
+"Sml-McE_CajsPnd1","Smol-MicheluttiEcuador","Ecuador","Smol-Michelutti",2014,"Cajas Pond 1","surface sediment","Lake","epipelon","Sml-McE_CajsPnd1","Ecuador-Andean",-2.793,-79.245
+"Sml-McE_Larga","Smol-MicheluttiEcuador","Ecuador","Smol-Michelutti",2014,"Larga","surface sediment","Lake","epipelon","Sml-McE_Larga","Ecuador-Andean",-2.793,-79.245
+"Sml-McE_LaddLarg","Smol-MicheluttiEcuador","Ecuador","Smol-Michelutti",2014,"Lado de Larga","surface sediment","Lake","epipelon","Sml-McE_LaddLarg","Ecuador-Andean",-2.793,-79.246
+"Sml-McE_Negra","Smol-MicheluttiEcuador","Ecuador","Smol-Michelutti",2014,"Negra-Cajas","surface sediment","Lake","epipelon","Sml-McE_Negra","Ecuador-Andean",-2.784,-79.243
+"Sml-McE_Apicocha","Smol-MicheluttiEcuador","Ecuador","Smol-Michelutti",2014,"Apicocha","surface sediment","Lake","epipelon","Sml-McE_Apicocha","Ecuador-Andean",-2.781,-79.22
+"Sml-McE_ChrrrsLk","Smol-MicheluttiEcuador","Ecuador","Smol-Michelutti",2015,"Dos Chorreras","core top","Lake","","Sml-McE_ChrrrsLk","Ecuador-Andean",-2.77,-79.16
+"Ecdr-An_Apicocha","Ecuador-Andean","Ecuador","Steinitz-Kannan",1980,"Apicocha","surface sediment + modern","Lake","several","Ecdr-An_Apicocha","Ecuador-Andean",-2.781,-79.22
+"Ecdr-An_Illincocha","Ecuador-Andean","Ecuador","Steinitz-Kannan",1980,"Illincocha","surface sediment + modern","Lake","several","Ecdr-An_Illincocha","Ecuador-Andean",-2.794,-79.218
+"Ecdr-An_Toread","Ecuador-Andean","Ecuador","Steinitz-Kannan",1980,"Toreadora","surface sediment + modern","Lake","several","Ecdr-An_Toread","Ecuador-Andean",-2.781,-79.224
+"Ecdr-An_Huarmcch","Ecuador-Andean","Ecuador","Steinitz-Kannan",1980,"Huarmicocha","surface sediment + modern","Lake","several","Ecdr-An_Huarmcch","Ecuador-Andean",0.129,-78.254
+"Ecdr-An_Caricoha","Ecuador-Andean","Ecuador","Steinitz-Kannan",1980,"Caricocha","surface sediment + modern","Lake","several","Ecdr-An_Caricoha","Ecuador-Andean",0.138,-78.266
+"Ecdr-An_Limpipng","Ecuador-Andean","Ecuador","Steinitz-Kannan",1980,"Limpiopungo","surface sediment + modern","Lake","several","Ecdr-An_Limpipng","Ecuador-Andean",-0.641,-78.498
+"Ecdr-An_Quilotoa","Ecuador-Andean","Ecuador","Steinitz-Kannan",1980,"Quilotoa","surface sediment + modern","Lake","several","Ecdr-An_Quilotoa","Ecuador-Andean",-0.856,-78.902
+"Ecdr-An_SanMarcs","Ecuador-Andean","Ecuador","Steinitz-Kannan",1980,"San Marcos","surface sediment + modern","Lake","several","Ecdr-An_SanMarcs","Ecuador-Andean",0.117,-77.965
+"Ecdr-An_Papallct","Ecuador-Andean","Ecuador","Steinitz-Kannan",1980,"Papallacta","surface sediment + modern","Lake","several","Ecdr-An_Papallct","Ecuador-Andean",-0.379,-78.16
+"Ecdr-An_Pucacoch","Ecuador-Andean","Ecuador","Steinitz-Kannan",1980,"Pucacocha","surface sediment + modern","Lake","several","Ecdr-An_Pucacoch","Ecuador-Andean",-1.483,-78.25
+"Ecdr-An_Yanacoch","Ecuador-Andean","Ecuador","Steinitz-Kannan",1980,"Yanacocha","surface sediment + modern","Lake","several","Ecdr-An_Yanacoch","Ecuador-Andean",0.124,-78.251
+"Ecdr-An_Cochabmb","Ecuador-Andean","Ecuador","Steinitz-Kannan",1980,"Cochabamba","surface sediment + modern","Lake","several","Ecdr-An_Cochabmb","Ecuador-Andean",-1.501,-78.704
+"Ecdr-An_Anteojos","Ecuador-Andean","Ecuador","Steinitz-Kannan",1980,"Anteojos","surface sediment + modern","Lake","several","Ecdr-An_Anteojos","Ecuador-Andean",-1.096,-78.341
+"Ecdr-An_Culbrlls","Ecuador-Andean","Ecuador","Steinitz-Kannan",1980,"Culebrillas","surface sediment + modern","Lake","several","Ecdr-An_Culbrlls","Ecuador-Andean",-2.423,-78.86
+"Ecdr-An_LaCiénag","Ecuador-Andean","Ecuador","Steinitz-Kannan",1980,"La Ciénaga","surface sediment + modern","Lake","several","Ecdr-An_LaCiénag","Ecuador-Andean",-0.774,-78.619
+"Ecdr-An_Llaviacu","Ecuador-Andean","Ecuador","Steinitz-Kannan",1980,"Llaviucu","surface sediment + modern","Lake","several","Ecdr-An_Llaviacu","Ecuador-Andean",-2.843,-79.146
+"Ecdr-An_Pisayamb","Ecuador-Andean","Ecuador","Steinitz-Kannan",1980,"Pisayambo","surface sediment + modern","Lake","several","Ecdr-An_Pisayamb","Ecuador-Andean",-1.085,-78.387
+"Ecdr-An_Cañarpnd","Ecuador-Andean","Ecuador","Steinitz-Kannan",1980,"Cañar pond","surface sediment + modern","Lake","several","Ecdr-An_Cañarpnd","Ecuador-Andean",-4.615,-79.417
+"Ecdr-An_Tambo","Ecuador-Andean","Ecuador","Steinitz-Kannan",1980,"Tambo","surface sediment + modern","Lake","several","Ecdr-An_Tambo","Ecuador-Andean",-1.111,-78.37
+"EpNGEO-J_Pallccch","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Pallcacocha","core top","Lake","","EpNGEO-J_Pallccch","Ecuador-Andean",-2.771,-79.233
+"EpNGEO-J_Llaviucu","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Llaviucu","core top","Lake","","EpNGEO-J_Llaviucu","Ecuador-Andean",-2.843,-79.146
+"EpNGEO-F_Cubilche1","Ecuador project NGEO-February","Ecuador","Fritz-Benito-Feitl",2017,"Cubilche","core top","Lake","","EpNGEO-F_Cubilche1","Ecuador-Andean",0.232,-78.134
+"EpNGEO-F_Cubilche2","Ecuador project NGEO-February","Ecuador","Fritz-Benito-Feitl",2017,"Cubilche","modern","Lake","periphyton","EpNGEO-F_Cubilche2","Ecuador-Andean",0.232,-78.134
+"EpNGEO-F_Caricoch","Ecuador project NGEO-February","Ecuador","Fritz-Benito-Feitl",2017,"Caricocha","core top","Lake","","EpNGEO-F_Caricoch","Ecuador-Andean",0.138,-78.266
+"EpNGEO-F_Chiriacu1","Ecuador project NGEO-February","Ecuador","Fritz-Benito-Feitl",2017,"Chiriacu","core top","Lake","","EpNGEO-F_Chiriacu1","Ecuador-Andean",0.114,-78.273
+"EpNGEO-F_Chiriacu2","Ecuador project NGEO-February","Ecuador","Fritz-Benito-Feitl",2017,"Chiriacu","modern","Lake","periphyton","EpNGEO-F_Chiriacu2","Ecuador-Andean",0.114,-78.273
+"EpNGEO-F_Cuicocha1","Ecuador project NGEO-February","Ecuador","Fritz-Benito-Feitl",2017,"Cuicocha","core top","Lake","","EpNGEO-F_Cuicocha1","Ecuador-Andean",0.3,-78.367
+"EpNGEO-F_Cuicocha2","Ecuador project NGEO-February","Ecuador","Fritz-Benito-Feitl",2017,"Cuicocha","modern","Lake","periphyton","EpNGEO-F_Cuicocha2","Ecuador-Andean",0.3,-78.367
+"EpNGEO-F_Yanacoch1","Ecuador project NGEO-February","Ecuador","Fritz-Benito-Feitl",2017,"Yanacocha","core top","Lake","","EpNGEO-F_Yanacoch1","Ecuador-Andean",0.124,-78.251
+"EpNGEO-F_Yanacoch2","Ecuador project NGEO-February","Ecuador","Fritz-Benito-Feitl",2017,"Yanacocha","modern","Lake","periphyton","EpNGEO-F_Yanacoch2","Ecuador-Andean",0.124,-78.251
+"EpNGEO-F_Huarmcch1","Ecuador project NGEO-February","Ecuador","Fritz-Benito-Feitl",2017,"Huarmicocha","core top","Lake","","EpNGEO-F_Huarmcch1","Ecuador-Andean",0.129,-78.254
+"EpNGEO-F_Huarmcch2","Ecuador project NGEO-February","Ecuador","Fritz-Benito-Feitl",2017,"Huarmicocha","modern","Lake","periphyton","EpNGEO-F_Huarmcch2","Ecuador-Andean",0.129,-78.254
+"EpNGEO-F_SanMarcs","Ecuador project NGEO-February","Ecuador","Fritz-Benito-Feitl",2017,"San Marcos","core top","Lake","","EpNGEO-F_SanMarcs","Ecuador-Andean",0.114,-77.965
+"EpNGEO-J_Piñan1","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Piñan","core top","Lake","","EpNGEO-J_Piñan1","Ecuador-Andean",0.506,-78.444
+"EpNGEO-J_Piñan2","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Piñan","modern","Lake","periphyton","EpNGEO-J_Piñan2","Ecuador-Andean",0.506,-78.444
+"EpNGEO-J_Piñan3","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Piñan","modern","Lake","plankton","EpNGEO-J_Piñan3","Ecuador-Andean",0.506,-78.444
+"EpNGEO-J_Piñan4","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Piñan","modern","River","epilithic","EpNGEO-J_Piñan4","Ecuador-Andean",NA,NA
+"EpNGEO-J_Jigeno1","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Jigeno","core top","Lake","","EpNGEO-J_Jigeno1","Ecuador-Andean",-2.912,-79.292
+"EpNGEO-J_Jigeno2","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Jigeno","modern","Lake","periphyton","EpNGEO-J_Jigeno2","Ecuador-Andean",-2.912,-79.292
+"EpNGEO-J_Jigeno3","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Jigeno","modern","Lake","plankton","EpNGEO-J_Jigeno3","Ecuador-Andean",-2.912,-79.292
+"EpNGEO-J_Estrllsc1","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Estrellascocha","core top","Lake","","EpNGEO-J_Estrllsc1","Ecuador-Andean",-2.913,-79.254
+"EpNGEO-J_Estrllsc2","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Estrellascocha","modern","Lake","periphyton","EpNGEO-J_Estrllsc2","Ecuador-Andean",-2.913,-79.254
+"EpNGEO-J_Estrllsc3","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Estrellascocha","modern","Lake","plankton","EpNGEO-J_Estrllsc3","Ecuador-Andean",-2.913,-79.254
+"EpNGEO-J_Toreador1","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Toreadora","core top","Lake","","EpNGEO-J_Toreador1","Ecuador-Andean",-2.781,-79.224
+"EpNGEO-J_Toreador2","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Toreadora","modern","Lake","periphyton","EpNGEO-J_Toreador2","Ecuador-Andean",-2.781,-79.224
+"EpNGEO-J_Toreador3","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Toreadora","modern","Lake","plankton","EpNGEO-J_Toreador3","Ecuador-Andean",-2.781,-79.224
+"EpNGEO-J_Marmlcch1","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Marmolcocha","core top","Lake","","EpNGEO-J_Marmlcch1","Ecuador-Andean",-2.781,-79.219
+"EpNGEO-J_Marmlcch2","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Marmolcocha","modern","Lake","periphyton","EpNGEO-J_Marmlcch2","Ecuador-Andean",-2.781,-79.219
+"EpNGEO-J_Marmlcch3","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Marmolcocha","modern","Lake","plankton","EpNGEO-J_Marmlcch3","Ecuador-Andean",-2.781,-79.219
+"EpNGEO-J_Piñancch1","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Piñancocha","core top","Lake","","EpNGEO-J_Piñancch1","Ecuador-Andean",-2.754,-79.232
+"EpNGEO-J_Piñancch2","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Piñancocha","modern","Lake","periphyton","EpNGEO-J_Piñancch2","Ecuador-Andean",-2.754,-79.232
+"EpNGEO-J_Piñancch3","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Piñancocha","modern","Lake","plankton","EpNGEO-J_Piñancch3","Ecuador-Andean",-2.754,-79.232
+"EpNGEO-J_Patoquns1","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Patoquinuas","core top","Lake","","EpNGEO-J_Patoquns1","Ecuador-Andean",-2.782,-79.209
+"EpNGEO-J_Patoquns2","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Patoquinuas","modern","Lake","periphyton","EpNGEO-J_Patoquns2","Ecuador-Andean",-2.782,-79.209
+"EpNGEO-J_Patoquns3","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Patoquinuas","modern","Lake","plankton","EpNGEO-J_Patoquns3","Ecuador-Andean",-2.782,-79.209
+"EpNGEO-J_Riñoncch1","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Riñoncocha ","core top","Lake","","EpNGEO-J_Riñoncch1","Ecuador-Andean",-2.766,-79.229
+"EpNGEO-J_Riñoncch2","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Riñoncocha ","modern","Lake","periphyton","EpNGEO-J_Riñoncch2","Ecuador-Andean",-2.766,-79.229
+"EpNGEO-J_Riñoncch3","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Riñoncocha ","modern","Lake","plankton","EpNGEO-J_Riñoncch3","Ecuador-Andean",-2.766,-79.229
+"EpNGEO-J_Fondocch1","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Fondococha","core top","Lake","","EpNGEO-J_Fondocch1","Ecuador-Andean",-2.76,-79.236
+"EpNGEO-J_Fondocch2","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Fondococha","modern","Lake","periphyton","EpNGEO-J_Fondocch2","Ecuador-Andean",-2.76,-79.236
+"EpNGEO-J_DsChrrrs1","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Dos Chorreras","core top","Lake","","EpNGEO-J_DsChrrrs1","Ecuador-Andean",-2.77,-79.16
+"EpNGEO-J_DsChrrrs2","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Dos Chorreras","modern","Lake","periphyton","EpNGEO-J_DsChrrrs2","Ecuador-Andean",-2.77,-79.16
+"EpNGEO-J_DsChrrrs3","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Dos Chorreras","modern","Lake","plankton","EpNGEO-J_DsChrrrs3","Ecuador-Andean",-2.77,-79.16
+"EpNGEO-J_Kuyuk1","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Kuyuk","core top","Lake","","EpNGEO-J_Kuyuk1","Ecuador-Andean",-2.18,-78.5
+"EpNGEO-J_Kuyuk2","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Kuyuk","modern","Lake","periphyton","EpNGEO-J_Kuyuk2","Ecuador-Andean",-2.18,-78.5
+"EpNGEO-J_Kuyuk3","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Kuyuk","modern","Lake","plankton","EpNGEO-J_Kuyuk3","Ecuador-Andean",-2.18,-78.5
+"EpNGEO-J_Negra","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Laguna Negra-Sangay","modern","Lake","plankton","EpNGEO-J_Negra","Ecuador-Andean",-2.177,-78.504

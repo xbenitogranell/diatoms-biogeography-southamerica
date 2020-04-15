@@ -29,13 +29,13 @@ library(shiny)
 
 Load inventory of sites
 ```{r}
-diatom_data <- read.csv("data/Diatom_Biogeography_South_America_DB.csv", stringsAsFactors = FALSE)
-head(diatom_data)
+sites <- read.csv("data/biogeographySites.csv", stringsAsFactors = FALSE)
+head(sites)
 ```
 
 Filter out non-tropical sites and artifical habitats
 ```{r}
-diatom_subset <- diatom_data %>% filter(!region=="Tierra del Fuego" & !Habitat=="channel")
+sites_map <- sites %>% filter(!region=="Tierra del Fuego" & !Habitat=="channel")
 
 ```
 
@@ -43,14 +43,15 @@ Create a leaflet map. Click on the markers to see site's basic information
 ```{r}
 map <- leaflet() %>% 
   addProviderTiles("Esri.WorldImagery") %>% 
-  addMarkers(lat = diatom_subset$lat, 
-             lng = diatom_subset$long,
+  addMarkers(lat = sites_map$Lat.DD.S, 
+             lng = sites_map$Long.DD.W,
              clusterOptions = markerClusterOptions(),
-             popup = paste("<strong>", "Site: ", "</strong>", as.character(diatom_subset$SiteName), "<br>",
-                           "<strong>", "Habitat: ", "</strong>", as.character(diatom_subset$Habitat), "<br>",
-                           "<strong>", "Sample type: ", "</strong>", as.character(diatom_subset$SampleType), "<br>",
-                           "<strong>", "Collection: ", "</strong>", as.character(diatom_subset$Collection), "<br>",
-                           "<strong>", "Year: ", "</strong>", as.character(diatom_subset$Year)))
+             popup = paste("<strong>", "Site: ", "</strong>", as.character(sites_map$SiteName), "<br>",
+                           "<strong>", "Habitat: ", "</strong>", as.character(sites_map$Habitat), "<br>",
+                           "<strong>", "Sample type: ", "</strong>", as.character(sites_map$SampleType), "<br>",
+                           "<strong>", "Collection: ", "</strong>", as.character(sites_map$Collection), "<br>",
+                           "<strong>", "Analyst: ", "</strong>", as.character(sites_map$Collector.Analyst), "<br>",
+                           "<strong>", "Year: ", "</strong>", as.character(sites_map$Year)))
                            
 map 
 ```
@@ -63,7 +64,7 @@ shinyApp(
      tags$div(title = "This input has a tool tip",
              selectInput(inputId = "habitat", 
                          label = "Habitat type", 
-                         choices = sort(unique(diatom_subset$Habitat)))),
+                         choices = sort(unique(sites_map$Habitat)))),
     leafletOutput("MapPlot1")
   ),
   
@@ -79,16 +80,17 @@ shinyApp(
       
       habitat <- input$habitat
       
-      sites <- diatom_subset %>% 
-        filter(diatom_subset$Habitat %in% habitat)
+      sites <- sites_map %>% 
+        filter(sites_map$Habitat %in% habitat)
       
    leafletProxy("MapPlot1") %>% clearMarkers() %>% 
-   addCircleMarkers(lng = sites$long,
-                   lat = sites$lat,
+   addCircleMarkers(lng = sites$Long.DD.W,
+                   lat = sites$Lat.DD.S,
                    popup = paste("<strong>", "Site: ", "</strong>", as.character(sites$SiteName), "<br>",
                            "<strong>", "Habitat: ", "</strong>", as.character(sites$Habitat), "<br>",
                            "<strong>", "Sample type: ", "</strong>", as.character(sites$SampleType), "<br>",
                            "<strong>", "Collection: ", "</strong>", as.character(sites$Collection), "<br>",
+                           "<strong>", "Analyst: ", "</strong>", as.character(sites_map$Collector.Analyst), "<br>",
                            "<strong>", "Year: ", "</strong>", as.character(sites$Year)))
 
     })

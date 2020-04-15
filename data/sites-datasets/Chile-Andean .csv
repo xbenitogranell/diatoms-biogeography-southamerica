@@ -1,0 +1,21 @@
+"","CollectionName","Country","Collector.Analyst","Year","SiteName","SampleType","Habitat","Substrate","code","region","Lat.DD.S","Long.DD.W"
+"LacCore_LagunSec1","LacCore","Chile","several",1993,"Laguna Seca","core top","Lake","","LacCore_LagunSec1","Chile-Andean",-18.192,-69.242
+"LacCore_LagunSec2","LacCore","Chile","several",1993,"Laguna Seca","core top","Lake","","LacCore_LagunSec2","Chile-Andean",-18.192,-69.242
+"LacCore_LgnMscnt1","LacCore","Chile","several",1993,"Laguna Miscanti","core top","Lake","","LacCore_LgnMscnt1","Chile-Andean",-23.73,-67.77
+"LacCore_LgnMscnt2","LacCore","Chile","several",1993,"Laguna Miscanti","core top","Lake","","LacCore_LgnMscnt2","Chile-Andean",-23.73,-67.77
+"LacCore_LgndlNgF1","LacCore","Chile","several",1993,"Laguna del Negro Francisco","core top","Lake","","LacCore_LgndlNgF1","Chile-Andean",-27.46,-69.23
+"LacCore_LgndlNgF2","LacCore","Chile","several",1993,"Laguna del Negro Francisco","core top","Lake","","LacCore_LgndlNgF2","Chile-Andean",-27.46,-69.23
+"Chl-Crr_LagunNgr","Chile-Carrevedo","Chile","MLCarrevedo",2013,"Laguna Negra-Chile","core top","Lake","","Chl-Crr_LagunNgr","Chile-Andean",-33.648,-70.125
+"Chl-Crr_LgnCnchc","Chile-Carrevedo","Chile","MLCarrevedo",2013,"Laguna Canchuca","core top","Lake","","Chl-Crr_LgnCnchc","Chile-Andean",-32.087,-70.585
+"Chl-Crr_LEncañad","Chile-Carrevedo","Chile","MLCarrevedo",2013,"Lo Encañado","core top","Lake","","Chl-Crr_LEncañad","Chile-Andean",-33.647,-70.063
+"Chl-Crr_LagundTn","Chile-Carrevedo","Chile","MLCarrevedo",2013,"Laguna de Teno","modern","Lake","plankton","Chl-Crr_LagundTn","Chile-Andean",-35.177,-70.549
+"Chl-Crr_LagunCpn","Chile-Carrevedo","Chile","MLCarrevedo",2013,"Laguna Copín","core top","Lake","","Chl-Crr_LagunCpn","Chile-Andean",-32.6,-70.558
+"Chl-Crr_Chepical","Chile-Carrevedo","Chile","MLCarrevedo",2013,"Chepical","core top","Lake","","Chl-Crr_Chepical","Chile-Andean",-32.257,-70.497
+"Chl-Crr_LagunOch","Chile-Carrevedo","Chile","MLCarrevedo",2013,"Laguna Ocho","core top","Lake","","Chl-Crr_LagunOch","Chile-Andean",-34.03,-70.317
+"Chl-Crr_LgndlInc","Chile-Carrevedo","Chile","MLCarrevedo",2013,"Laguna del Inca","core top","Lake","","Chl-Crr_LgndlInc","Chile-Andean",-32.822,-70.133
+"Chl-Bls_El Maule","Chile-Blas","Chile","Blas Valero-Garcés",NA,"El Maule","core top","Lake","","Chl-Bls_El Maule","Chile-Andean",-36.06,-70.489
+"Chl-Bls_LEncañad","Chile-Blas","Chile","Blas Valero-Garcés",NA,"Lo Encañado","core top","Lake","","Chl-Bls_LEncañad","Chile-Andean",-33.647,-70.063
+"Chl-Bls_LgnMscnt","Chile-Blas","Chile","Blas Valero-Garcés",NA,"Laguna Miscanti","core top","Lake","","Chl-Bls_LgnMscnt","Chile-Andean",-23.73,-67.77
+"Chl-Bls_Miñiques","Chile-Blas","Chile","Blas Valero-Garcés",NA,"Miñiques","core top","Lake","","Chl-Bls_Miñiques","Chile-Andean",-23.769,-67.791
+"Chl-Bls_Chepical","Chile-Blas","Chile","Blas Valero-Garcés",NA,"Chepical","core top","Lake","","Chl-Bls_Chepical","Chile-Andean",-32.257,-70.497
+"Chl-Bls_Peinado","Chile-Blas","Chile","Blas Valero-Garcés",NA,"Peinado","core top","Lake","","Chl-Bls_Peinado","Chile-Andean",-26.501,-68.1

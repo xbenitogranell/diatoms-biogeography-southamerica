@@ -1,0 +1,36 @@
+"","CollectionName","Country","Collector.Analyst","Year","SiteName","SampleType","Habitat","Substrate","code","region","Lat.DD.S","Long.DD.W"
+"Brdb-SA_RDsg:P()","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Rio Desaguadero: Poopo (town)","modern","River","mud and algae","Brdb-SA_RDsg:P()","Desaguadero-SAltiplano",-18.374,-67.048
+"Brdb-SA_RDesagdr1","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Rio Desaguadero","modern","River","flock","Brdb-SA_RDesagdr1","Desaguadero-SAltiplano",-18.349,-67.041
+"Brdb-SA_RDesagdr2","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Rio Desaguadero","modern","River","periphyton","Brdb-SA_RDesagdr2","Desaguadero-SAltiplano",-18.348,-67.04
+"Brdb-SA_RPopdrng","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Rio Poopo drainage","modern","River","periphyton","Brdb-SA_RPopdrng","Desaguadero-SAltiplano",-18.383,-67.016
+"Brdb-SA_Rdt&NLPp","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Road tracks & N Lago Poopo plain","modern","Pond","mud and algae","Brdb-SA_Rdt&NLPp","Desaguadero-SAltiplano",-18.553,-66.996
+"Brdb-SA_NLgPppln1","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"N Lago Poopo plain","modern","Pond","mud","Brdb-SA_NLgPppln1","Desaguadero-SAltiplano",-18.569,-66.953
+"Brdb-SA_NLgPppln2","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"N Lago Poopo plain","modern","Pond","mud","Brdb-SA_NLgPppln2","Desaguadero-SAltiplano",-18.569,-66.953
+"Brdb-SA_RDsgdrBC1","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Rio Desaguadero Balsa Crossing","modern","Pond","mud","Brdb-SA_RDsgdrBC1","Desaguadero-SAltiplano",-18.193,-67.087
+"Brdb-SA_RDsgdrBC2","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Rio Desaguadero Balsa Crossing","modern","Pond","periphyton","Brdb-SA_RDsgdrBC2","Desaguadero-SAltiplano",-18.194,-67.087
+"Brdb-SA_RDsgdrBC3","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Rio Desaguadero Balsa Crossing","modern","Pond","periphyton","Brdb-SA_RDsgdrBC3","Desaguadero-SAltiplano",-18.193,-67.088
+"Brdb-SA_LgS(UUr)1","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Laguna Soledad (Uru Uru)","modern","Lake","mud","Brdb-SA_LgS(UUr)1","Desaguadero-SAltiplano",-17.745,-67.307
+"Brdb-SA_LgS(UUr)2","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Laguna Soledad (Uru Uru)","modern","Lake","periphyton","Brdb-SA_LgS(UUr)2","Desaguadero-SAltiplano",-17.745,-67.307
+"Brdb-SA_LgS(UUr)3","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Laguna Soledad (Uru Uru)","modern","Lake","water + algae","Brdb-SA_LgS(UUr)3","Desaguadero-SAltiplano",-17.745,-67.307
+"Brdb-SA_RDsgdrEB1","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Rio Desaguadero  Eucaliptus Bridge","modern","channel","periphyton","Brdb-SA_RDsgdrEB1","Desaguadero-SAltiplano",-17.601,-67.529
+"Brdb-SA_RDsgdrEB2","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Rio Desaguadero  Eucaliptus Bridge","modern","channel","periphyton","Brdb-SA_RDsgdrEB2","Desaguadero-SAltiplano",-17.6,-67.529
+"Brdb-SA_EclptsLg","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Eucaliptus Laguna","modern","Lake","periphyton","Brdb-SA_EclptsLg","Desaguadero-SAltiplano",-17.582,-67.515
+"Brdb-SA_HncrmDry1","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Huancaroma Dairy","modern","Wetland","periphyton","Brdb-SA_HncrmDry1","Desaguadero-SAltiplano",-17.666,-67.483
+"Brdb-SA_HncrmDry2","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Huancaroma Dairy","modern","Wetland","mud","Brdb-SA_HncrmDry2","Desaguadero-SAltiplano",-17.661,-67.481
+"Brdb-SA_RQbrdHjU","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Rio Quebrada Huajra Uma","modern","River","periphyton","Brdb-SA_RQbrdHjU","Desaguadero-SAltiplano",-17.503,-68.422
+"Brdb-SA_LgBS.RJU1","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Laguna Blanca S.  Rio Jalsuri Uma","modern","Stream","periphyton","Brdb-SA_LgBS.RJU1","Desaguadero-SAltiplano",-17.468,-68.549
+"Brdb-SA_LgBS.RJU2","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Laguna Blanca S.  Rio Jalsuri Uma","modern","Stream","mud","Brdb-SA_LgBS.RJU2","Desaguadero-SAltiplano",-17.468,-68.549
+"Brdb-SA_SlcrTrqm","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Salcro Tarquiamaya","modern","Stream","periphyton","Brdb-SA_SlcrTrqm","Desaguadero-SAltiplano",-17.479,-68.586
+"Brdb-SA_FldPlPnP","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Flood Plain Pond near Pipeline","modern","Pond","periphyton","Brdb-SA_FldPlPnP","Desaguadero-SAltiplano",-17.326,-68.619
+"Brdb-SA_RDB(ppl)","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Rio Desaguadero Bridge (pipeline)","modern","channel","periphyton","Brdb-SA_RDB(ppl)","Desaguadero-SAltiplano",-17.313,-68.618
+"Brdb-SA_RioMauri","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Rio Mauri","modern","River","periphyton","Brdb-SA_RioMauri","Desaguadero-SAltiplano",-17.293,-68.635
+"Brdb-SA_RMauralg","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Rio Mauri algae","modern","River","periphyton","Brdb-SA_RMauralg","Desaguadero-SAltiplano",-17.293,-68.635
+"Brdb-SA_RDsgdaPK","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Rio Desaguadero at Parco Khota","modern","River","periphyton","Brdb-SA_RDsgdaPK","Desaguadero-SAltiplano",-17.211,-68.678
+"Brdb-SA_LagnClrd1","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Laguna Colorada","modern","Lake","mud and algae","Brdb-SA_LagnClrd1","Desaguadero-SAltiplano",-22.235,-67.746
+"Brdb-SA_LagnClrd2","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Laguna Colorada","modern","Lake","","Brdb-SA_LagnClrd2","Desaguadero-SAltiplano",-22.235,-67.746
+"Brdb-SA_LagnChrr","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Laguna Chairiri","modern","Lake","","Brdb-SA_LagnChrr","Desaguadero-SAltiplano",-22.528,-67.646
+"Brdb-SA_Lagunvrd","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Laguna Verde","modern","Lake","periphyton","Brdb-SA_Lagunvrd","Desaguadero-SAltiplano",-22.811,-67.774
+"Brdb-SA_LgnDsgdr","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Laguna Desaguadero","modern","Lake","periphyton","Brdb-SA_LgnDsgdr","Desaguadero-SAltiplano",-16.984,-68.786
+"Brdb-SA_RDsg:NN.","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Rio Desaguadero: Nazacara N.","modern","River","periphyton","Brdb-SA_RDsg:NN.","Desaguadero-SAltiplano",-16.879,-68.797
+"Brdb-SA_RDsg:dfD","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Rio Desaguadero: downstream from Desaguadero","modern","River","periphyton","Brdb-SA_RDsg:dfD","Desaguadero-SAltiplano",-16.644,-68.968
+"Brdb-SA_LagHñmrc","Bradbury-SAltiplano","Bolivia","JP Bradbury",2001,"Lago Huiñamarca","modern","Lake","periphyton","Brdb-SA_LagHñmrc","Desaguadero-SAltiplano",-16.564,-68.991

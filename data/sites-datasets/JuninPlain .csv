@@ -1,0 +1,93 @@
+"","CollectionName","Country","Collector.Analyst","Year","SiteName","SampleType","Habitat","Substrate","code","region","Lat.DD.S","Long.DD.W"
+"JunnPln_L.Tl,shr1","JuninPlain","Peru","Tapia",1999,"L. Tauli, shore","modern","Lake","water","JunnPln_L.Tl,shr1","JuninPlain",-10.724,-76.071
+"JunnPln_HgpCv,ot","JuninPlain","Peru","Tapia",1999,"Huagapo Cave, outside","modern","Spring","periphyton","JunnPln_HgpCv,ot","JuninPlain",-11.268,-75.787
+"JunnPln_L.Ccch,s","JuninPlain","Peru","Tapia",1999,"L. Ccochachuycho, shore","modern","Lake","periphyton","JunnPln_L.Ccch,s","JuninPlain",-10.76,-76.072
+"JunnPln_J11,GK252","JuninPlain","Peru","Tapia",1999,"Junin 11, Gunoc Km 255","surface sediment","Stream","epipelon","JunnPln_J11,GK252","JuninPlain",-10.944,-76.046
+"JunnPln_J11,GK253","JuninPlain","Peru","Tapia",1999,"Junin 11, Gunoc Km 255","modern","Stream","epilithic","JunnPln_J11,GK253","JuninPlain",-10.944,-76.046
+"JunnPln_J11,GK254","JuninPlain","Peru","Tapia",1999,"Junin 11, Gunoc Km 255","modern","Stream","water","JunnPln_J11,GK254","JuninPlain",-10.944,-76.046
+"JunnPln_J11,GK255","JuninPlain","Peru","Tapia",1999,"Junin 11, Gunoc Km 255","modern","Stream","water","JunnPln_J11,GK255","JuninPlain",-10.944,-76.046
+"JunnPln_L.Llcc,s1","JuninPlain","Peru","Tapia",1999,"L. Lulicocha, shore","modern","Lake","periphyton","JunnPln_L.Llcc,s1","JuninPlain",-10.778,-76.097
+"JunnPln_J13,Qd.A2","JuninPlain","Peru","Tapia",1999,"Junin 13, Qda. Anascanchi","modern","Stream","water","JunnPln_J13,Qd.A2","JuninPlain",-10.979,-76.036
+"JunnPln_J13,Qd.A3","JuninPlain","Peru","Tapia",1999,"Junin 13, Qda. Anascanchi","modern","Stream","water","JunnPln_J13,Qd.A3","JuninPlain",-10.979,-76.036
+"JunnPln_Jn10,TdS1","JuninPlain","Peru","Tapia",1999,"Junin 10, Tambo del Sol","modern","Stream","periphyton","JunnPln_Jn10,TdS1","JuninPlain",-10.81,-76.134
+"JunnPln_Jn10,TdS2","JuninPlain","Peru","Tapia",1999,"Junin 10, Tambo del Sol","surface sediment","Stream","epipelon","JunnPln_Jn10,TdS2","JuninPlain",-10.803,-76.126
+"JunnPln_Jn10,TdS3","JuninPlain","Peru","Tapia",1999,"Junin 10, Tambo del Sol","modern","Stream","water","JunnPln_Jn10,TdS3","JuninPlain",-10.81,-76.134
+"JunnPln_Jn10,TdS4","JuninPlain","Peru","Tapia",1999,"Junin 10, Tambo del Sol","modern","Stream","water","JunnPln_Jn10,TdS4","JuninPlain",-10.81,-76.134
+"JunnPln_Jnn9,dbS1","JuninPlain","Peru","Tapia",1999,"Junin 9, ditch before Shelby","modern","Stream","periphyton","JunnPln_Jnn9,dbS1","JuninPlain",-10.814,-76.232
+"JunnPln_Jn14,PR.2","JuninPlain","Peru","Tapia",1999,"Junin 14, Palcamayo R.","modern","Stream","water","JunnPln_Jn14,PR.2","JuninPlain",-10.915,-76.047
+"JunnPln_Jn14,PR.3","JuninPlain","Peru","Tapia",1999,"Junin 14, Palcamayo R.","modern","Stream","water","JunnPln_Jn14,PR.3","JuninPlain",-10.915,-76.047
+"JunnPln_L.Yncc,s1","JuninPlain","Peru","Tapia",1999,"L. Yanacocha, shore","modern","Lake","periphyton","JunnPln_L.Yncc,s1","JuninPlain",-10.833,-76.036
+"JunnPln_Jn7,SPdP2","JuninPlain","Peru","Tapia",1999,"Junin 7, San Pedro de Pari","modern","Lake","water","JunnPln_Jn7,SPdP2","JuninPlain",-10.964,-76.231
+"JunnPln_Jn7,SPdP3","JuninPlain","Peru","Tapia",1999,"Junin 7, San Pedro de Pari","modern","Lake","water","JunnPln_Jn7,SPdP3","JuninPlain",-10.964,-76.231
+"JunnPln_L.Prn,cn","JuninPlain","Peru","Tapia",1999,"L. Purun, center","surface sediment","Lake","epipelon","JunnPln_L.Prn,cn","JuninPlain",-10.835,-76.46
+"JunnPln_Jnn1,CR.2","JuninPlain","Peru","Tapia",1999,"Junin 1, Chacachimpa R.","modern","River","water","JunnPln_Jnn1,CR.2","JuninPlain",-11.165,-76.017
+"JunnPln_Jnn1,CR.3","JuninPlain","Peru","Tapia",1999,"Junin 1, Chacachimpa R.","modern","River","water","JunnPln_Jnn1,CR.3","JuninPlain",-11.165,-76.017
+"JunnPln_L.Prn,sh1","JuninPlain","Peru","Tapia",1999,"L. Purun, shore","modern","Lake","periphyton","JunnPln_L.Prn,sh1","JuninPlain",-10.836,-76.454
+"JunnPln_Jnn12,Ch2","JuninPlain","Peru","Tapia",1999,"Junin 12, Chacpas","modern","Stream","water","JunnPln_Jnn12,Ch2","JuninPlain",-11.002,-76.01
+"JunnPln_Jnn12,Ch3","JuninPlain","Peru","Tapia",1999,"Junin 12, Chacpas","modern","Stream","water","JunnPln_Jnn12,Ch3","JuninPlain",-11.002,-76.01
+"JunnPln_Yncch1,w","JuninPlain","Peru","Tapia",1999,"Yanacocha 1, wetland","modern","Wetland","periphyton","JunnPln_Yncch1,w","JuninPlain",-10.857,-75.986
+"JunnPln_Jnn2,Wrs2","JuninPlain","Peru","Tapia",1999,"Junin 2, Warmipuquio spring","modern","Spring","periphyton","JunnPln_Jnn2,Wrs2","JuninPlain",-11.113,-76.091
+"JunnPln_Jnn2,Wrs3","JuninPlain","Peru","Tapia",1999,"Junin 2, Warmipuquio spring","surface sediment","Spring","epipelon","JunnPln_Jnn2,Wrs3","JuninPlain",-11.113,-76.091
+"JunnPln_Jnn2,Wrs4","JuninPlain","Peru","Tapia",1999,"Junin 2, Warmipuquio spring","modern","Spring","water","JunnPln_Jnn2,Wrs4","JuninPlain",-11.113,-76.091
+"JunnPln_Jnn2,Wrs5","JuninPlain","Peru","Tapia",1999,"Junin 2, Warmipuquio spring","modern","Spring","water","JunnPln_Jnn2,Wrs5","JuninPlain",-11.113,-76.091
+"JunnPln_Yncc2,is","JuninPlain","Peru","Tapia",1999,"Yanacocha 2, inflow stream","modern","Stream","periphyton","JunnPln_Yncc2,is","JuninPlain",-10.857,-75.983
+"JunnPln_Jnn3,sp22","JuninPlain","Peru","Tapia",1999,"Junin 3, spring 2","modern","Spring","water","JunnPln_Jnn3,sp22","JuninPlain",-11.124,-76.086
+"JunnPln_Jnn3,sp23","JuninPlain","Peru","Tapia",1999,"Junin 3, spring 2","modern","Spring","water","JunnPln_Jnn3,sp23","JuninPlain",-11.124,-76.086
+"JunnPln_Jn14,PR.1","JuninPlain","Peru","Tapia",1999,"Junin 14, Palcamayo R.","modern","Stream","periphyton","JunnPln_Jn14,PR.1","JuninPlain",-10.915,-76.047
+"JunnPln_Jnn4,Ons2","JuninPlain","Peru","Tapia",1999,"Junin 4, Ondores spring","modern","Spring","epilithic","JunnPln_Jnn4,Ons2","JuninPlain",-11.082,-76.148
+"JunnPln_Jnn4,Ons3","JuninPlain","Peru","Tapia",1999,"Junin 4, Ondores spring","modern","Spring","water","JunnPln_Jnn4,Ons3","JuninPlain",-11.082,-76.148
+"JunnPln_Jnn4,Ons4","JuninPlain","Peru","Tapia",1999,"Junin 4, Ondores spring","modern","Spring","water","JunnPln_Jnn4,Ons4","JuninPlain",-11.082,-76.148
+"JunnPln_Jnn8,UpB1","JuninPlain","Peru","Tapia",1999,"Junin 8, Upamayo Bridge","modern","Stream","periphyton","JunnPln_Jnn8,UpB1","JuninPlain",-10.921,-76.263
+"JunnPln_Jnn5,Cns2","JuninPlain","Peru","Tapia",1999,"Junin 5, Conoc spring","surface sediment","Spring","epipelon","JunnPln_Jnn5,Cns2","JuninPlain",-11.056,-76.158
+"JunnPln_Jnn5,Cns3","JuninPlain","Peru","Tapia",1999,"Junin 5, Conoc spring","modern","Spring","water","JunnPln_Jnn5,Cns3","JuninPlain",-11.056,-76.158
+"JunnPln_Jnn5,Cns4","JuninPlain","Peru","Tapia",1999,"Junin 5, Conoc spring","modern","Spring","water","JunnPln_Jnn5,Cns4","JuninPlain",-11.056,-76.158
+"JunnPln_J11,GK251","JuninPlain","Peru","Tapia",1999,"Junin 11, Gunoc Km 255","modern","Stream","periphyton","JunnPln_J11,GK251","JuninPlain",-10.944,-76.046
+"JunnPln_Jnn6,CR.2","JuninPlain","Peru","Tapia",1999,"Junin 6, Chuchucancha R.","surface sediment","River","epipelon","JunnPln_Jnn6,CR.2","JuninPlain",-11.042,-76.188
+"JunnPln_Jnn6,CR.3","JuninPlain","Peru","Tapia",1999,"Junin 6, Chuchucancha R.","modern","River","water","JunnPln_Jnn6,CR.3","JuninPlain",-11.042,-76.188
+"JunnPln_Jnn6,CR.4","JuninPlain","Peru","Tapia",1999,"Junin 6, Chuchucancha R.","modern","River","water","JunnPln_Jnn6,CR.4","JuninPlain",-11.042,-76.188
+"JunnPln_Jn7,SPdP1","JuninPlain","Peru","Tapia",1999,"Junin 7, San Pedro de Pari","modern","Lake","periphyton","JunnPln_Jn7,SPdP1","JuninPlain",-10.964,-76.231
+"JunnPln_Jnn8,UpB2","JuninPlain","Peru","Tapia",1999,"Junin 8, Upamayo Bridge","modern","Stream","water","JunnPln_Jnn8,UpB2","JuninPlain",-10.921,-76.263
+"JunnPln_Jnn8,UpB3","JuninPlain","Peru","Tapia",1999,"Junin 8, Upamayo Bridge","modern","Stream","water","JunnPln_Jnn8,UpB3","JuninPlain",-10.921,-76.263
+"JunnPln_Jnn8,UpB4","JuninPlain","Peru","Tapia",1999,"Junin 8, Upamayo Bridge","modern","Stream","water","JunnPln_Jnn8,UpB4","JuninPlain",-10.921,-76.263
+"JunnPln_J13,Qd.A1","JuninPlain","Peru","Tapia",1999,"Junin 13, Qda. Anascanchi","modern","Stream","periphyton","JunnPln_J13,Qd.A1","JuninPlain",-10.979,-76.036
+"JunnPln_Jnn9,dbS2","JuninPlain","Peru","Tapia",1999,"Junin 9, ditch before Shelby","surface sediment","Stream","epipelon","JunnPln_Jnn9,dbS2","JuninPlain",-10.813,-76.232
+"JunnPln_Jnn9,dbS3","JuninPlain","Peru","Tapia",1999,"Junin 9, ditch before Shelby","modern","Stream","water","JunnPln_Jnn9,dbS3","JuninPlain",-10.814,-76.232
+"JunnPln_Jnn9,dbS4","JuninPlain","Peru","Tapia",1999,"Junin 9, ditch before Shelby","modern","Stream","water","JunnPln_Jnn9,dbS4","JuninPlain",-10.814,-76.232
+"JunnPln_L.Alcc,s1","JuninPlain","Peru","Tapia",1999,"L. Alcacocha, shore","modern","Lake","water","JunnPln_L.Alcc,s1","JuninPlain",-11.084,-75.935
+"JunnPln_L.Alcc,s2","JuninPlain","Peru","Tapia",1999,"L. Alcacocha, shore","modern","Lake","water","JunnPln_L.Alcc,s2","JuninPlain",-11.084,-75.935
+"JunnPln_L.Jnn,cn1","JuninPlain","Peru","Tapia",1999,"L. Junin, center","modern","Lake","periphyton","JunnPln_L.Jnn,cn1","JuninPlain",-10.996,-76.062
+"JunnPln_Jnn12,Ch1","JuninPlain","Peru","Tapia",1999,"Junin 12, Chacpas","modern","Stream","epilithic","JunnPln_Jnn12,Ch1","JuninPlain",-11.002,-76.01
+"JunnPln_Jnn6,CR.1","JuninPlain","Peru","Tapia",1999,"Junin 6, Chuchucancha R.","modern","River","periphyton","JunnPln_Jnn6,CR.1","JuninPlain",-11.042,-76.188
+"JunnPln_L.Jnn,cn2","JuninPlain","Peru","Tapia",1999,"L. Junin, center","modern","Lake","water","JunnPln_L.Jnn,cn2","JuninPlain",-10.996,-76.062
+"JunnPln_L.Jnn,cn3","JuninPlain","Peru","Tapia",1999,"L. Junin, center","modern","Lake","water","JunnPln_L.Jnn,cn3","JuninPlain",-10.996,-76.062
+"JunnPln_L.Jnn,cn4","JuninPlain","Peru","Tapia",1999,"L. Junin, center","modern","Lake","benthos","JunnPln_L.Jnn,cn4","JuninPlain",-10.996,-76.062
+"JunnPln_L.Jnn,sh1","JuninPlain","Peru","Tapia",1999,"L. Junin, shore","modern","Lake","water","JunnPln_L.Jnn,sh1","JuninPlain",-11.058,-76.156
+"JunnPln_L.Jnn,sh2","JuninPlain","Peru","Tapia",1999,"L. Junin, shore","modern","Lake","water","JunnPln_L.Jnn,sh2","JuninPlain",-11.058,-76.156
+"JunnPln_L.Jnn,sh3","JuninPlain","Peru","Tapia",1999,"L. Junin, shore","modern","Lake","periphyton","JunnPln_L.Jnn,sh3","JuninPlain",-11.058,-76.156
+"JunnPln_L.Jnn,sh4","JuninPlain","Peru","Tapia",1999,"L. Junin, shore","modern","Lake","periphyton","JunnPln_L.Jnn,sh4","JuninPlain",-11.058,-76.156
+"JunnPln_Jnn5,Cns1","JuninPlain","Peru","Tapia",1999,"Junin 5, Conoc spring","modern","Spring","periphyton","JunnPln_Jnn5,Cns1","JuninPlain",-11.056,-76.158
+"JunnPln_L.Llcc,s2","JuninPlain","Peru","Tapia",1999,"L. Lulicocha, shore","modern","Lake","water","JunnPln_L.Llcc,s2","JuninPlain",-10.778,-76.097
+"JunnPln_L.Pc,12d1","JuninPlain","Peru","Tapia",1999,"L. Paca, 12m deep","modern","Lake","plankton","JunnPln_L.Pc,12d1","JuninPlain",-11.729,-75.507
+"JunnPln_L.Pc,12d2","JuninPlain","Peru","Tapia",1999,"L. Paca, 12m deep","modern","Lake","water","JunnPln_L.Pc,12d2","JuninPlain",-11.729,-75.507
+"JunnPln_L.Pc,12d3","JuninPlain","Peru","Tapia",1999,"L. Paca, 12m deep","modern","Lake","water","JunnPln_L.Pc,12d3","JuninPlain",-11.729,-75.507
+"JunnPln_Jnn4,Ons1","JuninPlain","Peru","Tapia",1999,"Junin 4, Ondores spring","modern","Spring","periphyton","JunnPln_Jnn4,Ons1","JuninPlain",-11.082,-76.148
+"JunnPln_L.Pc,ins2","JuninPlain","Peru","Tapia",1999,"L. Paca, inflow stream","modern","Stream","epilithic","JunnPln_L.Pc,ins2","JuninPlain",-11.717,-75.507
+"JunnPln_L.Pc,srf1","JuninPlain","Peru","Tapia",1999,"L. Paca, surface","modern","Lake","water","JunnPln_L.Pc,srf1","JuninPlain",-11.729,-75.507
+"JunnPln_L.Pc,srf2","JuninPlain","Peru","Tapia",1999,"L. Paca, surface","modern","Lake","water","JunnPln_L.Pc,srf2","JuninPlain",-11.729,-75.507
+"JunnPln_L.Pc,srf3","JuninPlain","Peru","Tapia",1999,"L. Paca, surface","modern","Lake","periphyton","JunnPln_L.Pc,srf3","JuninPlain",-11.729,-75.507
+"JunnPln_L.Alcc,s3","JuninPlain","Peru","Tapia",1999,"L. Alcacocha, shore","modern","Lake","periphyton","JunnPln_L.Alcc,s3","JuninPlain",-11.084,-75.935
+"JunnPln_Jnn2,Wrs1","JuninPlain","Peru","Tapia",1999,"Junin 2, Warmipuquio spring","modern","Spring","periphyton","JunnPln_Jnn2,Wrs1","JuninPlain",-11.113,-76.091
+"JunnPln_L.Prn,sh2","JuninPlain","Peru","Tapia",1999,"L. Purun, shore","modern","Lake","water","JunnPln_L.Prn,sh2","JuninPlain",-10.836,-76.454
+"JunnPln_Jnn3,sp21","JuninPlain","Peru","Tapia",1999,"Junin 3, spring 2","modern","Spring","periphyton","JunnPln_Jnn3,sp21","JuninPlain",-11.124,-76.086
+"JunnPln_L.Tl,shr2","JuninPlain","Peru","Tapia",1999,"L. Tauli, shore","surface sediment","Lake","epipelon","JunnPln_L.Tl,shr2","JuninPlain",-10.724,-76.071
+"JunnPln_Jnn1,CR.1","JuninPlain","Peru","Tapia",1999,"Junin 1, Chacachimpa R.","modern","River","periphyton","JunnPln_Jnn1,CR.1","JuninPlain",-11.165,-76.017
+"JunnPln_L.Yncc,s2","JuninPlain","Peru","Tapia",1999,"L. Yanacocha, shore","modern","Lake","water","JunnPln_L.Yncc,s2","JuninPlain",-10.833,-76.036
+"JunnPln_L.Yncc,s3","JuninPlain","Peru","Tapia",1999,"L. Yanacocha, shore","modern","Lake","water","JunnPln_L.Yncc,s3","JuninPlain",-10.833,-76.036
+"JunnPln_L.Yncc,s4","JuninPlain","Peru","Tapia",1999,"L. Yanacocha, shore","modern","Lake","algae","JunnPln_L.Yncc,s4","JuninPlain",-10.833,-76.036
+"JunnPln_HgpCv,in","JuninPlain","Peru","Tapia",1999,"Huagapo Cave, inside","modern","Spring","periphyton","JunnPln_HgpCv,in","JuninPlain",-11.268,-75.787
+"JunnPln_Yncc4,oc","JuninPlain","Peru","Tapia",1999,"Yanacocha 4, outlet channel","surface sediment","channel","epipelon","JunnPln_Yncc4,oc","JuninPlain",-10.872,-76
+"JunnPln_L.Pc,ins1","JuninPlain","Peru","Tapia",1999,"L. Paca, inflow stream","modern","Stream","periphyton","JunnPln_L.Pc,ins1","JuninPlain",-11.717,-75.507
+"JunnPln_Yncch3,s1","JuninPlain","Peru","Tapia",1999,"Yanacocha 3, spring","modern","Spring","periphyton","JunnPln_Yncch3,s1","JuninPlain",-10.856,-75.972
+"JunnPln_Yncch3,s2","JuninPlain","Peru","Tapia",1999,"Yanacocha 3, spring","modern","Spring","epilithic","JunnPln_Yncch3,s2","JuninPlain",-10.856,-75.972
+"JunnPln_Yncch3,s3","JuninPlain","Peru","Tapia",1999,"Yanacocha 3, spring","modern","Spring","water","JunnPln_Yncch3,s3","JuninPlain",-10.856,-75.972
+"JunnPln_Yncch3,s4","JuninPlain","Peru","Tapia",1999,"Yanacocha 3, spring","modern","Spring","water","JunnPln_Yncch3,s4","JuninPlain",-10.856,-75.972

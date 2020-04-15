@@ -1,0 +1,26 @@
+"","CollectionName","Country","Collector.Analyst","Year","SiteName","SampleType","Habitat","Substrate","code","region","Lat.DD.S","Long.DD.W"
+"Ecdr-In_L.Ygrcch","Ecuador-Interandean","Ecuador","Steinitz-Kannan",1980,"Yahuarcocha","surface sediment + modern","Lake","several","Ecdr-In_L.Ygrcch","Ecuador-Interandean",0.371,-78.102
+"Ecdr-In_Cuicocha","Ecuador-Interandean","Ecuador","Steinitz-Kannan",1980,"Cuicocha","surface sediment + modern","Lake","several","Ecdr-In_Cuicocha","Ecuador-Interandean",0.3,-78.367
+"Ecdr-In_Guangopl","Ecuador-Interandean","Ecuador","Steinitz-Kannan",1980,"Guangopolo","surface sediment + modern","Lake","several","Ecdr-In_Guangopl","Ecuador-Interandean",0.248,-78.479
+"Ecdr-In_Conru","Ecuador-Interandean","Ecuador","Steinitz-Kannan",1980,"Cunrro","surface sediment + modern","Lake","several","Ecdr-In_Conru","Ecuador-Interandean",0.235,-78.09
+"Ecdr-In_L.SanPbl","Ecuador-Interandean","Ecuador","Steinitz-Kannan",1980,"San Pablo","surface sediment + modern","Lake","several","Ecdr-In_L.SanPbl","Ecuador-Interandean",0.217,-78.233
+"Ecdr-In_Zuleta","Ecuador-Interandean","Ecuador","Steinitz-Kannan",1980,"Zuleta","surface sediment + modern","Lake","several","Ecdr-In_Zuleta","Ecuador-Interandean",0.215,-78.087
+"Ecdr-In_Yambo","Ecuador-Interandean","Ecuador","Steinitz-Kannan",1980,"Yambo","surface sediment + modern","Lake","several","Ecdr-In_Yambo","Ecuador-Interandean",-1.1,-78.589
+"Ecdr-In_La Moya","Ecuador-Interandean","Ecuador","Steinitz-Kannan",1980,"La Moya","surface sediment + modern","Lake","several","Ecdr-In_La Moya","Ecuador-Interandean",-1.333,-78.517
+"Ecdr-In_Rumtum","Ecuador-Interandean","Ecuador","Steinitz-Kannan",1980,"Rumtum","surface sediment + modern","Lake","several","Ecdr-In_Rumtum","Ecuador-Interandean",-1.45,-78.733
+"Ecdr-In_SanAnton","Ecuador-Interandean","Ecuador","Steinitz-Kannan",1980,"San Antonio","surface sediment + modern","Lake","several","Ecdr-In_SanAnton","Ecuador-Interandean",-1.619,-78.634
+"Ecdr-In_Colta","Ecuador-Interandean","Ecuador","Steinitz-Kannan",1980,"Colta","surface sediment + modern","Lake","several","Ecdr-In_Colta","Ecuador-Interandean",-1.742,-78.756
+"Ecdr-In_Uzhupud","Ecuador-Interandean","Ecuador","Steinitz-Kannan",1980,"Uzhupud","surface sediment + modern","Lake","several","Ecdr-In_Uzhupud","Ecuador-Interandean",-2.833,-78.802
+"EpNGEO-F_SanPablo","Ecuador project NGEO-February","Ecuador","Fritz-Benito-Feitl",2017,"San Pablo","core top","Lake","","EpNGEO-F_SanPablo","Ecuador-Interandean",0.217,-78.233
+"EpNGEO-F_Yahurcch","Ecuador project NGEO-February","Ecuador","Fritz-Benito-Feitl",2017,"Yahuarcocha","core top","Lake","","EpNGEO-F_Yahurcch","Ecuador-Interandean",0.371,-78.102
+"EpNGEO-F_Cunrro1","Ecuador project NGEO-February","Ecuador","Fritz-Benito-Feitl",2017,"Cunrro","core top","Lake","","EpNGEO-F_Cunrro1","Ecuador-Interandean",0.235,-78.089
+"EpNGEO-F_Cunrro2","Ecuador project NGEO-February","Ecuador","Fritz-Benito-Feitl",2017,"Cunrro","modern","Lake","periphyton","EpNGEO-F_Cunrro2","Ecuador-Interandean",0.235,-78.089
+"EpNGEO-F_Yambo1","Ecuador project NGEO-February","Ecuador","Fritz-Benito-Feitl",2017,"Yambo","core top","Lake","","EpNGEO-F_Yambo1","Ecuador-Interandean",-1.104,-78.586
+"EpNGEO-F_Yambo2","Ecuador project NGEO-February","Ecuador","Fritz-Benito-Feitl",2017,"Yambo","modern","Lake","periphyton","EpNGEO-F_Yambo2","Ecuador-Interandean",-1.104,-78.586
+"EpNGEO-J_Yahurcch1","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Yahuarcocha","modern","Lake","plankton","EpNGEO-J_Yahurcch1","Ecuador-Interandean",0.371,-78.102
+"EpNGEO-J_Yahurcch2","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Yahuarcocha","core top","Lake","","EpNGEO-J_Yahurcch2","Ecuador-Interandean",0.371,-78.102
+"EpNGEO-J_Colta-11","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Colta-1","modern","Lake","plankton","EpNGEO-J_Colta-11","Ecuador-Interandean",-1.727,-78.759
+"EpNGEO-J_Colta-12","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Colta-1","modern","Lake","periphyton","EpNGEO-J_Colta-12","Ecuador-Interandean",-1.727,-78.759
+"EpNGEO-J_Colta-13","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Colta-1","core top","Lake","","EpNGEO-J_Colta-13","Ecuador-Interandean",-1.727,-78.759
+"EpNGEO-J_Colta-21","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Colta-2","modern","Lake","plankton","EpNGEO-J_Colta-21","Ecuador-Interandean",-1.727,-78.759
+"EpNGEO-J_Colta-22","Ecuador project NGEO-July","Ecuador","Fritz-Benito-Feitl",2017,"Colta-2","core top","Lake","","EpNGEO-J_Colta-22","Ecuador-Interandean",-1.727,-78.759
