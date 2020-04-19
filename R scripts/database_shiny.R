@@ -30,8 +30,8 @@ ui <- fluidPage(
         #tabPanel("summary", tableOutput("summary_table")),
         tabPanel("taxa", tableOutput("species")),
         tabPanel("environment", tableOutput("env_data")),
-        #tabPanel("map", tableOutput("MapPlot1")),
-        tabPanel("region", tableOutput("region_info")))
+        tabPanel("region", tableOutput("region_info")),
+        tabPanel("map", leafletOutput("map",width="80%",height="600px")))
         #tabPanel("plots", plotOutput("ts_plots", height = "2000px")),
     )
   )
@@ -51,11 +51,53 @@ server <- function(input, output) {
   
   output$region_info <- renderTable({
     readr::read_csv(file = glue::glue("{data_dir}/sites-datasets/{input$region} .csv"))
-  }, striped = TRUE, width="auto")
+    }, striped = TRUE, width="auto")
+
+  site_data <- reactive({
+    readr::read_csv(file = glue::glue("{data_dir}/sites-datasets/{input$region} .csv"))
+  })
   
+  # # To display transposed table
+  # output$region_info <- renderTable({
+  #   req(input$region)
+  #   t(site_data())
+  # })
+  
+  ## create static element
+  output$map <- renderLeaflet({
+    leaflet(site_data()) %>%
+    setView(lng = -68, lat = -15, zoom = 3)
+  })
+
+  observe({
+    leafletProxy("map", data = site_data()) %>%
+      clearMarkers() %>%   ## clear previous markers
+      addProviderTiles("Esri.WorldImagery") %>%
+    
+    addMarkers(
+      lng = ~Long.DD.W, # note the tildes before values, required
+      lat = ~Lat.DD.S,
+      popup = ~paste(
+         SiteName,
+         "<br>",
+         "<strong>Habitat:</strong>",
+         Habitat,
+         "<br>",
+         "<strong>Substrate:</strong>",
+         Substrate,
+         "<br>",
+         "<strong>Year:</strong>",
+         Year
+      )
+    )
+})
+
 }
+
 
 # Run the application 
 shinyApp(ui = ui, server = server)
+
+
 
 
