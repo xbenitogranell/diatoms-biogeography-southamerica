@@ -13,7 +13,7 @@ colnames(all_regions) <- "region"
 ui <- fluidPage(
   
   # Application title
-  titlePanel("Diatom datasets"),
+  titlePanel("Tropical South American Diatom Database"),
   
   # Sidebar  
   sidebarLayout(
@@ -31,8 +31,8 @@ ui <- fluidPage(
         tabPanel("taxa", tableOutput("species")),
         tabPanel("environment", tableOutput("env_data")),
         tabPanel("region", tableOutput("region_info")),
-        tabPanel("map", leafletOutput("map",width="80%",height="600px")))
-        #tabPanel("plots", plotOutput("ts_plots", height = "2000px")),
+        tabPanel("map", leafletOutput("map",width="80%",height="600px")),
+        tabPanel("plots", plotOutput("boxplots", height = "2000px")))
     )
   )
 )
@@ -91,6 +91,29 @@ server <- function(input, output) {
       )
     )
 })
+  
+  region_data <- reactive({
+    readr::read_csv(file = glue::glue("{data_dir}/region-datasets/{input$region} .csv"))
+  })
+  
+  output$boxplots <- renderPlot({
+    region_env_plot <- region_data() %>%
+    dplyr::select(pH, Cond, Water.T, TP, Depth_avg, Ca, Mg, K, Elevation,
+                  MAT, P.season, MAP, T.season, 
+                  Depth_avg, area_waterbody, Wshd_area, 
+                  lake_depth_ratio, lake_catch_ratio, catch_vol_ratio,
+                  HFP2009,Agriculture, Crops.and.town, Grassland.and.shrubs) %>%
+    gather(key=variable, value=value)
+    
+    
+  region_env_plot %>% ggplot(aes(x=variable, y=value)) +
+    geom_boxplot() +
+    facet_wrap(~variable, scale="free") +
+    theme(axis.title.x=element_blank(),
+          axis.text.x=element_blank(),
+          axis.ticks.x=element_blank())+
+    theme_bw()
+  })
 
 }
 

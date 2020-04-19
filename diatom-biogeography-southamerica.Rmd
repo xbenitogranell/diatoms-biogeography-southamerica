@@ -2,7 +2,7 @@
 title: "Tropical South American Diatom Database"
 author: "Xavier Benito and multiple collaborators"
 
-output: rmarkdown::github_document
+output: html_document
 runtime: shiny
 ---
 
@@ -11,7 +11,10 @@ runtime: shiny
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   echo = TRUE,
+  message = FALSE,
+  results = 'hold',
   collapse = TRUE,
+  warning = FALSE,
   out.width = "100%"
 )
 ```
@@ -30,7 +33,7 @@ library(shiny)
 Load inventory of sites
 ```{r}
 sites <- read.csv("data/biogeographySites.csv", stringsAsFactors = FALSE)
-head(sites)
+#head(sites)
 ```
 
 Filter out non-tropical sites and artifical habitats
@@ -90,7 +93,7 @@ shinyApp(
                            "<strong>", "Habitat: ", "</strong>", as.character(sites$Habitat), "<br>",
                            "<strong>", "Sample type: ", "</strong>", as.character(sites$SampleType), "<br>",
                            "<strong>", "Collection: ", "</strong>", as.character(sites$Collection), "<br>",
-                           "<strong>", "Analyst: ", "</strong>", as.character(sites_map$Collector.Analyst), "<br>",
+                           "<strong>", "Analyst: ", "</strong>", as.character(sites$Collector.Analyst), "<br>",
                            "<strong>", "Year: ", "</strong>", as.character(sites$Year)))
 
     })
