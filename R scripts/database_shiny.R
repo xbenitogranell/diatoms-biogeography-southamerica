@@ -5,6 +5,8 @@ library(shiny)
 library(tidyverse)
 
 data_dir <- "~/diatoms-biogeography-southamerica/data"
+changes_training <- read.csv("data/old_new_nms_trainingset.csv", stringsAsFactors = FALSE)
+
 all_regions <- read.csv("data/all_regions.csv", row.names=1)
 colnames(all_regions) <- "region"
 
@@ -32,7 +34,8 @@ ui <- fluidPage(
         tabPanel("environment", tableOutput("env_data")),
         tabPanel("region", tableOutput("region_info")),
         tabPanel("map", leafletOutput("map",width="80%",height="600px")),
-        tabPanel("plots", plotOutput("boxplots", height = "2000px")))
+        tabPanel("environment boxplots", plotOutput("boxplots", height = "2000px")),
+        tabPanel("species plots", plotOutput("sppplots", height = "600px")))
     )
   )
 )
@@ -43,6 +46,11 @@ server <- function(input, output) {
   output$species <- renderTable({
     readr::read_csv(file = glue::glue("{data_dir}/diatom-datasets/{input$region} .csv"))
     }, striped = TRUE, width="auto")
+  
+  species_data <- reactive({
+    readr::read_csv(file = glue::glue("{data_dir}/diatom-datasets/{input$region} .csv"))
+  })
+  
 
   output$env_data <- renderTable({
     readr::read_csv(file = glue::glue("{data_dir}/region-datasets/{input$region} .csv")) 
@@ -56,6 +64,7 @@ server <- function(input, output) {
   site_data <- reactive({
     readr::read_csv(file = glue::glue("{data_dir}/sites-datasets/{input$region} .csv"))
   })
+  
   
   # # To display transposed table
   # output$region_info <- renderTable({
@@ -115,6 +124,37 @@ server <- function(input, output) {
     theme_bw()
   })
 
+  #make spp plots by ecological groups
+  output$sppplots <- renderPlot({
+    species_plt <- species_data() %>%
+      gather(key=taxa, value=count, -X1) %>%
+      mutate(taxa = plyr::mapvalues(taxa, from=changes_training$old, to=changes_training$new_2)) %>% #ecological grouping
+      group_by(X1, taxa) %>%
+      summarise(count = sum(count)) %>%
+      filter(!count == "0" ) %>% #this is to remove empty samples (rows)
+      ungroup() %>%
+      group_by(X1) %>%
+      mutate(relative_abundance_percent = count / sum(count) * 100) %>%
+      mutate(plank=sum(count[taxa=="freshwater_planktic" | taxa=="tycoplanktonic"])) %>%
+      mutate(benthic=sum(count[taxa=="epiphytics"| taxa== "saline" | taxa=="benthic"])) %>%
+      mutate(P_B=plank/benthic) %>%
+      mutate(P_B2=(plank-benthic)/(plank+benthic)) %>% #[-1(benthic dominated) to 1(planktic dominated)]
+      filter(taxa %in% c("benthic", "saline", "epiphytics",
+                         "freshwater_planktic", "tycoplanktonic", "oligosaline_planktic"))%>%
+      ungroup() 
+    
+    species_plt %>% ggplot(aes(x="", y=count, fill=taxa)) +
+      geom_bar(stat="identity")+
+      coord_polar("y", start=0) +
+      labs(x = NULL, y = NULL, fill = NULL, title = "Ecological groups")+
+      theme(axis.line = element_blank(),
+                              axis.text = element_blank(),
+                              axis.ticks = element_blank())+
+      theme_void() 
+    
+    
+  })
+  
 }
 
 
