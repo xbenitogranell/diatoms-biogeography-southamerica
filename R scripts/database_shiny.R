@@ -1,5 +1,3 @@
-
-
 library(leaflet)
 library(shiny)
 library(tidyverse)
@@ -29,13 +27,12 @@ ui <- fluidPage(
     # Show a plot of the generated distribution
     mainPanel(
       tabsetPanel(
-        #tabPanel("summary", tableOutput("summary_table")),
-        tabPanel("taxa", tableOutput("species")),
-        tabPanel("environment", tableOutput("env_data")),
-        tabPanel("region", tableOutput("region_info")),
-        tabPanel("map", leafletOutput("map",width="80%",height="600px")),
-        tabPanel("environment boxplots", plotOutput("boxplots", height = "2000px")),
-        tabPanel("species plots", plotOutput("sppplots", height = "600px")))
+        tabPanel("Region", tableOutput("region_info")),
+        tabPanel("Map", leafletOutput("map",width="80%",height="600px")),
+        tabPanel("Environment-table", tableOutput("env_data")),
+        tabPanel("Environment-boxplots", plotOutput("boxplots", height = "2000px")),
+        tabPanel("Taxa", tableOutput("species")),
+        tabPanel("Ecological groups", plotOutput("sppplots", height = "600px")))
     )
   )
 )
