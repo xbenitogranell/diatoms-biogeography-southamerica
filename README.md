@@ -23,15 +23,15 @@ southamerica <- ggplot() +
 The database is also available for visualisation through the **R Markdown**  `diatom-biogeography-southamerica.Rmd` file
 
 ### Database exploration
-To explore the database, run the `database_shiny.R` file in the <i>R scripts</i> folder. The output generates the files for each study region:
+To explore the database, run the `database_shiny.R` file in the <i>R scripts</i> folder. The output generates the following files for each study region:
 
 <ul>
-<li>**Region:** table with basic site's information (e.g. year, site name, saple type)</li>
-<li>**Map:** Geographical distribution of sites</li>
-<li>**Environment-table:** variables for the physical habitat, water chemistry, and geo-climatic context</li>
-<li>**Environment-boxplots:** Boxplots for selected environmental variables</li>
-<li>**Taxa:** Site-by-species data matrix</li>
-<li>**Ecological groups:** Relative proportion of diatom ecological groups (freshwater planktic, oligosaline planktic, tychoplanktic, benthic, epiphytic, and saline</li>
+<li><b>Region</b> table with basic site's information (e.g. year, site name, saple type)</li>
+<li><b>Map:</b> Geographical distribution of sites</li>
+<li><b>Environment-table:</b> variables for the physical habitat, water chemistry, and geo-climatic context</li>
+<li><b>Environment-boxplots:</b> Boxplots for selected environmental variables</li>
+<li><b>Taxa:</b> Site-by-species data matrix</li>
+<li><b>Ecological groups:</b> Relative proportion of diatom ecological groups (freshwater planktic, oligosaline planktic, tychoplanktic, benthic, epiphytic, and saline</li>
 
 
 
