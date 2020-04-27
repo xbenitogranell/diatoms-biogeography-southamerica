@@ -5,7 +5,7 @@
 This repository contains the code and data for contemporary diatom datasets of tropical South America.
 The [database](http://www.xavierbenito.com/bgsa/bgsa.html) includes diatom (unicelular siliceous algae) data and associated environmental variables of waterbody sites (streams, wetlands, lakes), covering an altitudinal gradient from 220 to 5,070 m a.s.l. between 8°N–30°S and 58–79°W.
 
-Datasets are mostly available on [Dryad](https://datadryad.org/resource/doi:10.5061/dryad.ck7pt) while here the aim is to provide a [shiny](http://shiny.rstudio.com) app to interactively explore the database in R for promoting biodiversity, biogeographic and paleolimnological studies in tropical South America.
+Datasets are mostly available on [Dryad](https://datadryad.org/resource/doi:10.5061/dryad.ck7pt) while here the aim is to provide a [shiny](http://shiny.rstudio.com) app to interactively **visualize** and **explore** the database in R for promoting biodiversity, biogeographic and paleolimnological studies in tropical South America.
 
 ### Database visualization
 A table with geographical coordinates of sites is available (file <i>biogeographySites.csv</i>) in the <i>data</i> folder. 
@@ -31,7 +31,7 @@ To explore the database, run the `database_shiny.R` file in the <i>R scripts</i>
 <li><b>Environment-table:</b> variables for the physical habitat, water chemistry, and geo-climatic context</li>
 <li><b>Environment-boxplots:</b> Boxplots for selected environmental variables</li>
 <li><b>Taxa:</b> Site-by-species data matrix</li>
-<li><b>Ecological groups:</b> Relative proportion of diatom ecological groups (freshwater planktic, oligosaline planktic, tychoplanktic, benthic, epiphytic, and saline</li>
+<li><b>Ecological groups:</b> Relative proportion of diatom ecological groups (freshwater planktic, oligosaline planktic, tychoplanktic, benthic, epiphytic, and saline)</li>
 
 
 

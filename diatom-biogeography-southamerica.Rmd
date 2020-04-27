@@ -43,19 +43,6 @@ sites_map <- sites %>% filter(!region=="Tierra del Fuego" & !Habitat=="channel")
 
 ```
 
-```{r}
-world <- map_data("world")
-southamerica <- ggplot() +
-  geom_polygon(data = world, aes(x=long, y = lat, group = group), fill="lightgrey") +
-  geom_point(data=sites_map, aes(x=Long.DD.W, y=Lat.DD.S, col=Habitat), shape=20, size=4)+
-  coord_map("albers", parameters = c(-100, -100),  ylim=c(-40,15), xlim=c(-82,-40)) +
-  xlab("Longitude") + ylab("Latitude") +
-  theme_bw()
-ggsave("plots/sites.png", southamerica, height = 8, width = 10)
-```
-
-
-
 Create a leaflet map. Click on the markers to see site's basic information
 ```{r}
 map <- leaflet() %>% 
