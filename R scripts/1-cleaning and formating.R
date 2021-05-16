@@ -1,7 +1,8 @@
+##########################################
+## Tropical South American Diatom Database
+##########################################
 
-
-#Import datasets
-
+##Import raw counts
 #Diatom data of individual datasets
 cusco <- read.csv("Cusco.csv", row.names = 1) #counts
 ecuKan <- read.csv("Ecuador-Kannan.csv", row.names=1) #pres-abs
@@ -15,7 +16,7 @@ sehuencas <- read.csv("sehuencas.csv", row.names=1)  #counts
 sorata <- read.csv("sorata.csv", row.names=1) #pres-abs
 lipezVil <- read.csv("Vildary-SudLipez.csv", row.names=1) #relative abund
 
-#Calculate relative abund (when necessary)
+#Calculate relative abundance (when necessary)
 
 #Ecuador Steinitz-Kannan
 ecuKan[is.na(ecuKan)] <- 0

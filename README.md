@@ -8,7 +8,7 @@ The [database](http://www.xavierbenito.com/bgsa/bgsa.html) includes diatom (unic
 Datasets are mostly available on [Dryad](https://datadryad.org/resource/doi:10.5061/dryad.ck7pt) while here the aim is to provide a [shiny](http://shiny.rstudio.com) app to interactively **visualize** and **explore** the database in R for promoting biodiversity, biogeographic and paleolimnological studies in tropical South America.
 
 ### Database visualization
-A table with geographical coordinates of sites is available (file <i>biogeographySites.csv</i>) in the <i>data</i> folder. 
+A table with geographical coordinates of lakes is available (file <i>biogeographySites.csv</i>) in the <i>data</i> folder. 
 
 <pre><code>read.csv("data/biogeographySites.csv", stringsAsFactors = FALSE) 
 world <- map_data("world")

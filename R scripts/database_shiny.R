@@ -1,10 +1,17 @@
+## Tropical South American Diatom Database
+## Shiny app for site visualisation and data exploration
+
 library(leaflet)
 library(shiny)
 library(tidyverse)
 
+# Create data directory
 data_dir <- "~/diatoms-biogeography-southamerica/data"
+
+# Read in diatom taxa (types) names for harmonisation 
 changes_training <- read.csv("data/old_new_nms_trainingset.csv", stringsAsFactors = FALSE)
 
+# Read in region names
 all_regions <- read.csv("data/all_regions.csv", row.names=1)
 colnames(all_regions) <- "region"
 
@@ -48,12 +55,11 @@ server <- function(input, output) {
     readr::read_csv(file = glue::glue("{data_dir}/diatom-datasets/{input$region} .csv"))
   })
   
-
   output$env_data <- renderTable({
     readr::read_csv(file = glue::glue("{data_dir}/region-datasets/{input$region} .csv")) 
   }, striped = TRUE, width="auto") 
   
-  
+
   output$region_info <- renderTable({
     readr::read_csv(file = glue::glue("{data_dir}/sites-datasets/{input$region} .csv"))
     }, striped = TRUE, width="auto")
