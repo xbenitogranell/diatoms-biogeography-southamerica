@@ -58,10 +58,10 @@ spp_mostoccurrence <- df_thin %>%
   ungroup()
 
 # not important stuff
-test2 <- df_thin %>%
-  filter(str_detect(taxa, "Mastogloia")) %>%
-  filter(!count==0) %>%
-  summarise(Unique_Elements = n_distinct(taxa))
+#test2 <- df_thin %>%
+#  filter(str_detect(taxa, "Mastogloia")) %>%
+#  filter(!count==0) %>%
+#  summarise(Unique_Elements = n_distinct(taxa))
 
 
 ## Sites
@@ -107,12 +107,30 @@ ggsave("plots/diatoms_regions_traits.png", plot = last_plot(),
        height=8, width=10,units="in",
        dpi = 300)
 
+
+## Make the same without filtering spp for shiny app
+diatoms_list <- df_thin %>%
+  mutate(taxa = plyr::mapvalues(taxa, from = changes_training$old, to = changes_training$new_1)) %>%
+  group_by(region, Row.names, taxa) %>%
+  summarise(count = sum(count)) %>%
+  spread(key = taxa, value = count) %>%
+  as.data.frame() %>%
+  left_join(sitesDB, by="Row.names") %>% 
+  select(-c(CollectionName, Country, Collector.Analyst, Year, SiteName, region.y, Row.names, SampleType, Substrate,
+            Habitat)) %>%
+  gather(key = taxa, value = abund, -Lat.DD.S, -Long.DD.W, -region.x) %>%
+  mutate(taxa=factor(taxa)) %>%
+  #ecological grouping
+  mutate(taxa_traits = plyr::mapvalues(taxa, from = changes_training$old, to = changes_training$new_2)) %>%
+  filter(!taxa_traits=="Auxospores")
+
+
 ## Environmental data
 diatom_environment <- read.csv("data/environmental_data_lakes.csv") %>%
   mutate(lake_depth_ratio=Lake_area/Depth_avg) %>%
   mutate(lake_catch_ratio=Lake_area/Wshd_area) %>%
   mutate(catch_vol_ratio=Wshd_area/Vol_total) %>%
-  rename(Row.names=code) %>%
+  rename(Row.names=ï..code) %>%
   left_join(diatomRegions, by="Row.names") #here join with diatom data
 
 
