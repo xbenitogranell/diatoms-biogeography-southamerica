@@ -108,7 +108,7 @@ ggsave("plots/diatoms_regions_traits.png", plot = last_plot(),
        dpi = 300)
 
 
-## Make the same without filtering spp for shiny app
+## Make the same without filtering spp for obtaining a list of diatom spp with coordinates
 diatoms_list <- df_thin %>%
   mutate(taxa = plyr::mapvalues(taxa, from = changes_training$old, to = changes_training$new_1)) %>%
   group_by(region, Row.names, taxa) %>%
@@ -119,10 +119,10 @@ diatoms_list <- df_thin %>%
   select(-c(CollectionName, Country, Collector.Analyst, Year, SiteName, region.y, Row.names, SampleType, Substrate,
             Habitat)) %>%
   gather(key = taxa, value = abund, -Lat.DD.S, -Long.DD.W, -region.x) %>%
+  filter(!taxa=="Auxospores") %>%
   mutate(taxa=factor(taxa)) %>%
-  #ecological grouping
-  mutate(taxa_traits = plyr::mapvalues(taxa, from = changes_training$old, to = changes_training$new_2)) %>%
-  filter(!taxa_traits=="Auxospores")
+  #assign presence/absence column
+  mutate(pres_abs=ifelse(abund>0.5, 1,0))
 
 
 ## Environmental data
