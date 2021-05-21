@@ -130,11 +130,71 @@ diatom_environment <- read.csv("data/environmental_data_lakes.csv") %>%
   mutate(lake_depth_ratio=Lake_area/Depth_avg) %>%
   mutate(lake_catch_ratio=Lake_area/Wshd_area) %>%
   mutate(catch_vol_ratio=Wshd_area/Vol_total) %>%
-  rename(Row.names=ï..code) %>%
+  rename(Row.names=code) %>%
   left_join(diatomRegions, by="Row.names") #here join with diatom data
 
 
+#plot modern lake database with marginsl histograms
+library(maps)
+library(rwordlmap)
+library(ggpubr)
 
+world <- map_data("world")
+
+southamerica <- ggplot() +
+  geom_polygon(data = world, aes(x=long, y = lat, group = group), fill="lightgrey") +
+  geom_point(data=diatom_environment, aes(x=long, y=lat), colour="blue")+
+  theme(legend.position = "right")+
+  coord_equal(ylim=c(-50,15), xlim=c(-82,-40))+
+  xlab("Longitude") + ylab("Latitude") +
+  theme_bw()
+southamerica
+
+xbp <-
+  gghistogram(
+    diatom_environment$long,
+    fill = "orange1",
+    binwidth = 5,
+    size = 0.1) +
+  theme_transparent()
+
+ybp <-
+  gghistogram(
+    diatom_environment$lat,
+    fill = "orange1",
+    binwidth = 5,
+    size = 0.1,) +
+  ggpubr::rotate() +
+  theme_transparent()
+
+xbp_grob <-  ggplotGrob(xbp)
+ybp_grob <-  ggplotGrob(ybp)
+
+
+my.max <- function(x) ifelse( !all(is.na(x)), max(x, na.rm=T), NA)
+my.min <- function(x) ifelse( !all(is.na(x)), min(x, na.rm=T), NA)
+
+xmin <-  my.min(diatom_environment$long)
+xmax <-  my.max(diatom_environment$long)
+ymin <-  my.min(diatom_environment$lat)
+ymax <-  my.max(diatom_environment$lat)
+
+
+fig_map_a_fin <- 
+  southamerica + #create a South America map
+  annotation_custom(
+    grob = xbp_grob,
+    xmin = xmin,
+    xmax = xmax,
+    ymin = -45,
+    ymax = -54) +
+  annotation_custom(
+    grob = ybp_grob,
+    xmin = -86,
+    xmax = -75,
+    ymin = ymin,
+    ymax = ymax)
+fig_map_a_fin
 
 
 

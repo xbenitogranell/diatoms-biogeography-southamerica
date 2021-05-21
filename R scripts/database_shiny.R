@@ -85,6 +85,8 @@ server <- function(input, output) {
     leafletProxy("map", data = site_data()) %>%
       clearMarkers() %>%   ## clear previous markers
       addProviderTiles("Esri.WorldImagery") %>%
+      setView(lng = mean(~Long.DD.W), lat = mean(~Long.DD.W), zoom = 05) %>%
+      
     
     addMarkers(
       lng = ~Long.DD.W, # note the tildes before values, required
@@ -173,8 +175,6 @@ shinyApp(
                    selectInput(selected = NULL, 'species',
                                strong("Select species"), 
                                as.character(unique(sort(diatoms_list$taxa)))),
-                   br(),
-                   wellPanel(span(h4(strong("Region:")), h3(textOutput("region.x")))),
                  ),
                  
                  mainPanel(
@@ -187,7 +187,7 @@ shinyApp(
   
   server = function(input, output) {
     
-    data<- reactive({species_map_data[species_map_data$species_name == input$species,]})
+    #data<- reactive({species_map_data[species_map_data$species_name == input$species,]})
     
     
     output$MapPlot1 <- renderLeaflet({
