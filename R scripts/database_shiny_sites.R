@@ -1,9 +1,10 @@
 ## Tropical South American Diatom Database
-## Shiny app for site visualisation and data exploration
+## Shiny app for site visualization and data exploration
 
 library(leaflet)
 library(shiny)
 library(tidyverse)
+library(shinyWidgets)
 
 # Create data directory
 data_dir <- "~/diatoms-biogeography-southamerica/data"
@@ -166,71 +167,4 @@ server <- function(input, output) {
 # Run the application 
 shinyApp(ui = ui, server = server)
 
-
-
-#Visualization of species occurrence
-shinyApp(
-  ui = fluidPage(headerPanel('Distribution of diatom taxa in South America'),
-                 sidebarPanel(
-                   selectInput(selected = NULL, 'species',
-                               strong("Select species"), 
-                               as.character(unique(sort(diatoms_list$taxa)))),
-                 ),
-                 
-                 mainPanel(
-                   leafletOutput("MapPlot1",
-                                 width = '100%',
-                                 height = 600)
-                   
-                 )
-  ),
-  
-  server = function(input, output) {
-    
-    #data<- reactive({species_map_data[species_map_data$species_name == input$species,]})
-    
-    
-    output$MapPlot1 <- renderLeaflet({
-      leaflet() %>% 
-        addProviderTiles("Esri.WorldImagery") %>% 
-        setView(lng = -68, lat = -15, zoom = 3) %>%
-        addCircles(lng=sitesDB$Long.DD.W,
-                   lat=sitesDB$Lat.DD.S,
-                   color = "grey")
-    })
-    
-    observe({
-      
-      species <- input$species
-      all <- diatoms_list %>% filter(diatoms_list$pres_abs==1 & diatoms_list$taxa %in% species)
-      
-      leafletProxy("MapPlot1") %>% clearMarkers() %>% 
-        addCircleMarkers(lng = all$Long.DD.W,
-                         lat = all$Lat.DD.S,
-                         radius = sqrt(all$abund),
-                         stroke = TRUE, 
-                         color = "red",
-                         fillOpacity = 1,
-                         fillColor = "yellow",
-                         label = all$region.x,
-                         labelOptions = labelOptions(noHide = FALSE, direction = "bottom",
-                                                     style = list(
-                                                       "color" = "grey50",
-                                                       "font-family" = "serif",
-                                                       "font-style" = "bold",
-                                                       "font-size" = "13px")))%>%
-                         #popup = paste("<strong>", "Region: ", "</strong>", as.character(all$region.x))) 
-        setView(lng = mean(all$Long.DD.W), lat = mean(all$Lat.DD.S), zoom = 05) %>%
-        addScaleBar(.,
-                    position = 'topright')
-      
-      
-    })
-    
-    output$taxa <- renderText({unique(as.character(data()$taxa))})
-    output$region <- renderText({unique(as.character(data()$region.x))})
-    
-  }
-  
-)
 

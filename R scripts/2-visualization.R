@@ -116,13 +116,20 @@ diatoms_list <- df_thin %>%
   spread(key = taxa, value = count) %>%
   as.data.frame() %>%
   left_join(sitesDB, by="Row.names") %>% 
-  select(-c(CollectionName, Country, Collector.Analyst, Year, SiteName, region.y, Row.names, SampleType, Substrate,
+  select(-c(CollectionName, Country, Collector.Analyst, region.y, Row.names, SampleType, Substrate,
             Habitat)) %>%
-  gather(key = taxa, value = abund, -Lat.DD.S, -Long.DD.W, -region.x) %>%
+  gather(key = taxa, value = abund, -Lat.DD.S, -Long.DD.W, -region.x, -SiteName, -Year) %>%
   filter(!taxa=="Auxospores") %>%
   mutate(taxa=factor(taxa)) %>%
   #assign presence/absence column
-  mutate(pres_abs=ifelse(abund>0.5, 1,0))
+  mutate(pres_abs=ifelse(abund>0.5, 1,0)) %>% #the shiny collapses if abund<0.5
+  #create cut levels of abundance
+  mutate(abund_lvl=cut(abund, 
+                       c(0,.5,1,2,3,5,100), include.lowest = T,
+                       labels = c('<0.5%' ,'0.5-1%', '1-2%', '2-3%', '3-5%','>5%')))
+
+# then assign a palette to this using colorFactor
+abundColour <- colorFactor(palette = 'RdYlGn', diatoms_list$abund_lvl)
 
 
 ## Environmental data
