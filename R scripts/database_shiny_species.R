@@ -9,7 +9,52 @@ library(shiny)
 library(tidyverse)
 library(shinyWidgets)
 
+#Read in assembled diatom datasets and Regions
+combined <- read.csv("data/assembledspp.csv", row.names=1)
+lake_regions <- read.csv("data/regions.csv", row.names = 1)
 
+##Merge diatom datasets and regions datasets
+modern_lakes <- merge(combined, lake_regions, by="row.names")
+
+## Sites
+sitesDB <- read.csv("data/biogeographySites.csv", stringsAsFactors = FALSE) %>%
+  dplyr::select(CollectionName, Country, Collector.Analyst, Year, SiteName, SampleType, Habitat, Substrate,
+                code, region, Lat.DD.S, Long.DD.W) %>%
+  mutate(region=str_replace(region, "Colombia-Andes-Central", "Colombia-Andes"))%>%
+  mutate(region=str_replace(region, "Colombia-Andes-Eastern", "Colombia-Andes"))%>%
+  mutate(region=str_replace(region, "Colombia-Lowlands-North", "Colombia-Lowlands"))%>%
+  mutate(region=str_replace(region, "Colombia-Lowlands-Eastern", "Colombia-Lowlands"))%>%
+  mutate(region=str_replace(region, "Colombia-Lowlands-Western", "Colombia-Lowlands")) %>%
+  rename(Row.names=code) 
+
+#transform dataframe to tidy format
+df_thin <- modern_lakes %>%
+  gather(key = taxa, value = count, -Row.names, -region)#don't gather region
+
+
+## Make the same without filtering spp for obtaining a list of diatom spp with coordinates
+diatoms_list <- df_thin %>%
+  mutate(taxa = plyr::mapvalues(taxa, from = changes_training$old, to = changes_training$new_1)) %>%
+  group_by(region, Row.names, taxa) %>%
+  summarise(count = sum(count)) %>%
+  spread(key = taxa, value = count) %>%
+  as.data.frame() %>%
+  left_join(sitesDB, by="Row.names") %>% 
+  select(-c(CollectionName, Country, Collector.Analyst, region.y, Row.names)) %>%
+  gather(key = taxa, value = abund, -Habitat, -Lat.DD.S, -Long.DD.W, -region.x, -Substrate, -Year, -SampleType, -SiteName) %>%
+  filter(!taxa=="Auxospores") %>%
+  mutate(taxa=factor(taxa)) %>%
+  #assign presence/absence column
+  mutate(pres_abs=ifelse(abund>0.5, 1,0)) %>% #the shiny collapses if abund<0.5
+  #create cut levels of abundance
+  mutate(abund_lvl=cut(abund, 
+                       c(0,.5,1,2,3,5,100), include.lowest = T,
+                       labels = c('<0.5%' ,'0.5-1%', '1-2%', '2-3%', '3-5%','>5%')))
+
+# then assign a palette to this using colorFactor
+abundColour <- colorFactor(palette = 'RdYlGn', diatoms_list$abund_lvl)
+
+# Run the Shiny App
 shinyApp(
   ui = fluidPage(headerPanel('Distribution of diatom taxa in South America'),
                  sidebarPanel(

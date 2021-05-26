@@ -7,7 +7,7 @@ library(tidyverse)
 library(shinyWidgets)
 
 # Create data directory
-data_dir <- "~/diatoms-biogeography-southamerica/data"
+data_dir <- "~/R/diatoms-biogeography-southamerica/data"
 
 # Read in diatom taxa (types) names for harmonisation 
 changes_training <- read.csv("data/old_new_nms_trainingset.csv", stringsAsFactors = FALSE)

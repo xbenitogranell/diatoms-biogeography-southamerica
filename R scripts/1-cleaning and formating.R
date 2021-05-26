@@ -246,7 +246,7 @@ names(diatomRegionsList) <- nms
 nams <- names(diatomRegionsList)
 for (i in seq_along(diatomRegionsList)) {
   assign(paste0("", nams[i]), diatomRegionsList[[i]])
-  setwd("~/diatoms-biogeography-southamerica/data/diatom-datasets")
+  setwd("~/R/diatoms-biogeography-southamerica/data/diatom-datasets")
   filename=paste(nams[i],".csv")
   write.csv(diatomRegionsList[[i]], filename)
 }
@@ -269,22 +269,29 @@ rownames(sitesDB) <- sitesDB$code
 
 str(sitesDB)
 unique(sitesDB$SiteName) #317 sites
-length(unique(sitesDB$region)) #28 regions
+length(unique(sitesDB$region)) #28
+
+sitesDB <- sitesDB %>% filter(!region %in% c("Tierra del Fuego", "", "Lauca Basin"))
+
+unique(sitesDB$SiteName) #306 sites
+length(unique(sitesDB$region)) #25
+
 
 ## split data by regions and reassemble
 sitesDBList <- split(sitesDB, sitesDB$region)
 sitesDBList[[1]] <- NULL
 sitesDBList$`Tierra del Fuego` <- NULL
+sitesDBList$`Lauca Basin` <- NULL
 
 nams <- names(sitesDBList)
 for (i in seq_along(sitesDBList)) {
   assign(paste0("", nams[i]), sitesDBList[[i]])
-  setwd("~/diatoms-biogeography-southamerica/data/sites-datasets")
+  setwd("~/R/diatoms-biogeography-southamerica/data/sites-datasets")
   filename=paste(nams[i],".csv")
   write.csv(sitesDBList[[i]], filename)
 }
 
-write.csv(unique(sitesDB$region), "~/diatoms-biogeography-southamerica/data/all_regions.csv")
+write.csv(unique(sitesDB$region), "~/R/diatoms-biogeography-southamerica/data/all_regions.csv")
 
 ######
 #Environmental datasets
@@ -306,7 +313,7 @@ ENVRegionsList$`Tierra del Fuego` <- NULL
 nams <- names(ENVRegionsList)
 for (i in seq_along(ENVRegionsList)) {
   assign(paste0("", nams[i]), ENVRegionsList[[i]])
-  setwd("~/diatoms-biogeography-southamerica/data/region-datasets")
+  setwd("~/R/diatoms-biogeography-southamerica/data/region-datasets")
   filename=paste(nams[i],".csv")
   write.csv(ENVRegionsList[[i]], filename)
 }
