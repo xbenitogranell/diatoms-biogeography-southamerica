@@ -13,7 +13,7 @@ data_dir <- "~/R/diatoms-biogeography-southamerica/data"
 changes_training <- read.csv("data/old_new_nms_trainingset.csv", stringsAsFactors = FALSE)
 
 # Read in region names
-all_regions <- read.csv("data/all_regions.csv", row.names=1)
+all_regions <- read.csv("data/all_regions_new.csv", row.names=1)
 colnames(all_regions) <- "region"
 
 
@@ -28,7 +28,7 @@ ui <- fluidPage(
     sidebarPanel(
       selectInput("region",
                   "Region",
-                  choices = all_regions$region),
+                  choices = sort(all_regions$region)),
       width = 6
     ),
     

@@ -9,8 +9,12 @@ library(tidyverse)
 library(ggplot2)
 
 #Read in assembled diatom datasets and Regions
-combined <- read.csv("data/assembledspp.csv", row.names=1)
-lake_regions <- read.csv("data/regions.csv", row.names = 1)
+#combined <- read.csv("data/assembledspp.csv", row.names=1)
+combined <- read.csv("data/assembledspp_new.csv", row.names=1)
+
+#lake_regions <- read.csv("data/regions.csv", row.names = 1)
+lake_regions <- read.csv("data/regions_new.csv", row.names = 1, sep=";") 
+
 
 ##Merge diatom datasets and regions datasets
 modern_lakes <- merge(combined, lake_regions, by="row.names")
@@ -58,9 +62,12 @@ spp_mostoccurrence <- df_thin %>%
   ungroup()
 
 ## Sites
-sitesDB <- read.csv("data/biogeographySites.csv", stringsAsFactors = FALSE) %>%
+sitesDB <- read.csv("data/biogeographySites_new.csv", sep=";", stringsAsFactors = FALSE) %>%
   dplyr::select(CollectionName, Country, Collector.Analyst, Year, SiteName, SampleType, Habitat, Substrate,
                 code, region, Lat.DD.S, Long.DD.W) %>%
+  mutate(Lat.DD.S=as.numeric(gsub(",", ".", gsub("\\.", "", Lat.DD.S)))) %>%
+  mutate(Long.DD.W=as.numeric(gsub(",", ".", gsub("\\.", "", Long.DD.W)))) %>%
+  
   mutate(region=str_replace(region, "Colombia-Andes-Central", "Colombia-Andes"))%>%
   mutate(region=str_replace(region, "Colombia-Andes-Eastern", "Colombia-Andes"))%>%
   mutate(region=str_replace(region, "Colombia-Lowlands-North", "Colombia-Lowlands"))%>%
@@ -86,7 +93,7 @@ diatoms_habitat <- df_thin %>%
   mutate(taxa = plyr::mapvalues(taxa, from = changes_training$old, to = changes_training$new_1)) %>%
   group_by(region, Row.names, taxa) %>%
   summarise(count = sum(count)) %>%
-  filter(count > 30) %>% # uncomment this line to make the following plot
+  filter(count > 30) %>% # uncomment this line to make the following plot (P/A data will not be plotted)
   spread(key = taxa, value = count) %>%
   as.data.frame() %>%
   left_join(sitesDB, by="Row.names") %>% 
@@ -182,13 +189,16 @@ library(ggpubr)
 
 world <- map_data("world")
 
-sites_map <- read.csv("data/biogeographySites.csv", stringsAsFactors = FALSE) %>% 
-  filter(!region=="Tierra del Fuego" & !Habitat=="channel")
+sites_map <- read.csv("data/biogeographySites_new.csv", sep=";", stringsAsFactors = FALSE) %>% 
+  filter(!region=="Tierra del Fuego" & !Habitat=="channel") %>%
+  mutate(Lat.DD.S=as.numeric(gsub(",", ".", gsub("\\.", "", Lat.DD.S)))) %>%
+  mutate(Long.DD.W=as.numeric(gsub(",", ".", gsub("\\.", "", Long.DD.W))))
+  
 
 southamerica <- ggplot() +
   geom_polygon(data = world, aes(x=long, y = lat, group = group), fill="lightgrey") +
   geom_point(data=sites_map, aes(x=Long.DD.W, y=Lat.DD.S, col=Habitat), shape=20, size=4)+
-  coord_equal(ylim=c(-45,15), xlim=c(-82,-40))+
+  coord_equal(ylim=c(-45,15), xlim=c(-92,-40))+
   #coord_map("albers", parameters = c(-100, -100),  ylim=c(-40,15), xlim=c(-82,-40)) +
   xlab("Longitude") + ylab("Latitude") +
   theme_bw()
@@ -206,14 +216,14 @@ southamerica <- ggplot() +
 xbp <- gghistogram(
     sites_map$Long.DD.W,
     fill = "orange1",
-    binwidth = 2,
+    binwidth = 4,
     size = 0.1) +
   theme_transparent()
 
 ybp <- gghistogram(
     sites_map$Lat.DD.S,
     fill = "orange1",
-    binwidth = 2,
+    binwidth = 4,
     size = 0.1,) +
   ggpubr::rotate() +
   theme_transparent()
@@ -241,11 +251,12 @@ map_hist_plt <-
     ymax = -49) +
   annotation_custom(
     grob = ybp_grob,
-    xmin = -86,
-    xmax = -79,
+    xmin = -96,
+    xmax = -88,
     ymin = ymin,
     ymax = ymax)
 map_hist_plt
+
 
 ggsave("plots/map_sites_forpaper.png", plot = last_plot(),
        height=8, width=10,units="in",

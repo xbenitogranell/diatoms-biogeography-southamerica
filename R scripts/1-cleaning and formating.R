@@ -16,11 +16,18 @@ sehuencas <- read.csv("sehuencas.csv", row.names=1)  #counts
 sorata <- read.csv("sorata.csv", row.names=1) #pres-abs
 lipezVil <- read.csv("Vildary-SudLipez.csv", row.names=1) #relative abund
 
+galapagos <- read.csv("data/galapagos_updated.csv", row.names = 1) #pres-abs
+
+
 #Calculate relative abundance (when necessary)
 
 #Ecuador Steinitz-Kannan
 ecuKan[is.na(ecuKan)] <- 0
 rowSums(ecuKan)
+
+galapagos[is.na(galapagos)] <- 0
+rowSums(galapagos)
+
 
 #Ecuador Smol-Michelutti
 ecuMic[is.na(ecuMic)] <- 0
@@ -190,12 +197,13 @@ rowSums(combined)
 combined <- combined[rowSums(combined)!=0, ] 
 
 #export dataset
-write.csv(combined, "assembledspp.csv") #mix of presence/absence and relative abundances
+#write.csv(combined, "assembledspp.csv") #mix of presence/absence and relative abundances
+#write.csv(combined, "data/assembledspp_new.csv") #with Galapagos dataset
 
-
+#######
 #Read in assembled diatom datasets and Regions
-combined <- read.csv("data/assembledspp.csv", row.names=1)
-lake_regions <- read.csv("data/regions.csv", row.names = 1)
+combined <- read.csv("data/assembledspp_new.csv", row.names=1)
+lake_regions <- read.csv("data/regions_new.csv", row.names = 1, sep=";")
 
 ##Merge diatom datasets and regions datasets
 modern_lakes <- merge(combined, lake_regions, by="row.names")
@@ -253,28 +261,30 @@ for (i in seq_along(diatomRegionsList)) {
 
 
 ## Sites
-sitesDB <- read.csv("data/biogeographySites.csv", stringsAsFactors = FALSE) %>%
+sitesDB <- read.csv("data/biogeographySites_new.csv", sep=";", stringsAsFactors = FALSE) %>%
   dplyr::select(CollectionName, Country, Collector.Analyst, Year, SiteName, SampleType, Habitat, Substrate,
-         code, region, Lat.DD.S, Long.DD.W) %>%
+                code, region, Lat.DD.S, Long.DD.W) %>%
+  mutate(Lat.DD.S=as.numeric(gsub(",", ".", gsub("\\.", "", Lat.DD.S)))) %>%
+  mutate(Long.DD.W=as.numeric(gsub(",", ".", gsub("\\.", "", Long.DD.W)))) %>%
+  
   mutate(region=str_replace(region, "Colombia-Andes-Central", "Colombia-Andes"))%>%
   mutate(region=str_replace(region, "Colombia-Andes-Eastern", "Colombia-Andes"))%>%
   mutate(region=str_replace(region, "Colombia-Lowlands-North", "Colombia-Lowlands"))%>%
   mutate(region=str_replace(region, "Colombia-Lowlands-Eastern", "Colombia-Lowlands"))%>%
   mutate(region=str_replace(region, "Colombia-Lowlands-Western", "Colombia-Lowlands"))
-  
-  
+
 
 head(sitesDB)
 rownames(sitesDB) <- sitesDB$code
 
 str(sitesDB)
-unique(sitesDB$SiteName) #317 sites
-length(unique(sitesDB$region)) #28
+unique(sitesDB$SiteName) #338 sites
+length(unique(sitesDB$region)) #29
 
 sitesDB <- sitesDB %>% filter(!region %in% c("Tierra del Fuego", "", "Lauca Basin"))
 
-unique(sitesDB$SiteName) #306 sites
-length(unique(sitesDB$region)) #25
+unique(sitesDB$SiteName) #326 sites
+length(unique(sitesDB$region)) #26
 
 
 ## split data by regions and reassemble
@@ -291,7 +301,7 @@ for (i in seq_along(sitesDBList)) {
   write.csv(sitesDBList[[i]], filename)
 }
 
-write.csv(unique(sitesDB$region), "~/R/diatoms-biogeography-southamerica/data/all_regions.csv")
+write.csv(unique(sitesDB$region), "~/R/diatoms-biogeography-southamerica/data/all_regions_new.csv")
 
 ######
 #Environmental datasets

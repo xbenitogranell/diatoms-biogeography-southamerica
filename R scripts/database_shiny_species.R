@@ -10,16 +10,21 @@ library(tidyverse)
 library(shinyWidgets)
 
 #Read in assembled diatom datasets and Regions
-combined <- read.csv("data/assembledspp.csv", row.names=1)
-lake_regions <- read.csv("data/regions.csv", row.names = 1)
+combined <- read.csv("data/assembledspp_new.csv", row.names=1)
+lake_regions <- read.csv("data/regions_new.csv", row.names = 1, sep=";")
+
+#import dataframe wiht old and new names to group
+changes_training <- read.csv("data/old_new_nms_trainingset.csv", stringsAsFactors = FALSE)
 
 ##Merge diatom datasets and regions datasets
 modern_lakes <- merge(combined, lake_regions, by="row.names")
 
 ## Sites
-sitesDB <- read.csv("data/biogeographySites.csv", stringsAsFactors = FALSE) %>%
+sitesDB <- read.csv("data/biogeographySites_new.csv", sep=";", stringsAsFactors = FALSE) %>%
   dplyr::select(CollectionName, Country, Collector.Analyst, Year, SiteName, SampleType, Habitat, Substrate,
                 code, region, Lat.DD.S, Long.DD.W) %>%
+  mutate(Lat.DD.S=as.numeric(gsub(",", ".", gsub("\\.", "", Lat.DD.S)))) %>%
+  mutate(Long.DD.W=as.numeric(gsub(",", ".", gsub("\\.", "", Long.DD.W)))) %>%
   mutate(region=str_replace(region, "Colombia-Andes-Central", "Colombia-Andes"))%>%
   mutate(region=str_replace(region, "Colombia-Andes-Eastern", "Colombia-Andes"))%>%
   mutate(region=str_replace(region, "Colombia-Lowlands-North", "Colombia-Lowlands"))%>%
