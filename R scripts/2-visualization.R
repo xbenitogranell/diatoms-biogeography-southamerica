@@ -15,7 +15,6 @@ combined <- read.csv("data/assembledspp_new.csv", row.names=1)
 #lake_regions <- read.csv("data/regions.csv", row.names = 1)
 lake_regions <- read.csv("data/regions_new.csv", row.names = 1, sep=";") 
 
-
 ##Merge diatom datasets and regions datasets
 modern_lakes <- merge(combined, lake_regions, by="row.names")
 
@@ -76,7 +75,6 @@ sitesDB <- read.csv("data/biogeographySites_new.csv", sep=";", stringsAsFactors 
   rename(Row.names=code) 
 
 
-
 ## Read in lake environmental data
 diatom_environment <- read.csv("data/environmental_data_lakes.csv") %>%
   mutate(lake_depth_ratio=Lake_area/Depth_avg) %>%
@@ -97,8 +95,8 @@ diatoms_habitat <- df_thin %>%
   spread(key = taxa, value = count) %>%
   as.data.frame() %>%
   left_join(sitesDB, by="Row.names") %>% 
-  select(-c(CollectionName, Country, Collector.Analyst, SiteName, region.y, Row.names)) %>%
-  gather(key = taxa, value = abund, -Habitat, -Lat.DD.S, -Long.DD.W, -region.x, -Substrate, -Year, -SampleType) %>%
+  select(-c(CollectionName, Country, Collector.Analyst, region.x, SiteName, Row.names)) %>%
+  gather(key = taxa, value = abund, -Habitat, -Lat.DD.S, -Long.DD.W, -region.y, -Substrate, -Year, -SampleType) %>%
   mutate(taxa=factor(taxa)) %>%
   filter(!Habitat=="channel") %>%
   mutate(Habitat=factor(Habitat)) %>%
@@ -108,7 +106,7 @@ diatoms_habitat <- df_thin %>%
 
 
 # Make a bubble chart
-plt <- ggplot(diatoms_habitat, aes(x = reorder(region.x, -Lat.DD.S), y = fct_rev(taxa))) + #arrange regions by latitude
+plt <- ggplot(diatoms_habitat, aes(x = reorder(region.y, -Lat.DD.S), y = fct_rev(taxa))) + #arrange regions by latitude
   geom_point(aes(size = abund, color = Habitat, shape=taxa_traits)) +
   scale_color_viridis_d(option = "D")+
   theme_bw() +
@@ -121,7 +119,6 @@ ggsave("plots/diatoms_regions_traits.png", plot = last_plot(),
        height=8, width=10,units="in",
        dpi = 300)
 
-
 ## Summarize metadata of regions
 data_summ <- df_thin %>%
   mutate(taxa = plyr::mapvalues(taxa, from = changes_training$old, to = changes_training$new_1)) %>%
@@ -131,11 +128,11 @@ data_summ <- df_thin %>%
   as.data.frame() %>%
   left_join(sitesDB, by="Row.names") %>% 
   # comment the next two lines for making the buuble plot
-  left_join(diatom_environment[,c(1,4:27)], by="Row.names") %>%
+  left_join(diatom_environment[,c(1,4:27, 50)], by="Row.names") %>% #here join with certain env variables
   select(-c(CollectionName, Country, Collector.Analyst, region.y, Row.names)) %>%
   gather(key = taxa, value = abund, -Habitat, -Lat.DD.S, -Long.DD.W, -region.x, -Substrate, -Year, -SampleType, -SiteName,
          -pH, -Water.T, -Cond, -Turb, -Chl, -Secchi, -Alkalinity, -Ca, -Mg, -K, -Na, -Si, -Cl, -NO2, 
-         -NO3, -SO4, -PO4, -TN, -TP, -DO..,-DO,-Carbonate, -Silicate, -DOC) %>%
+         -NO3, -SO4, -PO4, -TN, -TP, -DO..,-DO,-Carbonate, -Silicate, -DOC, -Ecoregion) %>%
   mutate(taxa=factor(taxa)) %>%
   filter(!Habitat=="channel") %>%
   mutate(Habitat=factor(Habitat)) %>%
@@ -169,6 +166,7 @@ diatoms_list <- df_thin %>%
   select(-c(CollectionName, Country, Collector.Analyst, region.y, Row.names)) %>%
   gather(key = taxa, value = abund, -Habitat, -Lat.DD.S, -Long.DD.W, -region.x, -Substrate, -Year, -SampleType, -SiteName) %>%
   filter(!taxa=="Auxospores") %>%
+  filter(!Habitat=="channel") %>%
   mutate(taxa=factor(taxa)) %>%
   #assign presence/absence column
   mutate(pres_abs=ifelse(abund>0.5, 1,0)) %>% #the shiny collapses if abund<0.5
@@ -182,12 +180,72 @@ abundColour <- colorFactor(palette = 'RdYlGn', diatoms_list$abund_lvl)
 
 
 
+# would like to make a pie chart plot showing the number of sites per habitat
+habitats_plt <- diatoms_list %>% count(Habitat) %>%
+  ggplot(aes(x="", y=n, fill=Habitat)) +
+  geom_bar(stat="identity", color="black")+
+  coord_polar("y", start=0) +
+  labs(x = NULL, y = NULL, fill = NULL, title = "")+
+  scale_fill_viridis_d()+
+  theme_classic()+
+  theme(axis.line = element_blank(),
+        axis.text = element_blank(),
+        axis.ticks = element_blank())
+
+# save plots
+ggsave(plot=habitats_plt, "plots/habitats.png",
+       height=8, width=10,units="in",
+       dpi = 300)
+
+# create a series of plots showing the number of sites per habitat,sampleType and years
+habitats_plt <- diatoms_list %>% count(Habitat) %>%
+  ggplot(aes(x="", y=n, fill=Habitat)) +
+  geom_bar(stat="identity", color="black")+
+  coord_polar("y", start=0) +
+  labs(x = NULL, y = NULL, fill = NULL, title = "")+
+  scale_fill_viridis_d()+
+  theme_classic()+
+  theme(axis.line = element_blank(),
+        axis.text = element_blank(),
+        legend.text = element_text(size = 14))
+
+sampletype_plt <- diatoms_list %>% count(SampleType) %>%
+  ggplot(aes(x="", y=n, fill=SampleType)) +
+  geom_bar(stat="identity", color="black")+
+  coord_polar("y", start=0) +
+  labs(x = NULL, y = NULL, fill = NULL, title = "")+
+  scale_fill_viridis_d()+
+  theme_classic()+
+  theme(axis.line = element_blank(),
+        axis.text = element_blank(),
+        legend.text = element_text(size = 14))
+
+Year_plt <- diatoms_list %>% count(Year) %>%
+  ggplot(aes(x="", y=n, fill=Year)) +
+  geom_bar(stat="identity")+
+  coord_polar("y", start=0) +
+  labs(x = NULL, y = NULL, fill = NULL, title = "")+
+  scale_fill_viridis_c()+
+  theme_classic()+
+  theme(axis.line = element_blank(),
+        axis.text = element_blank(),
+        legend.text = element_text(size = 14))
+
+
+#save plots
+ggsave("plots/habitats.png", plot = last_plot(),
+       height=8, width=10,units="in",
+       dpi = 300)
+
 #plot modern lake database with marginal histograms
 library(maps)
 library(rwordlmap)
 library(ggpubr)
 
 world <- map_data("world")
+
+interest <- c("Colombia", "Ecuador", "Peru", "Bolivia", "Chile", "Argentina")
+countries <- world %>% filter(str_detect(region, interest))
 
 sites_map <- read.csv("data/biogeographySites_new.csv", sep=";", stringsAsFactors = FALSE) %>% 
   filter(!region=="Tierra del Fuego" & !Habitat=="channel") %>%
@@ -196,13 +254,16 @@ sites_map <- read.csv("data/biogeographySites_new.csv", sep=";", stringsAsFactor
   
 
 southamerica <- ggplot() +
-  geom_polygon(data = world, aes(x=long, y = lat, group = group), fill="lightgrey") +
-  geom_point(data=sites_map, aes(x=Long.DD.W, y=Lat.DD.S, col=Habitat), shape=20, size=4)+
+  geom_polygon(data=world, aes(x=long, y = lat, group =group), fill="lightgrey") +
+  geom_polygon(data=countries, aes(x=long, y=lat, group=group), fill=NA, colour="black")+
+  #geom_point(data=sites_map, aes(x=Long.DD.W, y=Lat.DD.S, col=Habitat), shape=20, size=4)+
+  geom_point(data=sites_map, aes(x=Long.DD.W, y=Lat.DD.S), shape=20, size=4)+
+  scale_color_viridis_d()+
   coord_equal(ylim=c(-45,15), xlim=c(-92,-40))+
   #coord_map("albers", parameters = c(-100, -100),  ylim=c(-40,15), xlim=c(-82,-40)) +
   xlab("Longitude") + ylab("Latitude") +
   theme_bw()
-
+southamerica
 
 # southamerica <- ggplot() +
 #   geom_polygon(data = world, aes(x=long, y = lat, group = group), fill="lightgrey") +
@@ -248,7 +309,7 @@ map_hist_plt <-
     xmin = xmin,
     xmax = xmax,
     ymin = -41,
-    ymax = -49) +
+    ymax = -49.3) +
   annotation_custom(
     grob = ybp_grob,
     xmin = -96,
@@ -257,10 +318,12 @@ map_hist_plt <-
     ymax = ymax)
 map_hist_plt
 
-
-ggsave("plots/map_sites_forpaper.png", plot = last_plot(),
+#save plots
+ggsave("plots/map_sites_histograms_B&W.png", plot = last_plot(),
        height=8, width=10,units="in",
        dpi = 300)
 
-
+ggsave(plot=southamerica, "plots/sites.png",
+       height=8, width=10,units="in",
+       dpi = 300)
 

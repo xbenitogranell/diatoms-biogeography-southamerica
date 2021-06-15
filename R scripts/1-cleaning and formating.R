@@ -227,6 +227,10 @@ diatomRegions <- df_thin %>%
 levels(diatomRegions$region)
 row.names(diatomRegions) <- diatomRegions$Row.names
 
+# See how many unique samples 
+unique(diatomRegions$Row.names) 
+length(unique(diatomRegions$Row.names)) #437 samples
+
 ## split data by regions and reassemble
 diatomRegionsList <- split(diatomRegions, diatomRegions$region)
 
@@ -310,11 +314,14 @@ environmental_data_lakes <- read.csv("data/environmental_data_lakes.csv") %>%
   mutate(lake_catch_ratio=Lake_area/Wshd_area) %>%
   mutate(catch_vol_ratio=Wshd_area/Vol_total)
 
-rownames(environmental_data_lakes) <- environmental_data_lakes$code
+rownames(environmental_data_lakes) <- environmental_data_lakes$ï..code
 names(environmental_data_lakes)
 
 environmental_data_lakes_regions <- merge(environmental_data_lakes, lake_regions, by="row.names") %>%
   select(!Row.names)
+
+#
+length(unique(environmental_data_lakes_regions$ï..code)) #647 samples with environmental data
 
 ## split data by regions and reassemble
 ENVRegionsList <- split(environmental_data_lakes_regions, environmental_data_lakes_regions$region)
