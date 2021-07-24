@@ -1,5 +1,5 @@
 #Load function to update diatom taxon names
-source("~/R/diatoms-biogeography-southamerica/R scripts/Harmonization_functions.R") #Benito's function from Bishop
+source("~/R/diatoms-biogeography-southamerica/R scripts/Harmonization_functions.R") #Benito's function from Bishop and Lee
 
 #Read diatom tropical South America master Taxon List
 diat_master <- read.csv("data/Diatomspp_MasterList_June2021.csv", sep = ";")  
@@ -18,27 +18,7 @@ Omnidia2015_database$DENOM3 <- sapply(Omnidia2015_database$DENOM2, truncAuthor) 
 #Read in dataset to be harmonized
 diat <- read.csv("data/galapagos.csv", row.names = 1, sep = ";")
 
-# Melina Ecuador diatom counts
-melina_ecu_counts <- read.csv("data/melina_Ecuador_counts.csv", row.names=1, sep = ";")
-melina_ecu_counts <- data.frame(sapply(melina_ecu_counts, function(x) as.numeric(as.character(x)))) #transform as.numeric dataframe
-
-# Miriam Steinitz-Kannan diatom counts
-ecuKan <- read.csv("data/Ecuador-Kannan.csv", row.names=1, sep = ";")
-ecuKan[is.na(ecuKan)] <- 0
-rowSums(ecuKan)
-
-# Select lakes of interest
-#ecuKan$code <- row.names(ecuKan) 
-select.lakes<- paste(c("Caricoha", "Llaviacu", "Cuicocha", "Conru", "Colta", "Huarmcch",
-                       "SanPbl", "Ygrcch", "Yambo", "Toread"), collapse = '|')
-
-ecuKan2 <- ecuKan %>% filter(str_detect(row.names(ecuKan), select.lakes))
-
-#Save diatom names for taxonomy harmonisation and write csv
-diat <- melina_ecu_counts
-diat <- ecuKan2
-
-#
+# assign taxa names to be updated
 taxa_names <- data.frame(colnames(diat))
 
 #replace points by space for running diatomTaxa-check function
@@ -57,7 +37,4 @@ list <- diatomTaxa_check(list_filename="user_list", diatnames_filename="taxa_nam
 #Replace diatom taxa updated names and write csv
 colnames(diat) <- list[,2]
 write.csv(diat, "data/galapagos_updated.csv", row.names = TRUE)
-
-write.csv(diat, "data/EcudiatMiriam_updated.csv", row.names = TRUE)
-write.csv(diat, "data/MelinaEcudiat_updated.csv", row.names = TRUE)
 

@@ -10,7 +10,7 @@ library(shinyWidgets)
 data_dir <- "~/R/diatoms-biogeography-southamerica/data"
 
 # Read in diatom taxa (types) names for harmonisation 
-changes_training <- read.csv("data/old_new_nms_trainingset.csv", stringsAsFactors = FALSE)
+changes_training <- read.csv("data/old_new_nms_trainingset.csv", sep=";", stringsAsFactors = FALSE)
 
 # Read in region names
 all_regions <- read.csv("data/all_regions_new.csv", row.names=1)
