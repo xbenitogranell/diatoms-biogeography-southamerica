@@ -1,0 +1,119 @@
+﻿year;number ID;Number tropical;Location;Latitude;Latdd;Latmm;Latddm;Latss;Hemisf;longitude;Longdd;Longmm;Longddm;Longss;Hemisf;;
+2015;4;1;Colombia;6 30 49,43 N;6;30;6 30;49,43;N;75 49 03,35 W;75;49;75 49;3,35;W;Principal and several local affiliations;America
+2015;6;2;Indonesia;2 43 30,63 N;2;43;2 43;30,63;N;121 36 26,85 E;121;36;121 36;26,85;E;Several local affiliations. Coauthors;Asia
+2015;8;3;Costa Rica;8 47 21,8 N;8;47;8 47;21,8;N;82 54 59,39 W;82;54;82 54;59,39;W;No localaffiliations;America
+2015;15;4;Indonesia;2 44 05,12 S;2;44;2 44;5,12;S;121 30 52,62 E;121;30;121 30;52,62;E;One local affiliation. Coauthor;Asia
+2015;23;5;Ruanda;2 02 30,25 S;2;2;2 2;30,25;S;29 11 07,09 E;29;11;29 11;7,09;E;One local affiliation. Coauthor;Africa
+2015;24;6;Peru;12 49 53,88 S;12;49;12 49;53,88;S;74 55 26,76 W;74;55;74 55;26,76;W;No local affiliations;America
+2014;60;7;Ecuador;0 19 40 N;0;19;0 19;40;N;89 57 30 W;89;57;89 57;30;W;No local affiliations;America
+2014;69;8;Guatemala;15 21 41,64 N;15;21;15 21;41,64;N;90 28 27,93 W;90;28;90 28;27,93;W;One local affiliation. Coauthor;America
+2014;114;9;Mexico;19 06 N;19;6;19 6; ;N;99 45 W;99;45;99 45; ;W;Principal and several local affiliations;America
+2014;118;10;Colombia;01 06 N;1;6;1 6; ;N;77 09 W;77;9;77 9; ;W;No local affiliations;America
+2013;149;11;Malawi;11 40 12,41 S;11;40;11 40;12,41;S;34 41 08,34 E;34;41;34 41;8,34;E;No local affiliations;Africa
+2013;166;12;Nicaragua;11 34 43,17 N;11;34;11 34;43,17;N;85 21 17,87 W;85;21;85 21;17,87;W;No local affiliations;America
+2013;171;13;Colombia;6 30 49,43 N;6;30;6 30;49,43;N;75 49 03,35 W;75;49;75 49;3,35;W;One local affiliation. Coauthor;America
+2013;172;14;Niger;20 12 13 N;20;12;20 12;13;N;12 57 57 E;12;57;12 57;57;E;No local affiliations;Africa
+2013;201;15;Brazil;20 16 38.3 S;20;16;20 16;38,3;S;57 33 00.0 W;57;33;57 33;0;W;Principal and several local affiliations;America
+2013;208;16;Colombia;6 30 49,43 N;6;30;6 30;49,43;N;75 49 03,35 W;75;49;75 49;3,35;W;Principal local affiliation;America
+2012;229;17;Bolivia;17 33 S;17;33;17 33; ;S;65 34 W;65;34;65 34; ;W;No local affiliations;America
+2012;241;18;Mozambique;21 58 50 S;21;58;21 58;50;S;35 17 39 E;35;17;35 17;39;E;One local affiliation. Coauthor;Africa
+2012;243;19;Brazil;01 50 S;1;50;1 50; ;S;55 00 W;55;0;55 0; ;W;Principal local affiliation;America
+2012;246;20;Uganda;00 26 N;0;26;0 26; ;N;30 17 E;30;17;30 17; ;E;No local affiliations;Africa
+2012;247;21;Tanzania;3 23 S;3;23;3 23; ;S;36 47 E;36;47;36 47; ;E;No local affiliations;Africa
+2012;275;22;Bolivia;17 45 S;17;45;17 45; ;S;57 40 W;57;40;57 40; ;W;No local affiliations;America
+2012;306;23;China;23 45 N;23;45;23 45; ;N;113 46 E;113;46;113 46; ;E;All local affiliations;Asia
+2012;314;24;Indonesia;08 02 S;8;2;8 2; ;S;113 18 E;113;18;113 18; ;E;Several local affiliations. Coauthors;Asia
+2011;347;25;Brazil;18 00 S;18;0;18 0; ;S;57 00 W;57;0;57 0; ;W;Several local affiliations. Coauthors;America
+2011;355;26;Guatemala;16 59 N;16;59;16 59; ;N;89 49 W;89;49;89 49; ;W;No local affiliations;America
+2011;375;27;Costa Rica;9 29 N;9;29;9 29; ;N;83 29 W;83;29;83 29; ;W;No local affiliations;America
+2011;377;28;Kenya;0 55 S;0;55;0 55; ;S;36 20 E;36;20;36 20; ;E;No local affiliations;Africa
+2011;379;29;Brazil;2 58 S;2;58;2 58; ;S;43 25 W;43;25;43 25; ;W;Several local affiliations. Coauthors;America
+2011;400;30;Cambodia;12 36 11 N;12;36;12 36;11;N;104 17 10 E;104;17;104 17;10;E;No local affiliations;Asia
+2010;407;31;Democratic republic of congo;2 02 S;2;2;2 2; ;S;29 18 E;29;18;29 18; ;E;One local affiliation. Coauthor;Africa
+2010;415;32;Mexico;19 26 N;19;26;19 26; ;N;101 44 W;101;44;101 44; ;W;All local affiliations;America
+2010;417;33;China;21 13 N;21;13;21 13; ;N;110 22 E;110;22;110 22; ;E;All local affiliations;Asia
+2010;428;34;Chile;18 15 S;18;15;18 15; ;S;69 10 W;69;10;69 10; ;W;No local affiliations;America
+2010;429;35;China;16 39 N;16;39;16 39; ;N;112 43 W;112;43;112 43; ;W;Principal and several local affiliations;Asia
+2010;444;36;Kenya;4 00 N;4;0;4 0; ;N;35 00 E;35;0;35 0; ;E;Several local affiliations. Coauthors;Africa
+2010;469;37;Mexico;19 24 N;19;24;19 24; ;N;98 18 W;98;18;98 18; ;W;All local affiliations;America
+2010;474;38;Brazil;17 59 S;17;59;17 59; ;S;42 07 W;42;7;42 7; ;W;No local affiliations;America
+2010;495;39;Costa Rica;09 00 N;9;0;9 0; ;N;83 00 W;83;0;83 0; ;W;No local affiliations;America
+2010;499;40;Mexico;19 52 N;19;52;19 52; ;N;88 46 W;88;46;88 46; ;W;No local affiliations;America
+2010;500;41;Kenya;00 47 S;0;47;0 47; ;S;36 16 E;36;16;36 16; ;E;No local affiliations;Africa
+2010;502;42;Kenya;01 00 S;1;0;1 0; ;S;35 00 E;35;0;35 0; ;E;No local affiliations;Africa
+2009;549;43;Mexico;20 23.35 N;20;23,35;20 23,35; ;N;101 12.1 W;101;12,1;101 12,1;;W;One local affiliation. Coauthor;America
+2009;568;44;Mexico;21 12 39.69 N;21;12;21 12;39,69;N;88 48 08.07 W;88;48;88 48;8,07;W;No local affiliations;America
+2009;604;45;Congo;00 19 32.00 S;0;19;0 19;32;S;29 41 46.56 E;29;41;29 41;46,56;E;No local affiliations;Africa
+2009;610;46;Gabon;00 42 S;0;42;0 42; ;S;11 46 E;11;46;11 46;;E;No local affiliations;Africa
+2008;626;47;Mozambique;22 00 S;22;0;22 0; ;S;35 00 E;35;O;35 O;;E;No local affiliations;Africa
+2008;627;48;China;16 39 N;16;39;16 39; ;N;112 43 E;112;43;112 43;;E;Principal and several local affiliations;Asia
+2008;653;49;Tanzania;02 55 S;2;55;2 55;;S;35 50 E;35;50;35 50;;E;no local affiliations;Africa
+2008;656;50;Tanzania;06 15 20.04 S;6;15;6 15;20,04;S;29 30 38.77 E;29;30;29 30;38,77;E;one local affiliation. Coauthor;Africa
+2008;666;51;Venezuela;08 51.165 N;8;51;8 51;;N;70 52.449 W;70;52;70 52;;W;no local affiliations;America
+2008;678;52;Venezuela;10 10 N;10;10;10 10;;N;67 45 W;67;45;67 45;;W;no local affiliations;America
+2008;679;53;Chile;18 14 51 S;18;14;18 14;51;S;69 09 45 W;69;9;69 9;45;W;no local affiliations;America
+2008;687;54;Uganda;00 22 N;0;22;0 22;;N;29 54 E;29;54;29 54;;E;one local affiliation. Coauthor;Africa
+2008;688;55;Ghana;06 30 N;6;30;6 30;;N;01 25 W;1;25;1 25;;W;no local affiliations;Africa
+2008;734;56;United States, hawaii;21 35 N;21;35;21 35;;N;157 48 W;157;48;157 48;;W;All local affiliations;America
+2007;762;57;Kenya;00 46 31 S;0;46;0 46;31;S;36 22 17 E;36;22;36 22;17;E;no local affiliations;Africa
+2007;789;58;Tanzania;09 20 S;9;20;9 20;;S;33 45 E;33;45;33 45;;E;one local affiliation. Coauthor;Africa
+2007;791;59;Ethiopia;05 00 N;5;0;5 0;;N;37 00 E;37;0;37 0;;E;no local affiliations;Africa
+2007;797;60;Tanganyika;06 15 S;6;15;6 15;;S;29 30 E;29;30;29 30;;E;No local affiliations;Africa
+2006;843;61;China;16 39 N;16;39;16 39; ;N;112 43 E;112;43;112 43;;E;Principal and several local affiliations;Asia
+2006;844;62;Kenya;0 21 22 S;0;21;0 21;22;S;36 06 00 E;36;6;36 6;0;E;No local affiliations;Africa
+2006;853;63;Tanzania;06 33.154 S;6;33;6 33;;S;29 58.306 E;29;34;29 34;;E;one local affiliation. Coauthor;Africa
+2006;859;64;Mexico;19 02 29 N;19;2;19 2;29;N;98 12 22 W;98;12;98 12;22;W;no local affiliations;America
+2006;876;65;Mexico;20 07 N;20;7;20 7;;N;102 40 W;102;40;102 40;;W;principal and several local affiliations;America
+2006;885;66;Tanzania;06 15 S;6;15;6 15; ;S;29 30 E;29;30;29 30;;E;no local affiliations;Africa
+2006;894;67;Java;07 59 S;7;59;7 59; ;S;113 23 E;113;23;113 23;;E;no local affiliations;Asia
+2006;911;68;Mexico;18 36 N;18;36;18 36; ;N;9520 W;95;20;95 20;;W;All local affiliations;America
+2005;921;69;Mexico;19 51 N;19;51;19 51;;N;101 40 W;101;40;101 40;;W;no local affiliations;America
+2005;941;70;Mexico;19 08 N;19;8;19 8;;N;99 31 W;99;31;99 31;;W;all local affiliations;America
+2005;952;71;Tanzania;3 18 S;3;18;3 18;;S;29 05 E;29;5;29 5;;E;one local affiliation. Coauthor;Africa
+2005;953;72;Tanzania;3 18 S;3;18;3 18;;S;29 05 E;29;5;29 5;;E;one local affiliation. Coauthor;Africa
+2005;954;73;Tanzania;3 18 S;3;18;3 18;;S;29 05 E;29;5;29 5;;E;one local affiliation. Coauthor;Africa
+2005;955;74;Tanzania;3 18 S;3;18;3 18;;S;29 05 E;29;5;29 5;;E;no local affiliations;Africa
+2005;956;75;Tanzania;3 18 S;3;18;3 18;;S;29 05 E;29;5;29 5;;E;no local affiliations;Africa
+2005;957;76;Tanzania;3 18 S;3;18;3 18;;S;29 05 E;29;5;29 5;;E;no local affiliations;Africa
+2005;958;77;Tanzania;3 18 S;3;18;3 18;;S;29 05 E;29;5;29 5;;E;one local affiliation. Coauthor;Africa
+2005;959;78;Tanzania;3 18 S;3;18;3 18;;S;29 05 E;29;5;29 5;;E;All local affiliations;Africa
+2005;960;79;Tanzania;3 18 S;3;18;3 18;;S;29 05 E;29;5;29 5;;E;several local affiliations. Coauthors;Africa
+2005;974;80;Costa Rica;8 48 N;8;48;8 48;;N;82 57 W;82;57;82 57;;W;No local affiliations;America
+2005;982;81;Uganda;01 17 N;1;17;1 17;;N;33 19 E;33;19;33 19;;E;No local affiliations;Africa
+2005;988;82;Cambodia;12 30 N;12;30;12 30;;N;104 23 E;104;23;104 23;;E;one local affiliation. Coauthor;Asia
+2004;995;83;Costa Rica;10 26 N;10;26;10 26;;N;83 59 W;83;59;83 59;;W;No local affiliations;America
+2004;996;84;Ethiopia;7 00 N;7;0;7 0;;N;40 00 E;83;59;83 59;;W;No local affiliations;Africa
+2004;997;85;Ethiopia;7 00 N;7;0;7 0;;N;40 00 E;83;59;83 59;;W;No local affiliations;Africa
+2004;998;86;El Salvador;13 57 N;13;57;13 57;;N;89 52 W;89;52;89 52;;W;No local affiliations;America
+2004;1014;87;Uganda;00 25 S;0;25;0 25;;S;29 35 E;29;35;29 35;;E;no local affiliations;Africa
+2004;1052;88;Tanzania;2 30 S;2;30;2 30;;S;36 00;36;0;36 0; ;E;no local affiliations;Africa
+2004;1058;89;Mexico;19 26 N;19;26;19 26;;N;101 44 W;101;44;101 44;;W;No local affiliations;America
+2003;1068;90;Hong kong;22 23 N;22;23;22 23;;N;114 06 E;114;6;114 6;;E;All local affiliations;Asia
+2003;1083;91;Tanzania;11 40 S;11;40;11 40;;S;34 41 E;34;41;34 41;;E;no local affiliations;Africa
+2003;1084;92;Tanzania;11 40 S;11;40;11 40;;S;34 41 E;34;41;34 41;;E;no local affiliations;Africa
+2003;1101;93;Tanzania;11 40 S;11;40;11 40;;S;34 41 E;34;41;34 41;;E;no local affiliations;Africa
+2003;1120;94;Tanzania;11 40 S;11;40;11 40;;S;34 41 E;34;41;34 41;;E;no local affiliations;Africa
+2002;1152;95;Jamaica;17 58 N;17;58;17 58;;N;77 48 W;77;48;77 48;;W;No local affiliations;America
+2002;1177;96;Brazil;00 05 S;0;5;0 5;;S;70 00 W;70;0;70 0;;W;no local affiliations;America
+2002;1192;97;Ecuador;00 05 S;0;5;0 5;;S;91 30 W;91;30;91 30;;W;No local affiliations;America
+2002;1195;98;Bolivia;15 13 S;15;13;15 13;;S;68 33 W;68;33;68 33;;W;no local affiliations;america
+2002;1200;99;Guatemala;16 58 N;16;58;16 58;;N;89 40 W;89;40;89 40;;W;no local affiliations;america
+2001;1255;100;Bolivia;18 40 S;18;40;18 40;;S;67 10 W;67;10;67 10;;W;no local affiliations;America
+2001;1256;101;Kenya;0 46 S;0;46;0 46;;S;36 22 E;36;22;36 22;;E;No local affiliations;Africa
+2000;1312;102;Tanzania;06 15 S;6;15;6 15;;S;29 30 E;29;30;29 30;;E;No local affiliations;Africa
+2000;1325;103;Uganda;00 58 S;0;58;0 58;;S;33 27 E;33;27;33 27;;E;no local affiliations;Africa
+2000;1342;104;Uganda;01 00 S;1;0;1 0;;S;33 00 E;33;0;33 0;;E;no local affiliations;Africa
+1999;1363;105;Mexico;19 35 N;19;35;19 35;;N;101 32 W;101;32;101 32;;W;No local affiliations;America
+1999;1364;106;Mexico;19 53 N;19;53;19 53;;N;98 25 W;98;25;98 25;;W;All local affiliations;America
+1999;1368;107;Tanzania;04 47 S;4;47;4 47;;S;35 57 E;35;57;35 57;;E;No local affiliations;Africa
+1999;1372;108;Tanzania;5 06 S;5;6;5 6;;S;33 04 E;33;4;33 4;;E;No local affiliations;Africa
+1999;1375;109;Cameroon;5 55 N;5;55;5 55;;N;10 14 E;10;14;10 14;;E;No local affiliations;Africa
+1999;1392;110;Thailand;18 17 N;18;17;18 17;;N;99 30 E;99;30;99 30;;E;One local affiliation. Coauthor;Asia
+1999;1399;111;Ethiopia;7 04 N;7;4;7 4;;N;38 26 E;38;26;38 26;;E;One local affiliation. Coauthor;Africa
+1999;1403;112;Colombia;4 08 N;4;8;4 8;;N;70 23 W;70;23;70 23;;W;No local affiliations;America
+1999;1428;113;Ethiopia;07 03 N;7;3;7 3;;N;38 06 E;38;6;38 6;;E;No local affiliations;Africa
+1998;1435;114;Nigeria;13 18 N;13;18;13 18;;N;11 01 E;11;1;11 1;;E;No local Affiliations;Africa
+1998;1464;115;Tanzania;04 47 S;4;47;4 47;;S;35 57 E;35;57;35 57;;E;No local Affiliations;Africa
+1998;1486;116;Jamaica;17 57 N;17;57;17 57;;N;77 48 W;77;48;77 48;;W;No local Affiliations;America
+1998;1488;117;Guatemala;16 55 N;16;55;16 55;;N;89 50 W;89;50;89 50;;W;One local affiliation. Coauthor;America
+1997;1542;118;Costa Rica;09 30 N;9;30;9 30;;N;83 50 W;83;50;83 50;;W;No local Affiliations;America

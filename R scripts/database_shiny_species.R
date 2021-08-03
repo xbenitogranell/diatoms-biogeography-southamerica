@@ -14,7 +14,7 @@ combined <- read.csv("data/assembledspp_new.csv", row.names=1)
 lake_regions <- read.csv("data/regions_new.csv", row.names = 1, sep=";")
 
 #import dataframe wiht old and new names to group
-changes_training <- read.csv("data/old_new_nms_trainingset.csv", stringsAsFactors = FALSE)
+changes_training <- read.csv("data/old_new_nms_trainingset.csv", sep=";", stringsAsFactors = FALSE)
 
 ##Merge diatom datasets and regions datasets
 modern_lakes <- merge(combined, lake_regions, by="row.names")

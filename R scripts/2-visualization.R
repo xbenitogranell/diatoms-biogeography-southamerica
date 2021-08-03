@@ -9,12 +9,14 @@
 #clear workspace
 rm(list=ls(all=TRUE))
 dev.off()
+
 #unload all loaded packages
 pacman::p_unload(pacman::p_loaded(), character.only = TRUE)
 
-#load packages
+#load packages for functions used
 library(tidyverse)
 library(ggplot2)
+library(cowplot)
 
 #Read in assembled diatom datasets 
 #combined <- read.csv("data/assembledspp.csv", row.names=1)
@@ -48,21 +50,29 @@ genera_overview <- df_thin %>%
   separate(taxa, into = c("genera", "sp"), convert = TRUE, remove = FALSE) %>%  
   mutate(genera_f=factor(genera)) %>%
   mutate(genera_f=str_replace(genera_f, "Ammphora", "Amphora"))%>% #fix typos
-  mutate(genera_f=str_replace(genera_f, "Achanthes", "Achnanthes")) %>%
+  mutate(genera_f=str_replace(genera_f, "Achanthes", "Achnanthes")) %>% #fix typos
+  mutate(genera_f=str_replace(genera_f, "Discotella", "Discostella")) %>% #fix typos
   filter(!count==0) %>%
   filter(!taxa=="Auxospores") %>%
   group_by(genera_f) %>%
   summarise(n_spp = n_distinct(taxa)) %>%
-  mutate(genera=fct_reorder(genera_f, n_spp)) #reorder n_spp
+  mutate(genera=fct_reorder(genera_f, n_spp)) %>% #reorder n_spp
+  filter(n_spp>2) #filter out genera with less than 2 species
 
 sum(genera_overview$n_spp) 
 length(genera_overview$genera_f) 
 
 # plot genera frequency
-ggplot(genera_overview, aes(x=genera, y=n_spp)) + 
+genera_plt <- ggplot(genera_overview, aes(x=genera, y=n_spp)) + 
   geom_bar(stat = "identity") +
   coord_flip() +
-  theme_classic()
+  theme_classic()+
+  theme(text = element_text(size=9)) +
+  xlab ("Genera") + ylab("Species number")
+
+ggsave("plots/genera_plt.png", plot = genera_plt,
+       height=8, width=10,units="in",
+       dpi = 300)
 
 spp_mostoccurrence <- df_thin %>%
   group_by(taxa) %>%
@@ -70,7 +80,8 @@ spp_mostoccurrence <- df_thin %>%
   count(taxa, sort = TRUE) %>%
   ungroup()
 
-## Sites
+
+## Read in site's descriptors
 sitesDB <- read.csv("data/biogeographySites_new.csv", sep=";", stringsAsFactors = FALSE) %>%
   dplyr::select(CollectionName, Country, Collector.Analyst, Year, SiteName, SampleType, Habitat, Substrate,
                 code, region, Lat.DD.S, Long.DD.W) %>%
@@ -84,7 +95,7 @@ sitesDB <- read.csv("data/biogeographySites_new.csv", sep=";", stringsAsFactors 
   rename(Row.names=code) 
 
 
-## Read in lake environmental data
+## Read in environmental data
 diatom_environment <- read.csv("data/environmental_data_lakes.csv") %>%
   mutate(lake_depth_ratio=Lake_area/Depth_avg) %>%
   mutate(lake_catch_ratio=Lake_area/Wshd_area) %>%
@@ -115,18 +126,19 @@ diatoms_habitat <- df_thin %>%
 
 
 # Make a bubble chart
-plt <- ggplot(diatoms_habitat, aes(x = reorder(region.y, -Lat.DD.S), y = fct_rev(taxa))) + #arrange regions by latitude
+spp_plt <- ggplot(diatoms_habitat, aes(x = reorder(region.y, -Lat.DD.S), y = fct_rev(taxa))) + #arrange regions by latitude
   geom_point(aes(size = abund, color = Habitat, shape=taxa_traits)) +
   scale_color_viridis_d(option = "D")+
   theme_bw() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1),
         axis.text.y = element_text(size = 7))+
   ylab("Diatom taxa") + xlab("Regions")
-plt
+spp_plt
 
-ggsave("plots/diatoms_regions_traits.png", plot = last_plot(),
-       height=8, width=10,units="in",
-       dpi = 300)
+# ggsave("plots/diatoms_regions_traits.png", plot = last_plot(),
+#        height=8, width=10,units="in",
+#        dpi = 300)
+
 
 ## Summarize metadata of regions
 data_summ <- df_thin %>%
@@ -137,19 +149,42 @@ data_summ <- df_thin %>%
   as.data.frame() %>%
   left_join(sitesDB, by="Row.names") %>% 
   # comment the next two lines for making the bubble plot
-  left_join(diatom_environment[,c(1,4:27, 50)], by="Row.names") %>% #here join with certain env variables
+  left_join(diatom_environment[,c(1,4:27, 41, 50)], by="Row.names") %>% #here join with certain env variables
   select(-c(CollectionName, Country, Collector.Analyst, region.y, Row.names)) %>%
   gather(key = taxa, value = abund, -Habitat, -Lat.DD.S, -Long.DD.W, -region.x, -Substrate, -Year, -SampleType, -SiteName,
          -pH, -Water.T, -Cond, -Turb, -Chl, -Secchi, -Alkalinity, -Ca, -Mg, -K, -Na, -Si, -Cl, -NO2, 
-         -NO3, -SO4, -PO4, -TN, -TP, -DO..,-DO,-Carbonate, -Silicate, -DOC, -Ecoregion) %>%
+         -NO3, -SO4, -PO4, -TN, -TP, -DO..,-DO,-Carbonate, -Silicate, -DOC, -Ecoregion, -Elevation) %>%
   mutate(taxa=factor(taxa)) %>%
   filter(!Habitat=="channel") %>%
   mutate(Habitat=factor(Habitat)) %>%
   #ecological grouping
   mutate(taxa_traits = plyr::mapvalues(taxa, from = changes_training$old, to = changes_training$new_2)) %>%
   filter(!taxa_traits=="Auxospores") 
-  
 
+# Here create an elevation/latitude-richness plot
+elevation_latitude_plt <- data_summ %>% 
+  group_by(SiteName) %>% 
+  mutate(Richness = sum(abund > 0)) %>%
+  ungroup() %>%
+  select(region.x, SiteName, Lat.DD.S, Elevation, Ecoregion, Richness) %>%  
+  rename(Region = region.x) %>% #rename region.x column to make it nicer
+  mutate(Region=str_replace(Region, "Colombia-Andes-Central", "Colombia-Andes"))%>%
+  mutate(Region=str_replace(Region, "Colombia-Andes-Eastern", "Colombia-Andes"))%>%
+  mutate(Region=str_replace(Region, "Colombia-Lowlands-North", "Colombia-Lowlands"))%>%
+  mutate(Region=str_replace(Region, "Colombia-Lowlands-Eastern", "Colombia-Lowlands"))%>%
+  mutate(Region=str_replace(Region, "Colombia-Lowlands-Western", "Colombia-Lowlands")) %>%
+  ggplot(aes(x=Lat.DD.S, y=Elevation, colour=Region)) +
+  geom_point(aes(size=Richness)) +
+  #scale_colour_viridis_d()+
+  #scale_colour_brewer(palette = "Set1")+
+  theme_classic() +
+  xlab("Latitude") + ylab("Elevation (m)")
+elevation_latitude_plt
+
+ggsave("plots/elev_lat_richness.png", plot = last_plot(),
+       height=8, width=10,units="in",
+       dpi = 300)
+  
 #summarize metadata for each region
 library(skimr)
 metadata <- data_summ %>%
@@ -182,6 +217,8 @@ diatoms_list <- df_thin %>%
   mutate(abund_lvl=cut(abund, 
                        c(0,.5,1,2,3,5,100), include.lowest = T,
                        labels = c('<0.5%' ,'0.5-1%', '1-2%', '2-3%', '3-5%','>5%')))
+
+
 
 # create a series of plots showing the number of sites per habitat,sampleType and years
 habitats_plt <- diatoms_list %>% count(Habitat) %>%
@@ -238,8 +275,6 @@ Year_summary <- diatoms_list %>%
 
 
 #Arrange multiple plots
-library(cowplot)
-
 plot_grid(habitats_plt, sampletype_plt, Year_plt,
           nrow = 2, ncol = 2,
           labels = "",
@@ -332,10 +367,11 @@ map_hist_plt <-
 map_hist_plt
 
 
+# #save plots
+# ggsave("plots/map_sites_histograms_colour.png", plot = last_plot(),
+#        height=8, width=10,units="in",
+#        dpi = 300)
 
-#save plots
-ggsave("plots/map_sites_histograms_colour.png", plot = last_plot(),
-       height=8, width=10,units="in",
-       dpi = 300)
+
 
 

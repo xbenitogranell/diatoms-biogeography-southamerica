@@ -66,7 +66,7 @@ remove <- function(i, cores, ...) {
 diatomRegionsList <- lapply(seq_along(diatomRegionsList), remove, cores=diatomRegionsList)
 names(diatomRegionsList) <- nms
 
-# here save the list
+# check the length of the list
 length(diatomRegionsList)
 
 ##extract diatom datasets and write as csv separately
@@ -99,7 +99,7 @@ str(sitesDB)
 unique(sitesDB$SiteName) #338 sites
 length(unique(sitesDB$region)) #29
 
-#remove extraneous regions
+#remove extra-tropical regions
 sitesDB <- sitesDB %>% filter(!region %in% c("Tierra del Fuego", "", "Lauca Basin"))
 
 unique(sitesDB$SiteName) #326 sites
@@ -109,8 +109,6 @@ length(unique(sitesDB$region)) #26 regions
 sitesDBList <- split(sitesDB, sitesDB$region)
 sitesDBList$`Tierra del Fuego` <- NULL
 sitesDBList$`Lauca Basin` <- NULL
-
-#here save the list
 
 
 nams <- names(sitesDBList)
@@ -150,7 +148,7 @@ ENVRegionsList <- split(environmental_data_lakes_regions, environmental_data_lak
 ENVRegionsList$`Tierra del Fuego` <- NULL
 ENVRegionsList[[1]] <- NULL #remove Lauca Basin
 
-# here save the list
+# check the length of the list
 length(ENVRegionsList)
 
 
@@ -162,3 +160,9 @@ for (i in seq_along(ENVRegionsList)) {
   write.csv(ENVRegionsList[[i]], filename)
 }
 
+## Create the TSADB.RData list
+TSADBList <- list(sitesDBList, ENVRegionsList, diatomRegionsList)
+names(TSADBList) <- c("sites", "environment", "diatoms")
+
+## Save the R list object
+saveRDS(TSADBList, "data/TSADB.Rdata")

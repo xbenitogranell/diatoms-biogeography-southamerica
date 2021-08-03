@@ -1,5 +1,5 @@
 #Load function to update diatom taxon names
-source("~/R/diatoms-biogeography-southamerica/R scripts/Harmonization_functions.R") #Benito's function from Bishop and Lee
+source("~/R/diatoms-biogeography-southamerica/R scripts/Harmonization_functions.R") #Benito's adapted function from Bishop and Lee
 
 #Read diatom tropical South America master Taxon List
 diat_master <- read.csv("data/Diatomspp_MasterList_June2021.csv", sep = ";")  
