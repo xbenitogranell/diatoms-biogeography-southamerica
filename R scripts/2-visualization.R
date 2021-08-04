@@ -18,7 +18,7 @@ library(tidyverse)
 library(ggplot2)
 library(cowplot)
 
-#Read in assembled diatom datasets 
+#Read in assembled diatom datasets (relative abundances and )
 #combined <- read.csv("data/assembledspp.csv", row.names=1)
 combined <- read.csv("data/assembledspp_new.csv", row.names=1)
 
@@ -31,22 +31,24 @@ modern_lakes <- merge(combined, lake_regions, by="row.names")
 
 #transform dataframe to tidy format
 df_thin <- modern_lakes %>%
-  gather(key = taxa, value = count, -Row.names, -region)#don't gather region
+  gather(key = taxa, value = count, -Row.names, -region) %>% #don't gather region
+  mutate(taxa = plyr::mapvalues(taxa, from = changes_training$old, to = changes_training$new_1))
 
 #import dataframe wiht old and new names to update taxonomy
 changes_training <- read.csv("data/old_new_nms_trainingset.csv", sep=";", stringsAsFactors = FALSE)
 
-#spread
-diatomRegions <- df_thin %>%
-  mutate(taxa = plyr::mapvalues(taxa, from = changes_training$old, to = changes_training$new_1)) %>%
-  group_by(region, Row.names, taxa) %>%
-  summarise(count = sum(count)) %>%
-  filter(!count == 0) %>% #this is to remove empty samples (rows)
-  spread(key = taxa, value = count) %>%
-  as.data.frame()
+# #spread
+# diatomRegions <- df_thin %>%
+#   mutate(taxa = plyr::mapvalues(taxa, from = changes_training$old, to = changes_training$new_1)) %>%
+#   group_by(region, Row.names, taxa) %>%
+#   summarise(count = sum(count)) %>%
+#   filter(!count == 0) %>% #this is to remove empty samples (rows)
+#   spread(key = taxa, value = count) %>%
+#   as.data.frame()
 
 # Overview of number of diatom taxa
 genera_overview <- df_thin %>%   
+  mutate(taxa = plyr::mapvalues(taxa, from = changes_training$old, to = changes_training$new_1)) %>%
   separate(taxa, into = c("genera", "sp"), convert = TRUE, remove = FALSE) %>%  
   mutate(genera_f=factor(genera)) %>%
   mutate(genera_f=str_replace(genera_f, "Ammphora", "Amphora"))%>% #fix typos
@@ -59,6 +61,7 @@ genera_overview <- df_thin %>%
   mutate(genera=fct_reorder(genera_f, n_spp)) %>% #reorder n_spp
   filter(n_spp>2) #filter out genera with less than 2 species
 
+# How many species?
 sum(genera_overview$n_spp) 
 length(genera_overview$genera_f) 
 
@@ -74,6 +77,7 @@ ggsave("plots/genera_plt.png", plot = genera_plt,
        height=8, width=10,units="in",
        dpi = 300)
 
+# Diatom taxa with more occurrences
 spp_mostoccurrence <- df_thin %>%
   group_by(taxa) %>%
   filter(!count==0) %>%
@@ -289,51 +293,74 @@ ggsave("plots/sites_plts_summary.png", plot = last_plot(),
 library(maps)
 library(rwordlmap)
 library(ggpubr)
+library(raster)
 
+# Increase current storage capacity
+memory.limit(size=56000)
+
+# Get some basemap data
 world <- map_data("world")
-
 interest <- c("Colombia", "Ecuador", "Peru", "Bolivia", "Chile", "Argentina")
 countries <- world %>% filter(str_detect(region, interest))
 
+# Read in modern TSABD sites
 sites_map <- read.csv("data/biogeographySites_new.csv", sep=";", stringsAsFactors = FALSE) %>% 
   filter(!region=="Tierra del Fuego" & !Habitat=="channel") %>%
   mutate(Lat.DD.S=as.numeric(gsub(",", ".", gsub("\\.", "", Lat.DD.S)))) %>%
   mutate(Long.DD.W=as.numeric(gsub(",", ".", gsub("\\.", "", Long.DD.W))))
-  
 
-southamerica <- ggplot() +
-  geom_polygon(data=world, aes(x=long, y = lat, group =group), fill="lightgrey") +
-  geom_polygon(data=countries, aes(x=long, y=lat, group=group), fill=NA, colour="black")+
+# Read DEM
+DEM <- raster("data/DEM/dem2.bil")
+ext<-extent(-92,-30,-45,15)
+altmod<-crop(DEM,ext)
+
+#convert the raster to points for plotting
+map.p <- rasterToPoints(altmod)
+
+#Make the points a dataframe for ggplot
+df <- data.frame(map.p)
+
+#Make appropriate column headings
+colnames(df) <- c("long", "lat", "Elevation")
+
+
+#Read in the paleolimnological sites from 3-paleolimnological_records.R
+diatom_paleo_review_df <- read.csv("data/diatom_paleorecords_review.csv", row.names = 1)
+diatom_neotoma_df <- read.csv("data/diatom_neotoma.csv", row.names = 1)
+
+# Plot
+shapes <- c("JOPL review"=17,"Neotoma"=18)
+
+southamerica <- ggplot(data=df, aes(y=lat, x=long)) +
+  geom_raster(aes(fill=Elevation))+
+  scale_fill_gradientn(colours = terrain.colors(7)) +
+  geom_polygon(data=world, aes(x=long, y = lat, group=group), fill=NA) +
+  #geom_polygon(data=countries, aes(x=long, y=lat, group=group), fill=NA, colour="black")+
   geom_point(data=sites_map, aes(x=Long.DD.W, y=Lat.DD.S, col=Habitat), shape=20, size=4)+
-  #geom_point(data=sites_map, aes(x=Long.DD.W, y=Lat.DD.S), shape=20, size=4)+
   scale_color_viridis_d()+
+  geom_point(data=diatom_neotoma_df, aes(x=long, y=lat, shape="Neotoma"), colour="red", size=3)+
+  geom_point(data=diatom_paleo_review_df, aes(x=long, y=lat, shape="JOPL review"), colour="red", size=3)+
   coord_equal(ylim=c(-45,15), xlim=c(-92,-40))+
-  #coord_map("albers", parameters = c(-100, -100),  ylim=c(-40,15), xlim=c(-82,-40)) +
-  xlab("Longitude") + ylab("Latitude") +
+  xlab("Longitude (deg)")+
+  ylab("Latitude (deg)")+
+  guides(fill = guide_colourbar(title="Elevation (m)")) +
+  scale_shape_manual(name="Diatom paleorecords",values = shapes) +
   theme_bw()
 southamerica
 
-# southamerica <- ggplot() +
-#   geom_polygon(data = world, aes(x=long, y = lat, group = group), fill="lightgrey") +
-#   geom_point(data=diatom_environment, aes(x=long, y=lat), colour="blue")+
-#   theme(legend.position = "right")+
-#   coord_equal(ylim=c(-45,15), xlim=c(-82,-40))+
-#   xlab("Longitude") + ylab("Latitude") +
-#   theme_bw()
-# southamerica
-
+# Create histograms of site distribution to add then into the margins
 xbp <- gghistogram(
-    sites_map$Long.DD.W,
-    fill = "orange1",
-    binwidth = 4,
-    size = 0.1) +
+  sites_map$Long.DD.W,
+  fill = "orange1",
+  binwidth = 4,
+  size = 0.1) +
   theme_transparent()
 
 ybp <- gghistogram(
-    sites_map$Lat.DD.S,
-    fill = "orange1",
-    binwidth = 4,
-    size = 0.1,) +
+  sites_map$Lat.DD.S,
+  fill = "orange1",
+  binwidth = 4,
+  size = 0.1,) +
   ggpubr::rotate() +
   theme_transparent()
 
@@ -351,7 +378,7 @@ ymax <-  my.max(sites_map$Lat.DD.S)
 
 
 map_hist_plt <- 
-  southamerica + #create a South America map
+  southamerica + #
   annotation_custom(
     grob = xbp_grob,
     xmin = xmin,
@@ -367,11 +394,9 @@ map_hist_plt <-
 map_hist_plt
 
 
-# #save plots
-# ggsave("plots/map_sites_histograms_colour.png", plot = last_plot(),
-#        height=8, width=10,units="in",
-#        dpi = 300)
-
-
+#save plots
+ggsave("plots/map_sites_histograms_colour.png", plot = last_plot(),
+       height=8, width=10,units="in",
+       dpi = 300)
 
 

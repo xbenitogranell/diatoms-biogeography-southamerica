@@ -95,9 +95,13 @@ holocene_all$long <- as.numeric(holocene_all$long)
 holocene_all_sf <- st_as_sf(holocene_all, coords = c("long", "lat"), 
                         crs = 4326, agr = "constant")
 
-# Merge JOPL and Holocene diatom records
+#Merge JOPL and Holocene diatom records
 diatom_all <- rbind(jopl_all, holocene_all) %>%
   filter(between(lat, -40, 40)) #filter to tropical regions
+write.csv(diatom_all, "data/diatom_paleorecords_review.csv")
+
+
+#Merge JOPL and Holocene diatom records
 
 diatom_all_sf <- rbind(jopl_all_sf, holocene_all_sf) 
 diatom_all_sf <- st_as_sf(diatom_all, coords = c("long", "lat"), 
@@ -116,6 +120,9 @@ sites_neotoma_df <- plyr::ldply(sites, data.frame)
 colnames(sites_neotoma_df)[4] <- "long"
 colnames(sites_neotoma_df)[5] <- "lat"
 
+write.csv(sites_neotoma_df, "data/diatom_neotoma.csv")
+
+
 ##
 
 #plot modern lake database with marginal histograms
@@ -129,8 +136,6 @@ sites_map <- read.csv("data/biogeographySites_new.csv", sep=";", stringsAsFactor
   filter(!region=="Tierra del Fuego" & !Habitat=="channel") %>%
   mutate(Lat.DD.S=as.numeric(gsub(",", ".", gsub("\\.", "", Lat.DD.S)))) %>%
   mutate(Long.DD.W=as.numeric(gsub(",", ".", gsub("\\.", "", Long.DD.W))))
-
-colors <- c("Sepal Width" = "blue", "Petal Length" = "red", "Petal Width" = "orange")
 
 southamerica <- ggplot() +
   geom_polygon(data=world, aes(x=long, y = lat, group =group), fill="lightgrey") +
