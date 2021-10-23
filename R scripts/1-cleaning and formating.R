@@ -11,7 +11,7 @@ library(tidyverse)
 library(ggplot2)
 
 #Read in assembled diatom datasets and Regions
-combined <- read.csv("data/assembledspp_new.csv", row.names=1)
+combined <- read.csv("data/assembledspp_new2.csv", row.names=1)
 lake_regions <- read.csv("data/regions_new.csv", row.names = 1, sep=";")
 
 ##Merge diatom datasets and regions datasets
