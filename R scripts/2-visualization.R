@@ -19,41 +19,36 @@ library(ggplot2)
 library(cowplot)
 
 #Read in assembled diatom datasets (relative abundances and )
-#combined <- read.csv("data/assembledspp.csv", row.names=1)
-combined <- read.csv("data/assembledspp_new.csv", row.names=1)
+combined <- read.csv("data/assembledspp.csv", row.names=1)
+#combined2 <- read.csv("data/assembledspp_new.csv", row.names=1)
 
 # Read in lake regions id
-#lake_regions <- read.csv("data/regions.csv", row.names = 1)
-lake_regions <- read.csv("data/regions_new.csv", row.names = 1, sep=";") 
+lake_regions <- read.csv("data/regions.csv", row.names = 1, sep=";")
+#lake_regions2 <- read.csv("data/regions_new.csv", row.names = 1, sep=";") 
 
 ##Merge diatom datasets and regions datasets
 modern_lakes <- merge(combined, lake_regions, by="row.names")
 
 #transform dataframe to tidy format
 df_thin <- modern_lakes %>%
-  gather(key = taxa, value = count, -Row.names, -region) %>% #don't gather region
-  mutate(taxa = plyr::mapvalues(taxa, from = changes_training$old, to = changes_training$new_1))
+  gather(key = taxa, value = count, -Row.names, -region)
 
-#import dataframe wiht old and new names to update taxonomy
-changes_training <- read.csv("data/old_new_nms_trainingset.csv", sep=";", stringsAsFactors = FALSE)
-
-# #spread
-# diatomRegions <- df_thin %>%
-#   mutate(taxa = plyr::mapvalues(taxa, from = changes_training$old, to = changes_training$new_1)) %>%
-#   group_by(region, Row.names, taxa) %>%
-#   summarise(count = sum(count)) %>%
-#   filter(!count == 0) %>% #this is to remove empty samples (rows)
-#   spread(key = taxa, value = count) %>%
-#   as.data.frame()
+#import dataframe wiht old and new names to group
+changes_nms <- read.csv("data/old_new_nms_trainingset.csv", sep=";", stringsAsFactors = FALSE)
+changes_nms <- read.csv("data/old_new_nms_master.csv", sep=";", stringsAsFactors = FALSE)
 
 # Overview of number of diatom taxa
 genera_overview <- df_thin %>%   
-  mutate(taxa = plyr::mapvalues(taxa, from = changes_training$old, to = changes_training$new_1)) %>%
+  mutate(taxa = plyr::mapvalues(taxa, from = changes_nms[,1], to = changes_nms$new_1)) %>%
   separate(taxa, into = c("genera", "sp"), convert = TRUE, remove = FALSE) %>%  
   mutate(genera_f=factor(genera)) %>%
   mutate(genera_f=str_replace(genera_f, "Ammphora", "Amphora"))%>% #fix typos
   mutate(genera_f=str_replace(genera_f, "Achanthes", "Achnanthes")) %>% #fix typos
   mutate(genera_f=str_replace(genera_f, "Discotella", "Discostella")) %>% #fix typos
+  mutate(genera_f=str_replace(genera_f, "Encyononema", "Encyonema")) %>% #fix typos
+  mutate(genera_f=str_replace(genera_f, "FragilarIa", "Fragilaria")) %>% #fix typos
+  mutate(genera_f=str_replace(genera_f, "Trybionella", "Tryblionella")) %>% #fix typos
+  mutate(genera_f=str_replace(genera_f, "Eutnota", "Eunotia"))%>%
   filter(!count==0) %>%
   filter(!taxa=="Auxospores") %>%
   group_by(genera_f) %>%
@@ -77,6 +72,52 @@ ggsave("plots/genera_plt.png", plot = genera_plt,
        height=8, width=10,units="in",
        dpi = 300)
 
+# Overview of number of diatom taxa and proportion identified as cf, aff, sp.
+spp_overview <- df_thin %>%   
+  mutate(taxa = plyr::mapvalues(taxa, from = changes_nms[,1], to = changes_nms$new_1)) %>%
+  separate(taxa, into = c("genera", "sp"), convert = TRUE, remove = FALSE) %>%  
+  mutate(genera_f=factor(genera)) %>%
+  mutate(genera_f=str_replace(genera_f, "Ammphora", "Amphora"))%>% #fix typos
+  mutate(genera_f=str_replace(genera_f, "Achanthes", "Achnanthes")) %>% #fix typos
+  mutate(genera_f=str_replace(genera_f, "Discotella", "Discostella")) %>% #fix typos
+  mutate(genera_f=str_replace(genera_f, "Encyononema", "Encyonema")) %>% #fix typos
+  mutate(genera_f=str_replace(genera_f, "FragilarIa", "Fragilaria")) %>% #fix typos
+  mutate(genera_f=str_replace(genera_f, "Trybionella", "Tryblionella")) %>% #fix typos
+  mutate(genera_f=str_replace(genera_f, "Eutnota", "Eunotia"))%>%
+  filter(!count==0) %>%
+  filter(!taxa=="Auxospores") %>%
+  group_by(genera_f, sp) %>%
+  filter(sp %in% c("cf", "aff", "sp")) %>%
+  summarise(n_notid = n_distinct(taxa)) %>%
+  ungroup() %>%
+  group_by(genera_f) %>%
+  summarise(n_taxa=sum(n_notid)) %>%
+  left_join(genera_overview, by="genera_f") %>%
+  mutate(n_spp = replace_na(n_spp, 1)) %>%
+  rename(not_identified=n_taxa) %>%
+  rename(identified=n_spp)
+str(spp_overview)
+
+taxon_spp <- spp_overview %>% gather(taxon,count,identified:not_identified) %>%
+  mutate(genera_f=fct_reorder(genera_f, count))
+head(taxon_spp)
+
+ggplot(taxon_spp, aes(fill=taxon, y=count, x=genera_f)) + 
+  geom_bar(position="stack", stat="identity")+
+  scale_fill_viridis(discrete = T) +
+  coord_flip() +
+  theme(text = element_text(size=8)) +
+  xlab ("Genera") + ylab("Species number")+
+  theme_classic()
+
+ggsave("plots/proportion_spp_identified_plt.png", plot = last_plot(),
+       height=8, width=10,units="in",
+       dpi = 300)
+
+# ## double.check the above step
+# test <- df_thin %>% filter(str_detect(taxa,"Microcostatus"))
+# levels(factor(test$taxa))
+
 # Diatom taxa with more occurrences
 spp_mostoccurrence <- df_thin %>%
   group_by(taxa) %>%
@@ -86,7 +127,7 @@ spp_mostoccurrence <- df_thin %>%
 
 
 ## Read in site's descriptors
-sitesDB <- read.csv("data/biogeographySites_new.csv", sep=";", stringsAsFactors = FALSE) %>%
+sitesDB <- read.csv("data/biogeographySites.csv", sep=";", stringsAsFactors = FALSE) %>%
   dplyr::select(CollectionName, Country, Collector.Analyst, Year, SiteName, SampleType, Habitat, Substrate,
                 code, region, Lat.DD.S, Long.DD.W) %>%
   mutate(Lat.DD.S=as.numeric(gsub(",", ".", gsub("\\.", "", Lat.DD.S)))) %>%
@@ -100,7 +141,7 @@ sitesDB <- read.csv("data/biogeographySites_new.csv", sep=";", stringsAsFactors 
 
 
 ## Read in environmental data
-diatom_environment <- read.csv("data/environmental_data_lakes.csv") %>%
+diatom_environment <- read.csv("data/environmental_data.csv", sep=";") %>%
   mutate(lake_depth_ratio=Lake_area/Depth_avg) %>%
   mutate(lake_catch_ratio=Lake_area/Wshd_area) %>%
   mutate(catch_vol_ratio=Wshd_area/Vol_total) %>%
@@ -112,7 +153,7 @@ diatom_environment <- read.csv("data/environmental_data_lakes.csv") %>%
   
 # This is to create a bubble chart showing the most common diatom species across regions and habitats
 diatoms_habitat <- df_thin %>%
-  mutate(taxa = plyr::mapvalues(taxa, from = changes_training$old, to = changes_training$new_1)) %>%
+  mutate(taxa = plyr::mapvalues(taxa, from = changes_nms[,1], to = changes_nms$new_1)) %>%
   group_by(region, Row.names, taxa) %>%
   summarise(count = sum(count)) %>%
   filter(count > 30) %>% # uncomment this line to make the following plot (P/A data will not be plotted)
@@ -125,7 +166,7 @@ diatoms_habitat <- df_thin %>%
   filter(!Habitat=="channel") %>%
   mutate(Habitat=factor(Habitat)) %>%
   #ecological grouping
-  mutate(taxa_traits = plyr::mapvalues(taxa, from = changes_training$old, to = changes_training$new_2)) %>%
+  mutate(taxa_traits = plyr::mapvalues(taxa, from = changes_nms[,1], to = changes_nms$new_2)) %>%
   filter(!taxa_traits=="Auxospores") 
 
 
@@ -146,7 +187,7 @@ spp_plt
 
 ## Summarize metadata of regions
 data_summ <- df_thin %>%
-  mutate(taxa = plyr::mapvalues(taxa, from = changes_training$old, to = changes_training$new_1)) %>%
+  mutate(taxa = plyr::mapvalues(taxa, from = changes_nms[,1], to = changes_nms$new_1)) %>%
   group_by(region, Row.names, taxa) %>%
   summarise(count = sum(count)) %>%
   spread(key = taxa, value = count) %>%
@@ -157,13 +198,13 @@ data_summ <- df_thin %>%
   select(-c(CollectionName, Country, Collector.Analyst, region.y, Row.names)) %>%
   gather(key = taxa, value = abund, -Habitat, -Lat.DD.S, -Long.DD.W, -region.x, -Substrate, -Year, -SampleType, -SiteName,
          -pH, -Water.T, -Cond, -Turb, -Chl, -Secchi, -Alkalinity, -Ca, -Mg, -K, -Na, -Si, -Cl, -NO2, 
-         -NO3, -SO4, -PO4, -TN, -TP, -DO..,-DO,-Carbonate, -Silicate, -DOC, -Ecoregion, -Elevation) %>%
+         -NO3, -SO4, -PO4, -TN, -TP, -DO..,-DO,-Carbonate, -Silicate, -DOC, -Elevation, -Ecoregion) %>%
   mutate(taxa=factor(taxa)) %>%
-  filter(!Habitat=="channel") %>%
+  filter(!Habitat=="channel") %>% #remove extraneous habitat
   mutate(Habitat=factor(Habitat)) %>%
   #ecological grouping
-  mutate(taxa_traits = plyr::mapvalues(taxa, from = changes_training$old, to = changes_training$new_2)) %>%
-  filter(!taxa_traits=="Auxospores") 
+  mutate(taxa_traits = plyr::mapvalues(taxa, from = changes_nms[,1], to = changes_nms$new_2)) %>%
+  filter(!taxa_traits=="Auxospores") #remove extraneous traits
 
 # Here create an elevation/latitude-richness plot
 elevation_latitude_plt <- data_summ %>% 
@@ -185,9 +226,9 @@ elevation_latitude_plt <- data_summ %>%
   xlab("Latitude") + ylab("Elevation (m)")
 elevation_latitude_plt
 
-ggsave("plots/elev_lat_richness.png", plot = last_plot(),
-       height=8, width=10,units="in",
-       dpi = 300)
+# ggsave("plots/elev_lat_richness.png", plot = last_plot(),
+#        height=8, width=10,units="in",
+#        dpi = 300)
   
 #summarize metadata for each region
 library(skimr)
@@ -204,7 +245,7 @@ metadata <- data_summ %>%
 
 ## Make the same without filtering spp for obtaining a list of diatom spp with coordinates
 diatoms_list <- df_thin %>%
-  mutate(taxa = plyr::mapvalues(taxa, from = changes_training$old, to = changes_training$new_1)) %>%
+  mutate(taxa = plyr::mapvalues(taxa, from = changes_nms[,1], to = changes_nms$new_1)) %>%
   group_by(region, Row.names, taxa) %>%
   summarise(count = sum(count)) %>%
   spread(key = taxa, value = count) %>%
@@ -225,22 +266,29 @@ diatoms_list <- df_thin %>%
 
 
 # create a series of plots showing the number of sites per habitat,sampleType and years
-habitats_plt <- diatoms_list %>% count(Habitat) %>%
-  ggplot(aes(x="", y=n, fill=Habitat)) +
-  geom_bar(stat="identity", color="black")+
-  coord_polar("y", start=0) +
-  labs(x = NULL, y = NULL, fill = NULL, title = "")+
-  scale_fill_viridis_d()+
-  theme_classic()+
-  ggtitle("Habitats")+
-  theme(axis.line = element_blank(),
-        axis.text = element_blank(),
-        legend.text = element_text(size = 10))
+# habitats_plt <- diatoms_list %>% 
+#   ggplot(aes(x=Habitat)) +
+#   geom_bar(stat="count")+
+#   #coord_polar("y", start=0) +
+#   #labs(x = NULL, y = NULL, fill = NULL, title = "")+
+#   scale_y_continuous("count", breaks = 0:12)+
+#   scale_fill_viridis_c()+
+#   theme_classic()+
+#   ggtitle("Habitats")+
+#   theme(axis.line = element_blank(),
+#         axis.text = element_blank(),
+#         legend.text = element_text(size = 10))
 
-habitats_summary <- diatoms_list %>% 
+# create a series of plots showing the number of sites per habitat,sampleType and years
+habitats_plt <- diatoms_list %>% 
   group_by(Habitat) %>%
   summarise(n = n()) %>%
-  mutate(freq = n / sum(n)*100)
+  mutate(freq = n / sum(n)*100) %>%
+  ggplot(aes(x=reorder(Habitat,-freq),y=freq)) +
+  geom_bar(stat="identity") +
+  scale_fill_viridis_d()+
+  theme_classic()+
+  ggtitle("Habitats") + xlab("") + ylab("Proportion")
   
 
 sampletype_plt <- diatoms_list %>% count(SampleType) %>%
@@ -258,7 +306,13 @@ sampletype_plt <- diatoms_list %>% count(SampleType) %>%
 sampletype_summary <- diatoms_list %>% 
   group_by(SampleType) %>%
   summarise(n = n()) %>%
-  mutate(freq = n / sum(n)*100)
+  mutate(freq = n / sum(n)*100) %>%
+  ggplot(aes(x=reorder(SampleType,-freq),y=freq)) +
+  geom_bar(stat="identity") +
+  scale_fill_viridis_d()+
+  theme_classic()+
+  ggtitle("Sample Type") + xlab("") + ylab("Proportion")
+
 
 Year_plt <- diatoms_list %>% count(Year) %>%
   ggplot(aes(x="", y=n, fill=Year)) +
@@ -275,8 +329,32 @@ Year_plt <- diatoms_list %>% count(Year) %>%
 Year_summary <- diatoms_list %>% 
   group_by(Year) %>%
   summarise(n = n()) %>%
+  mutate(freq = n / sum(n)*100) %>%
+  ggplot(aes(x=reorder(Year,-freq),y=freq)) +
+  geom_bar(stat="identity") +
+  scale_fill_viridis_d()+
+  theme_classic()+
+  ggtitle("Year") + xlab("") + ylab("Proportion")
+
+## intend to make an area chart showing habitat types per year
+df_summary <- sitesDB %>% 
+  filter(!region=="Tierra del Fuego" & !Habitat=="channel") %>%
+  group_by(Year, Habitat, SampleType) %>%
+  summarise(n = n()) %>%
   mutate(freq = n / sum(n)*100)
 
+data3 <- arrange(df_summary, Habitat,SampleType, Year)
+
+ggplot(data = data3, aes(x=Year, y=n, fill=Habitat)) +
+  geom_bar(stat="identity", width = 1) +
+  facet_wrap(~SampleType, scales = "free_y") +
+  scale_fill_viridis_d()+
+  theme_bw()+
+  xlab("Year") + ylab("Number of samples") 
+
+ggsave("plots/sites_plts_summary_new.png", plot = last_plot(),
+       height=8, width=10,units="in",
+       dpi = 300)
 
 #Arrange multiple plots
 plot_grid(habitats_plt, sampletype_plt, Year_plt,
@@ -289,7 +367,7 @@ ggsave("plots/sites_plts_summary.png", plot = last_plot(),
        height=8, width=10,units="in",
        dpi = 300)
 
-#plot modern lake database with marginal histograms
+#plot modern lake database with marginal histograms and diatom paleolimnological sites
 library(maps)
 library(rwordlmap)
 library(ggpubr)

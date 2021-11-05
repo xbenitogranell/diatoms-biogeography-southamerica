@@ -34,7 +34,9 @@ library(maps)
 
 Load inventory of sites
 ```{r}
-sites <- read.csv("data/biogeographySites.csv", stringsAsFactors = FALSE)
+sites <- read.csv("data/biogeographySites.csv", sep=";", stringsAsFactors = FALSE) %>%
+  mutate(Lat.DD.S=as.numeric(gsub(",", ".", gsub("\\.", "", Lat.DD.S)))) %>%
+  mutate(Long.DD.W=as.numeric(gsub(",", ".", gsub("\\.", "", Long.DD.W))))
 ```
 
 Filter out non-tropical sites and artifical habitats
@@ -104,5 +106,6 @@ shinyApp(
 
 
 ```
+
 
 

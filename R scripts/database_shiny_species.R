@@ -1,4 +1,10 @@
+###############################################
 ## Tropical South American Diatom Database
+###############################################
+
+###############################################
+#contact email: xavier.benito.granell@gmail.com 
+###############################################
 
 ##########################################################
 ##  ShinyApp for visualization of species occurrence   ###
@@ -14,7 +20,7 @@ combined <- read.csv("data/assembledspp_new.csv", row.names=1)
 lake_regions <- read.csv("data/regions_new.csv", row.names = 1, sep=";")
 
 #import dataframe wiht old and new names to group
-changes_training <- read.csv("data/old_new_nms_trainingset.csv", sep=";", stringsAsFactors = FALSE)
+changes_nms <- read.csv("data/old_new_nms_master.csv", sep=";", stringsAsFactors = FALSE)
 
 ##Merge diatom datasets and regions datasets
 modern_lakes <- merge(combined, lake_regions, by="row.names")
@@ -39,7 +45,7 @@ df_thin <- modern_lakes %>%
 
 ## Make the same without filtering spp for obtaining a list of diatom spp with coordinates
 diatoms_list <- df_thin %>%
-  mutate(taxa = plyr::mapvalues(taxa, from = changes_training$old, to = changes_training$new_1)) %>%
+  mutate(taxa = plyr::mapvalues(taxa, from = changes_nms[,1], to = changes_nms$new_1)) %>%
   group_by(region, Row.names, taxa) %>%
   summarise(count = sum(count)) %>%
   spread(key = taxa, value = count) %>%

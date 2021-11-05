@@ -2,10 +2,10 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-This repository contains the code and data of contemporary (1980s - 2017) diatom datasets of tropical South America.
+This repository contains the code and data of contemporary (1980s - 2017) diatom datasets of tropical South America (TSADB).
 The [database](http://www.xavierbenito.com/bgsa/bgsa.html) includes diatom (unicelular siliceous algae) data and associated environmental variables of waterbody sites (streams, wetlands, lakes), covering an altitudinal gradient from 220 to 5,070 m a.s.l. between 8°N–30°S and 58–79°W.
 
-Datasets are mostly available on [Dryad](https://datadryad.org/resource/doi:10.5061/dryad.ck7pt) while here the aim is to provide a [shiny](http://shiny.rstudio.com) app to interactively **visualize** and **explore** the database in R for promoting biodiversity, biogeographic and paleolimnological studies in tropical South America.
+Datasets are available as Excel Data Tables on [Dryad](https://doi.org/10.5061/dryad.jm63xsjbs) and [Zenodo](https://doi.org/10.5281/zenodo.5415446) as R files, while here the aim is to provide a [shiny](http://shiny.rstudio.com) app to interactively **visualize** and **explore** the database in R for promoting biodiversity, biogeographic and paleolimnological studies in tropical South America.
 
 ### Database visualization
 A table with geographical coordinates of lakes is available (file <i>biogeographySites.csv</i>) in the <i>data</i> folder. 
@@ -18,7 +18,7 @@ southamerica <- ggplot() +
   coord_map("albers", parameters = c(-100, -100),  ylim=c(-40,15), xlim=c(-82,-40)) +
   xlab("Longitude") + ylab("Latitude") +
   theme_bw()</pre></code>
-<img src="plots/sites.png" width=600></img>
+<img src="plots/map_sites_histograms.png" width=600></img>
 
 The database is also available for visualisation through the **R Markdown**  `diatom-biogeography-southamerica.Rmd` file
 
@@ -36,4 +36,9 @@ To explore the database, run the `database_shiny.R` file in the <i>R scripts</i>
 
 
 </ul>
+
+
+### Database contributor guide
+Check out the `contributor_guide.md` file for a guide on how to share your data for the Tropical South American Database. 
+
 

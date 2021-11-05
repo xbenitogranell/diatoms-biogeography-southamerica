@@ -1,5 +1,14 @@
+###############################################
 ## Tropical South American Diatom Database
-## Shiny app for site visualization and data exploration
+###############################################
+
+###############################################
+#contact email: xavier.benito.granell@gmail.com 
+###############################################
+
+##########################################################
+##  ShinyApp for visualization of species occurrence   ###
+##########################################################
 
 library(leaflet)
 library(shiny)
@@ -10,10 +19,11 @@ library(shinyWidgets)
 data_dir <- "~/R/diatoms-biogeography-southamerica/data"
 
 # Read in diatom taxa (types) names for harmonisation 
-changes_training <- read.csv("data/old_new_nms_trainingset.csv", sep=";", stringsAsFactors = FALSE)
+#changes_training <- read.csv("data/old_new_nms_trainingset.csv", sep=";", stringsAsFactors = FALSE)
+changes_training <- read.csv("data/old_new_nms_master.csv", sep=";", stringsAsFactors = FALSE)
 
 # Read in region names
-all_regions <- read.csv("data/all_regions_new.csv", row.names=1)
+all_regions <- read.csv("data/all_regions.csv", row.names=1)
 colnames(all_regions) <- "region"
 
 
@@ -113,11 +123,11 @@ server <- function(input, output) {
   
   output$boxplots <- renderPlot({
     region_env_plot <- region_data() %>%
-    dplyr::select(pH, Cond, Water.T, TP, Depth_avg, Ca, Mg, K, Elevation,
+    dplyr::select(pH, Cond, Water.T, TP, Ca, Mg, K, Elevation,
                   MAT, P.season, MAP, T.season, 
-                  Depth_avg, area_waterbody, Wshd_area, 
-                  lake_depth_ratio, lake_catch_ratio, catch_vol_ratio,
-                  HFP2009,Agriculture, Crops.and.town, Grassland.and.shrubs) %>%
+                  Depth_avg, area_waterbody,  
+                  Connectivity, TRI,
+                  HFP2009) %>%
     gather(key=variable, value=value)
     
     
@@ -134,7 +144,7 @@ server <- function(input, output) {
   output$sppplots <- renderPlot({
     species_plt <- species_data() %>%
       gather(key=taxa, value=count, -X1) %>%
-      mutate(taxa = plyr::mapvalues(taxa, from=changes_training$old, to=changes_training$new_2)) %>% #ecological grouping
+      mutate(taxa = plyr::mapvalues(taxa, from=changes_training[,1], to=changes_training$new_2)) %>% #ecological grouping
       group_by(X1, taxa) %>%
       summarise(count = sum(count)) %>%
       filter(!count == "0" ) %>% #this is to remove empty samples (rows)

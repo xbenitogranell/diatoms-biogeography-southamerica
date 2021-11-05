@@ -58,8 +58,6 @@ diatomTaxa_check <- function(list_filename="",
     
     #Create new column with spp authorities from Omnidia
     diat_authorities_omnidia <- Omnidia2015_database
-    #diat_authorities_omnidia <- readr::read_csv(file = glue::glue("{data_dir}/{omnidia}.csv"))
-    
     conversion_df$authority_omnidia <- lookup_e(conversion_df$CurrentDiatomSAname, diat_authorities_omnidia[,c("DENOM3","DENOM")])
     conversion_df[is.na(conversion_df$authority_omnidia)==TRUE,]$authority_omnidia <- conversion_df[is.na(conversion_df$authority_omnidia)==TRUE,]$UserTaxa
     
@@ -67,9 +65,6 @@ diatomTaxa_check <- function(list_filename="",
     #Convert conversion_df to dataframe.
     conversion_df <- data.frame(lapply(conversion_df, as.character), stringsAsFactors=FALSE)
   
-    #Export conversion_df to .csv
-    # write.csv(conversion_df, "OUTPUT_converted_names.csv", row.names = FALSE)
-    
     #Replace diatom taxa updated names and write csv
     colnames(diat) <- conversion_df[,2]
     write.csv(diat, "data/updated_dataset.csv", row.names = TRUE)
@@ -97,22 +92,4 @@ truncAuthor <- function(x){
     paste(first, second, third, fourth, fifth)
   }
   else {paste(first, second)}
-}
-
-truncAuthor_mod <- function(x){
-  gsub("  ", " ", x, fixed=TRUE) #remove double space
-  first  <- str_split_fixed(x, " ", n=6)[1] #extract first word
-  second <- str_split_fixed(x, " ", n=6)[2] #extract second word
-  #third  <- str_split_fixed(x, " ", n=6)[3] #extract third word
-  # fourth  <- str_split_fixed(x, " ", n=6)[4] #extract fourth word
-
-  if (grepl("var", x) == TRUE) {
-    paste(first, second)
-  }
-  else if (grepl("f", x) == TRUE) {
-    paste(first, second)
-  }
-
-  else {paste(first, second)}
-  
 }
