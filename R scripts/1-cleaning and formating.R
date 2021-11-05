@@ -13,8 +13,13 @@ library(ggplot2)
 library(xlsx)
 
 #Read in assembled diatom datasets and Regions
+<<<<<<< HEAD
 combined <- read.csv("data/assembledspp.csv", row.names=1)
 lake_regions <- read.csv("data/regions.csv", row.names = 1, sep=";")
+=======
+combined <- read.csv("data/assembledspp_new2.csv", row.names=1)
+lake_regions <- read.csv("data/regions_new.csv", row.names = 1, sep=";")
+>>>>>>> 2424f1a3e9f4c4f61b040223545a0bd0cb461fb8
 
 ##Merge diatom datasets and regions datasets
 modern_lakes <- merge(combined, lake_regions, by="row.names")
