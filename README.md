@@ -39,6 +39,6 @@ To explore the database, run the `database_shiny.R` file in the <i>R scripts</i>
 
 
 ### Database contributor guide
-Check out the `contributor_guide.md` file for a guide on how to share your data for the Tropical South American Database. 
+Check out the [contributor guide](https://github.com/xbenitogranell/diatoms-biogeography-southamerica/blob/master/contributor_guide.md#database-contribution-guide) on how to share your data for the Tropical South American Database. 
 
 
