@@ -46,7 +46,7 @@ The dataset will be screened according to the TSADB's requirements and if it ful
 
 
 ### Connection with Neotoma database
-The TSADB is a current database constituent of [**Neotoma**](www.neotomadb.org), a global community-curated database by regional experts for multiple types of paleoecological data. The dataset contributor is welcome to use this guide as a preliminary step to make sure their diatom counts and taxonomy meet the standards of data reusability, sharing and reproducibility for the larger diatom community. 
+The TSADB is a current database constituent of [**Neotoma**](https://www.neotomadb.org), a global community-curated database by regional experts for multiple types of paleoecological data. The dataset contributor is welcome to use this guide as a preliminary step to make sure their diatom counts and taxonomy meet the standards of data reusability, sharing and reproducibility for the larger diatom community. 
 
 ### Contact
 Please write us an email at xavier.benito.granell[at]gmail.com for any questions or comments.
