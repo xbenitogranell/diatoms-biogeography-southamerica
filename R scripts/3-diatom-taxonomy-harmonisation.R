@@ -17,7 +17,7 @@ pacman::p_unload(pacman::p_loaded(), character.only = TRUE)
 library(tidyverse)
 library(stringr)
 library(qdapTools)
-library(algaeClassify)
+library(algaeClassify) #something is wrong with this package
 
 #####################
 ## Functions start ##
@@ -50,30 +50,38 @@ diatom_authority <- function(list_filename="",
   conversion_df[is.na(conversion_df$CurrentDiatomSAname)==TRUE,]$CurrentDiatomSAname <- conversion_df[is.na(conversion_df$CurrentDiatomSAname)==TRUE,]$UserTaxa
   
   #create new column with updated names matching to algaebase online database
-  algaebase <- spp_list_algaebase(conversion_df, phyto.name="CurrentDiatomSAname",long=FALSE,write=FALSE)
-  conversion_df$algaebase_synonyms <- algaebase$synonyms
-  conversion_df$algaebase_match <- algaebase$match.name
+  # algaebase <- spp_list_algaebase(conversion_df, phyto.name="CurrentDiatomSAname",long=FALSE,write=FALSE)
+  # conversion_df$algaebase_synonyms <- algaebase$synonyms
+  # conversion_df$algaebase_match <- algaebase$match.name
   
   #Create new column with spp authorities from Biodata
-  diat_authorities_biodata <- BioData
   #Replace var. for var to lookup
-  #conversion_df$CurrentDiatomSAname <- gsub("var", "var.", conversion_df$CurrentDiatomSAname, fixed=TRUE)
+  diat_authorities_biodata <- BioData
+  conversion_df$CurrentDiatomSAname <- gsub("var", "var.", conversion_df$CurrentDiatomSAname, fixed=TRUE)
+  conversion_df$biodata_name <- lookup_e(conversion_df$CurrentDiatomSAname, diat_authorities_biodata[,c("ï..BenchTaxonName","BiodataTaxonName")])
+  conversion_df$authority_biodata <- lookup_e(conversion_df$biodata_name, diat_authorities_biodata[,c("ï..BenchTaxonName","PublishedTaxonAuthority")])
   
-  conversion_df$authority_biodata <- lookup_e(conversion_df$CurrentDiatomSAname, diat_authorities_biodata[,c("BiodataTaxonName","PublishedTaxonAuthority")])
-  conversion_df[is.na(conversion_df$authority_biodata)==TRUE,]$authority_biodata <- conversion_df[is.na(conversion_df$authority_biodata)==TRUE,]$UserTaxa
+  # 
+  # #Replace NAs in CurrentDiatomSAname column with original user name.
+  # conversion_df[is.na(conversion_df$authority_biodata)==TRUE,]$authority_biodata <- conversion_df[is.na(conversion_df$authority_biodata)==TRUE,]$UserTaxa
   
-  #Compare updated names (from Master list taxon) to algaebase and get the authority from Biodata
-  conversion_df$authority_algaebase_biodata <- lookup_e(conversion_df$algaebase_match, diat_authorities_biodata[,c("BiodataTaxonName","PublishedTaxonAuthority")])
-  conversion_df[is.na(conversion_df$authority_algaebase_biodata)==TRUE,]$authority_algaebase_biodata <- conversion_df[is.na(conversion_df$authority_algaebase_biodata)==TRUE,]$UserTaxa
+  # 
+  # # #Compare updated names (from Master list taxon) to algaebase and get the authority from Biodata
+  # conversion_df$authority_algaebase_biodata <- lookup_e(conversion_df$algaebase_match, diat_authorities_biodata[,c("BiodataTaxonName","PublishedTaxonAuthority")])
+  # conversion_df[is.na(conversion_df$authority_algaebase_biodata)==TRUE,]$authority_algaebase_biodata <- conversion_df[is.na(conversion_df$authority_algaebase_biodata)==TRUE,]$UserTaxa
+  # # 
   
-  #Create new column with spp authorities from Omnidia
+  # #Create new column with spp authorities from Omnidia
   diat_authorities_omnidia <- Omnidia2015_database
+  conversion_df$CurrentDiatomSAname <- gsub("var", "var.", conversion_df$CurrentDiatomSAname, fixed=TRUE)
   conversion_df$authority_omnidia <- lookup_e(conversion_df$CurrentDiatomSAname, diat_authorities_omnidia[,c("DENOM3","DENOM")])
+  
+  #Replace NAs in CurrentDiatomSAname column with original user name.
   conversion_df[is.na(conversion_df$authority_omnidia)==TRUE,]$authority_omnidia <- conversion_df[is.na(conversion_df$authority_omnidia)==TRUE,]$UserTaxa
   
   #Compare updated names (from Master list taxon) to algaebase and get the authority from Omnidia
-  conversion_df$authority_algaebase_omnidia <- lookup_e(conversion_df$algaebase_match, diat_authorities_omnidia[,c("DENOM3","DENOM")])
-  conversion_df[is.na(conversion_df$authority_algaebase_omnidia)==TRUE,]$authority_algaebase_omnidia <- conversion_df[is.na(conversion_df$authority_algaebase_omnidia)==TRUE,]$UserTaxa
+  # conversion_df$authority_algaebase_omnidia <- lookup_e(conversion_df$algaebase_match, diat_authorities_omnidia[,c("DENOM3","DENOM")])
+  # conversion_df[is.na(conversion_df$authority_algaebase_omnidia)==TRUE,]$authority_algaebase_omnidia <- conversion_df[is.na(conversion_df$authority_algaebase_omnidia)==TRUE,]$UserTaxa
   
   #Convert conversion_df to dataframe.
   conversion_df <- data.frame(lapply(conversion_df, as.character), stringsAsFactors=FALSE)
@@ -116,39 +124,44 @@ diat_master <- read.csv("data/Diatomspp_MasterList_June2021.csv", sep = ";")
 Omnidia2015_database <- read.csv("data/Omnidia2015_database.csv", sep = ";")[,1:4]
 
 # Read in Biodata complete taxonomy
-BioData <- read.csv("data/BioData_taxonlist.csv", sep = ",")
+BioData <- read.csv("data/BioData_taxonlist.csv", sep = ";")
 
 # prepare Omnidia database to split diatom names and authorities
 Omnidia2015_database$DENOM2 <- sapply(Omnidia2015_database$DENOM, truncAuthor)
 Omnidia2015_database$DENOM3 <- sapply(Omnidia2015_database$DENOM2, truncAuthor) #iteration to remove left authorities
 
 #Read in dataset(s) to be harmonized
-#diat <- read.csv("data/galapagos.csv", row.names = 1, sep = ";")
-combined <- read.csv("data/assembledspp_new.csv", row.names=1)
+diat <- read.csv("data/galapagos.csv", row.names = 1, sep = ";")
+#combined <- read.csv("data/assembledspp_new.csv", row.names=1)
 
 #transform dataframe to tidy format
-df_thin <- combined %>%
+df_thin <- diat %>%
   gather(key = taxa, value = count)#don't gather region
 
 #import dataframe wiht old and new names to group
-changes_nms <- read.csv("data/old_new_nms_master.csv", sep=";", stringsAsFactors = FALSE)
+#changes_nms <- read.csv("data/old_new_nms_master.csv", sep=";", stringsAsFactors = FALSE)
+changes_nms <- read.csv("data/old_new_nms_master_revised.csv", sep=";", stringsAsFactors = FALSE)
 
-#spread
+
+#spread & fix some taxonomic errors with updated revised harmonized taxonomy
 diat <- df_thin %>%
   mutate(taxa=str_replace(taxa, "Bacteriastrumÿhyalinum", "Bacteriastrum.hyalinum"))%>%
   mutate(taxa=str_replace(taxa, "Cyclostephanos.sp.1.ENCAÃ.ADO", "Cyclostephanos.sp.1.ENCANADO"))%>%
-  mutate(taxa = plyr::mapvalues(taxa, from = changes_nms[,1], to = changes_nms$new_1))%>%
+  mutate(taxa = plyr::mapvalues(taxa, from = changes_nms[,2], to = changes_nms$revised_harmonized_taxon_name))%>%
+  #mutate(taxa = plyr::mapvalues(taxa, from = changes_nms[,2], to = changes_nms$new_1))%>%
   mutate(taxa=factor(taxa))
 
 # assign taxa names to be updated
 taxa_names <- data.frame(levels(diat$taxa))
 
-
-#replace points by space for running diatomTaxa-check function
+#replace points by space for running diatomAuthority function
+taxa_names <- data.frame(gsub("f.", "fo.", taxa_names[,1], fixed=TRUE), stringsAsFactors = FALSE) 
 taxa_names <- data.frame(gsub(".", " ", taxa_names[,1], fixed=TRUE), stringsAsFactors = FALSE) 
 taxa_names <- data.frame(gsub("  ", " ", taxa_names[,1], fixed=TRUE), stringsAsFactors = FALSE) 
+
 colnames(taxa_names) <- c("diat_name")
-  
+#taxa_names <- taxa_names %>% top_n(40) #test the first 10
+
 # Apply diatom_harm()
 list <- diatom_authority(list_filename="user_list", 
                          diatnames_filename="taxa_names", 
@@ -157,17 +170,13 @@ list <- diatom_authority(list_filename="user_list",
 
 
 #Replace diatom taxa updated names and write csv
-#colnames(diat) <- list[,2]
-write.xlsx(list, "data/diatom_master_taxon_list_authorities.xlsx", row.names = TRUE)
+colnames(diat) <- list[,2]
+#write.xlsx(list, "data/diatom_master_taxon_list_authorities.xlsx", row.names = TRUE)
 
 
 ## test for algaeClassify
-taxa_names <- data.frame(taxa_names[1:20,])
+taxa_names <- data.frame(taxa_names[1:10,])
 names(taxa_names) <- "diat_name"
 
-test <- spp_list_algaebase(taxa_names, phyto.name='diat_name',long=FALSE,write=FALSE)
-
-
-#algae_search(genus='Achnanthes',species='lanceolata',long=FALSE)
-
+algaebase <- spp_list_algaebase(conversion_df, phyto.name="diat_name",long=FALSE,write=FALSE)
 
