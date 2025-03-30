@@ -16,11 +16,11 @@ library(tidyverse)
 library(shinyWidgets)
 
 #Read in assembled diatom datasets and Regions
-combined <- read.csv("data/assembledspp_new.csv", row.names=1)
+combined <- read.csv("data/assembledspp_new2.csv", row.names=1)
 lake_regions <- read.csv("data/regions_new.csv", row.names = 1, sep=";")
 
 #import dataframe wiht old and new names to group
-changes_nms <- read.csv("data/old_new_nms_master.csv", sep=";", stringsAsFactors = FALSE)
+changes_nms <- read.csv("data/old_new_nms_master_revised.csv", sep=";", stringsAsFactors = FALSE)
 
 ##Merge diatom datasets and regions datasets
 modern_lakes <- merge(combined, lake_regions, by="row.names")
@@ -45,7 +45,7 @@ df_thin <- modern_lakes %>%
 
 ## Make the same without filtering spp for obtaining a list of diatom spp with coordinates
 diatoms_list <- df_thin %>%
-  mutate(taxa = plyr::mapvalues(taxa, from = changes_nms[,1], to = changes_nms$new_1)) %>%
+  mutate(taxa = plyr::mapvalues(taxa, from = changes_nms[,1], to = changes_nms$revised_harmonized_taxon_name)) %>%
   group_by(region, Row.names, taxa) %>%
   summarise(count = sum(count)) %>%
   spread(key = taxa, value = count) %>%

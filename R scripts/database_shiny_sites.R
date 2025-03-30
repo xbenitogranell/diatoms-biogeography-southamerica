@@ -17,10 +17,11 @@ library(shinyWidgets)
 
 # Create data directory
 data_dir <- "~/R/diatoms-biogeography-southamerica/data"
+data_dir <- "/Users/xavier/diatoms-biogeography-southamerica/data"
 
 # Read in diatom taxa (types) names for harmonisation 
 #changes_training <- read.csv("data/old_new_nms_trainingset.csv", sep=";", stringsAsFactors = FALSE)
-changes_training <- read.csv("data/old_new_nms_master.csv", sep=";", stringsAsFactors = FALSE)
+changes_training <- read.csv("data/old_new_nms_master_revised.csv", sep=";", stringsAsFactors = FALSE)
 
 # Read in region names
 all_regions <- read.csv("data/all_regions.csv", row.names=1)

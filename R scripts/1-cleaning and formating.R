@@ -13,7 +13,7 @@ library(ggplot2)
 library(xlsx)
 
 #Read in assembled diatom datasets and Regions
-combined <- read.csv("data/assembledspp.csv", row.names=1)
+combined <- read.csv("data/assembledspp_new2.csv", row.names=1)
 lake_regions <- read.csv("data/regions_new.csv", row.names = 1, sep=";")
 
 ##Merge diatom datasets and regions datasets
@@ -25,13 +25,13 @@ df_thin <- modern_lakes %>%
 
 #import dataframe wiht old and new names to group
 #changes_training <- read.csv("data/old_new_nms_trainingset.csv", sep=";", stringsAsFactors = FALSE)
-changes_nms <- read.csv("data/old_new_nms_master.csv", sep=";", stringsAsFactors = FALSE)
+changes_nms <- read.csv("data/old_new_nms_master_revised.csv", sep=";", stringsAsFactors = FALSE)
 
 #spread
 diatomRegions <- df_thin %>%
   mutate(taxa=str_replace(taxa, "Bacteriastrumÿhyalinum", "Bacteriastrum.hyalinum"))%>%
   mutate(taxa=str_replace(taxa, "Karayeviaÿlaterostrata", "Karayevia.laterostrata"))%>%
-  mutate(taxa = plyr::mapvalues(taxa, from = changes_nms[,1], to = changes_nms$new_1)) %>%
+  mutate(taxa = plyr::mapvalues(taxa, from = changes_nms[,1], to = changes_nms$revised_harmonized_taxon_name)) %>%
   mutate(region=str_replace(region, "Colombia-Andes-Central", "Colombia-Andes"))%>%
   mutate(region=str_replace(region, "Colombia-Andes-Eastern", "Colombia-Andes"))%>%
   mutate(region=str_replace(region, "Colombia-Lowlands-North", "Colombia-Lowlands"))%>%
@@ -81,9 +81,9 @@ for (i in seq_along(diatomRegionsList)) {
   setwd("~/R/diatoms-biogeography-southamerica/data/diatom-datasets")
   filenamecsv=paste(nams[i],".csv")
   write.csv(diatomRegionsList[[i]], filenamecsv)
-  setwd("~/R/diatoms-biogeography-southamerica/data/diatom-datasets/excel")
-  filenamexlsx=paste(nams[i],".xlsx")
-  write.xlsx(diatomRegionsList[[i]], filenamexlsx)
+  # setwd("~/R/diatoms-biogeography-southamerica/data/diatom-datasets/excel")
+  # filenamexlsx=paste(nams[i],".xlsx")
+  # write.xlsx(diatomRegionsList[[i]], filenamexlsx)
 }
 
 ## Sites
