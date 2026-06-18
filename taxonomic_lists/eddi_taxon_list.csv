@@ -1,0 +1,2350 @@
+﻿TaxonId;Authority;Year;Genus;TaxonName;Informal;Species;Variety
+AC151A;Manguin in Gourelly & Manguin;1954;Achnanthes;Achnanthes abundans;;abundans;
+AC012A;Grun. in Cleve & Grun.;1880;Achnanthes;Achnanthes affinis;;affinis;
+AC046A;(Poretzky) A. Cleve-Euler;1953;Achnanthes;Achnanthes altaica;;altaica;
+AC156A;Hustedt;1952;Achnanthes;Achnanthes amoena;;amoena;
+AF_0125;;;Achnanthes;Achnanthes arenaria;;arenaria;
+AC014A;Hust.;1922;Achnanthes;Achnanthes austriaca;;austriaca;
+AC014C;Hust.;1933;Achnanthes;Achnanthes austriaca var. helvetica;;austriaca;helvetica
+AC014B;L. Grannoch (RJF);1986;Achnanthes;Achnanthes austriaca var. minor;;austriaca;minor
+AC037A;Grun. in Cleve & Grun.;1880;Achnanthes;Achnanthes biasolettiana;;biasolettiana;
+XXG959;EDDI TP Training Set;2001;Achnanthes;Achnanthes biasolettiana (agg.);x;biasolettiana (agg.);
+AC037B;Lange-Bertalot;1989;Achnanthes;Achnanthes biasolettiana var. subatomus;;biasolettiana;subatomus
+AC045A;Hust.;1952;Achnanthes;Achnanthes bicapitata;;bicapitata;
+AC141A;Germain;1957;Achnanthes;Achnanthes bioretii;;bioretii;
+XXC986;EDDI Salinity Training Set;2001;Achnanthes;Achnanthes brevipes (agg.);x;brevipes (agg.);
+AF_0102;(Kütz.) Cleve;1896;Achnanthes;Achnanthes brevipes + v. intermedia;x;brevipes + v. intermedia;
+AC058C;(Kütz.) Cleve;1896;Achnanthes;Achnanthes brevipes var. intermedia;;brevipes;intermedia
+AC005A;Cleve;1891;Achnanthes;Achnanthes calcar;;calcar;
+AC152A;Lange-Bertalot;1990;Achnanthes;Achnanthes carissima;;carissima;
+AC165A;Bily & Marvan;1959;Achnanthes;Achnanthes catenata;;catenata;
+AC9975;L. Grannoch (RJF);1988;Achnanthes;Achnanthes cf. altaica  var. minor;;altaica;minor
+AC9965;Uaine (VJJ);1988;Achnanthes;Achnanthes cf. austriaca  var. alpina;;austriaca;alpina
+AC9989M;S. Wunsam;;Achnanthes;Achnanthes cf. daui;;daui;
+C_Achdel;J. Reed (Caspian dataset);;Achnanthes;Achnanthes cf. delicatula;;delicatula;
+AC9993;L. Augher (NJA);1984;Achnanthes;Achnanthes cf. flexella;;flexella;
+AC9962M;S. Wunsam;;Achnanthes;Achnanthes cf. helvetica;;helvetica;
+AC9987M;S. Wunsam;;Achnanthes;Achnanthes cf. holsatica;;holsatica;
+A_ZZZ942;N. Cameron (ALPE);;Achnanthes;Achnanthes cf. imperfecta (Stavsvatn);;imperfecta (Stavsvatn);
+AC9960;H. Bennion;1992;Achnanthes;Achnanthes cf. kryophila;;kryophila;
+AC9997;N. Cameron (ALPE);;Achnanthes;Achnanthes cf. lapidosa;;lapidosa;
+AC9996;N. Cameron (ALPE);;Achnanthes;Achnanthes cf. levanderi;;levanderi;
+AC9959;H. Bennion;1992;Achnanthes;Achnanthes cf. linearis;;linearis;
+B_ZZZ983;H. Bennion;1992;Achnanthes;Achnanthes cf. linearis;;linearis;
+A_ZZZ980;L. Chon (NJA);1988;Achnanthes;Achnanthes cf. marginulata;;marginulata;
+AC9968;Uaine (VJJ);1988;Achnanthes;Achnanthes cf. marginulata  fo. major;;marginulata;
+AC9963;SWAP Sweden (IR & NJA);1989;Achnanthes;Achnanthes cf. marginulata (coarse);;marginulata (coarse);
+A_ZZZ995;N. Cameron (ALPE);;Achnanthes;Achnanthes cf. marginulata (rounded central area, flattish valve);;marginulata (rounded central area, flattish valve);
+A_ZZZ993;N. Cameron (ALPE);;Achnanthes;Achnanthes cf. marginulata (small) fo. major;;marginulata (small);
+A_ZZZ994;N. Cameron (ALPE);;Achnanthes;Achnanthes cf. marginulata (square ended form);;marginulata (square ended form);
+AC9948;P. Rioual;1998;Achnanthes;Achnanthes cf. microscopica/curtissima;;microscopica/curtissima;
+AC9961;H. Bennion;1992;Achnanthes;Achnanthes cf. minutissima;;minutissima;
+S_ZZZ996;VJJ (Svalbard);1992;Achnanthes;Achnanthes cf. minutissima;;minutissima;
+S_ZZZ997;VJJ (Svalbard);1992;Achnanthes;Achnanthes cf. minutissima;;minutissima;
+AC013GM;Krammer & Lange-Bertalot Fig. 32: 27-30;1991;Achnanthes;Achnanthes cf. minutissima (1);;minutissima (1);
+AC013FM;Krammer & Lange-Bertalot Fig. 32: 53-56;1991;Achnanthes;Achnanthes cf. minutissima (2);;minutissima (2);
+AC9969;Groningen (RJF);1988;Achnanthes;Achnanthes cf. scotica/marginulata;;scotica/marginulata;
+AC166A;Hohn & Hellerman;1963;Achnanthes;Achnanthes chlidanos;;chlidanos;
+FSN003;Hohn & Hellerman;1963;Achnanthes;Achnanthes chlidanos;;chlidanos;
+AC006A;Grun. in Cleve & Grun.;1880;Achnanthes;Achnanthes clevei;;clevei;
+AC023A;A. Mayer;1919;Achnanthes;Achnanthes conspicua;;conspicua;
+AC060A;J.R. Carter;1963;Achnanthes;Achnanthes curtissima;;curtissima;
+AC9985M;J.R. Carter;1963;Achnanthes;Achnanthes curtissima;;curtissima;
+A_ac42;Lange Bertalot;1989;Achnanthes;Achnanthes daonensis;;daonensis;
+A_ZZZ960;Lange Bertalot;1989;Achnanthes;Achnanthes daonensis;;daonensis;
+AC167A;Lange Bertalot;1989;Achnanthes;Achnanthes daonensis;;daonensis;
+FSN004;Lange Bertalot;1989;Achnanthes;Achnanthes daonensis;;daonensis;
+AC016A;Kütz.;;Achnanthes;Achnanthes delicatula;;delicatula;
+XXC996;EDDI Salininty Training Set;2001;Achnanthes;Achnanthes delicatula (agg.);x;delicatula (agg.);
+XXG975;EDDI TP Training Set;2001;Achnanthes;Achnanthes delicatula (agg.);x;delicatula (agg.);
+AC016B;(Kütz.) Grun. in Cleve & Grun.;1880;Achnanthes;Achnanthes delicatula subsp. delicatula;;delicatula;
+AC016C;(Grun. in Cleve & Grun.) Lange-Bertalot & Ruppel;1980;Achnanthes;Achnanthes delicatula subsp. hauckiana;;delicatula;
+AC168A;(Grunow) LB in LB & Ruppel;1980;Achnanthes;Achnanthes delicatula subsp. hauckiana;;delicatula;
+AC024A;(Cleve) Hust.;1933;Achnanthes;Achnanthes depressa;;depressa;
+AC042A;Hohn & Hellermann;1963;Achnanthes;Achnanthes detha;;detha;
+UME426;T. Korsman;;Achnanthes;Achnanthes detha (minor);x;detha (minor);
+AC039A;Hust.;1933;Achnanthes;Achnanthes didyma fo. didyma;;didyma;
+AC155A;Messikommer;1954;Achnanthes;Achnanthes distincta;;distincta;
+AF_0122;Cholnoky;;Achnanthes;Achnanthes engelbrechtii;;engelbrechtii;
+AC008A;Grun. in Cleve & Grun.;1880;Achnanthes;Achnanthes exigua;;exigua;
+XXC949;EDDI Salininty Training Set;2001;Achnanthes;Achnanthes exigua (agg.);x;exigua (agg.);
+AC008B;Krasske;1923;Achnanthes;Achnanthes exigua var. heterovalva;;exigua;heterovalva
+AC065A;Kütz.;1833;Achnanthes;Achnanthes exilis;;exilis;
+AC025A;(Kütz.) Brun;1880;Achnanthes;Achnanthes flexella;;flexella;
+XXG958;EDDI TP Training Set;2001;Achnanthes;Achnanthes flexella (agg.);x;flexella (agg.);
+AC025B;Brun;1880;Achnanthes;Achnanthes flexella var. alpestris;;flexella;alpestris
+AC159A;Hakansson;1978;Achnanthes;Achnanthes fogedii;;fogedii;
+AC026A;Hust. in A. Schmidt;1937;Achnanthes;Achnanthes frigida;;frigida;
+F_AC077A;Hust. in A. Schmidt;1937;Achnanthes;Achnanthes frigida;;frigida;
+AC041A;Grun. in Cleve & Grun.;1880;Achnanthes;Achnanthes gibberula;;gibberula;
+AC158A;Hohn & Hellerman;1963;Achnanthes;Achnanthes grana;;grana;
+AC073A;Krasske;1925;Achnanthes;Achnanthes grimmei;;grimmei;
+A_ZZZ959;;;Achnanthes;Achnanthes grischiana;;grischiana;
+AC169A;Wuthrich;1975;Achnanthes;Achnanthes grischuna;;grischuna;
+AC010A;Grun. in Cleve & Grun.;1880;Achnanthes;Achnanthes hauckiana;;hauckiana;
+AC163A;(Hustedt) Lange-Bertalot in LB & K;1989;Achnanthes;Achnanthes helvetica;;helvetica;
+AC9979M;(Hustedt) Lange-Bertalot;1989;Achnanthes;Achnanthes helvetica;;helvetica;
+B_ZZZ998;(Hustedt) Lange-Bertalot in LB & K;1989;Achnanthes;Achnanthes helvetica;;helvetica;
+AC134A;Flower and Jones;1989;Achnanthes;Achnanthes helvetica var. alpina;;helvetica;alpina
+AC176A;Lange-Bertalot & Krammer;1989;Achnanthes;Achnanthes hintzii;;hintzii;
+AC177A;Hust;1936;Achnanthes;Achnanthes holsatica;;holsatica;
+AC9988M;Hustedt;1936;Achnanthes;Achnanthes holsatica;;holsatica;
+FSN006;Hust;1936;Achnanthes;Achnanthes holsatica;;holsatica;
+AC027A;Cleve;1881;Achnanthes;Achnanthes holstii;;holstii;
+AC032A;(Grun.) Grun. in Cleve & Grun.;1880;Achnanthes;Achnanthes hungarica;;hungarica;
+AC077A;Grun.;1884;Achnanthes;Achnanthes hyperborea;;hyperborea;
+AC154A;Schimanski;1978;Achnanthes;Achnanthes imperfecta;;imperfecta;
+AC153A;Lange-Bertalot;1989;Achnanthes;Achnanthes impexa;;impexa;
+FSN007;;;Achnanthes;Achnanthes impexiformis;;impexiformis;
+AC078A;(Kütz.) Grun.;1868;Achnanthes;Achnanthes inflata;;inflata;
+AC170A;Herib.;1903;Achnanthes;Achnanthes joursacense;;joursacense;
+AC081A;Hust.;1930;Achnanthes;Achnanthes kolbei;;kolbei;
+AC082A;Krasske;1943;Achnanthes;Achnanthes kriegeri;;kriegeri;
+AC017A;J.B. Petersen;1924;Achnanthes;Achnanthes kryophila;;kryophila;
+AC142A;Lange-Bertalot;1989;Achnanthes;Achnanthes kuelbsii;;kuelbsii;
+AC146A;Lange-Bertalot & Krammer;1989;Achnanthes;Achnanthes lacus-vulcani;;lacus-vulcani;
+AC083A;Ostr.;1910;Achnanthes;Achnanthes laevis;;laevis;
+AC083BM;(Oestrup) Lange-Bertalot;1989;Achnanthes;Achnanthes laevis  var. quadratera;;laevis;quadratera
+XXG957;EDDI TP Training Set;2001;Achnanthes;Achnanthes laevis (agg.);x;laevis (agg.);
+AC001A;(Breb. ex Kütz.) Grun. in Cleve & Grun.;1880;Achnanthes;Achnanthes lanceolata;;lanceolata;
+TS993;EDDI Global Training Set;2001;Achnanthes;Achnanthes lanceolata (agg.);x;lanceolata (agg.);
+XXC995;EDDI Salininty Training Set;2001;Achnanthes;Achnanthes lanceolata (agg.);x;lanceolata (agg.);
+XXG978;EDDI TP Training Set;2001;Achnanthes;Achnanthes lanceolata (agg.);x;lanceolata (agg.);
+SW_ALBP;(Hohn & Hellerman) LB;1991;Achnanthes;Achnanthes lanceolata subsp. biporoma;;lanceolata;
+AC001R;Lange-Bertalot;1991;Achnanthes;Achnanthes lanceolata subsp. frequentissima;;lanceolata;
+AC001C;Cleve;1891;Achnanthes;Achnanthes lanceolata var. elliptica;;lanceolata;elliptica
+AC001B;(Ostr.) Hust.;1911;Achnanthes;Achnanthes lanceolata var. rostrata;;lanceolata;rostrata
+AC043A;Krasske;1929;Achnanthes;Achnanthes lapidosa;;lapidosa;
+AC038A;(Hust.) Hust.;1933;Achnanthes;Achnanthes lapponica;;lapponica;
+AC018A;Hust.;1933;Achnanthes;Achnanthes laterostrata;;laterostrata;
+AC085A;Hust.;1950;Achnanthes;Achnanthes lauenbergiana;;lauenbergiana;
+AC044A;Hust.;1933;Achnanthes;Achnanthes levanderi;;levanderi;
+AC086A;Grun.;1881;Achnanthes;Achnanthes lilljeborgii;;lilljeborgii;
+AC002A;(W. Sm.) Grun. in Cleve & Grun.;1880;Achnanthes;Achnanthes linearis;;linearis;
+F_AD009A;(W. Sm.) Grun. in Cleve & Grun.;1880;Achnanthes;Achnanthes linearis;;linearis;
+AC091A;Hust.;1933;Achnanthes;Achnanthes lutheri;;lutheri;
+AC022A;Grun. in Cleve & Grun.;1880;Achnanthes;Achnanthes marginulata;;marginulata;
+XXU894;EDDI pH Training Set;2001;Achnanthes;Achnanthes marginulata (agg.);x;marginulata (agg.);
+AC003A;(Kütz.) Cleve;1896;Achnanthes;Achnanthes microcephala;;microcephala;
+AC013A;Kütz.;1833;Achnanthes;Achnanthes minutissima;;minutissima;
+FSN001;NORD-CHILL;1997;Achnanthes;Achnanthes minutissima;;minutissima;
+AF_0101;Grun. L-B;;Achnanthes;Achnanthes minutissima  var. affinis;;minutissima;affinis
+AC013HM;(Meister) Lange-Bertalot;1989;Achnanthes;Achnanthes minutissima  var. gracillima;;minutissima;gracillima
+AC013KM;Oestrup;1910;Achnanthes;Achnanthes minutissima  var. inconspicua;;minutissima;inconspicua
+AC013IM;Hustedt;1937;Achnanthes;Achnanthes minutissima  var. macrocephala;;minutissima;macrocephala
+AC9989;John Anderson (PhD);1986;Achnanthes;Achnanthes minutissima (agg.);x;minutissima (agg.);
+XXA999;EDDI Global Training Set;2001;Achnanthes;Achnanthes minutissima (agg.);x;minutissima (agg.);
+XXC987;EDDI Salinity Training Set;2001;Achnanthes;Achnanthes minutissima (agg.);x;minutissima (agg.);
+XXG997;EDDI TP Training Set;2001;Achnanthes;Achnanthes minutissima (agg.);;minutissima (agg.);
+XXU999;EDDI pH Training Set;2001;Achnanthes;Achnanthes minutissima (agg.);x;minutissima (agg.);
+AC013JM;(Grunow) Lange-Bertalot;1989;Achnanthes;Achnanthes minutissima var. affinis;;minutissima;affinis
+SW_AMAF;(Grunow) Lange-Bertalot;;Achnanthes;Achnanthes minutissima var. affinis;;minutissima;affinis
+AC013B;Grun. in Van Heurck;1880;Achnanthes;Achnanthes minutissima var. cryptocephala;;minutissima;cryptocephala
+SW_AMGR;(Meister) Lange-Bertalot;;Achnanthes;Achnanthes minutissima var. gracillima;;minutissima;gracillima
+AC013C;(Rabenh.) Lange-Bertalot & Ruppel;1980;Achnanthes;Achnanthes minutissima var. jackii;;minutissima;jackii
+SW_AMMA;Hustedt;;Achnanthes;Achnanthes minutissima var. macrocephala;;minutissima;macrocephala
+AC013E;Hust.;1937;Achnanthes;Achnanthes minutissima var. robusta;;minutissima;robusta
+SW_AMSA;Kobayasi et Mayama;;Achnanthes;Achnanthes minutissima var. saprophila;;minutissima;saprophila
+AC9964;(Carter) Lange-Bertalot;1988;Achnanthes;Achnanthes minutissima var. scotica;;minutissima;scotica
+AC9964M;(Carter) Lange-Bertalot;1989;Achnanthes;Achnanthes minutissima var. scotica;;minutissima;scotica
+SW_AMSC;(Carter) Lange-Bertalot;1989;Achnanthes;Achnanthes minutissima var. scotica;;minutissima;scotica
+SW_AMIA;(K&LB 2/4, Tafel 32, Figur 53-56);;Achnanthes;Achnanthes minutissima var. Sippe;;minutissima;Sippe
+AC148A;Lange-Bertalot;1989;Achnanthes;Achnanthes modestiformis;;modestiformis;
+AC135A;Krasske;1939;Achnanthes;Achnanthes mollis;;mollis;
+AC098A;Krasske;1929;Achnanthes;Achnanthes montana;;montana;
+FSN008;;;Achnanthes;Achnanthes nitidiformis;;nitidiformis;
+AC019A;A. Cleve-Euler;1900;Achnanthes;Achnanthes nodosa;;nodosa;
+AC143A;Ostr.;1902;Achnanthes;Achnanthes oblongella;;oblongella;
+F_AC028A;Ostr.;1902;Achnanthes;Achnanthes oblongella;;oblongella;
+AC007A;(A. Cleve-Euler) Hust.;1930;Achnanthes;Achnanthes oestrupii;;oestrupii;
+AC011A;Brun & Herib. in Herib.;1893;Achnanthes;Achnanthes peragalli;;peragalli;
+AC105A;Hust.;1937;Achnanthes;Achnanthes petersenii;;petersenii;
+F_AC035B;Hust.;1936;Achnanthes;Achnanthes petersenii;;petersenii;
+AC049A;Hust.;1930;Achnanthes;Achnanthes ploenensis;;ploenensis;
+AC004A;J.R. Carter;1963;Achnanthes;Achnanthes pseudoswazi;;pseudoswazi;
+AC035A;Grun. in Cleve & Grun.;1880;Achnanthes;Achnanthes pusilla;;pusilla;
+PT989;EDDI Global Training Set;2001;Achnanthes;Achnanthes pusilla (agg.);;pusilla (agg.);
+XXG963;EDDI TP Training Set;2001;Achnanthes;Achnanthes pusilla (agg.);x;pusilla (agg.);
+AC035B;;;Achnanthes;Achnanthes pusilla var. petersenii;;pusilla;petersenii
+AC115B;(Ostr.) R. Ross in Hartley;1986;Achnanthes;Achnanthes quadratarea var. quadratarea;;quadratarea;quadratarea
+AC172A;Leclercq;1983;Achnanthes;Achnanthes rechtensis;;rechtensis;
+AC9984M;Lange-Bertalot;1989;Achnanthes;Achnanthes rosenstockii;;rosenstockii;
+FSN009;Lange-Bertalot;1989;Achnanthes;Achnanthes rosenstockii;;rosenstockii;
+SW_AROK;Lange-Bertalot;1989;Achnanthes;Achnanthes rosenstockii;;rosenstockii;
+AC116A;Hust.;1954;Achnanthes;Achnanthes rossii;;rossii;
+AC031A;Ostr.;1903;Achnanthes;Achnanthes rostrata;;rostrata;
+AC118A;Krasske;1932;Achnanthes;Achnanthes rupestris;;rupestris;
+AC119A;J.R. Carter in J.R. Carter & Watts;1981;Achnanthes;Achnanthes saccula;;saccula;
+AC028A;Krasske in Hust.;1933;Achnanthes;Achnanthes saxonica;;saxonica;
+AC048A;Jones & Flower;;Achnanthes;Achnanthes scotica;;scotica;
+AC9999;;;Achnanthes;Achnanthes sp.;;sp.;
+AF_0115;F. Gasse-Africa;;Achnanthes;Achnanthes sp. bolossat;;sp. bolossat;
+C_Achsp1;J. Reed (Caspian dataset);;Achnanthes;Achnanthes sp1;x;sp1;
+FSN010;NORD-CHILL;1997;Achnanthes;Achnanthes sp1;;sp1;
+C_Achsp2;J. Reed (Caspian dataset);;Achnanthes;Achnanthes sp2;x;sp2;
+AC9962;PIRLA;;Achnanthes;Achnanthes sp3 (PIRLA);;sp3 (PIRLA);
+AC9981;L. Uaine (VJJ);1987;Achnanthes;Achnanthes sp5;;sp5;
+AC9994;L. Augher (NJA);1984;Achnanthes;Achnanthes spA;;spA;
+AC9958;H. Bennion;1992;Achnanthes;Achnanthes spB;;spB;
+AC9990;L. Fleet (NJA);1986;Achnanthes;Achnanthes spB;;spB;
+AC9957;H. Bennion;1992;Achnanthes;Achnanthes spC;;spC;
+AC173A;(Krasske) Krasske;1949;Achnanthes;Achnanthes stolida;;stolida;
+AC178A;Lamge-Bertalot;1996;Achnanthes;Achnanthes straubiana;;straubiana;
+AC136A;(Hust.) Lange-Bertalot & Archibald in Krammer & Lange-Bertalot;1985;Achnanthes;Achnanthes subatomoides;;subatomoides;
+F_AC042A;(Hust.) Lange-Bertalot & Archibald in Krammer & Lange-Bertalot;1985;Achnanthes;Achnanthes subatomoides;;subatomoides;
+AC174A;Hustedt;1934;Achnanthes;Achnanthes subexigua;;subexigua;
+AC9961M;Hustedt;1934;Achnanthes;Achnanthes subexigua;;subexigua;
+AF_0118;Hust.;;Achnanthes;Achnanthes subhudsonis;;subhudsonis;
+AC029A;Hust.;1936;Achnanthes;Achnanthes sublaevis;;sublaevis;
+F_AC161A;Hust.;1936;Achnanthes;Achnanthes sublaevis;;sublaevis;
+AC034A;Hust.;1933;Achnanthes;Achnanthes suchlandtii;;suchlandtii;
+AC130A;Grun. in Cleve & Grun.;1880;Achnanthes;Achnanthes taeniata;;taeniata;
+AC160A;Rabenhorst (Schoenfeld);1907;Achnanthes;Achnanthes thermalis;;thermalis;
+AC132A;(W. Sm.) Grun. in Van Heurck;1880;Achnanthes;Achnanthes trinodis;;trinodis;
+AC030A;J.R. Carter;1970;Achnanthes;Achnanthes umara;;umara;
+A_ac22;(Krasske) Lange-Bertalot;1989;Achnanthes;Achnanthes ventralis;;ventralis;
+A_ZZZ975;(Krasske) Lange-Bertalot;1989;Achnanthes;Achnanthes ventralis;;ventralis;
+AC161A;(Krasske) Lange-Bertalot;1989;Achnanthes;Achnanthes ventralis;;ventralis;
+SW_AZIE;Lange-Bertalot;1991;Achnanthes;Achnanthes ziegleri;;ziegleri;
+ACT01A;Lewis;;Actinella;Actinella punctata;;punctata;
+F_AT001A;Lewis;;Actinella;Actinella punctata;;punctata;
+AT001A;(Greg. ex Grev.) Hust. ex VanLand.;1967;Actinocyclus;Actinocyclus normanii fo. normanii;;normanii;
+AT9999;;;Actinocyclus;Actinocyclus sp.;;sp.;
+AT012A;(Greg.) Ralfs in Pritch.;1861;Actinocyclus;Actinocyclus subtilis;;subtilis;
+AP004A;(Krasske) Hust.;1954;Amphipleura;Amphipleura kriegerana;;kriegerana;
+AP001A;(Kütz.) Kütz.;1844;Amphipleura;Amphipleura pellucida;;pellucida;
+AP002A;(Trentepohl ex Roth) Cleve;1894;Amphipleura;Amphipleura rutilans;;rutilans;
+AI021A;J.W. Bail.;1851;Amphiprora;Amphiprora ornata;;ornata;
+AI9999;;;Amphiprora;Amphiprora sp.;;sp.;
+AM002A;Kütz.;1844;Amphora;Amphora acutiuscula;;acutiuscula;
+AM9992M;Krammer;1980;Amphora;Amphora aequalis;;aequalis;
+AM018A;Greg.;1857;Amphora;Amphora angusta;;angusta;
+XXC985;EDDI Salinity Training Set;2001;Amphora;Amphora arcus (agg.);x;arcus (agg.);
+AF_0312;Gregory;;Amphora;Amphora arcus + v. sulcata;;arcus + v. sulcata;
+AM021B;A.Schmidt;;Amphora;Amphora arcus var. sulcata;;arcus;sulcata
+AM118A;Hohn & Hellermann;1963;Amphora;Amphora bullatoides;;bullatoides;
+AF_0313;Giffen;;Amphora;Amphora castellata;;castellata;
+C_Ampco2;J. Reed (Caspian dataset);;Amphora;Amphora cf. coffaeaformis;;coffaeaformis;
+AF_0388;(Tunise L.BK EH53);;Amphora;Amphora cf. coffeaeformis;;coffeaeformis;
+AF_0380;Hust.;;Amphora;Amphora cf. holsatica;;holsatica;
+AM9987;J. Reed;1994;Amphora;Amphora cf. libyca (type 1 small);;libyca (type 1 small);
+AM9986;J. Reed;1994;Amphora;Amphora cf. libyca (type 2 large);;libyca (type 2 large);
+AF_0387;(Tunisie L.BK);;Amphora;Amphora cf. micrometra;;micrometra;
+C_Ampmi2;J. Reed (Caspian dataset);;Amphora;Amphora cf. micrometra;;micrometra;
+AM9988;Lor (JR);1994;Amphora;Amphora cf. montana;;montana;
+AM9985;Mojon Blanco (JR);1994;Amphora;Amphora cf. sp1 (acutiuscula);;sp1 (acutiuscula);
+AM9990;Grande VFA (JR);1994;Amphora;Amphora cf. subcapitata;;subcapitata;
+AM9991;Gallocanta (JR);1994;Amphora;Amphora cf. tenarescens/tenerrima;;tenarescens/tenerrima;
+AM006A;(Ag.) Kütz.;1844;Amphora;Amphora coffeaeformis;;coffeaeformis;
+XXC948;EDDI Salinity Training Set;2001;Amphora;Amphora coffeaeformis (agg.);x;coffeaeformis (agg.);
+AM006E;(Kütz.) Cleve;1896;Amphora;Amphora coffeaeformis var. borealis;;coffeaeformis;borealis
+AF_0333;Cholnoky;;Amphora;Amphora cognata;;cognata;
+AM007A;Grun. in Van Heurck;1880;Amphora;Amphora commutata;;commutata;
+AM123A;Cholnoky;;Amphora;Amphora cymbamphora;;cymbamphora;
+AM039A;Krasske ex Hust.;1930;Amphora;Amphora delicatissima;;delicatissima;
+AM049A;Greg.;1857;Amphora;Amphora exigua;;exigua;
+AM010A;Krammer;1985;Amphora;Amphora fogediana;;fogediana;
+FSN011;Krammer;1985;Amphora;Amphora fogediana;;fogediana;
+AM065A;Hust.;1930;Amphora;Amphora holsatica;;holsatica;
+AM066A;Kütz.;1844;Amphora;Amphora hyalina;;hyalina;
+AF_0314;;;Amphora;Amphora inaequistriata;;inaequistriata;
+AM013A;Krammer;;Amphora;Amphora inariensis;;inariensis;
+AM011A;Ehr.;;Amphora;Amphora libyca;;libyca;
+XXA982;EDDI Global Training Set;2001;Amphora;Amphora libyca (agg.);x;libyca (agg.);
+AM074A;Ehrenb.;1838;Amphora;Amphora lineolata;;lineolata;
+XXC984;EDDI Salinity Training Set;2001;Amphora;Amphora lineolata (agg.);x;lineolata (agg.);
+AF_0319;Ehr.;;Amphora;Amphora lineolata + v. plicata;;lineolata + v. plicata;
+AM121B;P.Sanchez;1993;Amphora;Amphora margalefi var. lacustris;;margalefi;lacustris
+AF_0315;Schmidt;;Amphora;Amphora mexicana + v. major;;mexicana + v. major;
+AM122A;Giffen;;Amphora;Amphora micrometra;;micrometra;
+AM084A;Krasske;1932;Amphora;Amphora montana;;montana;
+AM005A;Rabenh.;1864;Amphora;Amphora normanii;;normanii;
+AM090B;Breb. ex Kütz.;1849;Amphora;Amphora ostrearia;;ostrearia;
+AM001A;(Kütz.) Kütz.;1844;Amphora;Amphora ovalis;;ovalis;
+AF_0335;Gasse;;Amphora;Amphora ovalis  var. tallingii;;ovalis;tallingii
+XXC914;EDDI Salinity Training Set;2001;Amphora;Amphora ovalis (agg.);x;ovalis (agg.);
+AF_0325;Kütz.;;Amphora;Amphora ovalis + v. affinis +  Amphora libyca;;ovalis + v. affinis +  Amphora libyca;
+AM001D;(Kütz.) Van Heurck;1885;Amphora;Amphora ovalis var. affinis;;ovalis;affinis
+AM001C;(Ehrenb. ex Kütz.) Cleve;1896;Amphora;Amphora ovalis var. libyca;;ovalis;libyca
+AM001B;(Kütz.) Van Heurck;1885;Amphora;Amphora ovalis var. pediculus;;ovalis;pediculus
+AM012A;(Kütz.) Grun.;;Amphora;Amphora pediculus;;pediculus;
+XXA987;EDDI Global Training Set;2001;Amphora;Amphora pediculus (agg.);x;pediculus (agg.);
+XXG982;EDDI TP Training Set;2001;Amphora;Amphora pediculus (agg.);x;pediculus (agg.);
+AM003A;(Grun. in Van Heurck) Grun. in Van Heurck;1884;Amphora;Amphora perpusilla;;perpusilla;
+AF_0331;Greg.;;Amphora;Amphora proteus v. oculata;;proteus v. oculata;
+AM100A;Kitton ex A. Schmidt;1876;Amphora;Amphora rhombica;;rhombica;
+AF_0381;Reimer;;Amphora;Amphora sabiniana;;sabiniana;
+AF_0382;Grun.;;Amphora;Amphora schmidtii;;schmidtii;
+AF_0375;Frenguelli;;Amphora;Amphora somalica;;somalica;
+AM9999;;;Amphora;Amphora sp.;;sp.;
+C_Ampsp1;J. Reed (Caspian dataset);;Amphora;Amphora sp1;x;sp1;
+S_ZZZ983;VJJ (Svalbard);;Amphora;Amphora sp1 (SBAT);x;sp1 (SBAT);
+AF_0384;VOIR L.Ben Khelifa (1989), pl. 15, fig. 15;;Amphora;Amphora sp1 (Tunisie L.BK);x;sp1 (Tunisie L.BK);
+AF_0385;VOIR L.Ben Khelifa (1989), pl. 14, fig. 17-18;;Amphora;Amphora sp2;x;sp2;
+C_Ampsp2;J. Reed (Caspian dataset);;Amphora;Amphora sp2;x;sp2;
+AF_0332;Juhlin-Dannfelt;;Amphora;Amphora staurophora;;staurophora;
+AM124A;Hust.;;Amphora;Amphora strigosa;;strigosa;
+AF_0351;Hust.;;Amphora;Amphora submontana;;submontana;
+AF_0383;;;Amphora;Amphora subsalsoides;;subsalsoides;
+AF_0360;Hust.;;Amphora;Amphora subturgida;;subturgida;
+AM110A;Aleem & Hust.;1951;Amphora;Amphora tenerrima;;tenerrima;
+AM008A;(Mayer) A. Cleve;;Amphora;Amphora thumensis;;thumensis;
+AM004A;Kütz.;1844;Amphora;Amphora veneta;;veneta;
+XXC988;EDDI Salinity Training Set;2001;Amphora;Amphora veneta (agg.);x;veneta (agg.);
+AF_0370;Kütz.;;Amphora;Amphora veneta + v. capitata;;veneta + v. capitata;
+AN005A;(Kütz.) Hust.;1959;Anomoeoneis;Anomoeoneis costata;;costata;
+AN9999;;;Anomoeoneis;Anomoeoneis sp.;;sp.;
+AN009A;(Ehrenb.) Pfitz.;1871;Anomoeoneis;Anomoeoneis sphaerophora;;sphaerophora;
+XXC947;EDDI Salinity Training Set;2001;Anomoeoneis;Anomoeoneis sphaerophora (agg.);x;sphaerophora (agg.);
+AN009D;(Kütz) Schmid;1977;Anomoeoneis;Anomoeoneis sphaerophora fo. costata;;sphaerophora;
+AN009C;O. Müller;1899;Anomoeoneis;Anomoeoneis sphaerophora var. guntheri;;sphaerophora;guntheri
+AN009B;(Ehrenb.) O. Müll.;1899;Anomoeoneis;Anomoeoneis sphaerophora var. sculpta;;sphaerophora;sculpta
+AN006A;(Grun. in Van Heurck) Hust.;1930;Anomoeoneis;Anomoeoneis styriaca;;styriaca;
+AN004A;(Grun.) R. Ross in Patr. & Reimer;1966;Anomoeoneis;Anomoeoneis vitrea;;vitrea;
+AS9997;(SWAP);1987;Asterionella;Asterionella cf. ralfsii/formosa;;ralfsii/formosa;
+AS001A;Hassall;1850;Asterionella;Asterionella formosa;x;formosa;
+AS002A;(Hantszch in Rabenh.) Heib.;1863;Asterionella;Asterionella gracillima;;gracillima;
+AS003A;W. Sm.;1856;Asterionella;Asterionella ralfsii;;ralfsii;
+XXU993;EDDI pH Training Set;2001;Asterionella;Asterionella ralfsii (agg.);x;ralfsii (agg.);
+AS003B;Korner;1970;Asterionella;Asterionella ralfsii var. americana;;ralfsii;americana
+AF_3501;Ostenfeld;;Aulacoseira;Aulacoseira agassizii + v. malayensis;;agassizii + v. malayensis;
+AU031A;(Grunow) Krammer;1990;Aulacoseira;Aulacoseira alpigena;;alpigena;
+AU002A;(Grun. in Van Heurck) Simonsen;1979;Aulacoseira;Aulacoseira ambigua;;ambigua;
+AU9990;Dulyn (RJF);1988;Aulacoseira;Aulacoseira cf. (small);;(small);
+UME412;TK 1992;;Aulacoseira;Aulacoseira cf. alpigena (small);;alpigena (small);
+AU9988;SWAP;1989;Aulacoseira;Aulacoseira cf. distans;;distans;
+A_ZZZ940;N. Cameron (ALPE);;Aulacoseira;Aulacoseira cf. distans (fine) (Ovre Neadalsvatn);;distans (fine) (Ovre Neadalsvatn);
+A_ZZZ968;N. Cameron (ALPE);;Aulacoseira;Aulacoseira cf. distans (type) (Escura);;distans (type) (Escura);
+SWAP20;Oresjon (JCK);1989;Aulacoseira;Aulacoseira cf. distans (v. 4 PIRLA);;distans (v. 4 PIRLA);
+XXU994;EDDI pH Training Set;2001;Aulacoseira;Aulacoseira cf. distans (v. nivalis/pfaffiana);;distans (v. nivalis/pfaffiana);
+A_ZZZ943;N. Cameron (ALPE);;Aulacoseira;Aulacoseira cf. distans nivalis (fine) (Stavsvatn);;distans nivalis (fine) (Stavsvatn);
+SWAP09;Gulspettvatn (IR);1989;Aulacoseira;Aulacoseira cf. distans/subarctica;;distans/subarctica;
+AU9984;SWAP Sweden (IR & NJA);1989;Aulacoseira;Aulacoseira cf. lirata alpigena (small);;lirata alpigena (small);
+AU9987;SWAP;1989;Aulacoseira;Aulacoseira cf. lirata alpigena/distans (girdle view);;lirata alpigena/distans (girdle view);
+A_ZZZ969;N. Cameron (ALPE);;Aulacoseira;Aulacoseira cf. nygardii (Escura);;nygardii (Escura);
+AF_3532;(Oestrup) Haworth;;Aulacoseira;Aulacoseira cf. perglabra;;perglabra;
+AU9986;SWAP Sweden (IR & NJA);1989;Aulacoseira;Aulacoseira cf. subarctica (Haworth 1989,type 2,fig 48);;subarctica (Haworth 1989,type 2,fig 48);
+UME411;TK 1992;;Aulacoseira;Aulacoseira cf. valida (small);;valida (small);
+UME439;T. Korsman;;Aulacoseira;Aulacoseira crassipunctata;;crassipunctata;
+AU030A;Thwaites;1848;Aulacoseira;Aulacoseira crenulata;;crenulata;
+AU005A;(Ehrenb.) Simonsen;1979;Aulacoseira;Aulacoseira distans;;distans;
+F_AU004D;(Grun. in Van Heurck) Simonsen;1979;Aulacoseira;Aulacoseira distans  var. alpigena;;distans;alpigena
+PT986;EDDI Global Training Set;2001;Aulacoseira;Aulacoseira distans (agg.);x;distans (agg.);
+XXC946;EDDI Salinity Training Set;2001;Aulacoseira;Aulacoseira distans (agg.);x;distans (agg.);
+XXG956;EDDI TP Training Set;2001;Aulacoseira;Aulacoseira distans (agg.);x;distans (agg.);
+AF_3504;(Ehr.) Kåtz.;;Aulacoseira;Aulacoseira distans + v. alpigena;;distans + v. alpigena;
+UME522;"(Ehrenb.) Simonsen  in Krammer & Lange-Bertalot 1991 (Part 3; Fig 29)";;Aulacoseira;Aulacoseira distans sensu Krammer & Lange-Bertalot;;distans sensu Krammer & Lange-Bertalot;
+AF_3505;O.Müller;;Aulacoseira;Aulacoseira distans v.africana + v. humilis;;distans v.africana + v. humilis;
+AU005H;(Grun. in Van Heurck) Simonsen;1979;Aulacoseira;Aulacoseira distans var. alpigena;;distans;alpigena
+AU005L;(A. Cleve-Euler) R. Ross in Hartley;1986;Aulacoseira;Aulacoseira distans var. humilis;;distans;humilis
+AU005J;(Grun.) Haworth;;Aulacoseira;Aulacoseira distans var. laevissima;;distans;laevissima
+AU005E;(W. Smith) Haworth;1988;Aulacoseira;Aulacoseira distans var. nivalis;;distans;nivalis
+AU005B;Camburn;1987;Aulacoseira;Aulacoseira distans var. nivaloides;;distans;nivaloides
+AU005D;(Nygaard) R. Ross in Hartley;1986;Aulacoseira;Aulacoseira distans var. tenella;;distans;tenella
+AF_3506;O.Müller;;Aulacoseira;Aulacoseira goetzeana;;goetzeana;
+AU003A;(Ehrenberg)Simonson;1979;Aulacoseira;Aulacoseira granulata;;granulata;
+AU003D;(Ehrenb.) Simonsen;1979;Aulacoseira;Aulacoseira granulata;;granulata;
+AF_3509;(Grun.) Hust.;;Aulacoseira;Aulacoseira granulata  var. angustissima  fo. curvata;;granulata;angustissima
+AF_3523;Manguin;;Aulacoseira;Aulacoseira granulata  var. tubulosa;;granulata;tubulosa
+AF_3510;Hust.;;Aulacoseira;Aulacoseira granulata  var. valida;;granulata;valida
+TS999;EDDI Global Training Set;2001;Aulacoseira;Aulacoseira granulata (agg.);x;granulata (agg.);
+XXC945;EDDI Salinity Training Set;2001;Aulacoseira;Aulacoseira granulata (agg.);x;granulata (agg.);
+XXG988;EDDI TP Training Set;2001;Aulacoseira;Aulacoseira granulata (agg.);x;granulata (agg.);
+SW_AGCU;(Ehrenberg)Simonson;1979;Aulacoseira;Aulacoseira granulata (morphotype curvata);;granulata (morphotype curvata);
+AF_3507;(Ehr.) Ralfs;;Aulacoseira;Aulacoseira granulata + jonensis + muzzanensis;;granulata + jonensis + muzzanensis;
+AU003B;(O. Müll.) Simonsen;1979;Aulacoseira;Aulacoseira granulata var. angustissima;;granulata;angustissima
+XXG990;EDDI TP Training Set;2001;Aulacoseira;Aulacoseira islandica (agg.);x;islandica (agg.);
+AU009B;(O. Müll.) Simonsen;1979;Aulacoseira;Aulacoseira islandica subsp. helvetica;;islandica;
+AU009A;(O. Müll.) Simonsen;1979;Aulacoseira;Aulacoseira islandica subsp. islandica;;islandica;
+XXC991;EDDI Salinity Training Set;2001;Aulacoseira;Aulacoseira italica (agg.);x;italica (agg.);
+XXG989;EDDI TP Training Set;2001;Aulacoseira;Aulacoseira italica (agg.);x;italica (agg.);
+AU001D;(Ehrenb.) R. Ross in Hartley;1986;Aulacoseira;Aulacoseira italica fo. crenulata;;italica;
+AU001A;(Ehrenb.) Simonsen;1979;Aulacoseira;Aulacoseira italica subsp. italica;;italica;
+AU001B;(O. Müll.) Simonsen;1979;Aulacoseira;Aulacoseira italica subsp. subarctica;;italica;
+AF_3512;O. Müller;;Aulacoseira;Aulacoseira italica var. bacilligera;;italica;bacilligera
+AU001E;(Grun. in Van Heurck) Simonsen;1979;Aulacoseira;Aulacoseira italica var. tenuissima;;italica;tenuissima
+AU001C;(Grun. in Van Heurck ) Simonsen;1979;Aulacoseira;Aulacoseira italica var. valida;;italica;valida
+AF_3521;(O. Muller) Simonsen;;Aulacoseira;Aulacoseira kondeensis;;kondeensis;
+AU032A;Krammer;1990;Aulacoseira;Aulacoseira lacustris;;lacustris;
+AU004A;(Ehrenb.) R. Ross in Hartley;1986;Aulacoseira;Aulacoseira lirata;;lirata;
+PT992;EDDI Global Training Set;2001;Aulacoseira;Aulacoseira lirata (agg.);x;lirata (agg.);
+XXG962;EDDI TP Training Set;2001;Aulacoseira;Aulacoseira lirata (agg.);x;lirata (agg.);
+AU004D;(Grun.) Haworth;;Aulacoseira;Aulacoseira lirata var. alpigena;;lirata;alpigena
+AU004C;Haworth;1988;Aulacoseira;Aulacoseira lirata var. biseriata;;lirata;biseriata
+AU004B;(Grun. in Van Heurck) R. Ross in Hartley;1986;Aulacoseira;Aulacoseira lirata var. lacustris;;lirata;lacustris
+AU004E;(Ostr.) R. Ross in Hartley;1986;Aulacoseira;Aulacoseira lirata var. perglabra;;lirata;perglabra
+AF_3513;O.Müller;;Aulacoseira;Aulacoseira magnusii;;magnusii;
+SW_AMUZ;(Meister) Krammer;;Aulacoseira;Aulacoseira muzzanensis;;muzzanensis;
+AF_3516;O.Müller;;Aulacoseira;Aulacoseira nyassensis  var. victoriae;;nyassensis;victoriae
+XXC944;EDDI Salinity Training Set;2001;Aulacoseira;Aulacoseira nyassensis (agg.);x;nyassensis (agg.);
+AF_3515;O.Müller;;Aulacoseira;Aulacoseira nyassensis + v. peregrina;;nyassensis + v. peregrina;
+AU014A;Camburn;;Aulacoseira;Aulacoseira nygaardii;;nygaardii;
+AU010A;(Oestrup) Haworth;1988;Aulacoseira;Aulacoseira perglabra;;perglabra;
+XXG955;EDDI TP Training Set;2001;Aulacoseira;Aulacoseira perglabra (agg.);x;perglabra (agg.);
+AU010B;;;Aulacoseira;Aulacoseira perglabra var. floriniae;;perglabra;floriniae
+AU033A;(Reinsch) Krammer;1990;Aulacoseira;Aulacoseira pfaffiana;;pfaffiana;
+A_ZZZ958;(Reinsch) Krammer;1990;Aulacoseira;Aulacoseira pffafiana;;pffafiana;
+AU9999;;;Aulacoseira;Aulacoseira sp.;;sp.;
+A_ZZZ999;ALPE;;Aulacoseira;Aulacoseira sp. (coarse);x;sp. (coarse);
+A_ZZZ989;ALPE;;Aulacoseira;Aulacoseira sp. (fine);x;sp. (fine);
+A_ZZZ973;ALPE;;Aulacoseira;Aulacoseira sp. (small);x;sp. (small);
+UME438;TK 1992;;Aulacoseira;Aulacoseira sp. (small, spines, lirata-like);x;sp. (small, spines, lirata-like);
+A_ZZZ988;ALPE;;Aulacoseira;Aulacoseira sp1;x;sp1;
+A_ZZZ946;ALPE;;Aulacoseira;Aulacoseira sp1 (Milchsee);x;sp1 (Milchsee);
+A_ZZZ967;ALPE;;Aulacoseira;Aulacoseira sp1 (Redonda);x;sp1 (Redonda);
+A_ZZZ987;ALPE;;Aulacoseira;Aulacoseira sp2;x;sp2;
+A_ZZZ972;ALPE;;Aulacoseira;Aulacoseira sp2 (Escura);x;sp2 (Escura);
+A_ZZZ965;ALPE;;Aulacoseira;Aulacoseira sp2 (Redonda);x;sp2 (Redonda);
+A_ZZZ986;ALPE;;Aulacoseira;Aulacoseira sp3;x;sp3;
+A_ZZZ971;ALPE;;Aulacoseira;Aulacoseira sp3 (Escura);x;sp3 (Escura);
+A_ZZZ964;ALPE;;Aulacoseira;Aulacoseira sp3 (Redonda);x;sp3 (Redonda);
+A_ZZZ985;ALPE;;Aulacoseira;Aulacoseira sp4;x;sp4;
+A_ZZZ970;ALPE;;Aulacoseira;Aulacoseira sp4 (Escura);x;sp4 (Escura);
+A_ZZZ963;ALPE;;Aulacoseira;Aulacoseira sp4 (Redonda);x;sp4 (Redonda);
+A_ZZZ984;ALPE;;Aulacoseira;Aulacoseira sp5;x;sp5;
+AU020A;(O.Müll.) Haworth;;Aulacoseira;Aulacoseira subarctica;x;subarctica;
+AU9983;SWAP;1989;Aulacoseira;Aulacoseira subarctica (agg.);x;subarctica (agg.);
+XXU893;EDDI pH Training Set;2001;Aulacoseira;Aulacoseira subarctica (agg.);x;subarctica (agg.);
+FSN013;NORD-CHILL;1997;Aulacoseira;Aulacoseira subarctica (type 1);x;subarctica (type 1);
+FSN014;NORD-CHILL;1997;Aulacoseira;Aulacoseira subarctica (type 2);x;subarctica (type 2);
+AU020B;;;Aulacoseira;Aulacoseira subarctica var. subborealis;;subarctica;subborealis
+AU022A;SWAP;1989;Aulacoseira;Aulacoseira subborealis;;subborealis;
+AU023A;Haworth nov. sp.;1989;Aulacoseira;Aulacoseira tethera;;tethera;
+XXG920;;;Aulacoseira;Aulacoseira valida;;valida;
+BA001A;Gmelin in Linnaeus;1788;Bacillaria;Bacillaria paradoxa;;paradoxa;
+BA9999;;;Bacillaria;Bacillaria sp.;;sp.;
+BK001A;(Trentepohl ex Roth) Grun.;1868;Berkeleya;Berkeleya rutilans;;rutilans;
+BI019A;(Ehrenb.) W. Sm.;1856;Biddulphia;Biddulphia rhombus;;rhombus;
+BI9999;;;Biddulphia;Biddulphia sp.;;sp.;
+BR009A;Kütz.;1836;Brachysira;Brachysira aponina;;aponina;
+BR006A;R. Ross in Hartley;1986;Brachysira;Brachysira brebissonii fo. brebissonii;;brebissonii;
+A_ZZZ962;(Kütz.) Round & Mann;1981;Brachysira;Brachysira exilis;;exilis;
+BR002A;(Ehrenb.) R. Ross in Hartley;1986;Brachysira;Brachysira follis;;follis;
+BR012A;LB &  (L.B);;Brachysira;Brachysira garrensis;;garrensis;
+BR010A;Lange-Bertalot;1994;Brachysira;Brachysira neoexilis;;neoexilis;
+BR011A;L-B & Moser;1994;Brachysira;Brachysira procera;;procera;
+BR003A;(Breb. ex Kütz.) Round & Mann;1981;Brachysira;Brachysira serians;;serians;
+BR003B;Cleve-Euler;;Brachysira;Brachysira serians var. modesta;;serians;modesta
+BR9999;;;Brachysira;Brachysira sp.;;sp.;
+BR9997;Round L. Glenhead (VJJ);1985;Brachysira;Brachysira sp1;x;sp1;
+A_ZZZ945;N. Cameron (ALPE);;Brachysira;Brachysira sp1 (Stavsvatn);;sp1 (Stavsvatn);
+BR004A;(Grun. in Van Heurck) R. Ross in Hartley;1986;Brachysira;Brachysira styriaca;;styriaca;
+BR001A;(Grun.) R. Ross in Hartley;1986;Brachysira;Brachysira vitrea;;vitrea;
+XXA998;EDDI Global Training Set;2001;Brachysira;Brachysira vitrea (agg.);x;vitrea (agg.);
+XXC975;EDDI Salinity Training Set;2001;Brachysira;Brachysira vitrea (agg.);x;vitrea (agg.);
+BR001B;;;Brachysira;Brachysira vitrea var. lanceolata;;vitrea;lanceolata
+BR005A;(Grun.) Round & Mann;1981;Brachysira;Brachysira zellensis;;zellensis;
+AF_0901;Hust.;;Caloneis;Caloneis aequatoralis;;aequatoralis;
+XXC943;EDDI Salinity Training Set;2001;Caloneis;Caloneis aequatorialis (agg.);x;aequatorialis (agg.);
+AF_0902;Hust.;;Caloneis;Caloneis aequatorialis var. turgalae;;aequatorialis;turgalae
+CA014A;(Grun.) Cleve;1894;Caloneis;Caloneis alpestris;;alpestris;
+CA006A;(Bory) Cleve;1894;Caloneis;Caloneis amphisbaena var. amphisbaena;;amphisbaena;amphisbaena
+CA005A;(Greg.) Cleve;1894;Caloneis;Caloneis bacillaris;;bacillaris;
+CA005B;(Grun. in Van Heurck) A. Cleve;1895;Caloneis;Caloneis bacillaris var. thermalis;;bacillaris;thermalis
+CA002A;(Grun.) Cleve;1894;Caloneis;Caloneis bacillum;;bacillum;
+XXC942;EDDI Salinity Training Set;2001;Caloneis;Caloneis bacillum (agg.);x;bacillum (agg.);
+AF_0905;(Grun.) Cleve;;Caloneis;Caloneis bacillum.  var. fontinalis;;bacillum.;fontinalis
+AF_0906;(Lagerstedt) Cleve;;Caloneis;Caloneis clevei + v. attenuata;;clevei + v. attenuata;
+CA028A;(Grun.) Patr. in Patr. & Reimer;1966;Caloneis;Caloneis fenzlii;;fenzlii;
+SW_CHYA;Hustedt;;Caloneis;Caloneis hyalina;;hyalina;
+CA008C;Cleve;;Caloneis;Caloneis ladogensis var. latestriata;;ladogensis;latestriata
+AF_0909;(Grunow) Krammer;1985;Caloneis;Caloneis molaris;;molaris;
+CA048A;(Grunow) Krammer;1985;Caloneis;Caloneis molaris;;molaris;
+F_CA031A;Cleve;1894;Caloneis;Caloneis obtusa;;obtusa;
+CA013A;(J.W. Bail.) Cleve;1894;Caloneis;Caloneis permagna;;permagna;
+CA041A;Messikommer;1927;Caloneis;Caloneis pulchra;;pulchra;
+CA042A;Hust.;1922;Caloneis;Caloneis schroederi;;schroederi;
+CA004A;(Grun. in Van Heurck) Cleve;1894;Caloneis;Caloneis schumanniana;;schumanniana;
+CA004B;Grun.;;Caloneis;Caloneis schumanniana var. biconstricta;;schumanniana;biconstricta
+CA003A;(Ehrenb.) Cleve;1894;Caloneis;Caloneis silicula;;silicula;
+CA9999;;;Caloneis;Caloneis sp.;;sp.;
+CA018A;Gregory (Krammer);1985;Caloneis;Caloneis tenuis;;tenuis;
+AF_0914;(Grun.) Krammer;;Caloneis;Caloneis thermalis;;thermalis;
+UME428;(Gregory) Krammer 1985;;Caloneis;Caloneis undulata;;undulata;
+CA012A;(Ehrenb.) Meister;1912;Caloneis;Caloneis ventricosa;;ventricosa;
+XXC941;EDDI Salinity Training Set;2001;Caloneis;Caloneis ventricosa (agg.);x;ventricosa (agg.);
+CA012D;(Grun. in Van Heurck) Meister;1912;Caloneis;Caloneis ventricosa var. truncatula;;ventricosa;truncatula
+CP001A;(Ehrenb.) Ehrenb. ex Kütz.;1844;Campylodiscus;Campylodiscus clypeus;;clypeus;
+XXC940;EDDI Salinity Training Set;2001;Campylodiscus;Campylodiscus clypeus (agg.);x;clypeus (agg.);
+CP001B;(W. Sm. in Roper) Hust.;1930;Campylodiscus;Campylodiscus clypeus var. bicostatus;;clypeus;bicostatus
+CP017A;Ehrenb.;1845;Campylodiscus;Campylodiscus hibernicus;;hibernicus;
+SW_CLVD;Hustedt in Jarnefelt 1925;;Campylodiscus;Campylodiscus levanderi;;levanderi;
+SW_CNRC;Ehrenb. ex Kütz.;1844;Campylodiscus;Campylodiscus noricus;;noricus;
+CP002B;(Ehrenb.) Grun.;1862;Campylodiscus;Campylodiscus noricus var. hibernicus;;noricus;hibernicus
+CP9999;;;Campylodiscus;Campylodiscus sp.;;sp.;
+CV001A;(Greg. ex Greville) Mann & Stickle;1990;Cavinula;Cavinula cocconeiformis;;cocconeiformis;
+CV002A;(Hust.) Mann & Stickle;1990;Cavinula;Cavinula jaernefeltii;;jaernefeltii;
+CV004A;(Hust.) Mann & Stickle;1990;Cavinula;Cavinula pseudoscutiformis;;pseudoscutiformis;
+N_ZZZ002;;;Centronella;Centronella reicheltii;;reicheltii;
+AF_1303;Cleve-Euler;;Chaetoceros;Chaetoceros cf. amanita;;amanita;
+CH031A;Ehrenb.;1845;Chaetoceros;Chaetoceros didymus;;didymus;
+CH057A;Lemm.;1898;Chaetoceros;Chaetoceros muelleri;;muelleri;
+XXC939;EDDI Salinity Training Set;2001;Chaetoceros;Chaetoceros muelleri (agg.);x;muelleri (agg.);
+C_Chamue;Lemm.;;Chaetoceros;Chaetoceros muelleri spores;;muelleri spores;
+CH9999;;;Chaetoceros;Chaetoceros sp.;;sp.;
+AF_1302;VOIR Gasse (1986) : C. sp. Lake Langano;;Chaetoceros;Chaetoceros sp1;x;sp1;
+C_Chawig;Brightw.;;Chaetoceros;Chaetoceros wighami spores;;wighami spores;
+CH082A;Brightw.;1856;Chaetoceros;Chaetoceros wighamii;;wighamii;
+XXC938;EDDI Salinity Training Set;2001;Chaetoceros;Chaetoceros wighamii (agg.);x;wighamii (agg.);
+CU001A;L-B & Metzeltin;1996;Chamaepinnularia;Chamaepinnularia sp2 (Julma Olkky);x;sp2 (Julma Olkky);
+AF_1418;Ehrlich;;Cocconeis;Cocconeis bardawillensis;;bardawillensis;
+CO019A;Greg.;1855;Cocconeis;Cocconeis costata;;costata;
+CO006A;Pant.;1902;Cocconeis;Cocconeis diminuta;;diminuta;
+CO010A;(Schum.) Cleve;1896;Cocconeis;Cocconeis disculus;;disculus;
+AF_1407;Cholnoky;;Cocconeis;Cocconeis microscopica;;microscopica;
+CO066A;Krammer;1991;Cocconeis;Cocconeis neodiminuta;;neodiminuta;
+CO9997M;Krammer;1991;Cocconeis;Cocconeis neodiminuta;;neodiminuta;
+CO067A;Krammer;1991;Cocconeis;Cocconeis neothumensis;;neothumensis;
+CO9998M;Krammer;1991;Cocconeis;Cocconeis neothumensis;;neothumensis;
+CO005A;Ehrenb.;1838;Cocconeis;Cocconeis pediculus;;pediculus;
+CO001A;Ehrenb.;1838;Cocconeis;Cocconeis placentula;;placentula;
+CO001FM;Geitler;1927;Cocconeis;Cocconeis placentula  var. pseudolineata;;placentula;pseudolineata
+XXA985;EDDI Global Training Set;2001;Cocconeis;Cocconeis placentula (agg.);x;placentula (agg.);
+XXC976;EDDI Salinity Training Set;2001;Cocconeis;Cocconeis placentula (agg.);x;placentula (agg.);
+XXG977;EDDI TP Training Set;2001;Cocconeis;Cocconeis placentula (agg.);x;placentula (agg.);
+CO001B;(Ehrenb.) Grun.;1884;Cocconeis;Cocconeis placentula var. euglypta;;placentula;euglypta
+CO001C;(Ehrenb.) Van Heurck;1885;Cocconeis;Cocconeis placentula var. lineata;;placentula;lineata
+CO9996M;Reichhardt;1982;Cocconeis;Cocconeis pseudothumensis;;pseudothumensis;
+CO053A;(Grun.) A. Schmidt;1874;Cocconeis;Cocconeis quarnerensis;;quarnerensis;
+AF_1404;Ehr.;;Cocconeis;Cocconeis scutellum + v. ampliata + f. parva;;scutellum + v. ampliata + f. parva;
+CO9999;;;Cocconeis;Cocconeis sp.;;sp.;
+CO009A;A. Mayer;1919;Cocconeis;Cocconeis thumensis;;thumensis;
+CS9999;;;Coscinodiscus;Coscinodiscus sp.;;sp.;
+XXC999;EDDI Salinity Training Set;2001;Craticula;Craticula  ambigua (agg.);x;ambigua (agg.);
+XXC997;EDDI Salinity Training Set;2001;Craticula;Craticula  halophila (agg.);x;halophila (agg.);
+CI004A;(Kütz.) Mann;1990;Craticula;Craticula cuspidata;;cuspidata;
+CI005A;(Grun. ex Heurck) Mann;1990;Craticula;Craticula halophila;;halophila;
+CC9997;H. Bennion;1992;Cyclostephanos;Cyclostephanos cf. tholiformis;;tholiformis;
+CC001A;(Fricke in A. Schmidt) Round;1982;Cyclostephanos;Cyclostephanos dubius;;dubius;
+XXG919;EDDI TP Training Set;2001;Cyclostephanos;Cyclostephanos dubius (agg.);x;dubius (agg.);
+CC001B;Nom. Temp.;;Cyclostephanos;Cyclostephanos dubius var. minor;;dubius;minor
+CC002A;Theriot, Stoermer & Hakansson, comb. nov.;1987;Cyclostephanos;Cyclostephanos invisitatus;;invisitatus;
+CC9999;;;Cyclostephanos;Cyclostephanos sp.;;sp.;
+CC003A;Stoermer, Hakansson & Theriot;1987;Cyclostephanos;Cyclostephanos tholiformis;;tholiformis;
+CY013A;W. Sm.;1853;Cyclotella;Cyclotella antiqua;;antiqua;
+CY011A;Hust.;1937;Cyclotella;Cyclotella atomus;;atomus;
+CY014A;Gasse (manuscript);1985;Cyclotella;Cyclotella azigzensis;;azigzensis;
+CY022A;(Eulenstein) Cleve-Euler;;Cyclotella;Cyclotella bodanica;;bodanica;
+CY022CM;(O. Müller ex Schröter) Bachmann;1903;Cyclotella;Cyclotella bodanica  var. lemanica;;bodanica;lemanica
+FSN020;(O.Müller ex Schroter) Bachmann;1903;Cyclotella;Cyclotella bodanica  var. lemanica;;bodanica;lemanica
+CY022BM;(Grunow) Cleve-Euler;1951;Cyclotella;Cyclotella bodanica var. affinis;;bodanica;affinis
+SW_CBOA;(Grun.) Cleve-Euler 1951;;Cyclotella;Cyclotella bodanica var. affinis;;bodanica;affinis
+AF_1650;F. Gasse;;Cyclotella;Cyclotella cf. andancensis (type 4 Maroc);;andancensis (type 4 Maroc);
+XXC972;EDDI Salinity Training Set;2001;Cyclotella;Cyclotella cf. caspia;;caspia;
+CY9985M;;;Cyclotella;Cyclotella cf. comensis;;comensis;
+CY9987;Massif Central (PR);1997;Cyclotella;Cyclotella cf. comensis;;comensis;
+CY9980M;compare Wunsam et al. 1995;;Cyclotella;Cyclotella cf. comensis (1);;comensis (1);
+CY9982M;compare Wunsam et al. 1995;;Cyclotella;Cyclotella cf. comensis (1);;comensis (1);
+CY9979M;compare Wunsam et al. 1995;;Cyclotella;Cyclotella cf. comensis (2);;comensis (2);
+CY9986M;compare Wunsam et al. 1995;;Cyclotella;Cyclotella cf. comensis (2);;comensis (2);
+CY9988M;compare Wunsam et al. 1995;;Cyclotella;Cyclotella cf. comensis (3);;comensis (3);
+CY9975M;compare Wunsam et al. 1995;;Cyclotella;Cyclotella cf. comensis (4);;comensis (4);
+CY9978M;compare Wunsam et al. 1995;;Cyclotella;Cyclotella cf. cyclopuncta;;cyclopuncta;
+CY9976M;(Hustedt) Hakansson & Carter;1990;Cyclotella;Cyclotella cf. distinguenda  var. unipunctata (<8µm);;distinguenda;unipunctata (<8µm)
+CY9977M;(Hustedt) Hakansson & Carter;1990;Cyclotella;Cyclotella cf. distinguenda  var. unipunctata (>8µm);;distinguenda;unipunctata (>8µm)
+AF_1645;F. Gasse;;Cyclotella;Cyclotella cf. glomerata (type 3 Maroc);;glomerata (type 3 Maroc);
+CY9974M;compare Wunsam et al. 1995;;Cyclotella;Cyclotella cf. gordonensis (1);;gordonensis (1);
+CY9981M;compare Wunsam et al. 1995;;Cyclotella;Cyclotella cf. gordonensis (2);;gordonensis (2);
+CY9997;Blelham (G. Evans);;Cyclotella;Cyclotella cf. kutzingiana  var. planetophora;;kutzingiana;planetophora
+AF_1670;Germain;;Cyclotella;Cyclotella cf. meduanae;;meduanae;
+CY009FM;compare Wunsam et al. 1995;;Cyclotella;Cyclotella cf. ocellata (>6 ocelli);;ocellata (>6 ocelli);
+CY009DM;compare Wunsam et al. 1995;;Cyclotella;Cyclotella cf. ocellata (5 ocelli);;ocellata (5 ocelli);
+CY009EM;compare Wunsam et al. 1995;;Cyclotella;Cyclotella cf. ocellata (6 ocelli);;ocellata (6 ocelli);
+CY9989M;S. Wunsam;;Cyclotella;Cyclotella cf. planktonica;;planktonica;
+CY039AM;Lund/(Schröter) von Keissler;1.02146596;Cyclotella;Cyclotella cf. praetermissa/quadrijuncta;;praetermissa/quadrijuncta;
+SW_CPRA;Lund/(Schröter) von Keissler;;Cyclotella;Cyclotella cf. praetermissa/quadrijuncta;;praetermissa/quadrijuncta;
+CY9967M;S. Wunsam;;Cyclotella;Cyclotella cf. quadrijuncta;;quadrijuncta;
+CY9986;Massif Central (PR);1997;Cyclotella;Cyclotella cf. rossii;;rossii;
+CY9972M;compare Wunsam et al. 1995;;Cyclotella;Cyclotella cf. stelligeroides (1);;stelligeroides (1);
+CY9973M;compare Wunsam et al. 1995;;Cyclotella;Cyclotella cf. stelligeroides (2);;stelligeroides (2);
+CY010A;Grun. in Van Heurck;1882;Cyclotella;Cyclotella comensis;;comensis;
+CY9983M;Grun. in Van Heurck;1882;Cyclotella;Cyclotella comensis;;comensis;
+XXA995;EDDI Global Training Set;2001;Cyclotella;Cyclotella comensis (agg.);x;comensis (agg.);
+XXG998;EDDI TP Training Set;2001;Cyclotella;Cyclotella comensis (agg.);x;comensis (agg.);
+CY001A;(Ehrenb.) Kütz.;1849;Cyclotella;Cyclotella comta;;comta;
+B_ZZZ997;Hakansson & Carter;1990;Cyclotella;Cyclotella cyclopuncta;;cyclopuncta;
+CY059A;Hakansson & Carter;1990;Cyclotella;Cyclotella cyclopuncta;;cyclopuncta;
+CY028A;Hust.;1927;Cyclotella;Cyclotella distinguenda;;distinguenda;
+CY028B;(Hustedt) Hakansson & Carter;1990;Cyclotella;Cyclotella distinguenda var. unipunctata;;distinguenda;unipunctata
+TS996;EDDI Global Training Set;2001;Cyclotella;Cyclotella distinguenda var. unipunctata (agg.);x;distinguenda var. unipunctata (agg.);
+XXG992;EDDI TP Training Set;2001;Cyclotella;Cyclotella distinguenda var. unipunctata (agg.);x;distinguenda var. unipunctata (agg.);
+XXC973;EDDI Salinity Training Set;2001;Cyclotella;Cyclotella distinguenda var.unipunctata (agg.);x;distinguenda var.unipunctata (agg.);
+CY007A;Bachm.;1911;Cyclotella;Cyclotella glomerata;;glomerata;
+CY020A;Brun;;Cyclotella;Cyclotella iris;;iris;
+CY054A;Hakansson;1990;Cyclotella;Cyclotella krammeri;;krammeri;
+CY006A;Thwaites;1848;Cyclotella;Cyclotella kuetzingiana;;kuetzingiana;
+CY9991;SWAP;;Cyclotella;Cyclotella kuetzingiana (agg.);x;kuetzingiana (agg.);
+XXU995;EDDI pH Training Set;2001;Cyclotella;Cyclotella kuetzingiana (agg.);x;kuetzingiana (agg.);
+CY006D;nov. nom.;;Cyclotella;Cyclotella kuetzingiana var. minor;;kuetzingiana;minor
+AF_1615;Thwaites;;Cyclotella;Cyclotella kutzingiana + v. planetophora + v. radiosa;;kutzingiana + v. planetophora + v. radiosa;
+AF_1616;Fricke in Schmidt et al.;1874;Cyclotella;Cyclotella kutzingiana v. parva;;kutzingiana v. parva;
+A_cyc3;;;Cyclotella;Cyclotella lacunarum;;lacunarum;
+CY003A;Kütz.;1844;Cyclotella;Cyclotella meneghiniana;;meneghiniana;
+CY009A;Pant.;1902;Cyclotella;Cyclotella ocellata;;ocellata;
+F_CY006B;Pant.;1902;Cyclotella;Cyclotella ocellata;;ocellata;
+CY009BM;Pantocsek;1901;Cyclotella;Cyclotella ocellata (3 ocelli);;ocellata (3 ocelli);
+CY009CM;Pantocsek;1901;Cyclotella;Cyclotella ocellata (4 ocelli);;ocellata (4 ocelli);
+XXG991;EDDI TP Training Set;2001;Cyclotella;Cyclotella ocellata (agg.);x;ocellata (agg.);
+XXA992;EDDI Global Training Set;2001;Cyclotella;Cyclotella ocellata/kuetzingiana (agg.);x;ocellata/kuetzingiana (agg.);
+B_ZZZ996;(Ehrenberg) Ralfs in Pritchard;1861;Cyclotella;Cyclotella oligactis;;oligactis;
+CY018A;Brunnthaler;1901;Cyclotella;Cyclotella planctonica;;planctonica;
+CY035A;Hust.;1945;Cyclotella;Cyclotella plitviscensis;;plitviscensis;
+CY002A;Hust.;1939;Cyclotella;Cyclotella pseudostelligera;;pseudostelligera;
+XXA994;EDDI Global Training Set;2001;Cyclotella;Cyclotella pseudostelligera (agg.);x;pseudostelligera (agg.);
+XXC974;EDDI Salinity Training Set;2001;Cyclotella;Cyclotella pseudostelligera (agg.);x;pseudostelligera (agg.);
+XXG971;EDDI TP Training Set;2001;Cyclotella;Cyclotella pseudostelligera (agg.);x;pseudostelligera (agg.);
+XXU997;EDDI pH Training Set;2001;Cyclotella;Cyclotella pseudostelligera (agg.);x;pseudostelligera (agg.);
+CY019A;Hakansson;;Cyclotella;Cyclotella radiosa;;radiosa;
+CY019BM;S. Wunsam;;Cyclotella;Cyclotella radiosa (2);x;radiosa (2);
+XXA993;EDDI Global Training Set;2001;Cyclotella;Cyclotella radiosa (agg.);x;radiosa (agg.);
+XXG970;EDDI TP Training Set;2001;Cyclotella;Cyclotella radiosa (agg.);x;radiosa (agg.);
+CY052A;Hakansson;1990;Cyclotella;Cyclotella rossii;;rossii;
+F_CY052A;Hakansson;1990;Cyclotella;Cyclotella rossii (type 1);x;rossii (type 1);
+FSN022;NORD-CHILL;1997;Cyclotella;Cyclotella rossii (type 2);x;rossii (type 2);
+FSN023;NORD-CHILL;1997;Cyclotella;Cyclotella rossii (type 3);x;rossii (type 3);
+CY055A;(Grunow) Hakansson;1990;Cyclotella;Cyclotella schumannii;;schumannii;
+CY9999;;;Cyclotella;Cyclotella sp.;;sp.;
+CY9970M;S. Wunsam;;Cyclotella;Cyclotella sp. (initial cells);x;sp. (initial cells);
+C_Cysp1;J. Reed (Caspian dataset);;Cyclotella;Cyclotella sp1;x;sp1;
+CY9971M;S. Wunsam;;Cyclotella;Cyclotella sp1;x;sp1;
+F_ZZZ973;P. Rioual;;Cyclotella;Cyclotella sp1;x;sp1;
+FSN081;NORD-CHILL;1997;Cyclotella;Cyclotella sp1;x;sp1;
+CY004A;(Cleve & Grun. in Cleve) Van Heurck;1882;Cyclotella;Cyclotella stelligera;;stelligera;
+CY004CM;Hustedt;1945;Cyclotella;Cyclotella stelligera  var. tenuis;;stelligera;tenuis
+XXA991;EDDI Global Training Set;2001;Cyclotella;Cyclotella stelligera (+ v. tenuis);x;stelligera (+ v. tenuis);
+XXG968;EDDI TP Training Set;2001;Cyclotella;Cyclotella stelligera (agg.);x;stelligera (agg.);
+AF_1635;Cleve et grun.;;Cyclotella;Cyclotella stelligera + v. tenuis;;stelligera + v. tenuis;
+CY004B;Haworth;1986;Cyclotella;Cyclotella stelligera var. glomerata;;stelligera;glomerata
+CY9969M;Hustedt;;Cyclotella;Cyclotella styriaca;;styriaca;
+CY049A;Haakansson & Carter;1990;Cyclotella;Cyclotella unipunctata;;unipunctata;
+CY048A;Hust.;1942;Cyclotella;Cyclotella woltereckii;;woltereckii;
+CY058A;Druart & Straub;1988;Cyclotella;Cyclotella wuerthrichiana;;wuerthrichiana;
+CD001A;(Breb. ex Kütz.) Grun. in Van Heurck;1882;Cylindrotheca;Cylindrotheca gracilis;;gracilis;
+CL002A;(Breb. ex Kütz.) W. Sm.;1851;Cymatopleura;Cymatopleura elliptica;;elliptica;
+AF_1801;G.S. West;;Cymatopleura;Cymatopleura nyansae;;nyansae;
+CL001A;(Breb. & Godey) W. Sm.;1851;Cymatopleura;Cymatopleura solea;;solea;
+CM014A;W. Sm. ex Grev.;1855;Cymbella;Cymbella aequalis;;aequalis;
+CM022A;Kütz.;1844;Cymbella;Cymbella affinis;;affinis;
+AF_1939;Gasse;;Cymbella;Cymbella affinis  var. afarensis;;affinis;afarensis
+CM060A;Grun.;1863;Cymbella;Cymbella alpina;;alpina;
+CM016A;Naegeli ex Kütz.;1849;Cymbella;Cymbella amphicephala;;amphicephala;
+XXC982;EDDI Salinity Training Set;2001;Cymbella;Cymbella amphicephala (agg.);x;amphicephala (agg.);
+AF_1902;Naegeli;;Cymbella;Cymbella amphicephala + v. hercynica;;amphicephala + v. hercynica;
+CM061A;(Kütz.) Cleve;1894;Cymbella;Cymbella amphioxys;;amphioxys;
+CM035A;(W. Sm.) Cleve;1894;Cymbella;Cymbella angustata;;angustata;
+AF_1949;Hust.;;Cymbella;Cymbella angustissima;;angustissima;
+FSN024;NORD-CHILL;1997;Cymbella;Cymbella arctica;;arctica;
+CM005A;(Ehrenb.) H. Perag. in Pell.;1889;Cymbella;Cymbella aspera;;aspera;
+FSN078;NORD-CHILL;1997;Cymbella;Cymbella behrei;;behrei;
+CM046A;Hust.;;Cymbella;Cymbella borealis;;borealis;
+CM068A;Hust.;1912;Cymbella;Cymbella brehmii;;brehmii;
+A_ZZZ952;(Kütz.) Brun;1880;Cymbella;Cymbella caespitosa;;caespitosa;
+CM070A;(Kütz.) Brun;1880;Cymbella;Cymbella caespitosa;;caespitosa;
+F_CM045B;(Kütz.) Brun;1880;Cymbella;Cymbella caespitosa;;caespitosa;
+CM015A;(Rabenh.) Grun. in A. Schmidt;1881;Cymbella;Cymbella cesatii;;cesatii;
+CM015B;Krieger;1933;Cymbella;Cymbella cesatii var. capitata;;cesatii;capitata
+AF_1903;F. Gasse;;Cymbella;Cymbella cf. amphicephala;;amphicephala;
+CM9989;SWAP-IR;1988;Cymbella;Cymbella cf. deliculata;;deliculata;
+AF_1938;Hust.;;Cymbella;Cymbella cf. fonticola;;fonticola;
+CM9997;L. Augher (NJA);1984;Cymbella;Cymbella cf. perpusilla;;perpusilla;
+A_ZZZ948;VJJ;;Cymbella;Cymbella cf. perpusilla/minuta type;;perpusilla/minuta type;
+CM006A;(Ehrenb. in Hempr. & Ehrenb.) Kirchner;1878;Cymbella;Cymbella cistula;;cistula;
+CM026A;Kütz.;1844;Cymbella;Cymbella cuspidata;;cuspidata;
+CM007A;Ag.;1830;Cymbella;Cymbella cymbiformis;;cymbiformis;
+CM007B;Font.;1917;Cymbella;Cymbella cymbiformis var. nonpunctata;;cymbiformis;nonpunctata
+AF_1934;Hust.;;Cymbella;Cymbella delicatissima;;delicatissima;
+CM038A;Kütz.;1849;Cymbella;Cymbella delicatula;;delicatula;
+CM052A;(Hust.) Krammer & Lange-Bertalot;1985;Cymbella;Cymbella descripta;;descripta;
+CM029A;Kütz.;1844;Cymbella;Cymbella ehrenbergii;;ehrenbergii;
+F_CM028A;Kütz.;1844;Cymbella;Cymbella ehrenbergii;;ehrenbergii;
+CM051A;Krammer;1981;Cymbella;Cymbella elginensis;;elginensis;
+F_EY006A;Krammer;1981;Cymbella;Cymbella elginensis;;elginensis;
+CM049A;(Grun.) Krammer & Lange-Bertalot;1985;Cymbella;Cymbella failaisensis;;failaisensis;
+CM9995M;(Grunow) Krammer & Lange-Bertalot;1985;Cymbella;Cymbella falaisiensis;;falaisiensis;
+CM054A;A. Cleve;;Cymbella;Cymbella frigida;;frigida;
+CM020A;Meister;1934;Cymbella;Cymbella gaeumannii;;gaeumannii;
+PT988;EDDI Global Training Set;2001;Cymbella;Cymbella gaeumannii (agg.);x;gaeumannii (agg.);
+CM018A;(Rabenh.) Cleve;1894;Cymbella;Cymbella gracilis;;gracilis;
+XXG954;EDDI TP Training Set;2001;Cymbella;Cymbella gracilis (agg.);x;gracilis (agg.);
+CM017A;(Grun. ex Cleve) Cleve;1894;Cymbella;Cymbella hebridica;;hebridica;
+CM013A;Kütz.;1844;Cymbella;Cymbella helvetica;;helvetica;
+XXC971;EDDI Salinity Training Set;2001;Cymbella;Cymbella helvetica (agg.);x;helvetica (agg.);
+AF_1909;Kütz.;;Cymbella;Cymbella helvetica + varieties;;helvetica + varieties;
+CM021C;(Ehrenb.) Kütz.;1844;Cymbella;Cymbella heteropleura;;heteropleura;
+CM040A;Manguin;1960;Cymbella;Cymbella hilliardii;;hilliardii;
+CM033A;Krasske;1923;Cymbella;Cymbella hustedtii;;hustedtii;
+CM008A;Grun. ex Cleve;1894;Cymbella;Cymbella hybrida;;hybrida;
+CM008B;Krammer;1985;Cymbella;Cymbella hybrida var. lanceolata;;hybrida;lanceolata
+CM047A;Grun. in Cleve & Moller;1878;Cymbella;Cymbella incerta;;incerta;
+F_CM101B;Grun. in Cleve & Moller;1878;Cymbella;Cymbella incerta;;incerta;
+XXC950;Grun. in Cleve & Moller;1878;Cymbella;Cymbella incerta;;incerta;
+CM012A;Naegeli ex Kütz.;1849;Cymbella;Cymbella laevis;;laevis;
+CM041A;(Ag.) Ag.;1830;Cymbella;Cymbella lanceolata;;lanceolata;
+FSN026;(Ag.) Ag.;1830;Cymbella;Cymbella lanceolata;;lanceolata;
+CM027A;(Ehr.) Grun.;;Cymbella;Cymbella leptoceras;;leptoceras;
+CM086C;(Ehrenb.) Kütz.;1844;Cymbella;Cymbella leptoceros;;leptoceros;
+CM048A;W. Sm. in Grev.;1855;Cymbella;Cymbella lunata;;lunata;
+CM057A;Cholnocky;;Cymbella;Cymbella mesiana;;mesiana;
+CM004A;Grun. in Van Heurck;1880;Cymbella;Cymbella microcephala fo. microcephala;;microcephala;
+CM031A;Hilse ex Rabenh.;1862;Cymbella;Cymbella minuta;;minuta;
+XXA981;EDDI Global Training Set;2001;Cymbella;Cymbella minuta (agg.);x;minuta (agg.);
+SW_CMSE;;;Cymbella;Cymbella minuta fo.  semicircularis;;minuta;
+CM031B;(Choln.) Reimer in Patr. & Reimer;1975;Cymbella;Cymbella minuta var. pseudogracilis;;minuta;pseudogracilis
+CM031C;(Bleisch ex Rabenh.) Reimer in Patr. & Reimer;1975;Cymbella;Cymbella minuta var. silesiaca;;minuta;silesiaca
+CM024A;Hust.;;Cymbella;Cymbella muelleri;;muelleri;
+F_CM101A;Grun. ex Cleve;1881;Cymbella;Cymbella naviculacea;;naviculacea;
+CM009A;Auersw. ex Heib.;1863;Cymbella;Cymbella naviculiformis;;naviculiformis;
+CM092A;Grun. in A. Schmidt;1875;Cymbella;Cymbella norvegica;;norvegica;
+CM093A;;;Cymbella;Cymbella obscura;;obscura;
+CM036A;Greg.;1856;Cymbella;Cymbella obtusa;;obtusa;
+CM039A;Kütz.;1844;Cymbella;Cymbella obtusiuscula;;obtusiuscula;
+CM011A;(W. Sm.) Kirchner;1878;Cymbella;Cymbella parva;;parva;
+CM010A;A. Cleve;1895;Cymbella;Cymbella perpusilla;;perpusilla;
+CM045A;(Berkeley) Brun;1880;Cymbella;Cymbella prostrata;;prostrata;
+CM030A;Reimer;1966;Cymbella;Cymbella proxima;;proxima;
+B_ZZZ999;FB;;Cymbella;Cymbella pseudolapponica;;pseudolapponica;
+CM056A;Haworth;1974;Cymbella;Cymbella pseudonorvegica;;pseudonorvegica;
+CM023A;Grun. ex A. Schmidt;1875;Cymbella;Cymbella pusilla;;pusilla;
+CM113A;Krammer;1985;Cymbella;Cymbella reichardtii;;reichardtii;
+CM099A;Grun. ex A. Schmidt;1875;Cymbella;Cymbella reinhardtii;;reinhardtii;
+CM101B;W. Sm.;1853;Cymbella;Cymbella scotica;;scotica;
+CM101A;(Grun. ex Cleve) R. Ross;1947;Cymbella;Cymbella scotica var. naviculacea;;scotica;naviculacea
+CM103A;Bleisch ex Rabenh.;1864;Cymbella;Cymbella silesiaca;;silesiaca;
+CM003A;Greg.;1856;Cymbella;Cymbella sinuata fo. sinuata;;sinuata;
+CM9999;;;Cymbella;Cymbella sp.;;sp.;
+CM9992;PIRLA;1985;Cymbella;Cymbella sp1 (PIRLA);x;sp1 (PIRLA);
+CM9995;PIRLA;1985;Cymbella;Cymbella sp1 (PIRLA);x;sp1 (PIRLA);
+CM106A;A. Cleve-Euler;1934;Cymbella;Cymbella sphaerophora;;sphaerophora;
+AF_1929;Hust.;;Cymbella;Cymbella spicula;;spicula;
+CM050A;Grun. in Van Heurck;1880;Cymbella;Cymbella subaequalis;;subaequalis;
+CM107A;Krammer;1982;Cymbella;Cymbella subcuspidata;;subcuspidata;
+AF_1916;Cholnoky;;Cymbella;Cymbella theronii;;theronii;
+AF_1921;;;Cymbella;Cymbella thienemanii;;thienemanii;
+CM037A;(A. Mayer) Hust.;1945;Cymbella;Cymbella thumensis;;thumensis;
+CM042A;(Breb. ex Kütz.) Grun. in Van Heurck;1880;Cymbella;Cymbella tumida;;tumida;
+CM109A;Grun. ex A. Schmidt;1875;Cymbella;Cymbella tumidula;;tumidula;
+XXG953;EDDI TP Training Set;2001;Cymbella;Cymbella tumidula (agg.);x;tumidula (agg.);
+CM109CM;Krammer;1985;Cymbella;Cymbella tumidula var. lancettula;;tumidula;lancettula
+SW_CTLA;Krammer;1985;Cymbella;Cymbella tumidula var. lancettula;;tumidula;lancettula
+CM002A;Greg.;1856;Cymbella;Cymbella turgida;;turgida;
+CM001A;Kütz.;1844;Cymbella;Cymbella ventricosa;;ventricosa;
+AF_1919;(Scmidt) Cleve;;Cymbella;Cymbella yarrensis;;yarrensis;
+CN001A;Hust.;1950;Cymbellonitzschia;Cymbellonitzschia diluviana;;diluviana;
+XXC981;EDDI Salinity Training Set;2001;Denticula;Denticula elegans (agg.);x;elegans (agg.);
+DE002A;Kütz.;1844;Denticula;Denticula elegans var. elegans;;elegans;elegans
+DE003A;Grun.;;Denticula;Denticula kuetzingii;;kuetzingii;
+DE9999;;;Denticula;Denticula sp.;;sp.;
+DE001A;Kütz.;1844;Denticula;Denticula tenuis;;tenuis;
+FSN028;;;Denticula;Denticula tenuis;;tenuis;
+DE001B;(Naegeli ex Kütz.) W. & G.S.West;1901;Denticula;Denticula tenuis var. crassula;;tenuis;crassula
+AF_2001;Brun.;;Denticula;Denticula vanheurckii;;vanheurckii;
+DA007A;(Grun.) Mann;1990;Diadesmis;Diadesmis perpusilla;;perpusilla;
+DT005A;(Ehrenb.) Kirchner;1878;Diatoma;Diatoma anceps;;anceps;
+DT010A;Kütz.;1844;Diatoma;Diatoma ehrenbergii;;ehrenbergii;
+DT001A;(Lyngb.) Ag.;1824;Diatoma;Diatoma elongatum;;elongatum;
+XXC980;EDDI Salinity Training Set;2001;Diatoma;Diatoma elongatum (agg.);x;elongatum (agg.);
+DT001D;(Ag.) Van Heurck;1885;Diatoma;Diatoma elongatum var. tenue;;elongatum;tenue
+AF_2101;(Lyngbye) Agardh;;Diatoma;Diatoma elongatum+ varieties;;elongatum+ varieties;
+DT002A;(Roth) Heib.;1863;Diatoma;Diatoma hyemale;;hyemale;
+DT002B;(Ehrenb.) Kirchner;1878;Diatoma;Diatoma hyemale var. mesodon;;hyemale;mesodon
+DT9987M;(Roth) Heilberg;1863;Diatoma;Diatoma hyemalis;;hyemalis;
+DT021A;(Ehrenber) Kützing;1844;Diatoma;Diatoma mesodon;;mesodon;
+DT9988M;(Ehrenberg) Kützing;1844;Diatoma;Diatoma mesodon;;mesodon;
+FSN029;(Ehrenber) Kützing;1844;Diatoma;Diatoma mesodon;;mesodon;
+DT022A;Kütz;1933;Diatoma;Diatoma moniliformis;;moniliformis;
+DT9998M;Bory;1824;Diatoma;Diatoma sp.;;sp.;
+DT9999;;;Diatoma;Diatoma sp.;;sp.;
+DT004A;Ag.;1812;Diatoma;Diatoma tenue;;tenue;
+DT004B;Lyngb.;1819;Diatoma;Diatoma tenue var. elongatum;;tenue;elongatum
+DT004CM;Agardh;1812;Diatoma;Diatoma tenuis;;tenuis;
+SW_DITE;Agardh;;Diatoma;Diatoma tenuis;;tenuis;
+DT003A;Bory;1824;Diatoma;Diatoma vulgare;;vulgare;
+DT003F;Grun. in Van Heurck;1881;Diatoma;Diatoma vulgare var. lineare;;vulgare;lineare
+SW_DVUL;Bory 1824;;Diatoma;Diatoma vulgaris;;vulgaris;
+XXC937;EDDI Salinity Training Set;2001;Diatoma;Diatoma vulgaris (agg.);x;vulgaris (agg.);
+XXG952;EDDI TP Training Set;2001;Diatoma;Diatoma vulgaris (agg.);x;vulgaris (agg.);
+AF_2102;Bory;;Diatoma;Diatoma vulgaris + v. linearis + v. ehrenbergi;;vulgaris + v. linearis + v. ehrenbergi;
+DT003HM;;;Diatoma;Diatoma vulgaris subsp. elongatum;;vulgaris;
+DI001A;Grev.;1855;Diatomella;Diatomella balfouriana fo. balfouriana;;balfouriana;
+DI9999;;;Diatomella;Diatomella sp.;;sp.;
+DM001A;(Greg.) Ralfs in Pritch.;1861;Dimeregramma;Dimeregramma fulvum;;fulvum;
+DP018A;Cleve;1894;Diploneis;Diploneis boldtiana;;boldtiana;
+DP9998M;S. Wunsam;;Diploneis;Diploneis cf. elliptica;;elliptica;
+DP009A;(Kütz.) Cleve;1894;Diploneis;Diploneis elliptica;;elliptica;
+DP010A;(Ehrenb.) Cleve;1894;Diploneis;Diploneis finnica;;finnica;
+DP012A;Hust.;1922;Diploneis;Diploneis marginestriata;;marginestriata;
+DP9997M;Hustedt;1945;Diploneis;Diploneis modica;;modica;
+SW_DMOD;Hustedt;1945;Diploneis;Diploneis modica;;modica;
+DP007A;(Naegeli ex Kütz.) R. Ross;1947;Diploneis;Diploneis oblongella;;oblongella;
+SW_DOBL;(Naegeli ex Kütz.) R. Ross;1947;Diploneis;Diploneis oblongella;;oblongella;
+DP003A;(Breb.) Cleve;1894;Diploneis;Diploneis oculata;;oculata;
+DP001A;(Hilse) Cleve;1894;Diploneis;Diploneis ovalis;;ovalis;
+XXC970;EDDI Salinity Training Set;2001;Diploneis;Diploneis ovalis (agg.);x;ovalis (agg.);
+AF_2303;(Hilse) Cleve;;Diploneis;Diploneis ovalis + v. oblongella;;ovalis + v. oblongella;
+DP001B;(Naegeli ex Kütz.) Cleve;1894;Diploneis;Diploneis ovalis var. oblongella;;ovalis;oblongella
+DP065A;Cleve;1891;Diploneis;Diploneis parma;;parma;
+DP9996M;Cleve;1891;Diploneis;Diploneis parma;;parma;
+DP053A;Hust.;1930;Diploneis;Diploneis pseudovalis;;pseudovalis;
+DP005A;(Breb. ex W. Sm.) Cleve;1894;Diploneis;Diploneis smithii;;smithii;
+DP9999;;;Diploneis;Diploneis sp.;;sp.;
+E_ZZZ985;J. Reed (Spain);;Diploneis;Diploneis sp1;x;sp1;
+E_ZZZ986;J. Reed (Spain);;Diploneis;Diploneis sp2;x;sp2;
+E_ZZZ984;J. Reed (Spain);;Diploneis;Diploneis sp3;x;sp3;
+DP061A;Cleve;1894;Diploneis;Diploneis subovalis;;subovalis;
+EY003A;Grun. ex Cleve;1891;Encyonema;Encyonema hebridicum;;hebridicum;
+EY010A;(Cholnoky) Mann;1990;Encyonema;Encyonema mesianum;;mesianum;
+EY011A;(Hilse in Rabenhorst) Mann;1990;Encyonema;Encyonema minutum;;minutum;
+EY013A;(Krasske) Mann;1990;Encyonema;Encyonema obscurum;;obscurum;
+EY014A;(Cleve) Mann;1990;Encyonema;Encyonema perpusillum;;perpusillum;
+EY016A;(Bleisch in Rabenhorst) Mann;1990;Encyonema;Encyonema silesiacum;;silesiacum;
+EN003A;(Ehrenb.) Ehrenb.;1845;Entomoneis;Entomoneis alata;;alata;
+AF_0203;(Cleve) Krammer;;Entomoneis;Entomoneis paludosa  var. subsalina;;paludosa;subsalina
+AF_0202;(W. Sm.) Reimer;;Entomoneis;Entomoneis paludosa + v. duplex;;paludosa + v. duplex;
+EN9999;;;Entomoneis;Entomoneis sp.;;sp.;
+XXG951;EDDI TP Training Set;2001;Epithemia;Epithemia adnata (agg.);x;adnata (agg.);
+EP007A;(Kütz.) Rabenh.;1853;Epithemia;Epithemia adnata var. adnata;;adnata;adnata
+EP007B;(Perag. & Herib.) Patrick;1975;Epithemia;Epithemia adnata var. minor;;adnata;minor
+EP007F;(Kütz.) Hendey;1954;Epithemia;Epithemia adnata var. proboscidea;;adnata;proboscidea
+EP003A;(Ehrenb.) Kütz.;1844;Epithemia;Epithemia argus;;argus;
+AF_2407;Hilse;;Epithemia;Epithemia goeppertiana;;goeppertiana;
+EP005A;W. Sm.;1850;Epithemia;Epithemia hyndmanii;;hyndmanii;
+EP021A;Carruthers;1864;Epithemia;Epithemia smithii;;smithii;
+EP001A;Kütz.;1844;Epithemia;Epithemia sorex;;sorex;
+XXC979;EDDI Salinity Training Set;2001;Epithemia;Epithemia sorex (agg.);x;sorex (agg.);
+AF_2404;Kütz.;;Epithemia;Epithemia sorex + v. gracilis;;sorex + v. gracilis;
+EP9999;;;Epithemia;Epithemia sp.;;sp.;
+EP004A;(Ehrenb.) Kütz.;1844;Epithemia;Epithemia turgida;;turgida;
+XXG950;EDDI TP Training Set;2001;Epithemia;Epithemia turgida (agg.);x;turgida (agg.);
+EP004B;(Ehrenb.) Brun;1880;Epithemia;Epithemia turgida var. granulata;;turgida;granulata
+EU044A;Fusey;1953;Eunotia;Eunotia acmocephala;;acmocephala;
+EU061A;Berg;1939;Eunotia;Eunotia antiqua;;antiqua;
+EU013A;Ehrenb.;1837;Eunotia;Eunotia arcus;;arcus;
+EU014A;Ehrenb.;1854;Eunotia;Eunotia bactriana;;bactriana;
+EU007A;W. Sm.;1856;Eunotia;Eunotia bidentula;;bidentula;
+EU022A;Kütz.;1849;Eunotia;Eunotia bigibba;;bigibba;
+A_ZZZ961;Grun. in Van Heurck;1881;Eunotia;Eunotia bigibba  var. pumila;;bigibba;pumila
+EU022B;Grun. in Van Heurck;1881;Eunotia;Eunotia bigibba var. pumila;;bigibba;pumila
+EU070A;(Ehrenb.) F.W. Mills;1934;Eunotia;Eunotia bilunaris;;bilunaris;
+XXG949;EDDI TP Training Set;2001;Eunotia;Eunotia bilunaris (agg.);x;bilunaris (agg.);
+EU070B;LB & Norpel;1991;Eunotia;Eunotia bilunaris var. mucophila;;bilunaris;mucophila
+EU9940;Scoat Tarn (EYH);1991;Eunotia;Eunotia cf. bidentula;;bidentula;
+EU9969;UCL;1987;Eunotia;Eunotia cf. denticulata/lapponica;;denticulata/lapponica;
+EU9978;L. na h'Achlaise (RJF);1987;Eunotia;Eunotia cf. exigua v. 1 (tenella);;exigua v. 1 (tenella);
+EU9962;Cranmer Pond (RJF);1988;Eunotia;Eunotia cf. exigua v. 2 (kummer);;exigua v. 2 (kummer);
+AF_2508;F. Gasse;;Eunotia;Eunotia cf. incisa;;incisa;
+PT991;EDDI Global Training Set;2001;Eunotia;Eunotia cf. incisa (agg.);x;incisa (agg.);
+EU9979;L. Achlaise (RJF);1986;Eunotia;Eunotia cf. meisteri v. 1 (pusilla);;meisteri v. 1 (pusilla);
+EU9937;H. Bennion;1992;Eunotia;Eunotia cf. pectinalis;;pectinalis;
+EU9948;Coire Fhionn L. (RJF);1988;Eunotia;Eunotia cf. pseudopectinalis;;pseudopectinalis;
+EU9951;Hoylandet (RJF);1988;Eunotia;Eunotia cf. steineckii;;steineckii;
+EU9960;L. Dee (RJF);1988;Eunotia;Eunotia cf. tenella/paludosa;;tenella/paludosa;
+EU9961;Round L. Glenhead (RJF);1988;Eunotia;Eunotia cf. vanheurckii v. 1;;vanheurckii v. 1;
+EU9936;H. Bennion;1992;Eunotia;Eunotia cf. veneris;;veneris;
+FSN072;NORD-CHILL;1997;Eunotia;Eunotia cf. veneris;;veneris;
+EU109A;Norpel & LB;1991;Eunotia;Eunotia circumborealis;;circumborealis;
+FSN031;Norpel & LB;1991;Eunotia;Eunotia circumborealis;;circumborealis;
+EU049A;(Kütz.) Lagerst.;1884;Eunotia;Eunotia curvata;;curvata;
+AF_2504;Kütz.;;Eunotia;Eunotia curvata + v.subarcuata;;curvata + v.subarcuata;
+EU049D;A. Berg (Cleve Euler);;Eunotia;Eunotia curvata var. attenuata;;curvata;attenuata
+EU049B;(Naegeli ex Kütz.) Woodhead & Tweed;1954;Eunotia;Eunotia curvata var. subarcuata;;curvata;subarcuata
+AF_2512;Hust.;;Eunotia;Eunotia damasii;;damasii;
+EU015A;(Breb. ex Kütz.) Rabenh.;1864;Eunotia;Eunotia denticulata;;denticulata;
+EU015B;Hust.;1932;Eunotia;Eunotia denticulata var. fennica;;denticulata;fennica
+EU016A;Ehrenb.;1837;Eunotia;Eunotia diodon;;diodon;
+EU043A;Ostr.;1910;Eunotia;Eunotia elegans;;elegans;
+EU057A;A. Berg ex A. Cleve-Euler;1953;Eunotia;Eunotia exgracilis;;exgracilis;
+EU009A;(Breb. ex Kütz.) Rabenh.;1864;Eunotia;Eunotia exigua;;exigua;
+PT990;EDDI Global Training Set;2001;Eunotia;Eunotia exigua (agg.);x;exigua (agg.);
+XXG964;EDDI TP Training Set;2001;Eunotia;Eunotia exigua (agg.);x;exigua (agg.);
+EU009D;Hust.;1930;Eunotia;Eunotia exigua var. bidens;;exigua;bidens
+EU009C;Oestrup;1910;Eunotia;Eunotia exigua var. tridentula;;exigua;tridentula
+EU009F;Magdeberg;1926;Eunotia;Eunotia exigua var. undulata;;exigua;undulata
+EU010A;(Ehrenb.) Grun. in Van Heurck;1881;Eunotia;Eunotia faba;;faba;
+EU025A;A. Cleve;1895;Eunotia;Eunotia fallax;;fallax;
+EU025B;Krasske;;Eunotia;Eunotia fallax var. gracillima;;fallax;gracillima
+FSN079;NORD-CHILL;1997;Eunotia;Eunotia fallax var. groenlandica;;fallax;groenlandica
+EU017A;Kütz.;1849;Eunotia;Eunotia flexuosa;;flexuosa;
+EU018A;Ehrenb.;1843;Eunotia;Eunotia formica;;formica;
+EU024A;Meister;1912;Eunotia;Eunotia glacialis;;glacialis;
+EU030A;(Ehrenb.) Rabenh.;1864;Eunotia;Eunotia gracilis;;gracilis;
+EU054A;Ehrenb.;1854;Eunotia;Eunotia hexaglyphis;;hexaglyphis;
+EU019A;Foged;1970;Eunotia;Eunotia iatriaensis;;iatriaensis;
+EU107A;Norpel, Lange-Bertalot & Alles;1991;Eunotia;Eunotia implicata;;implicata;
+EU047A;W. Sm. ex Greg.;1854;Eunotia;Eunotia incisa;;incisa;
+XXG965;EDDI TP Training Set;2001;Eunotia;Eunotia incisa (agg.);x;incisa (agg.);
+EU108A;(Hust) Norpel, Lange-Bertalot & Alles;1991;Eunotia;Eunotia intermedia;;intermedia;
+EU042A;Grun. ex A. Cleve;1895;Eunotia;Eunotia lapponica;;lapponica;
+EU006A;(Ehrenb.) Grun. in Van Heurck;1881;Eunotia;Eunotia lunaris;;lunaris;
+EU006B;(Naegeli ex Kütz.) Grun. in Van Heurck;1881;Eunotia;Eunotia lunaris var. subarcuata;;lunaris;subarcuata
+EU035A;(W. Sm.) Rabenh.;1864;Eunotia;Eunotia major;;major;
+EU020A;Hust.;1930;Eunotia;Eunotia meisteri;;meisteri;
+EU020B;Hust.;1930;Eunotia;Eunotia meisteri var. bidens;;meisteri;bidens
+EU028A;Krasske ex Hust.;1932;Eunotia;Eunotia microcephala;;microcephala;
+EU028B;(A. Mayer) Hust.;;Eunotia;Eunotia microcephala var. tridentata;;microcephala;tridentata
+EU110A;(Kütz) Grunow in Van Heurck;1881;Eunotia;Eunotia minor;;minor;
+EU056A;A. Cleve-Euler;1934;Eunotia;Eunotia minutissima;;minutissima;
+XXG947;EDDI TP Training Set;2001;Eunotia;Eunotia monodon (agg.);x;monodon (agg.);
+EU008A;Ehrenb.;1843;Eunotia;Eunotia monodon fo. monodon;;monodon;
+EU008D;(W. Sm.) Hust.;1932;Eunotia;Eunotia monodon var. bidens;;monodon;bidens
+F_EU058B;(W. Sm.) Hust.;1932;Eunotia;Eunotia monodon var. bidens;;monodon;bidens
+AF_2527;Hust.;;Eunotia;Eunotia montana;;montana;
+EU048A;Migula;1907;Eunotia;Eunotia naegelii;;naegelii;
+EU052A;Ehrenb.;1840;Eunotia;Eunotia nodosa;;nodosa;
+EU045A;Grun. in Van Heurck;1881;Eunotia;Eunotia nymanniana;;nymanniana;
+EU040A;Grun.;1862;Eunotia;Eunotia paludosa;;paludosa;
+EU034A;Ehrenb.;1843;Eunotia;Eunotia parallela;;parallela;
+EU002A;(O.F. Müll.) Rabenh.;1864;Eunotia;Eunotia pectinalis;;pectinalis;
+XXC936;EDDI Salinity Training Set;2001;Eunotia;Eunotia pectinalis (agg.);x;pectinalis (agg.);
+XXG946;EDDI TP Training Set;2001;Eunotia;Eunotia pectinalis (agg.);x;pectinalis (agg.);
+AF_2506;(Kütz.) Rab.;;Eunotia;Eunotia pectinalis + v. ventralis;;pectinalis + v. ventralis;
+EU002G;(Ehrenb.) Hust.;1930;Eunotia;Eunotia pectinalis fo. impressa;;pectinalis;
+EU002B;(Kütz.) Rabenh.;1864;Eunotia;Eunotia pectinalis var. minor;;pectinalis;minor
+EU002E;(Ehr.) Hust.;;Eunotia;Eunotia pectinalis var. minor fo. impressa;;pectinalis;minor
+EU002F;Krasske;;Eunotia;Eunotia pectinalis var. minor fo. intermedia;;pectinalis;minor
+EU002D;(Ralfs) Rabenh.;1864;Eunotia;Eunotia pectinalis var. undulata;;pectinalis;undulata
+EU002C;(Ehrenb.) Hust.;1911;Eunotia;Eunotia pectinalis var. ventralis;;pectinalis;ventralis
+EU002K;Grun. in Van Heurck;1881;Eunotia;Eunotia pectinalis var. ventricosa;;pectinalis;ventricosa
+EU046C;Grun. in Van Heurck;1881;Eunotia;Eunotia perpusilla;;perpusilla;
+EU060A;Carter et Flower;1988;Eunotia;Eunotia pirla;;pirla;
+EU023A;(Brun) Hust.;1932;Eunotia;Eunotia polydentula;;polydentula;
+AF_2516;Ehr.;;Eunotia;Eunotia praerupta + v. bidens;;praerupta + v. bidens;
+EU003B;(Ehrenb.) Grun. in Cleve & Grun.;1880;Eunotia;Eunotia praerupta var. bidens;;praerupta;bidens
+EU003C;Grun. in Van Heurck;1881;Eunotia;Eunotia praerupta var. inflata;;praerupta;inflata
+EU003A;Ehrenb.;1843;Eunotia;Eunotia praerupta var. praerupta;;praerupta;praerupta
+EU026A;Berg;;Eunotia;Eunotia praerupta-nana;;praerupta-nana;
+EU041A;Hust.;;Eunotia;Eunotia pseudopectinalis;;pseudopectinalis;
+EU011A;Hust.;1950;Eunotia;Eunotia rhomboidea;;rhomboidea;
+EU106A;Hustedt;1936;Eunotia;Eunotia rhyncocephela;;rhyncocephela;
+EU058A;Krasske;;Eunotia;Eunotia schwabei;;schwabei;
+EU031A;Ostr.;1898;Eunotia;Eunotia septentrionalis fo. septentrionalis;;septentrionalis;
+EU032A;Ehrenb.;1837;Eunotia;Eunotia serra;;serra;
+XXG945;EDDI TP Training Set;2001;Eunotia;Eunotia serra (agg.);x;serra (agg.);
+EU032B;(Ehrenb.) Patr.;1958;Eunotia;Eunotia serra var. diadema;;serra;diadema
+EU032C;(Ehren) Norpel;1991;Eunotia;Eunotia serra var. tetraodon;;serra;tetraodon
+EU111A;(Kütz) Rabenhorst;1864;Eunotia;Eunotia soleirolii;;soleirolii;
+EU9999;;;Eunotia;Eunotia sp.;;sp.;
+EU9944;Scoat Tarn (EYH);1989;Eunotia;Eunotia sp0;x;sp0;
+EU9965;L. Grannoch (RJF);1988;Eunotia;Eunotia sp10 (minima);x;sp10 (minima);
+EU9964;L. Grannoch (RJF);1988;Eunotia;Eunotia sp12 (minor);x;sp12 (minor);
+EU9963;Round L. Glenhead (RJF);1988;Eunotia;Eunotia sp13 (minutissima);x;sp13 (minutissima);
+EU9986;NGLS, L. Hir (SF);1986;Eunotia;Eunotia sp15;x;sp15;
+FSN082;NORD-CHILL;1997;Eunotia;Eunotia sp18 (PIRLA);x;sp18 (PIRLA);
+EU9943;Scoat Tarn (EYH);1989;Eunotia;Eunotia sp3;x;sp3;
+EU104A;Petersen;1950;Eunotia;Eunotia steinedei;;steinedei;
+EU105A;Alles, Norpel, Lange-Bertalot;1991;Eunotia;Eunotia subarcuoides;;subarcuoides;
+EU021A;O. Müll.;1898;Eunotia;Eunotia sudetica;;sudetica;
+EU098A;A. Cleve;1895;Eunotia;Eunotia suecica;;suecica;
+AF_2510;Müller;;Eunotia;Eunotia tchirchiana;;tchirchiana;
+EU004A;(Grun. in Van Heurck) A. Cleve;1895;Eunotia;Eunotia tenella;;tenella;
+XXC969;EDDI Salinity Training Set;2001;Eunotia;Eunotia tenella (agg.);x;tenella (agg.);
+AF_2511;(Grun.) Hust.;;Eunotia;Eunotia tenella + f. undulata;;tenella + f. undulata;
+EU050A;A. Cleve-Euler;1953;Eunotia;Eunotia tibia;;tibia;
+EU050B;(W. Sm.) A. Cleve-Euler;1953;Eunotia;Eunotia tibia var. bidens;;tibia;bidens
+EU053A;Ehrenb.;1843;Eunotia;Eunotia tridentula;;tridentula;
+EU027A;Krasske;1929;Eunotia;Eunotia trinacria;;trinacria;
+EU027B;Hust.;1930;Eunotia;Eunotia trinacria var. undulata;;trinacria;undulata
+EU039A;Ehrenb.;1837;Eunotia;Eunotia triodon;;triodon;
+EU029A;Hust.;1930;Eunotia;Eunotia valida;;valida;
+EU051A;Patr.;1958;Eunotia;Eunotia vanheurckii;;vanheurckii;
+EU051B;(Krasske) Cleve;;Eunotia;Eunotia vanheurckii var. intermedia;;vanheurckii;intermedia
+EU051C;(Grunow 1880) Haworth nov. nom.?;;Eunotia;Eunotia vanheurckii var. obtusa;;vanheurckii;obtusa
+EU001A;(Kutz) O. Muller;1898;Eunotia;Eunotia veneris;;veneris;
+EU059A;(Cab.) KORNER;;Eunotia;Eunotia zasuminensis;;zasuminensis;
+FA012A;(Hust.) Mann;1990;Fallacia;Fallacia indifferens;;indifferens;
+AF_2601;Hust.;;Fragilaria;Fragilaria africana;;africana;
+UME469;T. Korsman;;Fragilaria;Fragilaria alpestris;;alpestris;
+FR9988M;(Ehrenberg) Cleve;1898;Fragilaria;Fragilaria arcus;;arcus;
+SW_FARC;(Ehrenberg) Cleve var. arcus;;Fragilaria;Fragilaria arcus;;arcus;
+UME483;T. Korsman;;Fragilaria;Fragilaria arcus;;arcus;
+FR003A;A. Mayer;1917;Fragilaria;Fragilaria bicapitata;;bicapitata;
+FR9987M;(Kützing) Lange-Bertalot;1991;Fragilaria;Fragilaria biceps;;biceps;
+FR006A;Grun. in Van Heurck;1885;Fragilaria;Fragilaria brevistriata;;brevistriata;
+XXA996;EDDI Global Training Set;2001;Fragilaria;Fragilaria brevistriata (agg.);x;brevistriata (agg.);
+XXC989;EDDI Salinity Training Set;2001;Fragilaria;Fragilaria brevistriata (agg.);x;brevistriata (agg.);
+XXG993;EDDI TP Training Set;2001;Fragilaria;Fragilaria brevistriata (agg.);x;brevistriata (agg.);
+AF_2602;Grun.;;Fragilaria;Fragilaria brevistriata + varieties;;brevistriata + varieties;
+FR006E;(Herib.) Bass;;Fragilaria;Fragilaria brevistriata var. capitata;;brevistriata;capitata
+FR009A;Desm.;1825;Fragilaria;Fragilaria capucina;;capucina;
+FR009LM;Krammer&Lange-Bertalot (1991): Abb.110/22;1991;Fragilaria;Fragilaria capucina;;capucina;
+FR009TM;(Grunow) Lange-Bertalot;1980;Fragilaria;Fragilaria capucina  var. austriaca;;capucina;austriaca
+FR009KM;(Oestrup) Hustedt;1950;Fragilaria;Fragilaria capucina  var. gracilis;;capucina;gracilis
+TS995;EDDE Global Training Set;2001;Fragilaria;Fragilaria capucina (agg.);x;capucina (agg.);
+XXU898;EDDI pH Training Set;2001;Fragilaria;Fragilaria capucina (agg.);x;capucina (agg.);
+AF_2604;DesmaziÅres;;Fragilaria;Fragilaria capucina + v. lanceolata;;capucina + v. lanceolata;
+FR9984;SWAP Sweden (IR & NJA);1989;Fragilaria;Fragilaria capucina + v. mesolepta;;capucina + v. mesolepta;
+C_Frcap;J. Reed (Caspian dataset);;Fragilaria;Fragilaria capucina indet.;cf.;capucina indet.;
+SW_FCAH;Desmazieres;;Fragilaria;Fragilaria capucina subsp. amphicephala;;capucina;
+FR009I;(Grun) Lange-Bertalot;1980;Fragilaria;Fragilaria capucina var. austriaca;;capucina;austriaca
+XXG943;EDDI TP Training Set;2001;Fragilaria;Fragilaria capucina var. austriaca/amphicephala (agg.);x;capucina var. austriaca/amphicephala (agg.);
+FR009H;(Oestrup) Hustedt;1950;Fragilaria;Fragilaria capucina var. gracilis;;capucina;gracilis
+FR009F;Grun. in Van Heurck;1881;Fragilaria;Fragilaria capucina var. lanceolata;;capucina;lanceolata
+FR009B;(Rabenh.) Rabenh.;1864;Fragilaria;Fragilaria capucina var. mesolepta;;capucina;mesolepta
+FR009J;(Grun.) L-B.;;Fragilaria;Fragilaria capucina var. perminuta;;capucina;perminuta
+FR009G;(Kütz.) Lange-Bertalot;1991;Fragilaria;Fragilaria capucina var. rumpens;;capucina;rumpens
+PT994;EDDE Global Training Set;2001;Fragilaria;Fragilaria capucina var. rumpens (agg.);x;capucina var. rumpens (agg.);
+C_Frcvv;J. Reed (Caspian dataset);;Fragilaria;Fragilaria capucina var. vaucheriae;;capucina;vaucheriae
+SW_FCVA;(Kützing) Lange-Bertalot;;Fragilaria;Fragilaria capucina var. vaucheriae;;capucina;vaucheriae
+XXC993;EDDI Salinity Training Set;;Fragilaria;Fragilaria capucina var. vaucheriae (agg.);x;capucina var. vaucheriae (agg.);
+FR9987;Botungen (IR);1988;Fragilaria;Fragilaria cf. brevistriata;;brevistriata;
+FR9998;L. Poinsett (RWB);1983;Fragilaria;Fragilaria cf. brevistriata;;brevistriata;
+XXA979;EDDI Global Training Set;2001;Fragilaria;Fragilaria cf. capucina var. vaucheriae;;capucina var. vaucheriae;
+FR9977;Salada Chiprana (JR);1994;Fragilaria;Fragilaria cf. fasciculata (var. 1);;fasciculata (var. 1);
+FR9978;H. Bennion;1992;Fragilaria;Fragilaria cf. intermedia;;intermedia;
+FR9980M;S. Wunsam;;Fragilaria;Fragilaria cf. nanana;;nanana;
+FR9990;Verenvatn (FB-SWAP);1987;Fragilaria;Fragilaria cf. oldenburgiana;;oldenburgiana;
+FR9991;PIRLA;1987;Fragilaria;Fragilaria cf. oldenburgiana (PIRLA);;oldenburgiana (PIRLA);
+FR9976;Zielowny Staw VJJ;1994;Fragilaria;Fragilaria cf. tenera (T113 K & Lb);;tenera (T113 K & Lb);
+FR9973;K & L-B;1991;Fragilaria;Fragilaria cf. utermoehlii;;utermoehlii;
+FR010A;Ehrenb.;1843;Fragilaria;Fragilaria constricta fo. constricta;;constricta;
+FR010B;(A. Cleve) Hust.;1931;Fragilaria;Fragilaria constricta fo. stricta;;constricta;
+FR002A;(Ehrenb.) Grun.;1862;Fragilaria;Fragilaria construens;;construens;
+XXC935;EDDI Salinity Training Set;2001;Fragilaria;Fragilaria construens (agg.);x;construens (agg.);
+AF_2607;(W. Sm). Hust.;;Fragilaria;Fragilaria construens fo. exigua;;construens;
+FR002B;(Ehrenb.) Grun.;1862;Fragilaria;Fragilaria construens var. binodis;;construens;binodis
+FR002D;(W. Sm.) Schulz;1922;Fragilaria;Fragilaria construens var. exigua;;construens;exigua
+FR002E;Hust.;1925;Fragilaria;Fragilaria construens var. subsalina;;construens;subsalina
+FR002C;(Ehrenb.) Grun. in Van Heurck;1881;Fragilaria;Fragilaria construens var. venter;;construens;venter
+XXA989;EDDI Global Training Set;2001;Fragilaria;Fragilaria construens/elliptica (agg.);x;construens/elliptica (agg.);
+AF_2606;(Ehr.)Grun.;;Fragilaria;Fragilaria construens+ v. venter + f. binodis;;construens+ v. venter + f. binodis;
+FR008A;Kitton;1869;Fragilaria;Fragilaria crotonensis;;crotonensis;
+XXG985;EDDI TP Training Set;2001;Fragilaria;Fragilaria crotonensis (agg.);x;crotonensis (agg.);
+AF_2608;Kitton;;Fragilaria;Fragilaria crotonensis + varieties;;crotonensis + varieties;
+FR9983M;(Brutschy) Lange-Bertalot;1980;Fragilaria;Fragilaria cyclopum;;cyclopum;
+FR9986M;(W. Smith) Lange-Bertalot;1980;Fragilaria;Fragilaria delicatissima;;delicatissima;
+FR9984M;(Brébisson) Lange-Bertalot;1986;Fragilaria;Fragilaria dilatata;;dilatata;
+FR018A;Schum.;1867;Fragilaria;Fragilaria elliptica;;elliptica;
+XXG994;EDDI TP Training Set;2001;Fragilaria;Fragilaria elliptica fo. minor;;elliptica;
+FR064A;Grun in Cleve & Moller;1878;Fragilaria;Fragilaria exigua;;exigua;
+SW_FFAM;(Kutzing) Lange-Bertalot;;Fragilaria;Fragilaria famelica;;famelica;
+AF_5404;(Agardh) Lange-Bertalot sensu lato;1980;Fragilaria;Fragilaria fasciculata;;fasciculata;
+FR057A;(Agardh) Lange-Bertalot sensu lato;1980;Fragilaria;Fragilaria fasciculata;;fasciculata;
+FR016A;Ostr.;1910;Fragilaria;Fragilaria heidenii;;heidenii;
+AF_2631;Pant.;;Fragilaria;Fragilaria hungarica;;hungarica;
+FR004A;Pant.;;Fragilaria;Fragilaria hungarica;;hungarica;
+FR019A;Grun. in Van Heurck;1881;Fragilaria;Fragilaria intermedia;;intermedia;
+FR019B;Mayer;1937;Fragilaria;Fragilaria intermedia var. continua;;intermedia;continua
+FR011A;Grun. in Van Heurck;1881;Fragilaria;Fragilaria lapponica;;lapponica;
+PT993;EDDE Global Training Set;2001;Fragilaria;Fragilaria lapponica (agg.);x;lapponica (agg.);
+FR015A;(Cleve-Euler) Renberg;1977;Fragilaria;Fragilaria lata;;lata;
+FR014A;(Ehrenb.) Hust.;1931;Fragilaria;Fragilaria leptostauron;;leptostauron;
+FR014CM;(Héribaud) Lange-Bertalot;1991;Fragilaria;Fragilaria leptostauron  var. martyi;;leptostauron;martyi
+PS997;EDDE Global Training Set;2001;Fragilaria;Fragilaria leptostauron (agg.);x;leptostauron (agg.);
+XXC968;EDDI Salinity Training Set;2001;Fragilaria;Fragilaria leptostauron (agg.);x;leptostauron (agg.);
+FR014B;(Grun.) Hust.;1931;Fragilaria;Fragilaria leptostauron var. dubia;;leptostauron;dubia
+FR065A;(Heribaud)LB;1991;Fragilaria;Fragilaria leptostauron var. martyi;;leptostauron;martyi
+FR062A;Marciniak in Metzeltin & Witkowski;1996;Fragilaria;Fragilaria microstriata;;microstriata;
+SW_FMON;(Krasske) Lange-Bertalot;;Fragilaria;Fragilaria montana;;montana;
+A_ZZZ955;ALPE;;Fragilaria;Fragilaria nanana;;nanana;
+SW_FNAN;Lange-Bertalot;;Fragilaria;Fragilaria nanana;;nanana;
+TS990;EDDE Global Training Set;2001;Fragilaria;Fragilaria nanana (agg.);x;nanana (agg.);
+XXG984;EDDI TP Training Set;2001;Fragilaria;Fragilaria nanana (agg.);x;nanana (agg.);
+FR9982M;S. Wunsam;;Fragilaria;Fragilaria nanana-, delicatissima-Gruppe;;nanana-, delicatissima-Gruppe;
+FR068A;Lange-Bertalot;1996;Fragilaria;Fragilaria nanoides;;nanoides;
+FR066A;Lange- Bertalot;1991;Fragilaria;Fragilaria neoproducta;;neoproducta;
+FR042A;Grun. in Van Heurck;1881;Fragilaria;Fragilaria nitzschioides;;nitzschioides;
+FR013A;Hust.;;Fragilaria;Fragilaria oldenburgiana;;oldenburgiana;
+FR067A;Lange-Bertalot nov spec;1996;Fragilaria;Fragilaria oldenburgioides;;oldenburgioides;
+FR069A;Lange-Bertalot;1996;Fragilaria;Fragilaria opacolineata;;opacolineata;
+FR045A;(W. Sm.) Grun. in Van Heurck;1881;Fragilaria;Fragilaria parasitica;;parasitica;
+FR045B;A. Mayer;1912;Fragilaria;Fragilaria parasitica var. constricta;;parasitica;constricta
+FR045E;Grun. in Van Heurck;1881;Fragilaria;Fragilaria parasitica var. subconstricta;;parasitica;subconstricta
+FR001A;Ehrenb.;1843;Fragilaria;Fragilaria pinnata;;pinnata;
+XXA997;EDDE Global Training Set;2001;Fragilaria;Fragilaria pinnata (agg.);x;pinnata (agg.);
+XXC934;EDDI Salinity Training Set;2001;Fragilaria;Fragilaria pinnata (agg.);x;pinnata (agg.);
+XXG995;EDDI TP Training Set;2001;Fragilaria;Fragilaria pinnata (agg.);x;pinnata (agg.);
+XXU991;EDDI pH Training Set;2001;Fragilaria;Fragilaria pinnata (agg.);x;pinnata (agg.);
+XXU998;EDDI pH Training Set;2001;Fragilaria;Fragilaria pinnata (agg.);x;pinnata (agg.);
+FR001K;(A. Mayer) Regenbogen;;Fragilaria;Fragilaria pinnata var. accuminata;;pinnata;accuminata
+FR001H;A. Mayer;1919;Fragilaria;Fragilaria pinnata var. inflata;;pinnata;inflata
+FR001E;(Grun. in Van Heurck) Hust.;1931;Fragilaria;Fragilaria pinnata var. intercedens;;pinnata;intercedens
+FR001B;(Schum.) Hust. in A. Schmidt;1913;Fragilaria;Fragilaria pinnata var. lancettula;;pinnata;lancettula
+FR001C;A. Mayer;;Fragilaria;Fragilaria pinnata var. subrotunda;;pinnata;subrotunda
+FR001D;(Brun & Herib. in Herib.) Hust.;1931;Fragilaria;Fragilaria pinnata var. trigona;;pinnata;trigona
+FR020A;Cleve-Euler;1953;Fragilaria;Fragilaria polygonata;;polygonata;
+FR056A;Marciniak;1982;Fragilaria;Fragilaria pseudoconstruens;;pseudoconstruens;
+PT995;EDDE Global Training Set;2001;Fragilaria;Fragilaria pseudoconstruens (agg.);x;pseudoconstruens (agg.);
+SW_FREI;(Voigt) Lange-Bertalot;;Fragilaria;Fragilaria reicheltii;;reicheltii;
+XXG996;(Voigt) Lange-Bertalot;;Fragilaria;Fragilaria reicheltii;;reicheltii;
+FR063A;(Fusey) Manguin;;Fragilaria;Fragilaria robusta;;robusta;
+FSN012;(Fusey) Manguin;;Fragilaria;Fragilaria robusta;;robusta;
+A_ZZZ983;N. Cameron (ALPE);;Fragilaria;Fragilaria sp.;;sp.;
+A_ZZZ990;N. Cameron (ALPE);;Fragilaria;Fragilaria sp.;;sp.;
+FR9999;;;Fragilaria;Fragilaria sp.;;sp.;
+A_ZZZ978;N. Cameron (ALPE);;Fragilaria;Fragilaria sp. (small, fine);;sp. (small, fine);
+S_ZZZ980;VJJ (Svalbard);;Fragilaria;Fragilaria sp1 (SBAE);x;sp1 (SBAE);
+A_ZZZ949;VJJ (Svalbard);;Fragilaria;Fragilaria sp2 (Zielowny Staw);x;sp2 (Zielowny Staw);
+AF_2617;(Zanon) Hust.;;Fragilaria;Fragilaria strangulata;;strangulata;
+AF_2619;Schoeman;;Fragilaria;Fragilaria submicroscopica;;submicroscopica;
+FR060A;(W. Smith) Lange-Bertalot;1980;Fragilaria;Fragilaria tenera;;tenera;
+FR9977M;(W. Smith) Lange-Bertalot;1980;Fragilaria;Fragilaria tenera;;tenera;
+PT997;EDDE Global Training Set;2001;Fragilaria;Fragilaria tenera/delicatissima (agg.);x;tenera/delicatissima (agg.);
+SW_FULN;(Nitzsch.) Lange-Bertalot;;Fragilaria;Fragilaria ulna;;ulna;
+XXC917;EDDI Salinity Training Set;2001;Fragilaria;Fragilaria ulna (agg.);x;ulna (agg.);
+SW_FUAC;(Kützing) Lange-Bertalot;;Fragilaria;Fragilaria ulna var. acus;;ulna;acus
+FR9981M;S. Wunsam;;Fragilaria;Fragilaria ulna-,danica-,tenera-Gruppe;;ulna-,danica-,tenera-Gruppe;
+FR007A;(Kütz.) J.B. Petersen;1938;Fragilaria;Fragilaria vaucheriae;;vaucheriae;
+FR005A;Ralfs;1843;Fragilaria;Fragilaria virescens;;virescens;
+AF_2615;Ralfs;;Fragilaria;Fragilaria virescens + v. mesolepta+ v.elliptica;;virescens + v. mesolepta+ v.elliptica;
+FR005E;Ostr.;1910;Fragilaria;Fragilaria virescens var. capitata;;virescens;capitata
+FR005D;Grun. in Van Heurck;1881;Fragilaria;Fragilaria virescens var. exigua;;virescens;exigua
+FR005H;Grun. in Van Heurck;1881;Fragilaria;Fragilaria virescens var. oblongella;;virescens;oblongella
+PT998;EDDE Global Training Set;2001;Fragilaria;Fragilaria virescens/exigua (agg.);x;virescens/exigua (agg.);
+XXG961;EDDI TP Training Set;2001;Fragilaria;Fragilaria virescens/exigua (agg.);x;virescens/exigua (agg.);
+XXC994;EDDI Salinity Training Set;2001;Fragilaria;Fragilaria zeilleri (agg.);x;zeilleri (agg.);
+AF_2630;HÄrbaud;;Fragilaria;Fragilaria zeilleri + v. africana + elliptica Gasse;;zeilleri + v. africana + elliptica Gasse;
+FR061A;Heribaud;1902;Fragilaria;Fragilaria zeilleri var. elliptica;;zeilleri;elliptica
+FF003A;(Ehrenb.) Williams & Round;1988;Fragilariforma;Fragilariforma constricta;;constricta;
+FF006A;(Cleve-Euler) Williams &  Round;1988;Fragilariforma;Fragilariforma lata;;lata;
+FF001A;(Ralfs) Williams & Round;1988;Fragilariforma;Fragilariforma virescens;;virescens;
+XXG942;EDDI TP Training Set;2001;Frustulia;Frustulia cf. rhomboides v. saxonica (agg.);;rhomboides v. saxonica (agg.);
+FU038A;(Krasske) Hustedt;1957;Frustulia;Frustulia creuzbergensis;;creuzbergensis;
+FU002A;(Ehrenb.) De Toni;1891;Frustulia;Frustulia rhomboides;;rhomboides;
+FU9997;SWAP;;Frustulia;Frustulia rhomboides;;rhomboides;
+AF_2701;(Ehr.)De Toni;;Frustulia;Frustulia rhomboides + v.saxonica;;rhomboides + v.saxonica;
+FU002G;(Breb. ex W.Sm.) Ross;;Frustulia;Frustulia rhomboides var. crassinervia;;rhomboides;crassinervia
+FU002C;Bour.& Mang.;;Frustulia;Frustulia rhomboides var. elongatissima;;rhomboides;elongatissima
+FU002B;(Rabenh.) De Toni;1891;Frustulia;Frustulia rhomboides var. saxonica;;rhomboides;saxonica
+FU002E;Hust.;;Frustulia;Frustulia rhomboides var. saxonica fo. undulata;;rhomboides;saxonica
+FU002F;(Breb. ex Kütz.) Cleve;1894;Frustulia;Frustulia rhomboides var. viridula;;rhomboides;viridula
+FU9999;;;Frustulia;Frustulia sp.;;sp.;
+FU029A;Amosse;1932;Frustulia;Frustulia spicula;;spicula;
+FU001A;(Thwaites) De Toni;1891;Frustulia;Frustulia vulgaris;;vulgaris;
+FU001B;Krasske;1923;Frustulia;Frustulia vulgaris var. capitata;;vulgaris;capitata
+AF_2803;(Grun.) Forti;;Gomphocymbella;Gomphocymbella beccari;;beccari;
+AF_2801;(Fricke) O. Müller;;Gomphocymbella;Gomphocymbella brunii;;brunii;
+GCY999;;;Gomphocymbella;Gomphocymbella sp.;;sp.;
+GM001A;(Hornemann) P. Dawson ex R. Ross & Sims;1978;Gomphoneis;Gomphoneis olivaceum;;olivaceum;
+GO006A;Ehrenb.;1832;Gomphonema;Gomphonema acuminatum;;acuminatum;
+XXG941;EDDI TP Training Set;2001;Gomphonema;Gomphonema acuminatum (agg.);x;acuminatum (agg.);
+GO006C;(Ehrenb.) W. Sm.;1853;Gomphonema;Gomphonema acuminatum var. coronatum;;acuminatum;coronatum
+AF_2950;Hust.;;Gomphonema;Gomphonema aequatoriale;;aequatoriale;
+GO020A;Kütz.;1844;Gomphonema;Gomphonema affine;;affine;
+GO020B;(Greg.) Andrews;1970;Gomphonema;Gomphonema affine var. insigne;;affine;insigne
+GO003A;(Kütz.) Rabenh.;1864;Gomphonema;Gomphonema angustatum;;angustatum;
+XXC978;EDDI Salinity Training Set;2001;Gomphonema;Gomphonema angustatum (agg.);x;angustatum (agg.);
+AF_2935;(Kütz.) Rab.;;Gomphonema;Gomphonema angustatum + v. producta;;angustatum + v. producta;
+GO003B;Grun. in Van Heurck;1880;Gomphonema;Gomphonema angustatum var. productum;;angustatum;productum
+GO073A;Agardh;1831;Gomphonema;Gomphonema angustum;;angustum;
+GO9989M;Agardh;1831;Gomphonema;Gomphonema angustum;;angustum;
+XXG940;EDDI TP Training Set;2001;Gomphonema;Gomphonema angustum (agg.);x;angustum (agg.);
+GO002A;Ehrenb.;1854;Gomphonema;Gomphonema apicatum;;apicatum;
+GO019A;Ehr.;;Gomphonema;Gomphonema augur;;augur;
+GO9988M;Reichardt & Lange-Bertalot;1991;Gomphonema;Gomphonema bavaricum;;bavaricum;
+GO007A;Reichelt & Fricke in A. Schmidt;1902;Gomphonema;Gomphonema bohemicum;;bohemicum;
+A_ZZZ979;ALPE;;Gomphonema;Gomphonema cf. bohemica/subtile type;;bohemica/subtile type;
+GO9990M;S. Wunsam;;Gomphonema;Gomphonema cf. dichotomum;;dichotomum;
+XXG921;EDDI TP Training Set;2001;Gomphonema;Gomphonema cf. micropus/productum;;micropus/productum;
+GO9987M;S. Wunsam;;Gomphonema;Gomphonema cf. parvulum/saprophilum;;parvulum/saprophilum;
+GO9985;K & L-B;1991;Gomphonema;Gomphonema cf. pumilum;;pumilum;
+AF_2902;Gasse;;Gomphonema;Gomphonema clarkii;;clarkii;
+GO029A;Ehr.;;Gomphonema;Gomphonema clavatum;;clavatum;
+GO024C;Fricke in A. Schmidt;1902;Gomphonema;Gomphonema clevei;;clevei;
+AF_2904;Hust.;1938;Gomphonema;Gomphonema clevei  var. javanica;;clevei;javanica
+XXC915;EDDI Salinity Training Set;2001;Gomphonema;Gomphonema clevei (agg.);x;clevei (agg.);
+GO010A;Ehrenb. ex Kütz.;1844;Gomphonema;Gomphonema constrictum;;constrictum;
+GO004A;Ehrenb.;1838;Gomphonema;Gomphonema gracile;;gracile;
+GO082A;M. Schmidt;1899;Gomphonema;Gomphonema grovei;;grovei;
+GO082B;(Hustedt) LB;1985;Gomphonema;Gomphonema grovei var. lingulatum;;grovei;lingulatum
+FSN045;Gregory;1854;Gomphonema;Gomphonema hebridense;;hebridense;
+GO074A;Gregory;1854;Gomphonema;Gomphonema hebridense;;hebridense;
+GO042A;Brun;1895;Gomphonema;Gomphonema helveticum;;helveticum;
+F_GO025B;Kütz.;1844;Gomphonema;Gomphonema intricatum;;intricatum;
+GO014A;Kütz.;1844;Gomphonema;Gomphonema intricatum;;intricatum;
+XXC966;EDDI Salinity Training Set;2001;Gomphonema;Gomphonema intricatum (agg.);x;intricatum (agg.);
+AF_2912;Kütz.;;Gomphonema;Gomphonema intricatum + v. vibrio;;intricatum + v. vibrio;
+GO014H;(Braun ex Rabenh.) Grun. in Van Heurck;1880;Gomphonema;Gomphonema intricatum var. pulvinatum;;intricatum;pulvinatum
+GO014B;Grun. in Van Heurck;1880;Gomphonema;Gomphonema intricatum var. pumilum;;intricatum;pumilum
+GO014D;A. Mayer;1928;Gomphonema;Gomphonema intricatum var. pusillum;;intricatum;pusillum
+AF_2930;Hust.;;Gomphonema;Gomphonema javanicum;;javanicum;
+GO077A;Reichardt & L.B.;;Gomphonema;Gomphonema lacus-vulcani;;lacus-vulcani;
+GO005A;A. Cleve;1895;Gomphonema;Gomphonema lagerheimei;;lagerheimei;
+GO017A;Ehr.;;Gomphonema;Gomphonema lanceolatum;;lanceolatum;
+GO9998M;Reichardt & Lange-Bertalot;1991;Gomphonema;Gomphonema lateripunctatum;;lateripunctatum;
+GO018A;Ehrenb.;1854;Gomphonema;Gomphonema longiceps;;longiceps;
+GO049A;Kütz.;1844;Gomphonema;Gomphonema micropus;;micropus;
+GO050A;(Ag.) Ag.;1831;Gomphonema;Gomphonema minutum;;minutum;
+GO050BM;Lange-Bertalot & Reichhardt;1991;Gomphonema;Gomphonema minutum  fo. syriacum;;minutum;
+GO001A;(Hornemann) Breb.;1838;Gomphonema;Gomphonema olivaceum;;olivaceum;
+GM001FM;Cleve;1894;Gomphonema;Gomphonema olivaceum  var. calcareum;;olivaceum;calcareum
+XXC977;EDDI Salinity Training Set;2001;Gomphonema;Gomphonema olivaceum (agg.);x;olivaceum (agg.);
+XXG939;EDDI TP Training Set;2001;Gomphonema;Gomphonema olivaceum (agg.);x;olivaceum (agg.);
+AF_2922;(Lyngbye) Kütz.;;Gomphonema;Gomphonema olivaceum + v.;;olivaceum + v.;
+GO001C;Hust.;;Gomphonema;Gomphonema olivaceum var. minutissima;;olivaceum;minutissima
+GO013A;(Kütz.) Kütz.;1849;Gomphonema;Gomphonema parvulum;;parvulum;
+TS987;EDDI Global Training Set;2001;Gomphonema;Gomphonema parvulum (agg.);x;parvulum (agg.);
+XXG938;EDDI TP Training Set;2001;Gomphonema;Gomphonema parvulum (agg.);x;parvulum (agg.);
+GO013C;Grun. in Van Heurck;1880;Gomphonema;Gomphonema parvulum var. exilissimum;;parvulum;exilissimum
+GO072A;Lange Bertalot;1985;Gomphonema;Gomphonema pseudotenellum;;pseudotenellum;
+GO080A;(Grun.) Reichardt & L-B;;Gomphonema;Gomphonema pumilum;;pumilum;
+GO058A;Fricke in A. Schmidt;1904;Gomphonema;Gomphonema rhombicum;;rhombicum;
+GO9999;;;Gomphonema;Gomphonema sp.;;sp.;
+AF_2924;F. Gasse;;Gomphonema;Gomphonema sp1 (Kenya);x;sp1 (Kenya);
+XXC965;EDDI Salinity Training Set;2001;Gomphonema;Gomphonema spencerii (agg.);x;spencerii (agg.);
+GO9986M;Grunow;1878;Gomphonema;Gomphonema stauroneiforme;;stauroneiforme;
+GO011A;(Grun. in Schneider) Grun. in Van Heurck;1880;Gomphonema;Gomphonema subclavatum;;subclavatum;
+GO008A;Ehrenb.;1843;Gomphonema;Gomphonema subtile;;subtile;
+GO022A;Kütz.;;Gomphonema;Gomphonema tenellum;;tenellum;
+GO066A;(Grun. in Van Heurck) Fricke in A. Schmidt;1902;Gomphonema;Gomphonema tergestinum;;tergestinum;
+GO023A;Ehrenb.;1832;Gomphonema;Gomphonema truncatum;;truncatum;
+XXC933;EDDI Salinity Training Set;2001;Gomphonema;Gomphonema truncatum (agg.);x;truncatum (agg.);
+XXG937;EDDI TP Training Set;2001;Gomphonema;Gomphonema truncatum (agg.);x;truncatum (agg.);
+GO023B;(Ehrenb.) Patr. in Patr. & Reimer;1975;Gomphonema;Gomphonema truncatum var. capitatum;;truncatum;capitatum
+AF_2907;;;Gomphonema;Gomphonema truncatum var. lagenula;;truncatum;lagenula
+GO025H;Ehrenb.;1843;Gomphonema;Gomphonema vibrio;;vibrio;
+GO025B;(Kütz.) R. Ross in Hartley;1986;Gomphonema;Gomphonema vibrio var. intricatum;;vibrio;intricatum
+GO025F;(Grun. in Van Heurck) R. Ross in Hartley;1986;Gomphonema;Gomphonema vibrio var. pumilum;;vibrio;pumilum
+AF_3001;Grun.;;Gomphonitzschia;Gomphonitzschia ungeri;;ungeri;
+GR006A;(Lyngb.) Kütz.;1844;Grammatophora;Grammatophora marina;;marina;
+AF_6002;Ehr.;;Grammatophora;Grammatophora oceanica + f. minuscula + v. macilenta + v. adriat;;oceanica + f. minuscula + v. macilenta + v. adriat;
+GY005A;(Kütz.) Rabenh.;1853;Gyrosigma;Gyrosigma acuminatum;;acuminatum;
+GY001A;(Kütz.) Rabenh.;1853;Gyrosigma;Gyrosigma attenuatum;;attenuatum;
+GY014A;(Thwaites) Boyer;1927;Gyrosigma;Gyrosigma eximium;;eximium;
+GY004A;(Grun.) Cleve;1894;Gyrosigma;Gyrosigma kuetzingii;;kuetzingii;
+GY017A;(W. Sm.) Griffith & Henfrey;1856;Gyrosigma;Gyrosigma macrum;;macrum;
+AF_3105;(Sull. et Wormley) Boyer;;Gyrosigma;Gyrosigma obtusatum;;obtusatum;
+GY020A;(Harrison) Elmore;1921;Gyrosigma;Gyrosigma parkeri;;parkeri;
+GY021A;(Grun.) Hust.;1930;Gyrosigma;Gyrosigma peisonis;;peisonis;
+GY025A;(Rabenh.) Cleve;1894;Gyrosigma;Gyrosigma scalproides;;scalproides;
+AF_3107;(Rab.) Cleve;;Gyrosigma;Gyrosigma scalproides + v. eximia;;scalproides + v. eximia;
+GY9999;;;Gyrosigma;Gyrosigma sp.;;sp.;
+GY026A;(Grun. in Cleve & Grun.) Cleve;1894;Gyrosigma;Gyrosigma spenceri var. exilis;;spenceri;exilis
+AF_3106;(W. Sm.) Griffith et Henfrey;;Gyrosigma;Gyrosigma spencerii + v. nodifera;;spencerii + v. nodifera;
+GY027A;(W. Sm.) Griffith & Henfrey;1856;Gyrosigma;Gyrosigma strigilis;;strigilis;
+HN001A;(Ehrenb.) Patr. in Patr. & Reimer;1966;Hannaea;Hannaea arcus;;arcus;
+XXC964;EDDI Salinity Training Set;2001;Hantzschia;Hantzschia amphioxys (agg.);x;amphioxys (agg.);
+AF_3201;(Ehr.) Grun.;;Hantzschia;Hantzschia amphioxys + v.capitata;;amphioxys + v.capitata;
+HA001A;(Ehrenb.) Grun.;1877;Hantzschia;Hantzschia amphioxys var. amphioxys;;amphioxys;amphioxys
+HA003A;(Hust.) Hust.;1938;Hantzschia;Hantzschia distinctepunctata;;distinctepunctata;
+HA006A;(Donk.) Grun.;1877;Hantzschia;Hantzschia marina;;marina;
+HA9999;;;Hantzschia;Hantzschia sp.;;sp.;
+HA009E;(Roper) Grun.;1877;Hantzschia;Hantzschia virgata;;virgata;
+XXC963;EDDI Salinity Training Set;2001;Hantzschia;Hantzschia virgata (agg.);x;virgata (agg.);
+AF_3202;(Roper) Grun.;;Hantzschia;Hantzschia virgata + v. capitellata + v. genuina;;virgata + v. capitellata + v. genuina;
+KR001A;(Krasske) R. Ross & Sims;1978;Krasskella;Krasskella kriegerana;;kriegerana;
+AF_6201;(Ehr.) Grun.;;Licmophora;Licmophora gracilis + v. minor Kftz.;;gracilis + v. minor Kftz.;
+MT001A;(Heribaud) Round;1990;Martyana;Martyana martyi;;martyi;
+AF_3301;Grun.;;Mastogloia;Mastogloia aquilegiae;;aquilegiae;
+MA024A;Grun.;;Mastogloia;Mastogloia baldjikiana;;baldjikiana;
+MA004A;Grun.;1863;Mastogloia;Mastogloia braunii;;braunii;
+MA002C;(Ag.) Cleve ex A. Schmidt;1893;Mastogloia;Mastogloia elliptica;;elliptica;
+XXC962;EDDI Salinity Training Set;2001;Mastogloia;Mastogloia elliptica (agg.);x;elliptica (agg.);
+AF_3303;Cleve;;Mastogloia;Mastogloia elliptica + v.dansei + v. elliptica;;elliptica + v.dansei + v. elliptica;
+AF_3307;Voigt;;Mastogloia;Mastogloia habensis;;habensis;
+XXC961;EDDI Salinity Training Set;2001;Mastogloia;Mastogloia habensis;;habensis;
+MA016A;Thwaites ex W. Sm.;1856;Mastogloia;Mastogloia lanceolata;;lanceolata;
+MA005A;(Grun. in Van Heurck) Cleve;1896;Mastogloia;Mastogloia pumila;;pumila;
+AF_3312;Grun.;;Mastogloia;Mastogloia pusilla + v. linearis Oestrup;;pusilla + v. linearis Oestrup;
+MA001A;Thwaites ex W. Sm.;1856;Mastogloia;Mastogloia smithii;;smithii;
+XXC960;EDDI Salinity Training Set;2001;Mastogloia;Mastogloia smithii (agg.);x;smithii (agg.);
+MA001B;Grun.;1878;Mastogloia;Mastogloia smithii var. lacustris;;smithii;lacustris
+AF_3306;Grun.;;Mastogloia;Mastogloia smithii. v. lacustris + v. amphicephala + v. rostr;;smithii. v. lacustris + v. amphicephala + v. rostr;
+MA9999;;;Mastogloia;Mastogloia sp.;;sp.;
+ME013A;Moore ex Ralfs;1843;Melosira;Melosira arenaria;;arenaria;
+ME019A;(Kolbe) Nagumo & Kobayasi;1977;Melosira;Melosira arentii;;arentii;
+ME028A;(Thwaites) Kütz.;1849;Melosira;Melosira dickiei;;dickiei;
+ME003A;(Ehrenb.) Ralfs in Pritch.;1861;Melosira;Melosira granulata;;granulata;
+AF_3518;Rabh.;;Melosira;Melosira roeseana + v. spiralis;;roeseana + v. spiralis;
+AF_3526;(Ehr.) Kutz.;;Melosira;Melosira sol;;sol;
+ME9999;;;Melosira;Melosira sp.;;sp.;
+AF_3520;F. Gasse;;Melosira;Melosira sp. (Tunisie);x;sp. (Tunisie);
+ME044A;Brun in A. Schmidt;1892;Melosira;Melosira teres;;teres;
+ME015A;Ag.;1827;Melosira;Melosira varians;;varians;
+MR001A;(Grev.) Ag.;1831;Meridion;Meridion circulare;;circulare;
+MR001B;(Ralfs) Van Heurck;1885;Meridion;Meridion circulare var. constrictum;;circulare;constrictum
+MR001DM;(Ralfs) Van Heurck;1880;Meridion;Meridion circulare var. constrictum;;circulare;constrictum
+MR9999;;;Meridion;Meridion sp.;;sp.;
+XXC909;EDDI Salinity Training Set;2001;Navicula;Navicula  capitoradiata (agg.);x;capitoradiata (agg.);
+XXC910;EDDI Salinity Training Set;2001;Navicula;Navicula  veneta (agg.);x;veneta (agg.);
+E_ZZZ993;J. Reed (Spain);;Navicula;Navicula (small) LNG;x;(small) LNG;
+E_ZZZ992;J. Reed (Spain);;Navicula / Neidium;Navicula / Neidium sp.;x;sp.;
+NA161A;Hust.;1950;Navicula;Navicula absoluta;;absoluta;
+NA113A;Hust.;1950;Navicula;Navicula acceptata;;acceptata;
+NA096A;Hust.;1950;Navicula;Navicula accomoda;;accomoda;
+SW_NAER;Krasske;;Navicula;Navicula aerophila;;aerophila;
+AF_3658;Gasse;;Navicula;Navicula afroalpina;;afroalpina;
+NA190A;Hust.;1937;Navicula;Navicula agrestis;;agrestis;
+AF_3675;Cholnoky;;Navicula;Navicula agulhasica;;agulhasica;
+NA069A;Ehrenb.;1843;Navicula;Navicula americana;;americana;
+NA197A;Grun.;1882;Navicula;Navicula ammophila;;ammophila;
+NA198A;Cleve;1891;Navicula;Navicula amphibola;;amphibola;
+AF_3670;Hust.;;Navicula;Navicula ancisa;;ancisa;
+NA037A;Grun.;1860;Navicula;Navicula angusta;;angusta;
+NA772A;Lange-Bertalot;1993;Navicula;Navicula aquaedurae;;aquaedurae;
+AF_3604;Pant.;;Navicula;Navicula arenariaeformis;;arenariaeformis;
+NA038A;Hust.;;Navicula;Navicula arvensis;;arvensis;
+NA084A;(Kütz.) Grun.;1860;Navicula;Navicula atomus;;atomus;
+XXC932;EDDI Salinity Training Set;2001;Navicula;Navicula atomus (agg.);x;atomus (agg.);
+XXG935;EDDI TP Training Set;2001;Navicula;Navicula atomus (agg.);x;atomus (agg.);
+NA084B;(Hust.)Lange-Bertaot;1985;Navicula;Navicula atomus var. permitis;;atomus;permitis
+NA087A;(Breb. & Godey) Breb. ex Grun.;1878;Navicula;Navicula avenacea;;avenacea;
+NA232A;Hust.;1945;Navicula;Navicula bacilloides;;bacilloides;
+NA071A;Ehrenb.;1840;Navicula;Navicula bacillum;;bacillum;
+NA121A;Krasske;1932;Navicula;Navicula begeri;;begeri;
+NA732A;Hust.;1939;Navicula;Navicula biskanterae;;biskanterae;
+NA260A;J.B. Petersen;1928;Navicula;Navicula brekkaensis;;brekkaensis;
+NA099A;Hust.;1957;Navicula;Navicula bremensis;;bremensis;
+NA045A;J.B. Petersen;1928;Navicula;Navicula bryophila;;bryophila;
+NA265B;Grun. in Van Heurck;1880;Navicula;Navicula bulnheimii;;bulnheimii;
+NA066A;Ehrenb.;1838;Navicula;Navicula capitata;;capitata;
+TS989;EDDI Global Training Set;2001;Navicula;Navicula capitata (agg.);x;capitata (agg.);
+XXC931;EDDI Salinity Training Set;2001;Navicula;Navicula capitata (agg.);x;capitata (agg.);
+PS995;EDDI Global Training Set;2001;Navicula;Navicula capitata (v. hungarica agg.);x;capitata (v. hungarica agg.);
+NA066B;(Grun.) R. Ross;1947;Navicula;Navicula capitata var. hungarica;;capitata;hungarica
+NA745A;Germain;1981;Navicula;Navicula capitoradiata;;capitoradiata;
+NA051A;Ehrenb.;1836;Navicula;Navicula cari;;cari;
+SW_NCTT;Lange-Bertalot;;Navicula;Navicula cataracta-rheni;;cataracta-rheni;
+A_ZZZ951;VJJ;;Navicula;Navicula cf. (pupula/jagii) (Zielowny Staw);;(pupula/jagii) (Zielowny Staw);
+UME425;T. Korsman;;Navicula;Navicula cf. absoluta/pupula;x;absoluta/pupula;
+NA9913;L. Chon (NJA);1988;Navicula;Navicula cf. acceptata (coarse);;acceptata (coarse);
+A_na32;JG-ALPE;;Navicula;Navicula cf. atomus;;atomus;
+NA9878;H. Bennion;1992;Navicula;Navicula cf. atomus;;atomus;
+A_na19;JG-ALPE;;Navicula;Navicula cf. bacilloides;;bacilloides;
+A_na13;JG-ALPE;;Navicula;Navicula cf. concentrica;;concentrica;
+NA9846;Salada Espera (JR);1994;Navicula;Navicula cf. cryptocephala/salinarum type;;cryptocephala/salinarum type;
+NA9989M;S. Wunsam;;Navicula;Navicula cf. cryptotenella;;cryptotenella;
+NA9845;Ballestera (JR);1994;Navicula;Navicula cf. cryptotenella (v. 1);;cryptotenella (v. 1);
+NA9914;L. Chon (NJA);1988;Navicula;Navicula cf. cumbriensis (small);;cumbriensis (small);
+NA9919;Gulspettvatn (IR);1988;Navicula;Navicula cf. cumbriensis (small);;cumbriensis (small);
+NA9842;Hondilla (JR);1994;Navicula;Navicula cf. cuspidata (type 1 classic);;cuspidata (type 1 classic);
+NA9841;Corral Rubio (JR);1994;Navicula;Navicula cf. cuspidata (type 2 radial);;cuspidata (type 2 radial);
+NA9983M;S. Wunsam;;Navicula;Navicula cf. cyptocephala;;cyptocephala;
+NA9973;L. Urr (RJF);1985;Navicula;Navicula cf. digitulus;;digitulus;
+NA9840;Ratosa (JR);1994;Navicula;Navicula cf. duerrenbergiana;;duerrenbergiana;
+NA9970;Round Loch (VJ);1985;Navicula;Navicula cf. evanida;;evanida;
+NA9946;Cwm Mynach (AK);1986;Navicula;Navicula cf. festiva;;festiva;
+AF_3626;F. Gasse;;Navicula;Navicula cf. fluminicata;;fluminicata;
+XXC929A;EDDI Salinity Training Set;2001;Navicula;Navicula cf. gastrum;;gastrum;
+A_na21;JG-ALPE;;Navicula;Navicula cf. globulifera;;globulifera;
+NA9851;Lagunica (JR);1994;Navicula;Navicula cf. halophila (type 1 small);;halophila (type 1 small);
+NA9850;Hondilla (JR);1994;Navicula;Navicula cf. halophila (type 2 radial);;halophila (type 2 radial);
+NA9849;Salobralejo (JR);1994;Navicula;Navicula cf. halophila (type 3 large);;halophila (type 3 large);
+NA9933;Scoat Tarn (EYH-SWAP);1987;Navicula;Navicula cf. impexa;;impexa;
+NA9988M;S. Wunsam;;Navicula;Navicula cf. indifferens;;indifferens;
+NA9987M;S. Wunsam;;Navicula;Navicula cf. krasskei;;krasskei;
+NA9986M;S. Wunsam;;Navicula;Navicula cf. kuelbsii;;kuelbsii;
+C_Navme2;J. Reed (Caspian dataset);;Navicula;Navicula cf. mediocris;;mediocris;
+NA9879;H. Bennion;1992;Navicula;Navicula cf. minisculoides;;minisculoides;
+E_ZZZ987;J. Reed (Spain);;Navicula;Navicula cf. minisculus CLD;;minisculus CLD;
+S_ZZZ999;VJJ (Svalbard);;Navicula;Navicula cf. minuscula (SBAC);;minuscula (SBAC);
+A_na4;JG-ALPE;;Navicula;Navicula cf. molestiformis;;molestiformis;
+NA9969;L. Urr (RJF);1985;Navicula;Navicula cf. muralis;;muralis;
+NA9985M;S. Wunsam;;Navicula;Navicula cf. ordinaria;;ordinaria;
+C_Navpro;J. Reed (Caspian dataset);;Navicula;Navicula cf. protracta;;protracta;
+NA9874;H.Bennion;1993;Navicula;Navicula cf. pseudolanceolata;;pseudolanceolata;
+C_Navsal;J. Reed (Caspian dataset);;Navicula;Navicula cf. salinarum;;salinarum;
+C_Navslc;J. Reed (Caspian dataset);;Navicula;Navicula cf. salinicola;;salinicola;
+NA9976;Ochiltree (RJF);1985;Navicula;Navicula cf. schadei;;schadei;
+NA9990;E. Devil's L. (RWB);1982;Navicula;Navicula cf. seminulum;;seminulum;
+NA9838;Gallocanta (JR);1994;Navicula;Navicula cf. sp2 (salinicola);;sp2 (salinicola);
+E_ZZZ994;J. Reed (Spain);;Navicula;Navicula cf. sp4 (gregaria / erfuga centres);;sp4 (gregaria / erfuga centres);
+E_ZZZ996;J. Reed (Spain);;Navicula;Navicula cf. sp4 (recens);;sp4 (recens);
+E_ZZZ995;J. Reed (Spain);;Navicula;Navicula cf. sp5 (or Achnanthes? Hondilla);;sp5 (or Achnanthes? Hondilla);
+NA9839;Manjavacas (JR);1994;Navicula;Navicula cf. sp5 (phyllepta);;sp5 (phyllepta);
+NA9964;L. Hir (SF);1986;Navicula;Navicula cf. spirata;;spirata;
+E_ZZZ989;J. Reed (Spain);;Navicula;Navicula cf. stroemi CLD;;stroemi CLD;
+A_na28;JG-ALPE;;Navicula;Navicula cf. stroemii;;stroemii;
+E_ZZZ988;J. Reed (Spain);;Navicula;Navicula cf. subminisculus CLD;;subminisculus CLD;
+A_na31;JG-ALPE;;Navicula;Navicula cf. submolesta (coarser);;submolesta (coarser);
+A_na30;JG-ALPE;;Navicula;Navicula cf. submuralis;;submuralis;
+NA9927;L. Uaine (VJJ);1987;Navicula;Navicula cf. subtilissima (v. 1);;subtilissima (v. 1);
+NA9968;L. Fleet (NJA);1986;Navicula;Navicula cf. subtilissima (v. 1);;subtilissima (v. 1);
+C_Navten;J. Reed (Caspian dataset);;Navicula;Navicula cf. tenera;;tenera;
+NA9984M;S. Wunsam;;Navicula;Navicula cf. tenerrima;;tenerrima;
+A_na29;JG-ALPE;;Navicula;Navicula cf. vitabunda;;vitabunda;
+NA9955;L. Hir (SF);1986;Navicula;Navicula cf. vitiosa;;vitiosa;
+UME508;T. Korsman;;Navicula;Navicula cf. vitiosa/gerloffii;;vitiosa/gerloffii;
+NA9843;Lengua (JR);1994;Navicula;Navicula cf. wildii;;wildii;
+NA021A;(Ehrenb.) Ralfs in Pritch.;1861;Navicula;Navicula cincta;;cincta;
+XXC959;EDDI Salinity Training Set;2001;Navicula;Navicula cincta (agg.);x;cincta (agg.);
+AF_3608;Ehr.;;Navicula;Navicula cincta + forms;;cincta + forms;
+NA021E;Grun.;;Navicula;Navicula cincta fo. minuta;;cincta;
+NA021GM;Grunow;1880;Navicula;Navicula cincta fo. minuta;;cincta;
+NA021B;Grun.;;Navicula;Navicula cincta var. heufleri;;cincta;heufleri
+AF_3610;Hust.;;Navicula;Navicula cinctaeformis;;cinctaeformis;
+NA765A;Krasske;1923;Navicula;Navicula citrus;;citrus;
+NA281A;Hust.;1944;Navicula;Navicula clementioides;;clementioides;
+NA050A;Grun.;1882;Navicula;Navicula clementis;;clementis;
+NA032A;Greg. ex Greville;1855;Navicula;Navicula cocconeiformis;;cocconeiformis;
+S_ZZZ990;VJJ (Svalbard);;Navicula;Navicula cocconeiformis;;cocconeiformis;
+PS998;EDDI Global Training Set;2001;Navicula;Navicula cocconeiformis (agg.);x;cocconeiformis (agg.);
+NA774A;(Hilse) LB;1985;Navicula;Navicula cohnii;;cohnii;
+AF_3693;Hust.;;Navicula;Navicula complanotoides;;complanotoides;
+NA164A;J.R. Carter in J.R. Carter & Watts;1981;Navicula;Navicula concentrica;;concentrica;
+NA118A;(Kütz.) Grun. in Van Heurck;1880;Navicula;Navicula confervacea;;confervacea;
+NA171A;Hust. in Lange-Bertalot;1980;Navicula;Navicula constans;;constans;
+XXG933;EDDI TP Training Set;2001;Navicula;Navicula constans (agg.);x;constans (agg.);
+NA171B;Hust.;1957;Navicula;Navicula constans var. symmetrica;;constans;symmetrica
+NA294A;Grun.;1860;Navicula;Navicula constricta;;constricta;
+NA046A;Grun. in Van Heurck;1885;Navicula;Navicula contenta fo. contenta;;contenta;
+NA299A;Grun. in Cleve & Grun.;1880;Navicula;Navicula costulata;;costulata;
+NA067A;(W. Sm.) Donk.;1871;Navicula;Navicula crucicula;;crucicula;
+XXC930;EDDI Salinity Training Set;2001;Navicula;Navicula crucicula (agg.);x;crucicula (agg.);
+NA067B;Grun. in Cleve & Grun.;1880;Navicula;Navicula crucicula var. obtusata;;crucicula;obtusata
+NA304A;Brockm.;1950;Navicula;Navicula cruciculoides;;cruciculoides;
+NA007A;Kütz.;1844;Navicula;Navicula cryptocephala;;cryptocephala;
+TS997;EDDI Global Training Set;2001;Navicula;Navicula cryptocephala (agg.);x;cryptocephala (agg.);
+AF_3613;Kütz.;;Navicula;Navicula cryptocephala + v.lancettula;;cryptocephala + v.lancettula;
+NA007D;(Kütz.) Grun. in Van Heurck;1880;Navicula;Navicula cryptocephala var. exilis;;cryptocephala;exilis
+NA007E;Grun. in Van Heurck;1880;Navicula;Navicula cryptocephala var. intermedia;;cryptocephala;intermedia
+NA007B;(Kütz.) Rabenh.;1863;Navicula;Navicula cryptocephala var. veneta;;cryptocephala;veneta
+NA751A;Lange-Bertalot;1985;Navicula;Navicula cryptotenella;;cryptotenella;
+NA9982M;Lange-Bertalot;1985;Navicula;Navicula cryptotenella;;cryptotenella;
+TS991;EDDI Global Training Set;2001;Navicula;Navicula cryptotenella (agg.);x;cryptotenella (agg.);
+XXG979;EDDI TP Training Set;2001;Navicula;Navicula cryptotenella (agg.);x;cryptotenella (agg.);
+NA771A;Lange-Bertalot;1993;Navicula;Navicula cryptotenelloides;;cryptotenelloides;
+NA158A;Haworth;1987;Navicula;Navicula cumbriensis;;cumbriensis;
+XXU992;EDDI pH Training Set;2001;Navicula;Navicula cumbriensis (agg.);x;cumbriensis (agg.);
+NA158B;Atkinson nov. var.;;Navicula;Navicula cumbriensis var. minor;;cumbriensis;minor
+NA056A;(Kütz.) Kütz.;1844;Navicula;Navicula cuspidata;;cuspidata;
+AF_3616;Kütz.;;Navicula;Navicula cuspidata + v. ambigua;;cuspidata + v. ambigua;
+NA122A;Hust.;;Navicula;Navicula damasii;;damasii;
+NA316A;Grun.;1884;Navicula;Navicula debilissima;;debilissima;
+NA317A;Ostr.;1910;Navicula;Navicula decussis;;decussis;
+NA322A;Hust.;1943;Navicula;Navicula detenta;;detenta;
+NA031A;Ehrenb.;1838;Navicula;Navicula dicephala;;dicephala;
+NA115A;Hust.;1950;Navicula;Navicula difficillima;;difficillima;
+NA325A;Hust.;1957;Navicula;Navicula difficillimoides;;difficillimoides;
+XXC958;EDDI Salinity Training Set;2001;Navicula;Navicula digitoradiata (agg.);x;digitoradiata (agg.);
+AF_3647;(Greg.) Ralfs;;Navicula;Navicula digitoradiata + v. minima;;digitoradiata + v. minima;
+NA060A;(Greg.) Ralfs in Pritch.;1861;Navicula;Navicula digito-radiata var. digito-radiata;;digito-radiata;digito-radiata
+NA149A;Hust.;1943;Navicula;Navicula digitulus;;digitulus;
+NA329A;Krasske;1933;Navicula;Navicula diluviana;;diluviana;
+NA141A;Hust.;1930;Navicula;Navicula disjuncta;;disjuncta;
+NA742A;Hust. in A. Schmidt et. al.;1934;Navicula;Navicula duerrenbergiana;;duerrenbergiana;
+NA344A;J.R. Carter;1979;Navicula;Navicula eidrigeana;;eidrigeana;
+NA057A;(Greg.) Ralfs in Pritch.;1861;Navicula;Navicula elginensis;;elginensis;
+NA730A;O. Müller;1899;Navicula;Navicula elkab;;elkab;
+NA172A;Poretzky in Merilainen;1969;Navicula;Navicula elongata;;elongata;
+NA173A;Lange-Bertalot;1985;Navicula;Navicula erifuga;;erifuga;
+NA081A;Krasske;1925;Navicula;Navicula excelsa;;excelsa;
+NA011A;Grun. in Van Heurck;1880;Navicula;Navicula exigua;;exigua;
+XXG932;EDDI TP Training Set;2001;Navicula;Navicula exigua (agg.);x;exigua (agg.);
+NA011C;Hust.;1944;Navicula;Navicula exigua var. signata;;exigua;signata
+NA064A;Kütz.;1844;Navicula;Navicula exilis;;exilis;
+NA100A;Hust.;1948;Navicula;Navicula explanata;;explanata;
+NA039A;Krasske;1925;Navicula;Navicula festiva;;festiva;
+AF_3628;Cholnoky;;Navicula;Navicula feuerbornii  fo. minor;;feuerbornii;
+NA756A;Hustedt;1957;Navicula;Navicula fossaloides;;fossaloides;
+NA377A;Krasske;1929;Navicula;Navicula fragilarioides;;fragilarioides;
+NA083A;Hust.;1957;Navicula;Navicula frugalis;;frugalis;
+NA389A;(W. Sm.) Lagerst.;1873;Navicula;Navicula gallica;;gallica;
+NA389B;(Grun) Lange-Bertalot;1985;Navicula;Navicula gallica var. perpusilla;;gallica;perpusilla
+NA9981M;(Grun) Lange-Bertalot;1985;Navicula;Navicula gallica var. perpusilla;;gallica;perpusilla
+NA065A;(Ehrenb.) Kütz.;1844;Navicula;Navicula gastrum;;gastrum;
+AF_3629;(Ehr.) Kütz.;;Navicula;Navicula gastrum + v. signata;;gastrum + v. signata;
+AF_3640;Gasse;;Navicula;Navicula gawaniensis;;gawaniensis;
+NA175A;Schimanski;1978;Navicula;Navicula gerloffi;;gerloffi;
+NA175B;Schimanski;1978;Navicula;Navicula gerloffi var. lanceolata;;gerloffi;lanceolata
+NA397A;Cleve;1894;Navicula;Navicula gibbula;;gibbula;
+NA400A;J.R. Carter in J.R. Carter & Watts;1981;Navicula;Navicula glomus;;glomus;
+NA747A;(Bleish) H.L. Smith;1974;Navicula;Navicula goeppertiana;;goeppertiana;
+NA402A;Grun. in Van Heurck;1880;Navicula;Navicula gottlandica;;gottlandica;
+NA029A;Ehrenb.;1830;Navicula;Navicula gracilis;;gracilis;
+NA055A;A. Mayer;1919;Navicula;Navicula graciloides;;graciloides;
+NA023A;Donk.;1861;Navicula;Navicula gregaria;;gregaria;
+XXA986;EDDI Global Training Set;2001;Navicula;Navicula gregaria (agg.);x;gregaria (agg.);
+AF_3651;Cholnoky;;Navicula;Navicula grimmioides;;grimmioides;
+NA151A;Foged;1952;Navicula;Navicula gysingensis;;gysingensis;
+AF_3631;(Grun.) Cleve;;Navicula;Navicula halophila + v. robusta;;halophila + v. robusta;
+NA022A;(Grun. ex Van Heurck) Cleve;1894;Navicula;Navicula halophila fo. halophila;;halophila;
+NA022C;Ostrup;;Navicula;Navicula halophila fo. subcapitata;;halophila;
+NA413A;Hust. in Hamberg;1924;Navicula;Navicula hambergii;;hambergii;
+NA015A;Krasske;1925;Navicula;Navicula hassiaca;;hassiaca;
+NA766A;Lange-Bertalot;1993;Navicula;Navicula heimansioides;;heimansioides;
+NA417A;Schulz;1926;Navicula;Navicula helensis;;helensis;
+NA040A;Choln. in Choln. & Schindler;1953;Navicula;Navicula hoefleri;;hoefleri;
+NA167A;Sensu Ross et Sims;;Navicula;Navicula hoefleri;;hoefleri;
+NA004A;Grun.;1860;Navicula;Navicula hungarica;;hungarica;
+NA004B;(Ehrenb.) Cleve;1895;Navicula;Navicula hungarica var. capitata;;hungarica;capitata
+AF_3639;Krasske;;Navicula;Navicula hustedti + varieties;;hustedti + varieties;
+NA429A;Krasske;1923;Navicula;Navicula hustedtii;;hustedtii;
+NA431A;De Toni;1891;Navicula;Navicula hyalinula;;hyalinula;
+NA433A;Krasske;1932;Navicula;Navicula ignota;;ignota;
+XXG934;EDDI TP Training Set;2001;Navicula;Navicula ignota (agg.);x;ignota (agg.);
+NA433D;(Hustedt) Lange-Bertalot;1985;Navicula;Navicula ignota var. acceptata;;ignota;acceptata
+NA433B;J.W.G. Lund;1946;Navicula;Navicula ignota var. anglica;;ignota;anglica
+NA433C;(Hust.) J.W.G. Lund;1946;Navicula;Navicula ignota var. palustris;;ignota;palustris
+NA068A;Hust.;1961;Navicula;Navicula impexa;;impexa;
+NA093A;Grun. in Van Heurck;1880;Navicula;Navicula incerta;;incerta;
+NA016A;Hust.;1942;Navicula;Navicula indifferens;;indifferens;
+NA452A;Krasske;1932;Navicula;Navicula insociabilis;;insociabilis;
+AF_3671;Hust.;;Navicula;Navicula iranensis;;iranensis;
+NA101A;Meister;1934;Navicula;Navicula jaagii;;jaagii;
+NA002A;Hust.;1942;Navicula;Navicula jaernefeltii;;jaernefeltii;
+NA462A;Germain;1982;Navicula;Navicula joubaudii;;joubaudii;
+NA465A;Grun.;1860;Navicula;Navicula kotschyi fo. kotschyi;;kotschyi;
+NA044A;Hust.;1930;Navicula;Navicula krasskei;;krasskei;
+NA466A;Krasske;1943;Navicula;Navicula kriegeri;;kriegeri;
+NA755A;Lange-Bertalot;1985;Navicula;Navicula kuelbsii;;kuelbsii;
+NA102A;Kütz.;1844;Navicula;Navicula laevissima;;laevissima;
+AF_3641;Cleve;;Navicula;Navicula lagerheimii;;lagerheimii;
+NA009A;(Agardh) Kütz.;;Navicula;Navicula lanceolata;;lanceolata;
+NA125AM;Krasske;1929;Navicula;Navicula lapidosa;;lapidosa;
+NA152A;Krasske;1929;Navicula;Navicula lapidosa;;lapidosa;
+NA147A;Hust.;1925;Navicula;Navicula laterostrata;;laterostrata;
+NA761A;Hust in Schmidt et al;1936;Navicula;Navicula lenzii;;lenzii;
+NA156A;Jorgensen;1948;Navicula;Navicula leptostriata;;leptostriata;
+NA770A;Lange-Bertalot;;Navicula;Navicula lestikowii;;lestikowii;
+NA757A;Schoeman;1970;Navicula;Navicula libonensis;;libonensis;
+AF_3681;Hust.;;Navicula;Navicula litoricola;;litoricola;
+AF_4706;Hust.;;Navicula;Navicula longa  var. irregularis;;longa;irregularis
+NA9974M;Hustedt;1950;Navicula;Navicula lucinensis;;lucinensis;
+NA769A;Reichardt;;Navicula;Navicula lundii;;lundii;
+NA758A;Schimanski;1978;Navicula;Navicula maceria;;maceria;
+NA140A;E.G. Jorg.;1948;Navicula;Navicula madumensis;;madumensis;
+AF_4712;Lange-Bertalot;;Navicula;Navicula margalithii;;margalithii;
+AF_4715;Hust.;;Navicula;Navicula margaritacea;;margaritacea;
+NA142A;Hust.;1961;Navicula;Navicula medioconvexa;;medioconvexa;
+NA006A;Krasske;1932;Navicula;Navicula mediocris;;mediocris;
+NA006B;Hust.;;Navicula;Navicula mediocris var. atomus;;mediocris;atomus
+NA159A;J.R. Carter in J.R. Carter & Watts;1981;Navicula;Navicula menda;;menda;
+NA030A;Schum.;1867;Navicula;Navicula menisculus;;menisculus;
+NA030BM;Grun. in Cleve & Grun.;1880;Navicula;Navicula menisculus  var. upsaliensis;;menisculus;upsaliensis
+TS992;EDDI Global Training Set;2001;Navicula;Navicula menisculus (agg.);x;menisculus (agg.);
+XXG966;EDDI TP Training Set;2001;Navicula;Navicula menisculus (agg.);x;menisculus (agg.);
+NA030C;Grun. in Cleve & Grun.;1880;Navicula;Navicula menisculus var. upsaliensis;;menisculus;upsaliensis
+NA088A;Schum.;1867;Navicula;Navicula meniscus;;meniscus;
+NA042A;Grun. in Van Heurck;1880;Navicula;Navicula minima;;minima;
+NA112A;Grun. in Van Heurck;1880;Navicula;Navicula minuscula;;minuscula;
+XXG931;EDDI TP Training Set;2001;Navicula;Navicula minuscula (agg.);x;minuscula (agg.);
+NA112D;(Grun. in Van Heurck) Lange-Beralot in Lange-Bertalot & Rumrich;1981;Navicula;Navicula minuscula var. muralis;;minuscula;muralis
+NA512A;Hust.;1942;Navicula;Navicula minusculoides;;minusculoides;
+NA513A;W. Sm.;1853;Navicula;Navicula minutula;;minutula;
+NA123A;Hust.;1945;Navicula;Navicula modica;;modica;
+NA123BM;Hustedt;1945;Navicula;Navicula modica (elliptisch);;modica (elliptisch);
+NA169A;Krasske;;Navicula;Navicula molesta;;molesta;
+NA124A;Hust.;;Navicula;Navicula molestiformis;;molestiformis;
+AF_3710;Hust.;;Navicula;Navicula molissima;;molissima;
+NA739A;Hust.;1945;Navicula;Navicula monoculata;;monoculata;
+XXC998;EDDI Salinity Training Set;2001;Navicula;Navicula monoculata (agg.);x;monoculata (agg.);
+AF_3709;Hust.;;Navicula;Navicula monoculata + v. omissa Lange-B.;;monoculata + v. omissa Lange-B.;
+C_Navmon;J. Reed (Caspian dataset);;Navicula;Navicula monoculata var. omissa;;monoculata;omissa
+AF_4716;Hust.;;Navicula;Navicula mucicola;;mucicola;
+AF_3703;Hust.;;Navicula;Navicula muciculoides;;muciculoides;
+AF_3706;Hust.;;Navicula;Navicula muraliformis;;muraliformis;
+NA082A;Grun. in Van Heurck;1880;Navicula;Navicula muralis;;muralis;
+NA025A;Kütz.;1844;Navicula;Navicula mutica;;mutica;
+XXC928;EDDI Salinity Training Set;2001;Navicula;Navicula mutica (agg.);x;mutica (agg.);
+NA025K;Hust.;1961;Navicula;Navicula mutica fo. intermedia;;mutica;
+NA025J;(Kütz.) Cleve & Grun.;1880;Navicula;Navicula mutica var. ventricosa;;mutica;ventricosa
+NA150A;Hust.;1942;Navicula;Navicula naumanii;;naumanii;
+NA529A;Ehrenb.;1853;Navicula;Navicula nivalis;;nivalis;
+AF_3716;Simonsen;;Navicula;Navicula nolens;;nolens;
+NA759A;Bock;1970;Navicula;Navicula nolensoides;;nolensoides;
+NA537A;Wallace;1960;Navicula;Navicula notha;;notha;
+AF_3717;O. Müller;;Navicula;Navicula nyassensis;;nyassensis;
+NA024A;(Kütz.) Kütz.;1844;Navicula;Navicula oblonga;;oblonga;
+NA737A;Hustedt;1942;Navicula;Navicula obsoleta;;obsoleta;
+NA125A;Hust.;1945;Navicula;Navicula omissa;;omissa;
+NA109A;Hust.;1950;Navicula;Navicula opportuna;;opportuna;
+NA547A;Hust.;1945;Navicula;Navicula oppugnata;;oppugnata;
+NA555A;Bock;1963;Navicula;Navicula paramutica;;paramutica;
+NA138A;(Kütz.) Hilse in Rabenh.;1862;Navicula;Navicula pelliculosa;;pelliculosa;
+NA562E;(Ehrenb.) Kütz.;1844;Navicula;Navicula peregrina;;peregrina;
+NA563A;Hust.;1950;Navicula;Navicula perhibita;;perhibita;
+NA565A;Grun. in Van Heurck;1880;Navicula;Navicula perminuta;;perminuta;
+AF_3721;Hust.;;Navicula;Navicula permitis;;permitis;
+AF_3763;Hust.;;Navicula;Navicula perparva;;perparva;
+NA036A;(Kütz.) Grun.;1860;Navicula;Navicula perpusilla;;perpusilla;
+AF_3722;(Grun.) Cleve;;Navicula;Navicula perrottetii;;perrottetii;
+AF_3723;Hust.;;Navicula;Navicula perventralis;;perventralis;
+NA058A;Kütz.;1844;Navicula;Navicula phyllepta;;phyllepta;
+NA119A;(Ehrenb.) Kütz.;1844;Navicula;Navicula placentula;;placentula;
+NA119B;(A. Mayer) Hust.;1930;Navicula;Navicula placentula fo. rostrata;;placentula;
+AF_3772;O. Müller;;Navicula;Navicula platycephala;;platycephala;
+NA577A;Hust.;1944;Navicula;Navicula porifera;;porifera;
+NA577B;(Hust.) LB;1985;Navicula;Navicula porifera var. opportuna;;porifera;opportuna
+NA578A;Hust.;1945;Navicula;Navicula praeterita;;praeterita;
+NA047A;Grun. in Cleve & Grun.;1880;Navicula;Navicula protracta;;protracta;
+AF_3799;Hust.;;Navicula;Navicula protracta + f. elliptica;;protracta + f. elliptica;
+NA744A;Lange-Bertalot;1985;Navicula;Navicula pseudoanglica;;pseudoanglica;
+NA581A;Hust.;1942;Navicula;Navicula pseudobryophila;;pseudobryophila;
+NA749A;Hustedt;;Navicula;Navicula pseudocrassirostris;;pseudocrassirostris;
+NA584A;Hust.;1948;Navicula;Navicula pseudoexilissima;;pseudoexilissima;
+NA079A;Lange-Bertalot;1980;Navicula;Navicula pseudolanceolata;;pseudolanceolata;
+NA127A;Patrick;;Navicula;Navicula pseudoreinhardtii;;pseudoreinhardtii;
+NA013A;Hust.;1930;Navicula;Navicula pseudoscutiformis;;pseudoscutiformis;
+NA589A;Hust.;1943;Navicula;Navicula pseudotuscula;;pseudotuscula;
+NA590A;Hust.;1953;Navicula;Navicula pseudoventralis;;pseudoventralis;
+FSN047;NORD-CHILL;1997;Navicula;Navicula pupula;;pupula;
+NA014A;Kütz.;1844;Navicula;Navicula pupula;;pupula;
+PT996;EDDI Global Training Set;2001;Navicula;Navicula pupula (agg.);x;pupula (agg.);
+XXC957;EDDI Salinity Training Set;2001;Navicula;Navicula pupula (agg.);x;pupula (agg.);
+XXG930;EDDI TP Training Set;2001;Navicula;Navicula pupula (agg.);x;pupula (agg.);
+NA014JM;Kützing;1844;Navicula;Navicula pupula (klein);;pupula (klein);
+AF_3728;Kütz.;;Navicula;Navicula pupula + v.;;pupula + v.;
+NA014H;(Krasske) Hust.;1930;Navicula;Navicula pupula var. aquaeducta;;pupula;aquaeducta
+NA014F;Hust.;1911;Navicula;Navicula pupula var. elliptica;;pupula;elliptica
+NA014D;(Krasske) Hust.;1930;Navicula;Navicula pupula var. mutata;;pupula;mutata
+NA014I;(Krasske) Hust.;1930;Navicula;Navicula pupula var. pseudopupula;;pupula;pseudopupula
+NA593A;Cleve;1896;Navicula;Navicula pusio;;pusio;
+NA010A;Kütz.;1849;Navicula;Navicula pygmaea;;pygmaea;
+NA003A;Kütz.;1844;Navicula;Navicula radiosa;;radiosa;
+NA003B;(Breb. ex Kütz.) Grun. ex Van Heurck;1885;Navicula;Navicula radiosa var. tenella;;radiosa;tenella
+NA773A;Lange-Bertalot;1993;Navicula;Navicula radiosafallax;;radiosafallax;
+NA059D;(Aleem) Hendey;1964;Navicula;Navicula ramosissima var. mucosa;;ramosissima;mucosa
+NA762A;(Lange-Bertalot)LB;1985;Navicula;Navicula recens;;recens;
+NA768A;Lange-Bertalot;;Navicula;Navicula reichardtiana;;reichardtiana;
+NA026A;Grun. in Van Heurck;1880;Navicula;Navicula reinhardtii;;reinhardtii;
+NA008A;Kütz.;1844;Navicula;Navicula rhyncocephala var. rhyncocephala;;rhyncocephala;rhyncocephala
+NA752A;Hustedt;1942;Navicula;Navicula riparia;;riparia;
+NA034A;Kütz.;1844;Navicula;Navicula rostellata;;rostellata;
+NA612A;A. Cleve-Euler;1953;Navicula;Navicula rotula;;rotula;
+NA090A;Hust.;1945;Navicula;Navicula rotunda;;rotunda;
+NA136A;Hust.;;Navicula;Navicula rupicola;;rupicola;
+AF_3734;Hust.;;Navicula;Navicula ruttneri;;ruttneri;
+NA035A;Grun. in Cleve & Grun.;1880;Navicula;Navicula salinarum;;salinarum;
+NA614A;Hust.;1939;Navicula;Navicula salinicola;;salinicola;
+XXC916;EDDI Salinity Training Set;2001;Navicula;Navicula salinicola (agg.);x;salinicola (agg.);
+AF_3736;Hust.;;Navicula;Navicula scabellum;;scabellum;
+NA110A;Krasske;1929;Navicula;Navicula schadei;;schadei;
+AF_3793;Hust.;;Navicula;Navicula schaferi;;schaferi;
+NA133A;Hust.;1937;Navicula;Navicula schassmannii;;schassmannii;
+NA128A;Hust.;1930;Navicula;Navicula schoenfeldii;;schoenfeldii;
+NA764A;Meister;1932;Navicula;Navicula schroeterii;;schroeterii;
+NA028A;W. Sm. ex Greg.;1856;Navicula;Navicula scutelloides;;scutelloides;
+AF_3770;Patrick;;Navicula;Navicula secura;;secura;
+NA129A;Hust.;1937;Navicula;Navicula seminuloides;;seminuloides;
+NA005A;Grun.;1860;Navicula;Navicula seminulum;;seminulum;
+NA005B;Hust.;;Navicula;Navicula seminulum var. intermedia;;seminulum;intermedia
+NA005C;Hust.;1950;Navicula;Navicula seminulum var. radiosa;;seminulum;radiosa
+NA634A;Krasske;1929;Navicula;Navicula similis;;similis;
+NA020A;Krasske;1925;Navicula;Navicula simplex;;simplex;
+NA157A;Haworth;1987;Navicula;Navicula simsii;;simsii;
+NA080A;Grun. in Van Heurck;1880;Navicula;Navicula slesvicensis;;slesvicensis;
+NA048A;Krasske;1923;Navicula;Navicula soehrensis;;soehrensis;
+AF_3774;Krasske;;Navicula;Navicula soehrensis + v. linearis;;soehrensis + v. linearis;
+NA048B;Krasske;1925;Navicula;Navicula soehrensis var. capitata;;soehrensis;capitata
+NA048D;(Krasske)Lange-Bertalot;1985;Navicula;Navicula soehrensis var. hassiaca;;soehrensis;hassiaca
+NA639A;Krasske;1927;Navicula;Navicula soodensis;;soodensis;
+NA9922;Low Tarn (EYH);1988;Navicula;Navicula sp.;x;sp.;
+NA9999;;;Navicula;Navicula sp.;;sp.;
+A_ZZZ981;N. Cameron (ALPE);;Navicula;Navicula sp. (fine);x;sp. (fine);
+NA9905;Larach (RJF);1988;Navicula;Navicula sp. (fine);x;sp. (fine);
+NA9904;SWAP Sweden (IR & NJA);1989;Navicula;Navicula sp. (Merilainen 1969: fig. 143);x;sp. (Merilainen 1969: fig. 143);
+A_ZZZ998;N. Cameron (ALPE);;Navicula;Navicula sp. (small);x;sp. (small);
+E_ZZZ991;J. Reed (Spain);;Navicula;Navicula sp. (small) NUG;x;sp. (small) NUG;
+A_na10;JG-ALPE;;Navicula;Navicula sp1;x;sp1;
+C_Navsp1;J. Reed (Caspian dataset);;Navicula;Navicula sp1;x;sp1;
+E_ZZZ999;J. Reed (Spain);;Navicula;Navicula sp1;x;sp1;
+FSN049;NORD-CHILL;1997;Navicula;Navicula sp1;x;sp1;
+NA9852;Arresjoen (VJJ);1994;Navicula;Navicula sp1;x;sp1;
+NA9963;L. Hir (SF);1986;Navicula;Navicula sp1;x;sp1;
+A_ZZZ954;N. Cameron (ALPE);;Navicula;Navicula sp1 (Chuna);x;sp1 (Chuna);
+S_ZZZ998;VJJ (Svalbard);;Navicula;Navicula sp1 (SBAC);x;sp1 (SBAC);
+A_ZZZ944;N. Cameron (ALPE);;Navicula;Navicula sp1 (Stavsvatn);x;sp1 (Stavsvatn);
+A_na22;JG-ALPE;;Navicula;Navicula sp2;x;sp2;
+E_ZZZ998;J. Reed (Spain);;Navicula;Navicula sp2;x;sp2;
+FSN050;NORD-CHILL;1997;Navicula;Navicula sp2;x;sp2;
+NA9962;L. Hir (SF);1986;Navicula;Navicula sp2;x;sp2;
+A_ZZZ947;NGC;;Navicula;Navicula sp2 (Milchsee);x;sp2 (Milchsee);
+S_ZZZ993;VJJ (Svalbard);;Navicula;Navicula sp2 (SBAG);x;sp2 (SBAG);
+NA9958;PIRLA;1985;Navicula;Navicula sp24 ([PIRLA);x;sp24 ([PIRLA);
+NA9925;PIRLA;;Navicula;Navicula sp25 (PIRLA);x;sp25 (PIRLA);
+E_ZZZ997;J. Reed (Spain);;Navicula;Navicula sp3 (indet central areas);x;sp3 (indet central areas);
+S_ZZZ989;VJJ (Svalbard);;Navicula;Navicula sp3 (SBAH 17L);x;sp3 (SBAH 17L);
+S_ZZZ988;VJJ (Svalbard);;Navicula;Navicula sp4 (SBAH);x;sp4 (SBAH);
+S_ZZZ987;VJJ (Svalbard);;Navicula;Navicula sp5 (SBAJ);x;sp5 (SBAJ);
+NA9926;PIRLA;;Navicula;Navicula sp6 (PIRLA);x;sp6 (PIRLA);
+S_ZZZ986;VJJ (Svalbard);;Navicula;Navicula sp6 (SBAJ);x;sp6 (SBAJ);
+S_ZZZ984;VJJ (Svalbard);;Navicula;Navicula sp7 (SBAP);x;sp7 (SBAP);
+S_ZZZ982;VJJ (Svalbard);;Navicula;Navicula sp8 (SBAB);x;sp8 (SBAB);
+S_ZZZ981;VJJ (Svalbard);;Navicula;Navicula sp9 (SBAP);x;sp9 (SBAP);
+NA9885;H. Bennion;1992;Navicula;Navicula spB;x;spB;
+NA9884;H. Bennion;1992;Navicula;Navicula spC;x;spC;
+NA9883;H. Bennion;1992;Navicula;Navicula spD;x;spD;
+NA9882;H. Bennion;1992;Navicula;Navicula spE;x;spE;
+NA9881;H. Bennion;1992;Navicula;Navicula spF;x;spF;
+NA9880;H. Bennion;1992;Navicula;Navicula spG;x;spG;
+NA092A;(Hickie) Cleve;1894;Navicula;Navicula spicula;;spicula;
+NA647A;Hust.;1945;Navicula;Navicula stankovicii;;stankovicii;
+NA170A;Hust.;;Navicula;Navicula strenzkii;;strenzkii;
+NA650A;Hust.;1931;Navicula;Navicula stroemii;;stroemii;
+NA174A;Hust.;1942;Navicula;Navicula subadnata;;subadnata;
+NA043A;Hust. ex Patr.;1945;Navicula;Navicula subatomoides;;subatomoides;
+NA053A;Hust.;1934;Navicula;Navicula subcostulata;;subcostulata;
+NASG01;John Anderson (PhD);;Navicula;Navicula subgenus minima;x;subgenus minima;
+AF_3745;Hust.;;Navicula;Navicula subhalophila;;subhalophila;
+NA075A;Grun. in Van Heurck;1880;Navicula;Navicula subhamulata;;subhamulata;
+NA753A;Hust.;1950;Navicula;Navicula sublucidula;;sublucidula;
+NA134A;Manguin;;Navicula;Navicula subminuscula;;subminuscula;
+NA160A;Hust.;1949;Navicula;Navicula submolesta;;submolesta;
+NA166A;Hust.;;Navicula;Navicula submuralis;;submuralis;
+NA662A;Hust.;1930;Navicula;Navicula subocculata;;subocculata;
+NA741A;Hust. in A. Schmidt et. al.;1930;Navicula;Navicula subplacentula;;subplacentula;
+NA743A;Hustedt;1935;Navicula;Navicula subrhyncocephala;;subrhyncocephala;
+NA114A;Hust.;1945;Navicula;Navicula subrotundata;;subrotundata;
+NA033A;Cleve;1891;Navicula;Navicula subtilissima;;subtilissima;
+A_ZZZ991;N. Cameron (ALPE);;Navicula;Navicula subtilissima group;x;subtilissima group;
+A_ZZZ992;N. Cameron (ALPE);;Navicula;Navicula subtilissima group;x;subtilissima group;
+NA669A;Hust.;1943;Navicula;Navicula suchlandtii;;suchlandtii;
+AF_3751;Patrick;;Navicula;Navicula symmetrica;;symmetrica;
+NA086A;Hust.;1943;Navicula;Navicula tantula;;tantula;
+PS996;Christine's decision;;Navicula;Navicula tantula (agg.);x;tantula (agg.);
+NA674A;Breb. ex Kütz.;1849;Navicula;Navicula tenella;;tenella;
+NA675A;Hust.;1937;Navicula;Navicula tenelloides;;tenelloides;
+NA676A;Hust.;1937;Navicula;Navicula tenera;;tenera;
+AF_3786;Hust.;;Navicula;Navicula tenerrima;;tenerrima;
+NA9980M;Hustedt;1937;Navicula;Navicula tenerrima;;tenerrima;
+NA135A;Hust.;1942;Navicula;Navicula tenuicephala;;tenuicephala;
+NA680A;Hust.;1937;Navicula;Navicula theinemannii;;theinemannii;
+AF_3769;Hust.;;Navicula;Navicula tongatensis;;tongatensis;
+NA691A;Krasske;1923;Navicula;Navicula tridentula;;tridentula;
+NA095A;(O.F. Müll.) Bory;1822;Navicula;Navicula tripunctata;;tripunctata;
+NA063A;Lange-Bertalot;1980;Navicula;Navicula trivialis;;trivialis;
+NA001CM;Ehrenberg;1854;Navicula;Navicula tuscula (klein);x;tuscula (klein);
+NA001C;Hust.;1930;Navicula;Navicula tuscula fo. minor;;tuscula;
+NA001A;Ehrenb.;1840;Navicula;Navicula tuscula var. tuscula;;tuscula;tuscula
+NA131A;Archibald;1966;Navicula;Navicula twymania;;twymania;
+NA698A;(Berk. ex Kütz.) Van Heurck;1896;Navicula;Navicula ulvacea;;ulvacea;
+NA144A;Hust.;1943;Navicula;Navicula utermoehlii;;utermoehlii;
+NA076A;Krasske;1923;Navicula;Navicula variostriata;;variostriata;
+NA054A;Kütz.;1844;Navicula;Navicula veneta;;veneta;
+NA165A;Hust.;1957;Navicula;Navicula ventosa;;ventosa;
+NA017A;Krasske;1923;Navicula;Navicula ventralis;;ventralis;
+NA027A;(Kütz.) Ehrenb.;1836;Navicula;Navicula viridula;;viridula;
+XXC956;EDDI Salinity Training Set;2001;Navicula;Navicula viridula (agg.);x;viridula (agg.);
+XXG929;EDDI TP Training Set;2001;Navicula;Navicula viridula (agg.);x;viridula (agg.);
+AF_3665;Kütz.;;Navicula;Navicula viridula + v. sclesvicencis;;viridula + v. sclesvicencis;
+NA027E;Hust.;1937;Navicula;Navicula viridula var. linearis;;viridula;linearis
+NA027F;(Kütz.) Cleve;1896;Navicula;Navicula viridula var. rostellata;;viridula;rostellata
+NA027H;(Kütz.) Lange-Bertalot;1980;Navicula;Navicula viridula var. vulpina;;viridula;vulpina
+A_na36;JG-ALPE;;Navicula;Navicula visitanda;;visitanda;
+NA168A;Hust.;1930;Navicula;Navicula vitabunda;;vitabunda;
+NA738A;Schimanski;1978;Navicula;Navicula vitiosa;;vitiosa;
+NA733A;Hust.;1937;Navicula;Navicula vixvisibilis;;vixvisibilis;
+NA078A;Kütz.;1844;Navicula;Navicula vulpina;;vulpina;
+SW_NWIL;Lange-Bertalot;;Navicula;Navicula wildii;;wildii;
+NA018A;(Lagerst.) A. Cleve-Euler;1934;Navicula;Navicula wittrockii;;wittrockii;
+AF_3762;Hust.;;Navicula;Navicula zanoni;;zanoni;
+NE003A;(Ehrenb.) Pfitz.;1871;Neidium;Neidium affine;;affine;
+AF_3810;(Ehr.) Cleve;;Neidium;Neidium affine + varieties;;affine + varieties;
+NE003C;(Ehrenb.) Cleve;1894;Neidium;Neidium affine var. amphirhynchus;;affine;amphirhynchus
+NE003D;Reimer in Patr. & Reimer;1966;Neidium;Neidium affine var. humerus;;affine;humerus
+NE003B;(Greg.) Cleve;1896;Neidium;Neidium affine var. longiceps;;affine;longiceps
+NE006A;Hust.;1943;Neidium;Neidium alpinum;;alpinum;
+NE036A;(Ehren) Krammer;1985;Neidium;Neidium ampliatum;;ampliatum;
+NE9994M;(Ehrenberg) Krammer;1985;Neidium;Neidium ampliatum;;ampliatum;
+NE016A;Reimer;1959;Neidium;Neidium apiculatum;;apiculatum;
+NE008A;(Ehrenb.) Hust.;1945;Neidium;Neidium binodis;;binodis;
+NE004A;(Lagerst.) Cleve;1894;Neidium;Neidium bisulcatum;;bisulcatum;
+NE013A;(Ostrup) Krammer;;Neidium;Neidium densestriatum;;densestriatum;
+NE007A;(Ehrenb.) Cleve;1894;Neidium;Neidium dubium fo. dubium;;dubium;
+NE012A;(Ostr.) R. Ross in Hartley;1986;Neidium;Neidium glaberrimum;;glaberrimum;
+NE020A;A. Mayer;1917;Neidium;Neidium hercynicum;;hercynicum;
+NE005A;(Ehrenb.) Cleve;1894;Neidium;Neidium hitchcockii;;hitchcockii;
+NE023A;Hust.;1921;Neidium;Neidium inconspicuum;;inconspicuum;
+NE001A;(Ehrenb.) Cleve;1894;Neidium;Neidium iridis;;iridis;
+AF_3802;(Ehr.) Cleve;;Neidium;Neidium iridis + v.amphigomphus;;iridis + v.amphigomphus;
+NE001B;(Ehrenb.) A. Mayer;1917;Neidium;Neidium iridis var. amphigomphus;;iridis;amphigomphus
+NE001C;(Ehrenb.) Cleve;1894;Neidium;Neidium iridis var. ampliatum;;iridis;ampliatum
+NE027A;(Cleve) Foged;1952;Neidium;Neidium ladogense;;ladogense;
+NE002A;(W. Sm.) Cleve;1894;Neidium;Neidium productum;;productum;
+NE9999;;;Neidium;Neidium sp.;;sp.;
+A_ne1;JG-ALPE;;Neidium;Neidium sp1;x;sp1;
+NI057A;Archibald;1966;Nitzschia;Nitzschia acicularioides;;acicularioides;
+NI042A;(Kütz.) W. Sm.;1853;Nitzschia;Nitzschia acicularis;;acicularis;
+NI030A;Lange Bertalot;;Nitzschia;Nitzschia acidoclinata;;acidoclinata;
+NI021A;Hantzsch ex Cleve & Grun.;1880;Nitzschia;Nitzschia acula;;acula;
+NI040A;(W. Sm.) Grun.;1878;Nitzschia;Nitzschia acuminata;;acuminata;
+NI053A;H. & M. Perag.;1899;Nitzschia;Nitzschia acuta;;acuta;
+AF_3904;Hust.;;Nitzschia;Nitzschia adapta;;adapta;
+NI063A;Hust.;1957;Nitzschia;Nitzschia agnita;;agnita;
+AF_3905;(Choln.) Lange-bertalot;;Nitzschia;Nitzschia alexandrina;;alexandrina;
+NI202A;Hustedt;1943;Nitzschia;Nitzschia alpina;;alpina;
+NI9987M;Hustedt;1943;Nitzschia;Nitzschia alpina;;alpina;
+A_ZZZ957;AM;;Nitzschia;Nitzschia alpinum;;alpinum;
+NI014A;Grun.;1862;Nitzschia;Nitzschia amphibia;;amphibia;
+XXA988;EDDI Global Training Set;2001;Nitzschia;Nitzschia amphibia (agg.);x;amphibia (agg.);
+NI064B;W. Sm.;1853;Nitzschia;Nitzschia angularis;;angularis;
+NI020A;(W. Sm.) Grun. in Cleve & Grun.;1880;Nitzschia;Nitzschia angustata;;angustata;
+NI020B;Grun. in Cleve & Grun.;1880;Nitzschia;Nitzschia angustata var. acuta;;angustata;acuta
+NI199A;Lange-Bertalot;1987;Nitzschia;Nitzschia angustatula;;angustatula;
+NI192A;Lange-Bertalot;1980;Nitzschia;Nitzschia angustiforaminata;;angustiforaminata;
+NI016A;(Greg.) Grun.;1878;Nitzschia;Nitzschia apiculata;;apiculata;
+NI065A;Lange-Bertalot;1980;Nitzschia;Nitzschia archibaldii;;archibaldii;
+NI208A;Cholnoky;1966;Nitzschia;Nitzschia aurariae;;aurariae;
+AF_3910;Hust.;;Nitzschia;Nitzschia bacata;;bacata;
+NI211A;Hustedt in A.Schmidt et al;1922;Nitzschia;Nitzschia bacillum;;bacillum;
+NI9986M;Hustedt;1922;Nitzschia;Nitzschia bacillum;;bacillum;
+XXC955;EDDI Salinity Training Set;2001;Nitzschia;Nitzschia bacillum (agg.);x;bacillum (agg.);
+NI068A;A. Cleve-Euler;1952;Nitzschia;Nitzschia bergii;;bergii;
+NI072A;Hust.;1930;Nitzschia;Nitzschia bremensis;;bremensis;
+NI074A;(Hust.) Hust.;1943;Nitzschia;Nitzschia bryophila;;bryophila;
+NI075A;Aleem & Hust.;1951;Nitzschia;Nitzschia calcicola;;calcicola;
+NI076A;Grun. in Cleve & Grun.;1880;Nitzschia;Nitzschia calida;;calida;
+NI028A;Hust.;1930;Nitzschia;Nitzschia capitellata;;capitellata;
+NI9981M;S. Wunsam;;Nitzschia;Nitzschia cf. angustatula;;angustatula;
+NI9958;J. Reed;1994;Nitzschia;Nitzschia cf. apiculata/hungarica diss;;apiculata/hungarica diss;
+NI9973;H. Bennion;1992;Nitzschia;Nitzschia cf. bacillum;;bacillum;
+NI9957;Ontalafia (JR);1994;Nitzschia;Nitzschia cf. fonticola;;fonticola;
+XXG972;EDDI TP Training Set;2001;Nitzschia;Nitzschia cf. fonticola;;fonticola;
+NI9968;H. Bennion;1992;Nitzschia;Nitzschia cf. frustulum;;frustulum;
+C_Nitgra;J. Reed (Caspian dataset);;Nitzschia;Nitzschia cf. gracilis;;gracilis;
+NI9984;SWAP Sweden (IR & NJA);1989;Nitzschia;Nitzschia cf. gracilis;;gracilis;
+XXC990;EDDI Salinity Training Set;2001;Nitzschia;Nitzschia cf. gracilis;;gracilis;
+XXG969;EDDI TP Training Set;2001;Nitzschia;Nitzschia cf. gracilis;;gracilis;
+AF_3955;LBK;;Nitzschia;Nitzschia cf. graciloides;;graciloides;
+NI9970;H. Bennion;1992;Nitzschia;Nitzschia cf. hungarica (fat);;hungarica (fat);
+NI9956;Fuente de P (JR);1994;Nitzschia;Nitzschia cf. latens;;latens;
+E_ZZZ990;J. Reed (Spain);;Nitzschia;Nitzschia cf. latens (large) ALB;x;latens (large) ALB;
+NI9959;J. Reed;1994;Nitzschia;Nitzschia cf. liebetruthii/frustulum ends;;liebetruthii/frustulum ends;
+C_Nitpal;J. Reed (Caspian dataset);;Nitzschia;Nitzschia cf. palea;;palea;
+NI9971;H. Bennion;1992;Nitzschia;Nitzschia cf. palea (small);;palea (small);
+C_Nitpca;J. Reed (Caspian dataset);;Nitzschia;Nitzschia cf. paleacea;;paleacea;
+NI9969;H. Bennion;1992;Nitzschia;Nitzschia cf. paleacea;;paleacea;
+A_ZZZ953;NGC;;Nitzschia;Nitzschia cf. perminuta (Chuna);;perminuta (Chuna);
+AF_4047;Hust.;;Nitzschia;Nitzschia cf. pura;;pura;
+NI9990M;S. Wunsam;;Nitzschia;Nitzschia cf. pusilla;;pusilla;
+NI9974;H. Bennion;1992;Nitzschia;Nitzschia cf. romana;;romana;
+AF_8001;;;Nitzschia;Nitzschia cf. spiculum;;spiculum;
+NI9972;H. Bennion;1992;Nitzschia;Nitzschia cf. subacicularis;;subacicularis;
+NI9988M;S. Wunsam;;Nitzschia;Nitzschia cf. tubicola;;tubicola;
+NI079A;H. & M. Perag.;1899;Nitzschia;Nitzschia clarissima;;clarissima;
+NI080A;Hantzsch;1860;Nitzschia;Nitzschia clausii;;clausii;
+NI081A;(Ehrenb.) W. Sm.;1853;Nitzschia;Nitzschia closterium;;closterium;
+AF_4040;Grun.;;Nitzschia;Nitzschia coarctata;;coarctata;
+NI010A;Rabh.;;Nitzschia;Nitzschia communis;;communis;
+NI011A;Grun. in Cleve & Grun.;1880;Nitzschia;Nitzschia commutata;;commutata;
+NI200A;(Bailey) Boyer;1916;Nitzschia;Nitzschia compressa;;compressa;
+NI200C;(Grunow) Lange-Bertalot;1987;Nitzschia;Nitzschia compressa var. vexans;;compressa;vexans
+NI082A;Hust.;1949;Nitzschia;Nitzschia confinis;;confinis;
+NI083A;(Kütz.) Ralfs in Pritch.;1861;Nitzschia;Nitzschia constricta;;constricta;
+NI088A;Grun. in Cleve & Grun.;1880;Nitzschia;Nitzschia debilis;;debilis;
+NI003A;Grun. in Cleve & Grun.;1880;Nitzschia;Nitzschia denticula;;denticula;
+NI207A;Hustedt;1949;Nitzschia;Nitzschia desertorum;;desertorum;
+NI015A;(Kütz.) Grun.;1862;Nitzschia;Nitzschia dissipata;;dissipata;
+NI015CM;(Hantzsch) Grunow;1881;Nitzschia;Nitzschia dissipata  var. media;;dissipata;media
+TS988;DR & CP;;Nitzschia;Nitzschia dissipata (agg.);x;dissipata (agg.);
+XXC931A;EDDI Salinity Training Set;2001;Nitzschia;Nitzschia dissipata (agg.);x;dissipata (agg.);
+XXG928;EDDI TP Training Set;2001;Nitzschia;Nitzschia dissipata (agg.);x;dissipata (agg.);
+FSN053;NORD-CHILL;1997;Nitzschia;Nitzschia dissipata var. media;;dissipata;media
+SW_NDME;(Hantzsch) Grunow;;Nitzschia;Nitzschia dissipata var. media;;dissipata;media
+NI093A;Coste & Ricard;1980;Nitzschia;Nitzschia draveillensis;;draveillensis;
+NI018A;W. Sm.;1853;Nitzschia;Nitzschia dubia;;dubia;
+NI204A;Grunow in Van Heurk;1881;Nitzschia;Nitzschia elegantula;;elegantula;
+AF_4053;Hust.;;Nitzschia;Nitzschia elliptica;;elliptica;
+AF_3918;O. Müller;;Nitzschia;Nitzschia epiphytica;;epiphytica;
+AF_3919;Hust.;;Nitzschia;Nitzschia epiphyticoides;;epiphyticoides;
+NI096A;Grun. in Cleve & Grun.;1880;Nitzschia;Nitzschia epithemioides;;epithemioides;
+AF_3931;Choln.;;Nitzschia;Nitzschia etoshensis;;etoshensis;
+C_Niteto;J. Reed (Caspian dataset);;Nitzschia;Nitzschia etoshensis;;etoshensis;
+NI098A;(W. Sm.) Van Heurck;1896;Nitzschia;Nitzschia filiformis;;filiformis;
+NI002A;Grun. in Van Heurck;1881;Nitzschia;Nitzschia fonticola;;fonticola;
+NI002B;Hust.;;Nitzschia;Nitzschia fonticola var. pelagica;;fonticola;pelagica
+NI008A;(Kütz.) Grun. in Cleve & Grun.;1880;Nitzschia;Nitzschia frustulum;;frustulum;
+PS999;EDDI Global Training Set;2001;Nitzschia;Nitzschia frustulum (agg.);x;frustulum (agg.);
+XXC913;EDDI Salinity Training Set;2001;Nitzschia;Nitzschia frustulum (agg.);x;frustulum (agg.);
+NI008F;(Rabenh.) Grun. in Van Heurck;1881;Nitzschia;Nitzschia frustulum var. perpusilla;;frustulum;perpusilla
+AF_4054;Hust.;;Nitzschia;Nitzschia fruticosa;;fruticosa;
+NI035A;Krasske;1927;Nitzschia;Nitzschia gandersheimiensis;;gandersheimiensis;
+AF_3936;O. Müller;;Nitzschia;Nitzschia goetzeana;;goetzeana;
+NI201A;Lange-Bertalot & Simonsen;1978;Nitzschia;Nitzschia graciliformis;;graciliformis;
+NI9985M;Lange-Bertalot & Simonsen;1978;Nitzschia;Nitzschia graciliformis;;graciliformis;
+NI017A;Hantzsch;1860;Nitzschia;Nitzschia gracilis;;gracilis;
+NI104A;Grun.;1880;Nitzschia;Nitzschia granulata;;granulata;
+NI032AM;Rabenh.;1860;Nitzschia;Nitzschia hantzschiana;;hantzschiana;
+NI034A;Rabenh.;1860;Nitzschia;Nitzschia hantzschiana;;hantzschiana;
+NI052A;Grun.;1862;Nitzschia;Nitzschia heufleriana;;heufleriana;
+NI110A;Lange-Bertalot;1978;Nitzschia;Nitzschia homburgiensis;;homburgiensis;
+NI007A;Grun.;1862;Nitzschia;Nitzschia hungarica;;hungarica;
+NI209A;Legler & Krasske;1940;Nitzschia;Nitzschia incognita;;incognita;
+FSN077;Grun.;1862;Nitzschia;Nitzschia inconspicua;;inconspicua;
+NI043A;Grun.;1862;Nitzschia;Nitzschia inconspicua;;inconspicua;
+NI044A;Hantzsch ex Cleve & Grun.;1880;Nitzschia;Nitzschia intermedia;;intermedia;
+NI001A;Hilse;1863;Nitzschia;Nitzschia kuetzingiana;;kuetzingiana;
+XXC912;EDDI Salinity Training Set;2001;Nitzschia;Nitzschia kuetzingioides (agg.);x;kuetzingioides (agg.);
+NI122A;Hust.;1930;Nitzschia;Nitzschia lacunarum;;lacunarum;
+AF_4002;Hust.;;Nitzschia;Nitzschia lacustris;;lacustris;
+NI198A;Lange-Bertalot;1980;Nitzschia;Nitzschia lacuum;;lacuum;
+XXC929;Lange-Bertalot;1980;Nitzschia;Nitzschia lacuum;;lacuum;
+AF_3946;Lange-Bertalot;;Nitzschia;Nitzschia lacuum + v.;;lacuum + v.;
+NI125C;W. Sm.;1853;Nitzschia;Nitzschia lanceolata;;lanceolata;
+NI125A;Grun. in Van Heurck;1881;Nitzschia;Nitzschia lanceolata fo. minor;;lanceolata;
+AF_4003;0. Müller;;Nitzschia;Nitzschia lancettula;;lancettula;
+AF_4004;Hust.;;Nitzschia;Nitzschia latens;;latens;
+AF_4081;Lange-Bertalot;;Nitzschia;Nitzschia leistikowii;;leistikowii;
+NI127A;(W. Sm.) Grun. in Van Heurck;1881;Nitzschia;Nitzschia levidensis;;levidensis;
+NI9984M;Rabenhorst;1864;Nitzschia;Nitzschia liebetruhii;;liebetruhii;
+NI203A;Rabenhorst;1864;Nitzschia;Nitzschia liebetruthii;;liebetruthii;
+NI031A;W. Sm.;1853;Nitzschia;Nitzschia linearis;;linearis;
+XXC928A;EDDI Salinity Training Set;2001;Nitzschia;Nitzschia linearis (agg.);x;linearis (agg.);
+XXG927;EDDI TP Training Set;2001;Nitzschia;Nitzschia linearis (agg.);x;linearis (agg.);
+NI031C;(Grun) Hustedt;1923;Nitzschia;Nitzschia linearis var. subtilis;;linearis;subtilis
+NI031B;Grun. in Cleve & Grun.;1880;Nitzschia;Nitzschia linearis var. tenuis;;linearis;tenuis
+NI129A;Grun. in Cleve & Grun.;1880;Nitzschia;Nitzschia littoralis;;littoralis;
+AF_4055;Grun.;;Nitzschia;Nitzschia longa;;longa;
+NI130A;(Breb. ex Kütz.) Grun.;1862;Nitzschia;Nitzschia longissima;;longissima;
+NI131A;Grun. in Cleve & Grun.;1880;Nitzschia;Nitzschia lorenziana;;lorenziana;
+AF_4008;Hust.;;Nitzschia;Nitzschia mediocris;;mediocris;
+NI027A;Grun. in Cleve & Grun.;1880;Nitzschia;Nitzschia microcephala;;microcephala;
+AF_4010;Grun.;;Nitzschia;Nitzschia nana;;nana;
+C_Nitnan;J. Reed (Caspian dataset);;Nitzschia;Nitzschia nana;;nana;
+XXC927;;;Nitzschia;Nitzschia nana;;nana;
+AF_4045;O. Muller;1905;Nitzschia;Nitzschia nyassensis;;nyassensis;
+NI036A;W. Sm.;1853;Nitzschia;Nitzschia obtusa;;obtusa;
+NI045A;Arnott ex Cleve & Grun.;1880;Nitzschia;Nitzschia ovalis;;ovalis;
+NI009A;(Kütz.) W. Sm.;1856;Nitzschia;Nitzschia palea;;palea;
+TS994;DR & CP;;Nitzschia;Nitzschia palea (agg.);x;palea (agg.);
+XXC926;EDDI Salinity Training Set;2001;Nitzschia;Nitzschia palea (agg.);x;palea (agg.);
+XXG976;EDDI TP Training Set;2001;Nitzschia;Nitzschia palea (agg.);x;palea (agg.);
+NI009C;(Kütz.) Grun. in Cleve & Grun.;1880;Nitzschia;Nitzschia palea var. debilis;;palea;debilis
+NI196A;(Kütz.) Grun.;1880;Nitzschia;Nitzschia palea var. debilis;;palea;debilis
+XXG926;EDDI TP Training Set;2001;Nitzschia;Nitzschia palea var. debilis (agg.);x;palea var. debilis (agg.);
+NI009B;Grun. in Van Heurck;1881;Nitzschia;Nitzschia palea var. tenuirostris;;palea;tenuirostris
+NI033A;(Grun. in Cleve & Grun.) Grun. in Van Heurck;1881;Nitzschia;Nitzschia paleacea;;paleacea;
+NI139A;Hust.;1950;Nitzschia;Nitzschia paleaeformis;;paleaeformis;
+AF_4049;Hust.;;Nitzschia;Nitzschia paleoides;;paleoides;
+NI141A;Greg.;1857;Nitzschia;Nitzschia panduriformis;;panduriformis;
+F_NI008A;(Grun. in Van Heurck) M. Perag.;1903;Nitzschia;Nitzschia perminuta;;perminuta;
+NI005A;(Grun. in Van Heurck) M. Perag.;1903;Nitzschia;Nitzschia perminuta;;perminuta;
+NI193A;(Grun.) M. Perag.;1903;Nitzschia;Nitzschia perminuta;;perminuta;
+XXA983;EDDI Global Training Set;2001;Nitzschia;Nitzschia perminuta (agg.);x;perminuta (agg.);
+NI191A;Cholnoky;1960;Nitzschia;Nitzschia perspicua;;perspicua;
+NI054A;W. Sm.;1853;Nitzschia;Nitzschia plana;;plana;
+NI054B;Kolbe in Cleve-Euler;1948;Nitzschia;Nitzschia plana var. fennica fo. ornata;;plana;fennica
+NI149A;Hust.;1942;Nitzschia;Nitzschia pseudofonticola;;pseudofonticola;
+NI004A;(W. Sm.) Grun.;1878;Nitzschia;Nitzschia punctata;;punctata;
+AF_4094;;;Nitzschia;Nitzschia punctata var. panduriformis;;punctata;panduriformis
+A_ni20;Hustedt;1954;Nitzschia;Nitzschia pura;;pura;
+NI216A;Hustedt;1954;Nitzschia;Nitzschia pura;;pura;
+NI9983M;Hustedt;1954;Nitzschia;Nitzschia pura;;pura;
+NI152A;Grun.;1862;Nitzschia;Nitzschia pusilla;;pusilla;
+XXC911;EDDI Salinity Training Set;2001;Nitzschia;Nitzschia pusilla (agg.);x;pusilla (agg.);
+NI153A;Hust.;1942;Nitzschia;Nitzschia radicula;;radicula;
+NI025A;Hantzsch ex Rabenh.;1861;Nitzschia;Nitzschia recta;;recta;
+NI025B;Hust.;1950;Nitzschia;Nitzschia recta var. robusta;;recta;robusta
+NI157A;W. Sm.;1853;Nitzschia;Nitzschia reversa;;reversa;
+AF_4021;Hust.;;Nitzschia;Nitzschia robusta;;robusta;
+NI026A;Grun. in Van Heurck;1881;Nitzschia;Nitzschia romana;;romana;
+NI9982M;Lange-Bertalot;1980;Nitzschia;Nitzschia rosenstockii;;rosenstockii;
+AF_4097;Hust.;;Nitzschia;Nitzschia rostellata;;rostellata;
+NI023A;(Ehrenb.) W. Sm.;1853;Nitzschia;Nitzschia scalaris;;scalaris;
+NI006A;(Kütz.) W. Sm.;1853;Nitzschia;Nitzschia sigma;;sigma;
+NI046A;(Nitzsch) W. Sm.;1853;Nitzschia;Nitzschia sigmoidea;;sigmoidea;
+AF_4024;(Twaites?) Grun.;;Nitzschia;Nitzschia sinuata + varieties;;sinuata + varieties;
+NI164B;(Grun. in Van Heurck) Lange-Bertalot;1980;Nitzschia;Nitzschia sinuata var. delognei;;sinuata;delognei
+NI164C;(Grun.) Grun. ex Van Heurck;1885;Nitzschia;Nitzschia sinuata var. tabellaria;;sinuata;tabellaria
+NI166A;Hust.;1957;Nitzschia;Nitzschia sociabilis;;sociabilis;
+NI167B;Greg.;1857;Nitzschia;Nitzschia socialis;;socialis;
+NI206A;Hustedt;1953;Nitzschia;Nitzschia solita;;solita;
+NI9999;;;Nitzschia;Nitzschia sp.;x;sp.;
+A_ZZZ950;VJJ;;Nitzschia;Nitzschia sp. (fine) (Zielowny Staw);x;sp. (fine) (Zielowny Staw);
+C_Nitsp1;J. Reed (Caspian dataset);;Nitzschia;Nitzschia sp1;x;sp1;
+UME69;N. [sp. 1 PIRLA] PIRLA 1984-1986;;Nitzschia;Nitzschia sp1 (perminuta);x;sp1 (perminuta);
+S_ZZZ992;VJJ (Svalbard);;Nitzschia;Nitzschia sp1 (SBAS);x;sp1 (SBAS);
+C_Nitsp2;J. Reed (Caspian dataset);;Nitzschia;Nitzschia sp2;x;sp2;
+S_ZZZ985;VJJ (Svalbard);;Nitzschia;Nitzschia sp2 (SBAK);x;sp2 (SBAK);
+AF_4065;F. Gasse;;Nitzschia;Nitzschia sp6;x;sp6;
+NI9967;H. Bennion;1992;Nitzschia;Nitzschia spA;x;spA;
+NI9966;H. Bennion;1992;Nitzschia;Nitzschia spB;x;spB;
+NI9965;H. Bennion;1992;Nitzschia;Nitzschia spC;x;spC;
+NI9964;H. Bennion;1992;Nitzschia;Nitzschia spD;x;spD;
+NI9963;H. Bennion;1992;Nitzschia;Nitzschia spE;x;spE;
+NI9962;H. Bennion;1992;Nitzschia;Nitzschia spF;x;spF;
+NI9961;H. Bennion;1992;Nitzschia;Nitzschia spG;x;spG;
+NI9960;H. Bennion;1992;Nitzschia;Nitzschia spH;x;spH;
+AF_4027;Hust.;;Nitzschia;Nitzschia spiculum;;spiculum;
+AF_4022;Cholnoky;;Nitzschia;Nitzschia steynii;;steynii;
+NI205A;Cholnoky;1963;Nitzschia;Nitzschia stompsii;;stompsii;
+AF_4028;Hustedt;1949;Nitzschia;Nitzschia stricta;;stricta;
+AF_4032;Hust.;;Nitzschia;Nitzschia subacicularis;;subacicularis;
+NI171A;Hust.;1937;Nitzschia;Nitzschia subacicularis;;subacicularis;
+NI172A;Hust.;1939;Nitzschia;Nitzschia subcapitellata;;subcapitellata;
+AF_4030;Hust.;;Nitzschia;Nitzschia subcommunis;;subcommunis;
+AF_4031;Hust.;;Nitzschia;Nitzschia subinflata;;subinflata;
+NI024A;Hust.;1930;Nitzschia;Nitzschia sublinearis;;sublinearis;
+AF_4051;;;Nitzschia;Nitzschia sublitorea;;sublitorea;
+AF_3997;Germain;;Nitzschia;Nitzschia subtubicola;;subtubicola;
+NI195A;Lange-Bertalot;1979;Nitzschia;Nitzschia supralitorea;;supralitorea;
+NI180A;W. Sm.;1853;Nitzschia;Nitzschia tenuis;;tenuis;
+AF_3954;(Ehr.) Auesrwald;;Nitzschia;Nitzschia thermalis + varieties;;thermalis + varieties;
+AF_3945;Hust.;;Nitzschia;Nitzschia thienemanii;;thienemanii;
+NI047A;Hust.;1949;Nitzschia;Nitzschia tropica;;tropica;
+NI013A;Hantzsch in Rabenh.;1860;Nitzschia;Nitzschia tryblionella;;tryblionella;
+NI013C;(W. Sm.) Grun. in Cleve & Grun.;1880;Nitzschia;Nitzschia tryblionella var. levidensis;;tryblionella;levidensis
+NI013G;Grun. in Cleve & Grun.;1880;Nitzschia;Nitzschia tryblionella var. salinarum;;tryblionella;salinarum
+NI048A;Grun. in Cleve & Grun.;1880;Nitzschia;Nitzschia tubicola;;tubicola;
+NI184A;(Ehrenb.) Lange-Bertalot;1978;Nitzschia;Nitzschia umbonata;;umbonata;
+NI038A;Lange-Bertalot & Simonsen;1978;Nitzschia;Nitzschia valdecostata;;valdecostata;
+NI186A;Aleem & Hust.;1951;Nitzschia;Nitzschia valdestriata;;valdestriata;
+NI049A;(Kütz.) Hantzsch. in Rabenh.;1859;Nitzschia;Nitzschia vermicularis;;vermicularis;
+NI019A;G. Norman;1861;Nitzschia;Nitzschia vitrea;;vitrea;
+AF_4044;Norman;;Nitzschia;Nitzschia vitrea + varieties;;vitrea + varieties;
+NI012A;W. Smith;;Nitzschia;Nitzschia vivax;;vivax;
+NI214A;Lange-Bertalot;1987;Nitzschia;Nitzschia wuellerstorffii;;wuellerstorffii;
+OP001A;Herib.;1902;Opephora;Opephora martyi;;martyi;
+OS006A;(Ehrenb.) Crawford;;Orthoseira;Orthoseira dendroteres;;dendroteres;
+A_ZZZ977;(Rabh.) O'Meara;1876;Orthoseira;Orthoseira roseana;;roseana;
+OX001A;(Ehrenb.) Round;1990;Oxyneis;Oxyneis binalis;;binalis;
+PE002A;(Breb. ex Kütz.) R. Ross;1956;Peronia;Peronia fibula;;fibula;
+PI015A;(Pant.) R. Ross in Hartley;1986;Pinnularia;Pinnularia abaujensis;;abaujensis;
+XXU899;EDDI pH Training Set;2001;Pinnularia;Pinnularia abaujensis (agg.);x;abaujensis (agg.);
+B_ZZZ986;PIRLA;;Pinnularia;Pinnularia abaujensis v1;x;abaujensis v1;
+B_ZZZ994;PIRLA;;Pinnularia;Pinnularia abaujensis v2;x;abaujensis v2;
+PI015C;(Hust.) Patr. in Patr. & Reimer;1966;Pinnularia;Pinnularia abaujensis var. linearis;;abaujensis;linearis
+PI030A;Hust.;;Pinnularia;Pinnularia acoricola;;acoricola;
+PI031A;(Breb.) Rabenh.;1853;Pinnularia;Pinnularia acrosphaeria;;acrosphaeria;
+PI002A;W. Sm.;1853;Pinnularia;Pinnularia acuminata;;acuminata;
+PI027A;W. Sm.;1853;Pinnularia;Pinnularia alpina;;alpina;
+PI014A;(Ag.) Cleve;1896;Pinnularia;Pinnularia appendiculata;;appendiculata;
+PI055A;Grun. ex Cleve;1896;Pinnularia;Pinnularia balfouriana;;balfouriana;
+PI018A;Greg.;1856;Pinnularia;Pinnularia biceps;;biceps;
+XXU897;EDDI pH Training Set;2001;Pinnularia;Pinnularia biceps (agg.);x;biceps (agg.);
+PI018B;R. Ross;1947;Pinnularia;Pinnularia biceps fo. petersenii;;biceps;
+PI012A;Ehrenb.;1843;Pinnularia;Pinnularia borealis;;borealis;
+AF_4203;Ehr.;;Pinnularia;Pinnularia borealis + varieties;;borealis + varieties;
+PI012D;Carlson;1913;Pinnularia;Pinnularia borealis var. rectangularis;;borealis;rectangularis
+PI032A;Cleve;1891;Pinnularia;Pinnularia brandelii;;brandelii;
+PI033A;(Grun. ex A. Schmidt) Cleve;1896;Pinnularia;Pinnularia brauniana;;brauniana;
+PI033B;(A. Mayer) Hust.;1930;Pinnularia;Pinnularia brauniana var. amphicephala;;brauniana;amphicephala
+PI170A;(Grun.) Cleve;;Pinnularia;Pinnularia braunii;;braunii;
+PI048A;(Kütz.) Rabenh.;1864;Pinnularia;Pinnularia brebissonii;;brebissonii;
+PI048C;(O. Müll.) Meister;1912;Pinnularia;Pinnularia brebissonii var. curta;;brebissonii;curta
+PI075A;Cleve;1891;Pinnularia;Pinnularia brevicostata;;brevicostata;
+PI078A;(Ehrenb.) W. Sm.;1853;Pinnularia;Pinnularia cardinalis;;cardinalis;
+PI017A;Barber & J.R. Carter;1978;Pinnularia;Pinnularia carminata;;carminata;
+A_ZZZ997;NGC;;Pinnularia;Pinnularia caudata;;caudata;
+FSN055;NORD-CHILL;1997;Pinnularia;Pinnularia caudata;;caudata;
+PI9995;L. Valley (RJF);1984;Pinnularia;Pinnularia cf. angulata;;angulata;
+PI9979;H. Bennion;1992;Pinnularia;Pinnularia cf. lapponica;;lapponica;
+PI9987;Botungen (EYH);1988;Pinnularia;Pinnularia cf. microstauron (caudata);;microstauron (caudata);
+UME450;TK 1992;;Pinnularia;Pinnularia cf. microstauron (small);;microstauron (small);
+UME466;TK 1992;;Pinnularia;Pinnularia cf. parallell, stauroid;;parallell, stauroid;
+PI9978;RJF;1992;Pinnularia;Pinnularia cf. rupestris (sensu Renberg 1976);;rupestris (sensu Renberg 1976);
+A_pi2;JG-ALPE;;Pinnularia;Pinnularia cf. sp1 microstauron;;sp1 microstauron;
+A_pi12;JG-ALPE;;Pinnularia;Pinnularia cf. sp3 microstauron;;sp3 microstauron;
+PI089A;(Ostr.) A. Cleve-Euler;1915;Pinnularia;Pinnularia cuneata;;cuneata;
+PI034A;Ehrenb.;1843;Pinnularia;Pinnularia dactylus;;dactylus;
+PI008A;W. Sm.;1853;Pinnularia;Pinnularia divergens;;divergens;
+PI008E;(M. Perag. in Temp. & Perag.) F.W. Mills;1934;Pinnularia;Pinnularia divergens var. bacillaris;;divergens;bacillaris
+PI016A;(Grun.in Van Heurck) Cleve;1896;Pinnularia;Pinnularia divergentissima;;divergentissima;
+PI057A;Cleve;1891;Pinnularia;Pinnularia episcopalis;;episcopalis;
+PI010A;Lagerstedt;;Pinnularia;Pinnularia fasciata;;fasciata;
+PI045A;(Donk.) Cleve;1891;Pinnularia;Pinnularia gentilis;;gentilis;
+PI001A;(Ehrenb.) Ehrenb.;1843;Pinnularia;Pinnularia gibba;;gibba;
+XXC954;EDDI Salinity Training Set;2001;Pinnularia;Pinnularia gibba (agg.);x;gibba (agg.);
+AF_4208;Ehr.;;Pinnularia;Pinnularia gibba + v. sancta + v. linearis;;gibba + v. sancta + v. linearis;
+PI001B;Hust.;1930;Pinnularia;Pinnularia gibba var. linearis;;gibba;linearis
+PI025A;Greg.;1856;Pinnularia;Pinnularia gracillima;;gracillima;
+PI035A;Hust.;;Pinnularia;Pinnularia graciloides;;graciloides;
+PI003A;(Kütz.) Rabenh.;1853;Pinnularia;Pinnularia hemiptera;;hemiptera;
+PI003B;(A. Mayer) Hust.;1930;Pinnularia;Pinnularia hemiptera var. inconstans;;hemiptera;inconstans
+PI169A;(Krasske) Cleve-Euler;1955;Pinnularia;Pinnularia ignobilis;;ignobilis;
+PI171A;Kramer;1990;Pinnularia;Pinnularia infirma;;infirma;
+PI047A;(Lagerst.) Cleve;1896;Pinnularia;Pinnularia intermedia;;intermedia;
+PI004A;W. Smith;;Pinnularia;Pinnularia interrupta;;interrupta;
+FSN056;NORD-CHILL;1997;Pinnularia;Pinnularia interrupta  var. gibberula;;interrupta;gibberula
+AF_4212;W. Smith;;Pinnularia;Pinnularia interrupta + f. biceps;;interrupta + f. biceps;
+PI023A;(Grun. in Van Heurck) Hust.;1939;Pinnularia;Pinnularia irrorata;;irrorata;
+PI058A;Cleve;;Pinnularia;Pinnularia karelica;;karelica;
+PI125A;Hust.;1942;Pinnularia;Pinnularia lapponica;;lapponica;
+PI051A;(Breb.) W. Sm.;1853;Pinnularia;Pinnularia lata;;lata;
+PI129A;A. Cleve-Euler;1934;Pinnularia;Pinnularia laticeps;;laticeps;
+PI019A;Ehrenb.;1843;Pinnularia;Pinnularia legumen;;legumen;
+AF_4216;Zanon;;Pinnularia;Pinnularia lineolata;;lineolata;
+PI132A;Hust.;1954;Pinnularia;Pinnularia lundii;;lundii;
+PI133A;(Ehrenb.) Ehrenb.;1843;Pinnularia;Pinnularia macilenta;;macilenta;
+PI005A;(Kütz.) W. Sm.;1853;Pinnularia;Pinnularia major;;major;
+PI053A;Ehrenb.;1843;Pinnularia;Pinnularia mesogongyla;;mesogongyla;
+PI006A;(Ehrenb.) W. Sm.;1853;Pinnularia;Pinnularia mesolepta;;mesolepta;
+FSN057;NORD-CHILL;;Pinnularia;Pinnularia microstauron;;microstauron;
+PI011A;(Ehrenb.) Cleve;1891;Pinnularia;Pinnularia microstauron;;microstauron;
+PT987;EDDI Global Training Set;2001;Pinnularia;Pinnularia microstauron (agg.);x;microstauron (agg.);
+XXC925;EDDI Salinity Training Set;2001;Pinnularia;Pinnularia microstauron (agg.);x;microstauron (agg.);
+PI011C;(O. Müll.) Hust.;1930;Pinnularia;Pinnularia microstauron fo. biundulata;;microstauron;
+PI011G;(Kütz.) A. Mayer;1912;Pinnularia;Pinnularia microstauron var. brebissonii;;microstauron;brebissonii
+PI037A;(Grun.) Cleve;1896;Pinnularia;Pinnularia molaris;;molaris;
+PI038A;(Ehrenb.) Ehrenb.;1843;Pinnularia;Pinnularia nobilis;;nobilis;
+FSN058;NORD-CHILL;1997;Pinnularia;Pinnularia nodosa;;nodosa;
+PI042A;(Ehrenb.) W. Sm.;1856;Pinnularia;Pinnularia nodosa;;nodosa;
+PI139A;Krasske;1932;Pinnularia;Pinnularia obscura;;obscura;
+PI144A;(Ralfs in Pritch.) A. Cleve-Euler;1922;Pinnularia;Pinnularia parvula;;parvula;
+PI039A;(Ehrenb.) Cleve;1891;Pinnularia;Pinnularia platycephala;;platycephala;
+PI040A;(Breb. ex Kütz.) W. Sm.;1856;Pinnularia;Pinnularia polyonca;;polyonca;
+PI168A;Ostrup;;Pinnularia;Pinnularia pulchra;;pulchra;
+PI056A;Hantzsch in Rabenh.;1861;Pinnularia;Pinnularia rupestris;;rupestris;
+XXU990;EDDI pH Training Set;2001;Pinnularia;Pinnularia rupestris (agg.);x;rupestris (agg.);
+UME507;(Hustedt) Krammer;1985;Pinnularia;Pinnularia schroederii;;schroederii;
+PI052A;J.B. Petersen;1935;Pinnularia;Pinnularia silvatica;;silvatica;
+PI9999;;;Pinnularia;Pinnularia sp.;;sp.;
+A_ZZZ939;NGC;;Pinnularia;Pinnularia sp. (small, capitate fo.) (Etang d'Aube);x;sp. (small, capitate fo.) (Etang d'Aube);
+A_pi1;JG-ALPE;;Pinnularia;Pinnularia sp1;x;sp1;
+S_ZZZ995;VJJ (Svalbard);;Pinnularia;Pinnularia sp1 (SBAF);x;sp1 (SBAF);
+B_ZZZ993;PIRLA;;Pinnularia;Pinnularia sp18;x;sp18;
+A_ZZZ996;Roland Schmidt;;Pinnularia;Pinnularia sp2;x;sp2;
+S_ZZZ994;VJJ (Svalbard);;Pinnularia;Pinnularia sp2 (SBAH);x;sp2 (SBAH);
+B_ZZZ987;PIRLA;;Pinnularia;Pinnularia sp5;x;sp5;
+PI157A;(Grun.) Cleve;1896;Pinnularia;Pinnularia stauntonii;;stauntonii;
+PI024A;(Grun. ex A. Schmidt) Cleve;1891;Pinnularia;Pinnularia stomatophora;;stomatophora;
+PI022A;Greg.;1856;Pinnularia;Pinnularia subcapitata;;subcapitata;
+XXA984;EDDI Global Training Set;2001;Pinnularia;Pinnularia subcapitata (agg.);x;subcapitata (agg.);
+PI022B;(Janisch ex Rabenh.) O. Müll.;1898;Pinnularia;Pinnularia subcapitata var. hilseana;;subcapitata;hilseana
+PI009A;(Grun. in Van Heurck) Cleve;1896;Pinnularia;Pinnularia sublinearis;;sublinearis;
+F_PI016D;(A. Cleve) A. Cleve-Euler;1955;Pinnularia;Pinnularia subrostrata;;subrostrata;
+PI161A;(A. Cleve) A. Cleve-Euler;1955;Pinnularia;Pinnularia subrostrata;;subrostrata;
+PI028A;(Grun.) Cleve;1896;Pinnularia;Pinnularia subsolaris;;subsolaris;
+PI054A;Hilse;1861;Pinnularia;Pinnularia sudetica;;sudetica;
+PI026A;Gregory;;Pinnularia;Pinnularia tenuis;;tenuis;
+PI164A;(Ehrenb.) Patr. in Patr. & Reimer;1966;Pinnularia;Pinnularia termitina;;termitina;
+AF_4250;Hust.;;Pinnularia;Pinnularia tropica;;tropica;
+PI020A;Greg.;1854;Pinnularia;Pinnularia undulata;;undulata;
+PI007A;(Nitzsch) Ehrenb.;1843;Pinnularia;Pinnularia viridis;;viridis;
+PI007E;(Hilse) Hust.;;Pinnularia;Pinnularia viridis var. sudetica;;viridis;sudetica
+PG004A;(Greg.) O. Kuntze;1898;Plagiotropis;Plagiotropis lepidoptera;;lepidoptera;
+PL003A;(Kütz.) W. Sm.;1852;Pleurosigma;Pleurosigma acuminatum;;acuminatum;
+PL002A;W. Sm.;1852;Pleurosigma;Pleurosigma elongatum;;elongatum;
+PL050A;(Grun.) Grun. in Cleve & Grun.;1880;Pleurosigma;Pleurosigma salinarum;;salinarum;
+PL9999;;;Pleurosigma;Pleurosigma sp.;;sp.;
+POI999;;;Podosira;Podosira sp.;;sp.;
+PS001A;(Grun. in Van Heurck) Williams & Round;1987;Pseudostaurosira;Pseudostaurosira brevistriata;;brevistriata;
+PS002A;(Marciniak) Williams & Round;1987;Pseudostaurosira;Pseudostaurosira pseudoconstruens;;pseudoconstruens;
+RA9999;;;Rhaphoneis;Rhaphoneis sp.;;sp.;
+RZ001A;Zacharias;;Rhizosolenia;Rhizosolenia longiseta;;longiseta;
+RC002A;(Ag.) Lange-Bertalot;1980;Rhoicosphenia;Rhoicosphenia abbreviata;;abbreviata;
+RC001A;(Kütz.) Grun.;1860;Rhoicosphenia;Rhoicosphenia curvata;;curvata;
+XXC924;EDDI Salinity Training Set;2001;Rhopalodia;Rhopalodia acuminata (agg.);x;acuminata (agg.);
+RH008A;(Grun.) Krammer;1987;Rhopalodia;Rhopalodia acuminata var. protracta;;acuminata;protracta
+RH001A;(Ehrenb.) O. Müll.;1895;Rhopalodia;Rhopalodia gibba;;gibba;
+XXC953;EDDI Salinity Training Set;2001;Rhopalodia;Rhopalodia gibba (agg.);x;gibba (agg.);
+XXG925;EDDI TP Training Set;2001;Rhopalodia;Rhopalodia gibba (agg.);x;gibba (agg.);
+AF_4602;(Ehr.) O. Müller;;Rhopalodia;Rhopalodia gibba + v. ventricosa;;gibba + v. ventricosa;
+C_Rhogvp;J. Reed (Caspian dataset);;Rhopalodia;Rhopalodia gibba var. parallela;;gibba;parallela
+RH0036M;(Grunow) H. & M. Peragallo;1897-1908;Rhopalodia;Rhopalodia gibba var. parallela;;gibba;parallela
+RH003A;(Ehrenb.) O. Müll.;1895;Rhopalodia;Rhopalodia gibberula;;gibberula;
+XXC952;EDDI Salinity Training Set;2001;Rhopalodia;Rhopalodia gibberula (agg.);x;gibberula (agg.);
+AF_4604;(Pantocsek) Tempere et Peragullo;1909;Rhopalodia;Rhopalodia gibberula var. debyi;;gibberula;debyi
+RH003E;(W. Sm.) O. Müll.;1899;Rhopalodia;Rhopalodia gibberula var. rupestris;;gibberula;rupestris
+AF_4608;O. Müller;;Rhopalodia;Rhopalodia gracilis;;gracilis;
+RH002A;(Kütz.) O. Müll.;1899;Rhopalodia;Rhopalodia musculus;;musculus;
+RH006B;(Ag.) Hakansson;1979;Rhopalodia;Rhopalodia operculata;;operculata;
+RH006A;(Breb. ex W. Sm.) R. Ross in Hartley;1986;Rhopalodia;Rhopalodia operculata var. constricta;;operculata;constricta
+RH9999;;;Rhopalodia;Rhopalodia sp.;;sp.;
+AF_4614;O. Müller;;Rhopalodia;Rhopalodia vermicularis;;vermicularis;
+SW_SCPE;A. Lotter;;Scoliopleura;Scoliopleura cf. peisonis;;peisonis;
+SC001A;Grun.;;Scoliopleura;Scoliopleura peisonis;;peisonis;
+SL003A;(Grun. in Van Heurck) Mann;1990;Sellaphora;Sellaphora minima;;minima;
+SL002A;(Grun.) Mann;1990;Sellaphora;Sellaphora seminulum;;seminulum;
+SE001A;(Ehrenb.) Patr. in Patr. & Reimer;1966;Semiorbis;Semiorbis hemicyclus;;hemicyclus;
+SIM01A;(Grun. in Van Heurck) Lange-Bertalot;1979;Simonsenia;Simonsenia delognei;;delognei;
+SF001A;(Lange-Bertalot) Flower, Jones & Round;1996;Stauroforma;Stauroforma exiguiformis;;exiguiformis;
+AF_4804;Cholnoky & Klaus;;Stauroneis;Stauroneis abbottii;;abbottii;
+SA009A;W. Sm.;1853;Stauroneis;Stauroneis acuta;;acuta;
+AF_4805;Pet./Hust.;;Stauroneis;Stauroneis aerophila + S. nana;;aerophila + S. nana;
+XXC923;EDDI Salinity Training Set;2001;Stauroneis;Stauroneis aerophila/nana (agg.);x;aerophila/nana (agg.);
+SA019A;J.B. Petersen;1915;Stauroneis;Stauroneis agrestis;;agrestis;
+SA004A;Hust.;1943;Stauroneis;Stauroneis alpina;;alpina;
+SA001A;Ehrenb.;1843;Stauroneis;Stauroneis anceps;;anceps;
+XXC951;EDDI Salinity Training Set;2001;Stauroneis;Stauroneis anceps (agg.);x;anceps (agg.);
+AF_4802;Ehr.;;Stauroneis;Stauroneis anceps + v. linearis + f. gracilis;;anceps + v. linearis + f. gracilis;
+SA001B;Rabenh.;1864;Stauroneis;Stauroneis anceps fo. gracilis;;anceps;
+SA001F;Rabenh.;1864;Stauroneis;Stauroneis anceps fo. linearis;;anceps;
+SA001C;M. Perag. & Brun in Herib.;1893;Stauroneis;Stauroneis anceps var. hyalina;;anceps;hyalina
+SA026A;A. Cleve-Euler;1934;Stauroneis;Stauroneis biundulata;;biundulata;
+SA017A;(Peterson) Hustedt;1959;Stauroneis;Stauroneis borrichi var. subcapitata;;borrichi;subcapitata
+SA9996;H. Bennion;1992;Stauroneis;Stauroneis cf. agrestis;;agrestis;
+SA9998;L. Hir (SF);1986;Stauroneis;Stauroneis cf. anceps (v. 1);;anceps (v. 1);
+SA9995M;(Hustedt) Krammer & Lange-Bertalot;1985;Stauroneis;Stauroneis cf. tackei;;tackei;
+SA038A;Hust.;1959;Stauroneis;Stauroneis dubitabilis;;dubitabilis;
+SA042A;Hust.;1943;Stauroneis;Stauroneis gracillima;;gracillima;
+SA012A;Patr.;1945;Stauroneis;Stauroneis kriegeri;;kriegeri;
+SA005A;(Ehrenb.) Kütz.;1844;Stauroneis;Stauroneis legumen;;legumen;
+SA015A;Hust.;1959;Stauroneis;Stauroneis lundii;;lundii;
+SA055A;Krasske ex Hust.;1930;Stauroneis;Stauroneis montana;;montana;
+SA9994M;Krammer & Lange-Bertalot;1991;Stauroneis;Stauroneis neoproducta;;neoproducta;
+SA058A;Lagerst.;1873;Stauroneis;Stauroneis obtusa;;obtusa;
+XXC922;EDDI Salinity Training Set;2001;Stauroneis;Stauroneis obtusa (agg.);x;obtusa (agg.);
+SA058B;Krasske;;Stauroneis;Stauroneis obtusa var. catarinensis;;obtusa;catarinensis
+SA013A;Hust.;1945;Stauroneis;Stauroneis palustris;;palustris;
+SA006A;(Nitzsch) Ehrenb.;1943;Stauroneis;Stauroneis phoenicenteron;;phoenicenteron;
+SA008A;Grun. in Van Heurck;1880;Stauroneis;Stauroneis producta;;producta;
+SA011A;Krieger;;Stauroneis;Stauroneis pygmaea;;pygmaea;
+SA063A;W. Sm.;1853;Stauroneis;Stauroneis salina;;salina;
+SA003A;Grun.;1860;Stauroneis;Stauroneis smithii;;smithii;
+XXC921;EDDI Salinity Training Set;2001;Stauroneis;Stauroneis smithii (agg.);x;smithii (agg.);
+SA9999;;;Stauroneis;Stauroneis sp.;;sp.;
+A_sta3;JG-ALPE;;Stauroneis;Stauroneis sp1;;sp1;
+AF_4819;(Hust.) Krammer & Lange-B.;;Stauroneis;Stauroneis tackei;;tackei;
+SA072A;Poretskii & Anisimova;1933;Stauroneis;Stauroneis wislouchii;;wislouchii;
+SR001A;Ehrenb.;1843;Staurosira;Staurosira construens;;construens;
+SS001A;(Grun. in Van Heurck) Williams & Round;1987;Staurosirella;Staurosirella lapponica;;lapponica;
+SS002A;(Ehrenb.) Williams & Round;1987;Staurosirella;Staurosirella pinnata;;pinnata;
+SP003A;;;Stenopterobia;Stenopterobia alpina;;alpina;
+SP004A;A. Cleve;1939;Stenopterobia;Stenopterobia arctica;;arctica;
+SP006A;(W Smith) Krammer;1987;Stenopterobia;Stenopterobia curvula;;curvula;
+SP005A;(Lewis) M. Perag.;1897;Stenopterobia;Stenopterobia delicatissima;;delicatissima;
+SP002A;(Greg.) R. Ross in Hartley;1986;Stenopterobia;Stenopterobia sigmatella;;sigmatella;
+XXU896;EDDI pH Training Set;2001;Stenopterobia;Stenopterobia sigmatella (agg.);x;sigmatella (agg.);
+SP002B;(Fontell) R. Ross in Hartley;1986;Stenopterobia;Stenopterobia sigmatella var. capitata;;sigmatella;capitata
+SP9999;;;Stenopterobia;Stenopterobia sp.;;sp.;
+UN9990M;Genkal & Kuzmin;1985;Stephanocostis;Stephanocostis chantaicus;;chantaicus;
+ST009A;Hust.;;Stephanodiscus;Stephanodiscus alpinus;;alpinus;
+AF_5001;Grun.;;Stephanodiscus;Stephanodiscus astraea + v. minutula;;astraea + v. minutula;
+ST015A;(Kütz.) Kreiger;1927;Stephanodiscus;Stephanodiscus binderanus;;binderanus;
+ST9989M;S. Wunsam;;Stephanodiscus;Stephanodiscus cf. alpinus;;alpinus;
+XXG999;EDDI TP Training Set;2001;Stephanodiscus;Stephanodiscus cf. alpinus/medius (agg.);;alpinus/medius (agg.);
+ST9996M;S. Wunsam;;Stephanodiscus;Stephanodiscus cf. hantzschii var. tenuis;;hantzschii;tenuis
+AF_5003;Hust.;;Stephanodiscus;Stephanodiscus damasii;;damasii;
+ST001A;Grun. in Cleve & Grun.;1880;Stephanodiscus;Stephanodiscus hantzschii;;hantzschii;
+TS998;DR & CP;;Stephanodiscus;Stephanodiscus hantzschii (agg.);x;hantzschii (agg.);
+XXC920;EDDI Salinity Training Set;2001;Stephanodiscus;Stephanodiscus hantzschii (agg.);x;hantzschii (agg.);
+XXG973;EDDI TP Training Set;2001;Stephanodiscus;Stephanodiscus hantzschii (agg.);x;hantzschii (agg.);
+ST001DM;Hustedt;1939;Stephanodiscus;Stephanodiscus hantzschii fo. tenuis;;hantzschii;
+ST001B;Grun.;;Stephanodiscus;Stephanodiscus hantzschii var. pusilla;;hantzschii;pusilla
+ST014A;Hakansson;1986;Stephanodiscus;Stephanodiscus medius;;medius;
+ST004A;(Kütz.) Round;;Stephanodiscus;Stephanodiscus minutula;;minutula;
+F_ST003B;(Kütz.) Cleve & Moller;;Stephanodiscus;Stephanodiscus minutulus;;minutulus;
+ST021A;(Kütz.) Cleve & Moller;;Stephanodiscus;Stephanodiscus minutulus;;minutulus;
+XXG974;EDDI TP Training Set;2001;Stephanodiscus;Stephanodiscus minutulus (agg.);x;minutulus (agg.);
+ST012A;(Ehr.) Grun.;;Stephanodiscus;Stephanodiscus minutus;;minutus;
+ST022A;Hakansson & Hickel;1986;Stephanodiscus;Stephanodiscus neoastraea;;neoastraea;
+AF_5006;H.L. Smith;;Stephanodiscus;Stephanodiscus oregoniae;;oregoniae;
+ST010A;Stoermer & Hakansson;1984;Stephanodiscus;Stephanodiscus parvus;;parvus;
+XXA980;EDDI Global Training Set;2001;Stephanodiscus;Stephanodiscus parvus (agg.);x;parvus (agg.);
+XXC967;EDDI Salinity Training Set;2001;Stephanodiscus;Stephanodiscus parvus (agg.);x;parvus (agg.);
+XXG967;EDDI TP Training Set;2001;Stephanodiscus;Stephanodiscus parvus (agg.);x;parvus (agg.);
+ST019B;(Kütz.) Hendey;1964;Stephanodiscus;Stephanodiscus rotula var. rotula;;rotula;rotula
+ST9999;;;Stephanodiscus;Stephanodiscus sp.;;sp.;
+ST002A;Hust.;1939;Stephanodiscus;Stephanodiscus tenuis;;tenuis;
+SRI03A;(Lyngb.) Ag.;1832;Striatella;Striatella unipunctata;;unipunctata;
+SU017A;W. Sm.;1856;Surirella;Surirella amphioxys;;amphioxys;
+SU001A;Kütz.;1844;Surirella;Surirella angusta;;angusta;
+SU074A;Ehrenb.;1843;Surirella;Surirella bifrons;;bifrons;
+SU014A;Hust. ex A. Mayer;1917;Surirella;Surirella birostrata;;birostrata;
+SU004A;Breb. & Godey;1835;Surirella;Surirella biseriata;;biseriata;
+SU004B;(Ehrenb.) Hust.;1911;Surirella;Surirella biseriata var. bifrons;;biseriata;bifrons
+SU004D;Hust.;1911;Surirella;Surirella biseriata var. constricta;;biseriata;constricta
+SU9996M;Maly;1895;Surirella;Surirella bohemica;;bohemica;
+SU073A;Krammer & Lange-Bertalot;1987;Surirella;Surirella brebisonii;;brebisonii;
+XXC919;EDDI Salinity Training Set;2001;Surirella;Surirella brebisonii (agg.);x;brebisonii (agg.);
+SU073B;Krammer & Lange-Bertalot;1987;Surirella;Surirella brebisonii var. kuetzingii;;brebisonii;kuetzingii
+SU030A;Ehrenb.;1854;Surirella;Surirella constricta;;constricta;
+SU032A;Breb. ex Kütz.;1849;Surirella;Surirella crumena;;crumena;
+SU006A;Lewis;1864;Surirella;Surirella delicatissima fo. delicatissima;;delicatissima;
+SU012A;Ehrenb.;1843;Surirella;Surirella elegans;;elegans;
+AF_5310;O. Müller;;Surirella;Surirella engleri;;engleri;
+AF_5315;O. Müller;;Surirella;Surirella fasciculata;;fasciculata;
+AF_5320;O. Müller;;Surirella;Surirella fullebornii;;fullebornii;
+SU038A;(W. Sm.) Grun.;1862;Surirella;Surirella gracilis;;gracilis;
+SU039A;Brun;1880;Surirella;Surirella helvetica;;helvetica;
+SU044A;Ostr.;1918;Surirella;Surirella islandica;;islandica;
+SU075A;A. Cleve;1895;Surirella;Surirella lapponica;;lapponica;
+SU005A;W. Sm.;1853;Surirella;Surirella linearis;;linearis;
+SU005B;Grun.;1862;Surirella;Surirella linearis var. constricta;;linearis;constricta
+SU016A;Breb. ex Kütz.;1849;Surirella;Surirella minuta;;minuta;
+AF_5330;Forti;;Surirella;Surirella mulleri;;mulleri;
+AF_5335;O. Müller;;Surirella;Surirella nyassae;;nyassae;
+SU003A;Breb.;1838;Surirella;Surirella ovalis;;ovalis;
+XXC918;EDDI Salinity Training Set;2001;Surirella;Surirella ovalis (agg.);x;ovalis (agg.);
+XXG924;EDDI TP Training Set;2001;Surirella;Surirella ovalis/brebisonii (agg.);x;ovalis/brebisonii (agg.);
+SU002A;Kütz.;1844;Surirella;Surirella ovata;;ovata;
+SU002C;(Breb. ex Kütz.) Hust.;1930;Surirella;Surirella ovata var. crumena;;ovata;crumena
+A_ZZZ956;Leclercq;1983;Surirella;Surirella roba;;roba;
+SU076A;Leclercq;1983;Surirella;Surirella roba;;roba;
+SU010A;Ehrenb.;1840;Surirella;Surirella robusta;;robusta;
+SU010C;(Ehrenb.) Van Heurck;1885;Surirella;Surirella robusta var. splendida;;robusta;splendida
+SU9999;S. Wunsam;;Surirella;Surirella sp.;;sp.;
+SU063A;Kütz.;1844;Surirella;Surirella spiralis;;spiralis;
+SU008A;Turpin;1828;Surirella;Surirella striatula;;striatula;
+SU007A;Greg.;1856;Surirella;Surirella tenera;;tenera;
+SU070A;A. Cleve-Euler;1951;Surirella;Surirella variabilis;;variabilis;
+SY003A;Kütz.;1844;Synedra;Synedra acus;;acus;
+XXA990;EDDI Global Training Set;2001;Synedra;Synedra acus (agg.);x;acus (agg.);
+XXC992;EDDI Salinity Training Set;2001;Synedra;Synedra acus (agg.);x;acus (agg.);
+XXG986;EDDI TP Training Set;2001;Synedra;Synedra acus (agg.);x;acus (agg.);
+XXU996;EDDI pH Training Set;2001;Synedra;Synedra acus (agg.);x;acus (agg.);
+SY003C;(Grun. in Van Heurck) Van Heurck;1885;Synedra;Synedra acus var. angustissima;;acus;angustissima
+SY003B;(Kütz.) Hust.;1930;Synedra;Synedra acus var. radians;;acus;radians
+SY007A;Kütz.;1844;Synedra;Synedra amphicephala;;amphicephala;
+SY007B;(Grun. in Van Heurck) Hust.;1932;Synedra;Synedra amphicephala var. austriaca;;amphicephala;austriaca
+SY027A;Greg.;1857;Synedra;Synedra baculus;;baculus;
+SY012A;Lemm.;1900;Synedra;Synedra berolinensis;;berolinensis;
+A_ZZZ976;NGC;;Synedra;Synedra cf. acus (fo.);;acus (fo.);
+SY9989;CASS (P. Rioual);1997;Synedra;Synedra cf. nana (swollen central area);;nana (swollen central area);
+AF_5435;El Hamouti 1989;;Synedra;Synedra cf. sp1 (Synedra/Fragilaria);;sp1 (Synedra/Fragilaria);
+SY037A;(Ag.) Kütz.;1844;Synedra;Synedra crystallina;;crystallina;
+AF_5415;West;;Synedra;Synedra cunningtonii;;cunningtonii;
+SY011A;W. Sm.;1853;Synedra;Synedra delicatissima;;delicatissima;
+XXG987;EDDI TP Training Set;2001;Synedra;Synedra delicatissima sensu PR;;delicatissima sensu PR;
+AF_5409;O. Müller;;Synedra;Synedra dorsiventralis;;dorsiventralis;
+SY043A;Kütz.;1844;Synedra;Synedra famelica;;famelica;
+SY005A;(Ag.) Kütz.;1844;Synedra;Synedra fasciculata;;fasciculata;
+SY082A;Cholnoky;1963;Synedra;Synedra hartii;;hartii;
+SY010A;Grun. in Van Heurck;1881;Synedra;Synedra minuscula;;minuscula;
+SY009A;Meister;1912;Synedra;Synedra nana;;nana;
+SY004A;(W. Sm.) Hust.;1930;Synedra;Synedra parasitica;;parasitica;
+SY004B;(Grun. in Van Heurck) Hust.;1930;Synedra;Synedra parasitica var. subconstricta;;parasitica;subconstricta
+AF_5408;Grun.;;Synedra;Synedra provincialis;;provincialis;
+SY008A;Ralfs ex Kütz.;1844;Synedra;Synedra pulchella;;pulchella;
+SY017A;Kütz.;1844;Synedra;Synedra radians;;radians;
+SY002A;Kütz.;1844;Synedra;Synedra rumpens;;rumpens;
+AF_5418;(Grun.) Hust.;;Synedra;Synedra rumpens  var. neogena;;rumpens;neogena
+XXC983;EDDI Salinity Training Set;2001;Synedra;Synedra rumpens (agg.);x;rumpens (agg.);
+XXG983;EDDI TP Training Set;2001;Synedra;Synedra rumpens (agg.);x;rumpens (agg.);
+SY9988;P. Rioual & C. Sayer;1998;Synedra;Synedra rumpens (Lac d'Aydat form);;rumpens (Lac d'Aydat form);
+AF_5417;Kütz.;;Synedra;Synedra rumpens + v. fragilarioides;;rumpens + v. fragilarioides;
+SY002B;(Kütz.) Hust.;1930;Synedra;Synedra rumpens var. familiaris;;rumpens;familiaris
+SY002C;Grun. in Van Heurck;1881;Synedra;Synedra rumpens var. fragilarioides;;rumpens;fragilarioides
+SY002D;Grun.;;Synedra;Synedra rumpens var. scotica;;rumpens;scotica
+SY9999;;;Synedra;Synedra sp.;;sp.;
+UME427;TK 1992;;Synedra;Synedra sp. (long);x;sp. (long);
+SY015A;(Ag.) Kütz.;1844;Synedra;Synedra tabulata;;tabulata;
+F_FR060A;W. Sm.;1856;Synedra;Synedra tenera;;tenera;
+SY013A;W. Sm.;1856;Synedra;Synedra tenera;;tenera;
+SY077A;(Kütz.) Kütz.;1844;Synedra;Synedra tenuissima;;tenuissima;
+SY001A;(Nitzsch) Ehrenb.;1836;Synedra;Synedra ulna;;ulna;
+XXG922;EDDI TP Training Set;2001;Synedra;Synedra ulna (agg.);x;ulna (agg.);
+SY001G;(Ehrenb.) Grun.;1862;Synedra;Synedra ulna var. amphirhynchus;;ulna;amphirhynchus
+SY001H;(Kütz.) Schonf.;1907;Synedra;Synedra ulna var. biceps;;ulna;biceps
+SY001C;(Kütz.) Van Heurck;1885;Synedra;Synedra ulna var. danica;;ulna;danica
+SY001D;Hust.;1932;Synedra;Synedra ulna var. oxyryhnchus fo. mediocontracta;;ulna;oxyryhnchus
+B_ZZZ989;Hustedt;1932;Synedra;Synedra utermoehli;;utermoehli;
+SY016A;(Kütz.) Kütz.;1844;Synedra;Synedra vaucheriae;;vaucheriae;
+TA003A;(Ehrenb.) Grun. in Van Heurck;1881;Tabellaria;Tabellaria binalis;;binalis;
+F_OX001B;Flower (unpub);1986;Tabellaria;Tabellaria binalis  fo. elliptica;;binalis;
+TA003B;Flower (unpub);1986;Tabellaria;Tabellaria binalis fo. elliptica;;binalis;
+TA9998;SWAP 1988;;Tabellaria;Tabellaria cf. flocculosa (long);;flocculosa (long);
+TA9997;SWAP 1988;;Tabellaria;Tabellaria cf. flocculosa (short);;flocculosa (short);
+TA002A;(Lyngb.) Kütz.;1844;Tabellaria;Tabellaria fenestrata;;fenestrata;
+FSN061;NORD-CHILL;1997;Tabellaria;Tabellaria flocculosa;;flocculosa;
+TA001A;(Roth) Kütz.;1844;Tabellaria;Tabellaria flocculosa;;flocculosa;
+PT999;EDDI Global Training Set;2001;Tabellaria;Tabellaria flocculosa (agg.);x;flocculosa (agg.);
+TA9996;SWAP 1988;;Tabellaria;Tabellaria flocculosa (agg.);x;flocculosa (agg.);
+XXG981;EDDI TP Training Set;2001;Tabellaria;Tabellaria flocculosa (agg.);x;flocculosa (agg.);
+XXU895;EDDI pH Training Set;2001;Tabellaria;Tabellaria flocculosa (agg.);x;flocculosa (agg.);
+TA001E;Koppen;;Tabellaria;Tabellaria flocculosa type IV;;flocculosa type IV;
+TA001C;(Grun. in Van Heurck) Knudson;1952;Tabellaria;Tabellaria flocculosa var. asterionelloides;;flocculosa;asterionelloides
+TA004A;Knudson;1952;Tabellaria;Tabellaria quadriseptata;;quadriseptata;
+PT985;EDDI Global Training Set;2001;Tabellaria;Tabellaria quadriseptata (agg.);x;quadriseptata (agg.);
+XXG980;EDDI TP Training Set;2001;Tabellaria;Tabellaria quadriseptata (agg.);x;quadriseptata (agg.);
+TA9999;;;Tabellaria;Tabellaria sp.;;sp.;
+TU003A;(Ag.) Williams & Round;1986;Tabularia;Tabularia fasciculata;;fasciculata;
+AF_6401;Ehr.;;Terpsinoe;Terpsinoe musica;;musica;
+AF_6400;;;Terpsinoe;Terpsinoe sp.;;sp.;
+TE001A;Ralfs;1843;Tetracyclus;Tetracyclus lacustris;;lacustris;
+AF_5701;(Gasse) Hasle;;Thalassiosira;Thalassiosira faurii;;faurii;
+TH002A;Hust.;1926;Thalassiosira;Thalassiosira fluviatilis;;fluviatilis;
+TH016A;Hasle;1978;Thalassiosira;Thalassiosira guillardii;;guillardii;
+TH031A;(Hust.) Hasle & Heimdal;1970;Thalassiosira;Thalassiosira pseudonana;;pseudonana;
+TH003A;transfer to Th not published;;Thalassiosira;Thalassiosira rudolfi;;rudolfi;
+AF_5703;(Bach.) Hasle;;Thalassiosira;Thalassiosira rudolfi petit;x;rudolfi petit;
+TH9999;;;Thalassiosira;Thalassiosira sp.;;sp.;
+TH038A;(Grun. in Van Heurck) Fryxell & Hasle;1977;Thalassiosira;Thalassiosira weissflogii;;weissflogii;
+TCA999;;;Triceratium;Triceratium sp.;;sp.;
+TR004A;(Greg.) Cleve;1894;Tropidoneis;Tropidoneis lepidoptera;;lepidoptera;
+FR9986;;;Unknown;Unknown cf. Fragilaria/Synedra;;Fragilaria/Synedra;
+A_ZZZ966;;;Unknown;Unknown diatom;x;diatom;
+UN9999;;;Unknown;Unknown diatom;x;diatom;
+UN9998;;;Unknown;Unknown naviculaceae;x;naviculaceae;
+UN9987M;S. Wunsam;;Unknown;Unknown Pennate (1);x;Pennate (1);
+UN9988M;S. Wunsam;;Unknown;Unknown Pennate (2);x;Pennate (2);
+UN9997M;S. Wunsam;;Unknown;Unknown Pennate (3);x;Pennate (3);
+S_ZZZ991;VJJ (Svalbard);;Unknown;Unknown sp. (centric);x;sp. (centric);
+UN9993;H. Bennion;1992;Unknown;Unknown sp1 (Centric);x;sp1 (Centric);
+UN9992;H. Bennion;1992;Unknown;Unknown sp2 (Centric);x;sp2 (Centric);
+UN9991;H. Bennion;1992;Unknown;Unknown sp3 (Centric);x;sp3 (Centric);
+A_ZZZ941;NGC;;Unknown;Unknown sp9 (Stavsvatn);x;sp9 (Stavsvatn);
+UN9994;;;Unknown;Unknown undif.;x;undif.;
+UN9995;;;Unknown;Unknown undif.;x;undif.;
+FSN999;;;Unknown;Unknown unknown;x;unknown;
+UN9997;;;Unknown;Unknown unknown;x;unknown;
